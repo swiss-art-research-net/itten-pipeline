@@ -1,0 +1,9 @@
+version: "3"
+services:
+
+  platform:
+    depends_on:
+      - platform
+      - blazegraph
+    ports:
+      - $PORT_PLATFORM_DEV:80
