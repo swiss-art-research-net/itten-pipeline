@@ -1,0 +1,3 @@
+[submodule "services/platform/apps/jila"]
+	path = services/platform/apps/jila
+	url = git@github.com:swiss-art-research-net/itten-app.git
