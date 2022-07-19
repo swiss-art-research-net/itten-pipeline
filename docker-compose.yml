@@ -2,7 +2,7 @@ version: "3"
 services:
 
   blazegraph:
-    image: researchspace/blazegraph
+    image: metaphacts/blazegraph-basic
     container_name: ${PROJECT_NAME}_blazegraph
     restart: unless-stopped
     environment:
