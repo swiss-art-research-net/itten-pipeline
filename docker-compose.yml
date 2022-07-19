@@ -41,7 +41,7 @@ services:
         max-file: "10"
     volumes:
       - platform-data:/runtime-data
-      - ./services/researchplatform/apps:/apps
+      - ./services/platform/apps:/apps
         
 volumes:
   blazegraph-data:
