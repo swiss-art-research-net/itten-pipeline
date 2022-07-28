@@ -1,0 +1,13 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  OAI_ENDPOINT: https://www.e-manuscripta.ch/zuzcmi/oai
+
+tasks:
+  
+  merge-source-with-e-manuscripta:
+    desc: Merge the source data with records retrieved from e-manuscripta
+    cmds:
+      - python mergeSourceDataWithEManuscripta.py --endpoint {{.OAI_ENDPOINT}} --inputFolder /data/source/ --outputFolder /data/xml/
