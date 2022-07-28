@@ -7,7 +7,7 @@ vars:
 
 tasks:
   
-  merge-source-with-e-manuscripta:
+  retrieve-data-from-e-manuscripta:
     desc: Merge the source data with records retrieved from e-manuscripta
     cmds:
-      - python mergeSourceDataWithEManuscripta.py --endpoint {{.OAI_ENDPOINT}} --inputFolder /data/source/ --outputFolder /data/xml/
+      - python retrieveDataFromEManuscripta.py --endpoint {{.OAI_ENDPOINT}} --inputFolder /data/source/ --outputFolder /data/xml/oai/
