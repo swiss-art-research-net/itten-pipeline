@@ -1,7 +1,10 @@
 import csv
+import json
 import re
 import requests
 from bs4 import BeautifulSoup
+from os import listdir
+from os.path import join
 
 class RetrieveVLIDfromDOI:
     # Class to retrieve VLIDs based on DOI
@@ -52,3 +55,26 @@ class RetrieveVLIDfromDOI:
         
     def _updateVlidMap(self, *, doi, vlid):
         self.vlidMap[doi] = vlid
+
+
+def readRecords(directory):
+    inputFiles = [join(directory, d) for d in listdir(directory) if d.endswith('.json')]
+    records = []
+    for file in inputFiles:
+        with open(file, 'r') as f:
+            text = f.read()
+            decodedData = text.encode().decode('utf-8-sig') 
+            try:
+                data = json.loads(decodedData, strict=False)
+                records += data
+            except Exception as e:
+                print(file, e)
+    for record in records:
+        if record['Link zu Digitalisat']:
+            link = BeautifulSoup(record['Link zu Digitalisat'], 'html.parser')
+            record['doi'] = link.find('a').text
+            
+    # Return only unique records based on GUID
+    records = list({v['GUID']:v for v in records}.values())
+            
+    return records

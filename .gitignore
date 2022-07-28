@@ -1,2 +1,7 @@
 .env
+__pycache__
+
 data/source
+data/xml
+!/data/xml/oai/.gitkeep
+scripts/.task

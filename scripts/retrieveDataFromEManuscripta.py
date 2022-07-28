@@ -5,14 +5,13 @@ import re
 import requests
 import sys
 from bs4 import BeautifulSoup
-from dicttoxml import dicttoxml
 from lxml import etree
 from sickle import Sickle
 from tqdm import tqdm
 from os import listdir
 from os.path import join, isfile
 
-from lib.utils import RetrieveVLIDfromDOI
+from lib.utils import RetrieveVLIDfromDOI, readRecords
 
 def performRetrieval(options):
     inputFolder = options['inputFolder']
@@ -48,29 +47,6 @@ def performRetrieval(options):
         root = etree.fromstring(oaiRecords[identifier].raw.encode('utf8'))
         with open(join(outputFolder, identifier + ".xml"), 'wb') as f:
             f.write(etree.tostring(root, pretty_print=True))
-
-
-def readRecords(directory):
-    inputFiles = [join(directory, d) for d in listdir(directory) if d.endswith('.json')]
-    records = []
-    for file in inputFiles:
-        with open(file, 'r') as f:
-            text = f.read()
-            decodedData = text.encode().decode('utf-8-sig') 
-            try:
-                data = json.loads(decodedData, strict=False)
-                records += data
-            except Exception as e:
-                print(file, e)
-    for record in records:
-        if record['Link zu Digitalisat']:
-            link = BeautifulSoup(record['Link zu Digitalisat'], 'html.parser')
-            record['doi'] = link.find('a').text
-            
-    # Return only unique records based on GUID
-    records = list({v['GUID']:v for v in records}.values())
-            
-    return records
 
 if __name__ == "__main__":
     options = {}
