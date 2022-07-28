@@ -10,7 +10,7 @@ RUN apt clean
 RUN apt update
 RUN apt install -y default-jre
 # Install Python packages
-RUN pip install date-parser-sari lxml urllib3 requests edtf tqdm rdflib sari-field-definitions-generator sparqlwrapper PyYAML Pillow
+RUN pip install date-parser-sari lxml urllib3 requests edtf tqdm rdflib sari-field-definitions-generator sparqlwrapper PyYAML Pillow beautifulsoup4
 
 # Install x3ml Mapping engine
 RUN mkdir x3ml
