@@ -19,6 +19,8 @@ tasks:
       - /scripts/prepareDataForMapping.py
       - /data/source/*.json
       - /data/xml/oai/*.xml
+    generates:
+      - /data/xml/merged/*.xml
     cmds:
       - python prepareDataForMapping.py --sourceFolder /data/source --oaiXMLFolder /data/xml/oai --outputFolder /data/xml/merged
   
@@ -27,5 +29,7 @@ tasks:
     sources:
       - /script/retrieveDataFromEManuscripta.py
       - /data/source/*.json
+    generates:
+      - /data/xml/oai/*.xml
     cmds:
       - python retrieveDataFromEManuscripta.py --endpoint {{.OAI_ENDPOINT}} --inputFolder /data/source/ --outputFolder /data/xml/oai/
