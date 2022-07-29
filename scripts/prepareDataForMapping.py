@@ -14,6 +14,7 @@ Parameters:
     --oaiXMLFolder       The folder containing the XML data retrieved from e-manuscripta
     --outputFolder       The folder to write the output XML files to
     --vlidMapFile        The path to the file containing the mapping between VLIDs and DOIs (optional)
+    --onlyWithDoi        If set to true, only records that contain a DOI are output
 """
 
 import sys
@@ -33,7 +34,7 @@ def prepareData(options):
     # Read records from input folder
     records = readRecords(sourceFolder)
 
-    if 'onlyWithDoi' in options and options['onlyWithDoi'] == 'true':
+    if options['onlyWithDoi']:
         records = [d for d in records if 'doi' in d]
 
     if 'limit' in options:
@@ -205,5 +206,11 @@ if __name__ == "__main__":
     
     if 'limit' in options:
         options['limit'] = int(options['limit'])
+
+    if 'onlyWithDoi' in options:
+        if options['onlyWithDoi'].lower() == 'true':
+            options['onlyWithDoi'] = True
+        else:
+            options['onlyWithDoi'] = False
 
     prepareData(options)
