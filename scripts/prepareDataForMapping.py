@@ -45,7 +45,6 @@ def addOaiXMLData(records, oaiData):
         nodesToRemove = [item for sublist in [node.findall(d) for d in pathsToRemove] for item in sublist]
         
         for unneeded in nodesToRemove:
-            print(unneeded.tag)
             unneeded.getparent().remove(unneeded)
             
         return node
