@@ -61,6 +61,14 @@ def prepareData(options):
     writeXMLRecordsToFiles(recordsXML, outputFolder)
 
 def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix):
+    """
+    Adds the data from alignment files to the records.
+    The alignment files are expected to be in the source folder and identiferd by the alignmentDataPrefix.
+
+    :param records: list of CMI records in JSON format
+    :param sourceFolder: folder containing the alignment files
+    :param alignmentDataPrefix: prefix of the alignment files
+    """
     
     def customHash(l):
         def NFD(s):
@@ -69,11 +77,27 @@ def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix):
         return hash(NFD(json.dumps(l, ensure_ascii=False)))
 
     def getValueByPath(node, path):
+        """
+        Get the value of a node by a path given as a list of strings.
+
+        Usage:
+        >>> record = {"id": 1, "classification" : {"types": ["a", "b"]}}
+        >>> getValueByPath(record, ["classification", "types"])
+        ["a", "b"]
+        """
         if len(path) == 1:
             return node
         return getValueByPath(record[path[0]], path[1:])
 
     def readAlignmentFiles(fieldsToAlign, sourceFolder, alignmentDataPrefix):
+        """
+        Reads the alignment files and returns a dictionary of the values, including a hash for looking up by the value
+
+        :param fieldsToAlign: list of fields to align specified as a dict with keys as identifier and the path to the value
+        :param sourceFolder: folder containing the alignment files
+        :param alignmentDataPrefix: prefix of the alignment files
+        :return: dictionary of the values, including a hash for looking up by the value
+        """
         alignmentData = {}
         for key, path in fieldsToAlign.items():
             filename = join(sourceFolder, alignmentDataPrefix + key + ".csv")
