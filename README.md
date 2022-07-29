@@ -52,12 +52,12 @@ task: Available tasks for this project:
 
 To run a specific task type `task` followed by the task name, e.g.:
 
-`task prepare-data-for-mapping`
+`docker compose exec jobs task prepare-data-for-mapping`
 
 If the task is already up to date, it will not run. To force a task to run, type the command followed by `--force`
 
-`task prepare-data-for-mapping --force`
+`docker compose exec jobs task prepare-data-for-mapping --force`
 
 To add additional arguments to the task itself, enter the arguments after a `--` sign, e.g.:
 
-`task prepare-data-for-mapping -- --limit 100 --onlyWithDoi true`
+`docker compose exec jobs task prepare-data-for-mapping -- --limit 100 --onlyWithDoi true`
