@@ -50,7 +50,7 @@ This will output a list of tasks:
 ```
 task: Available tasks for this project:
 * default:                              Runs the entire pipeline
-* prepare-data-for-mapping:             Prepare the source and OAI data for mapping. To include only a subset of the data, use the `--liimit` option. To include only records with DOIs, use the `--onlyWithDoi` option.
+* prepare-data-for-mapping:             Prepare the source and OAI data for mapping. To include only a subset of the data, use the `--limit` option. To include only records with DOIs, use the `--onlyWithDoi` option.
 * retrieve-data-from-e-manuscripta:     Retrieve the OAI records from from e-manuscripta                                       
 ```
 
