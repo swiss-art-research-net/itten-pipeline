@@ -7,6 +7,12 @@ vars:
 
 tasks:
 
+  default:
+    desc: Runs the entire pipeline
+    cmds:
+      - task: retrieve-data-from-e-manuscripta
+      - task: prepare-data-for-mapping
+
   prepare-data-for-mapping:
     desc: Prepare the source and OAI data for mapping
     sources:
