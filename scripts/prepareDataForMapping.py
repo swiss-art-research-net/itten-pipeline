@@ -111,7 +111,7 @@ def retrieveOaiXMLData(*, records, oaiXMLFolder, vlidMapFile):
     return oaiXmlData
 
 def writeXMLRecordsToFiles(records, outputFolder):
-    for i, record in enumerate(records):
+    for record in tqdm(records):
         filename = join(outputFolder, record.find('guid').text + ".xml")
         with open(filename, 'wb') as f:
             f.write(etree.tostring(record, pretty_print=True))
