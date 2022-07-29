@@ -40,7 +40,7 @@ The pipeline can be controlled by the Task runner. To run the entire pipeline, r
 
 To list available tasks, run:
 
-`dockec compose exec task --list`
+`dockec compose exec jobs task --list`
 
 This will output a list of tasks:
 ```
