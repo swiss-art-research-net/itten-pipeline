@@ -14,7 +14,7 @@ tasks:
       - task: prepare-data-for-mapping
 
   prepare-data-for-mapping:
-    desc: Prepare the source and OAI data for mapping
+    desc: Prepare the source and OAI data for mapping. To include only a subset of the data, use the `--liimit` option. To include only records with DOIs, use the `--onlyWithDoi` option.
     sources:
       - /scripts/prepareDataForMapping.py
       - /data/source/*.json
@@ -22,7 +22,7 @@ tasks:
     generates:
       - /data/xml/merged/*.xml
     cmds:
-      - python prepareDataForMapping.py --sourceFolder /data/source --oaiXMLFolder /data/xml/oai --outputFolder /data/xml/merged
+      - python prepareDataForMapping.py --sourceFolder /data/source --oaiXMLFolder /data/xml/oai --outputFolder /data/xml/merged {{.CLI_ARGS}}
   
   retrieve-data-from-e-manuscripta:
     desc: Retrieve the OAI records from from e-manuscripta
