@@ -36,11 +36,15 @@ bash downloadSources.sh
 
 The pipeline can be controlled by the Task runner. To run the entire pipeline, run
 
-`docker compose exec jobs task`
+```sh
+docker compose exec jobs task
+```
 
 To list available tasks, run:
 
-`dockec compose exec jobs task --list`
+```sh
+docker compose exec jobs task --list
+```
 
 This will output a list of tasks:
 ```
@@ -52,12 +56,18 @@ task: Available tasks for this project:
 
 To run a specific task type `task` followed by the task name, e.g.:
 
-`docker compose exec jobs task prepare-data-for-mapping`
+```sh
+docker compose exec jobs task prepare-data-for-mapping
+```
 
 If the task is already up to date, it will not run. To force a task to run, type the command followed by `--force`
 
-`docker compose exec jobs task prepare-data-for-mapping --force`
+```sh
+docker compose exec jobs task prepare-data-for-mapping --force
+```
 
 To add additional arguments to the task itself, enter the arguments after a `--` sign, e.g.:
 
-`docker compose exec jobs task prepare-data-for-mapping -- --limit 100 --onlyWithDoi true`
+```sh
+docker compose exec jobs task prepare-data-for-mapping -- --limit 100 --onlyWithDoi true
+```
