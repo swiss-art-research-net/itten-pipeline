@@ -58,6 +58,13 @@ class RetrieveVLIDfromDOI:
 
 
 def readRecords(directory):
+    """
+    Reads all JSON files in the given directory and returns a list of records.
+    The link to the digitised version is extracted and stored in the doi field.
+
+    :param directory: directory containing the JSON files
+    :return: list of records
+    """
     inputFiles = [join(directory, d) for d in listdir(directory) if d.endswith('.json')]
     records = []
     for file in inputFiles:

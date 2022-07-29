@@ -1,3 +1,21 @@
+"""
+This script prepares the data for mapping. 
+It converts the source data to XML and adds the XML data retrieved from e-manuscripta via OAI.
+
+Todo:
+- Add curated and enriched data
+
+Usage:
+
+python prepareDataForMapping.py --sourceFolder=<sourceFolder> --oaiXMLFolder=<oaiXMLFolder> --outputFolder=<outputFolder>
+
+Parameters:
+    --sourceFolder       The folder containing the source JSON data
+    --oaiXMLFolder       The folder containing the XML data retrieved from e-manuscripta
+    --outputFolder       The folder to write the output XML files to
+    --vlidMapFile        The path to the file containing the mapping between VLIDs and DOIs (optional)
+"""
+
 import sys
 from dicttoxml import dicttoxml
 from lxml import etree
@@ -34,6 +52,15 @@ def prepareData(options):
     writeXMLRecordsToFiles(recordsXML, outputFolder)
 
 def addOaiXMLData(records, oaiData):
+    """
+    Add the XML data retrieved from e-manuscripta via OAI to the records.
+    All nodes are added to a new node called "oai". Some tags that are not
+    used in the mapping are removed.
+
+    :param records: list of CMI records
+    :param oaiData: dictonary of XML data, where the key is the GUID of the record
+    :return: list of CMI records with added XML data
+    """
 
     def removeUnneededTags(node):
         pathsToRemove = [
@@ -57,10 +84,27 @@ def addOaiXMLData(records, oaiData):
     return records
 
 def convertRecordsToXML(records):
+    """
+    Convert CMI records to XML.
+
+    :param records: list of CMI records
+    :return: list of XML records
+    """
 
     def convertCmiJSONtoXML(record):
+        """
+        Convert a CMI record to XML.
+        """
 
         def cleanTag(tag):
+            """
+            Make sure that the tag is valid XML tag.
+            Removes umlauts and replaces some special characters.
+
+            Usage:
+            >>> cleanTag("Kürzel")
+            >>> kuerzel
+            """
             cleanTag = replace_umlauts(tag.lower())
             cleanTag = cleanTag.replace(' ', '_')
             cleanTag = cleanTag.replace('/', '-')
@@ -75,6 +119,10 @@ def convertRecordsToXML(records):
             return text.translate(vowel_char_map)
 
         def convertToSafeKeys(dictionary):
+            """
+            Convert keys in dictionary to keys that are valid XML tags.
+            Nested dictionaries are converted recursively.
+            """
             newDict = {}
             for key, value in dictionary.items():
                 if isinstance(value, dict):
@@ -96,6 +144,14 @@ def convertRecordsToXML(records):
     return xmlRecords
 
 def retrieveOaiXMLData(*, records, oaiXMLFolder, vlidMapFile):
+    """
+    Retrieve the XML data from e-manuscripta via OAI.
+
+    :param records: list of CMI records
+    :param oaiXMLFolder: folder containing the XML data retrieved from e-manuscripta
+    :param vlidMapFile: path to the file containing the mapping between VLIDs and DOIs
+    :return: dictonary of XML data, where the key is the GUID of the record
+    """
     oaiXmlData = {}
 
     # Retrieve VLIDs for records that have DOIs    
@@ -111,6 +167,12 @@ def retrieveOaiXMLData(*, records, oaiXMLFolder, vlidMapFile):
     return oaiXmlData
 
 def writeXMLRecordsToFiles(records, outputFolder):
+    """
+    Write CMI records to XML files.
+
+    :param records: list of CMI records
+    :param outputFolder: folder to write the XML files to
+    """
     for record in tqdm(records):
         filename = join(outputFolder, record.find('guid').text + ".xml")
         with open(filename, 'wb') as f:
