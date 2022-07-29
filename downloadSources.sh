@@ -11,3 +11,4 @@ download () {
 }
 
 download "source/Update20220615_ver01.json" "data/source/cmi-export.json"
+download "data/csv/archivalienarten.csv" "data/source/alignment-archivalienarten.csv"
