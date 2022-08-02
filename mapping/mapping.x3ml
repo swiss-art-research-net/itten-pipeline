@@ -1,0 +1,21 @@
+<x3ml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source_type="xpath" version="1.0" xsi:noNamespaceSchemaLocation="x3ml_v1.4.xsd" editor="3MEditor v3.3">
+    <namespaces>
+        <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
+        <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
+        <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
+        <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
+        <namespace prefix="frbr" uri="http://iflastandards.info/ns/fr/frbr/frbroo/ " />
+        <namespace prefix="gnd" uri="https://d-nb.info/gnd/"/>
+        <namespace prefix="ulan" uri="http://vocab.getty.edu/page/ulan/"/>
+        <namespace prefix="wikidata" uri="https://www.wikidata.org/wiki/"/>
+        <namespace prefix="skos" uri="http://www.w3.org/2004/02/skos/core#"/>
+        <namespace prefix="dcterms" uri="http://purl.org/dc/terms/" />
+        <namespace prefix="dc" uri="http://purl.org/dc/elements/1.1/" />
+        <namespace prefix="la" uri="https://linked.art/ns/terms/"/>
+        <namespace prefix="rso" uri="http://www.researchspace.org/ontology/" />
+        <namespace prefix="aat" uri="http://vocab.getty.edu/aat/" />
+        <namespace prefix="wd" uri="http://www.wikidata.org/entity/"/>
+    </namespaces>
+    <mappings>
+    </mappings>
+</x3ml>
