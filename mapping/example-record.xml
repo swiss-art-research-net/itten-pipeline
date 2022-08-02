@@ -1,126 +1,128 @@
-<record>
-  <signatur>Hs NL 11: Ga 1.10.2</signatur>
-  <signatur_in_sortierform/>
-  <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
-  <id>61791</id>
-  <pid/>
-  <guid>9b570bfd545247fab57346996242c9fd</guid>
-  <archivalienarten>
-    <item>
-      <bezeichnung>Brief</bezeichnung>
-      <gnd>4008240-4</gnd>
-    </item>
-    <item>
-      <bezeichnung>Manuskript</bezeichnung>
-      <gnd>4126273-6</gnd>
-    </item>
-    <item>
-      <bezeichnung>Autograf</bezeichnung>
-      <gnd>4003942-0</gnd>
-    </item>
-    <item>
-      <bezeichnung>Typoskript</bezeichnung>
-      <gnd>4186519-4</gnd>
-    </item>
-  </archivalienarten>
-  <titel>Leopold Reidemeister an Johannes Itten</titel>
-  <untertitel/>
-  <weitere_titelformationen/>
-  <entstehungszeitraum>01.08.1961</entstehungszeitraum>
-  <bezugszeitraum/>
-  <entstehungsort>Berlin</entstehungsort>
-  <bemerkungen_zur_datierung/>
-  <bemerkungen_zum_umfang>1 Blatt</bemerkungen_zum_umfang>
-  <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-132167" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-132167&lt;/a&gt;</link_zu_digitalisat>
-  <link_auf_digitales_original/>
-  <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ga 1.10 - "Sturm-Ausstellung" Berlin 1961 - 1961</uebergeordnetes_objekt_in_der_tektonik>
-  <guid_des_uebergeordneten_objekts_in_der_tektonik>4e5f15f1e8fd48e0b265fd22ed041597</guid_des_uebergeordneten_objekts_in_der_tektonik>
-  <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/"Sturm-Ausstellung" Berlin 1961</pfad_bestand>
-  <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/4e5f15f1e8fd48e0b265fd22ed041597</pfad_bestand_nur_guid_von_jeder_ebene>
-  <bemerkungen_provenienz/>
-  <verwaltungsgeschichte_-_biografische_angaben/>
-  <bestandesgeschichte/>
-  <abgebende_stellen/>
-  <erwerbsarten/>
-  <form_und_inhalt/>
-  <themenliste/>
-  <ueberlieferungsformen>
-    <item>
-      <bezeichnung>analog ()</bezeichnung>
-      <form/>
-    </item>
-  </ueberlieferungsformen>
-  <bewertung_und_kassation/>
-  <neuzugaenge/>
-  <ordnung_und_klassifikation/>
-  <zugangsbestimmungen>Schutzfrist bis 02.08.1991</zugangsbestimmungen>
-  <basisdatum_schutzfrist/>
-  <publikation>Nach Ablauf Schutzfrist</publikation>
-  <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-  <schutzfrist>
-    <bezeichnung>Jahre</bezeichnung>
-    <frist>30</frist>
-  </schutzfrist>
-  <ablauf_schutzfrist>02.08.1991</ablauf_schutzfrist>
-  <benutzbarkeit>frei einsehbar</benutzbarkeit>
-  <verwertungsrecht/>
-  <ablauf_verwertungsrecht>02.08.2031</ablauf_verwertungsrecht>
-  <lizenz/>
-  <urheber_bekannt/>
-  <urheber/>
-  <todesdatum_urheber/>
-  <reproduktionsbestimmungen/>
-  <sprachen>
-    <item>
-      <kuerzel>ger</kuerzel>
-      <bezeichnung>Deutsch</bezeichnung>
-    </item>
-  </sprachen>
-  <schriften/>
-  <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-  <findmittel/>
-  <aufbewahrungsort_der_originale/>
-  <kopien_-_reproduktionen/>
-  <reproduktionsarten/>
-  <verwandtes_material/>
-  <veroeffentlichungen/>
-  <allgemeine_interne_anmerkungen>Dossier 213</allgemeine_interne_anmerkungen>
-  <allgemeine_anmerkungen/>
-  <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
-  <erschliessungszustand/>
-  <digitalisierungsgrad/>
-  <zustandskategorie/>
-  <bearbeiter_und_zeitraum_der_verzeichnung/>
-  <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
-  <verzeichnungsgrundsaetze/>
-  <schadenserhebung/>
-  <standorte/>
-  <bemerkungen_zum_standort/>
-  <umfaenge/>
-  <registereintraege>
-    <item>
-      <register_bezeichnung>Reidemeister, Leopold</register_bezeichnung>
-      <register_gnd-id>119335603</register_gnd-id>
-      <register_rolle>Verfasser (aut) (Creator)</register_rolle>
-      <register_datum>1900 - 1987</register_datum>
-      <register_id>44504</register_id>
-      <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/119335603 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
-    </item>
-    <item>
-      <register_bezeichnung>Itten, Johannes</register_bezeichnung>
-      <register_gnd-id>118710990</register_gnd-id>
-      <register_rolle>Adressat (rcp) (Contributor)</register_rolle>
-      <register_datum>11.11.1888 - 25.03.1967</register_datum>
-      <register_id>21160</register_id>
-      <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
-    </item>
-  </registereintraege>
-  <dateien/>
-  <doi>https://doi.org/10.7891/e-manuscripta-132167</doi>
-  <oai>
-    <record xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<collection>
+
+  <record>
+    <signatur>Hs NL 11: Ga 1.10.2</signatur>
+    <signatur_in_sortierform/>
+    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <id>61791</id>
+    <pid/>
+    <guid>9b570bfd545247fab57346996242c9fd</guid>
+    <archivalienarten>
+      <item>
+        <bezeichnung>Brief</bezeichnung>
+        <gnd>4008240-4</gnd>
+      </item>
+      <item>
+        <bezeichnung>Manuskript</bezeichnung>
+        <gnd>4126273-6</gnd>
+      </item>
+      <item>
+        <bezeichnung>Autograf</bezeichnung>
+        <gnd>4003942-0</gnd>
+      </item>
+      <item>
+        <bezeichnung>Typoskript</bezeichnung>
+        <gnd>4186519-4</gnd>
+      </item>
+    </archivalienarten>
+    <titel>Leopold Reidemeister an Johannes Itten</titel>
+    <untertitel/>
+    <weitere_titelformationen/>
+    <entstehungszeitraum>01.08.1961</entstehungszeitraum>
+    <bezugszeitraum/>
+    <entstehungsort>Berlin</entstehungsort>
+    <bemerkungen_zur_datierung/>
+    <bemerkungen_zum_umfang>1 Blatt</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-132167" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-132167&lt;/a&gt;</link_zu_digitalisat>
+    <link_auf_digitales_original/>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ga 1.10 - "Sturm-Ausstellung" Berlin 1961 - 1961</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>4e5f15f1e8fd48e0b265fd22ed041597</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/"Sturm-Ausstellung" Berlin 1961</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/4e5f15f1e8fd48e0b265fd22ed041597</pfad_bestand_nur_guid_von_jeder_ebene>
+    <bemerkungen_provenienz/>
+    <verwaltungsgeschichte_-_biografische_angaben/>
+    <bestandesgeschichte/>
+    <abgebende_stellen/>
+    <erwerbsarten/>
+    <form_und_inhalt/>
+    <themenliste/>
+    <ueberlieferungsformen>
+      <item>
+        <bezeichnung>analog ()</bezeichnung>
+        <form/>
+      </item>
+    </ueberlieferungsformen>
+    <bewertung_und_kassation/>
+    <neuzugaenge/>
+    <ordnung_und_klassifikation/>
+    <zugangsbestimmungen>Schutzfrist bis 02.08.1991</zugangsbestimmungen>
+    <basisdatum_schutzfrist/>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
+      <bezeichnung>Jahre</bezeichnung>
+      <frist>30</frist>
+    </schutzfrist>
+    <ablauf_schutzfrist>02.08.1991</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <verwertungsrecht/>
+    <ablauf_verwertungsrecht>02.08.2031</ablauf_verwertungsrecht>
+    <lizenz/>
+    <urheber_bekannt/>
+    <urheber/>
+    <todesdatum_urheber/>
+    <reproduktionsbestimmungen/>
+    <sprachen>
+      <item>
+        <kuerzel>ger</kuerzel>
+        <bezeichnung>Deutsch</bezeichnung>
+      </item>
+    </sprachen>
+    <schriften/>
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <findmittel/>
+    <aufbewahrungsort_der_originale/>
+    <kopien_-_reproduktionen/>
+    <reproduktionsarten/>
+    <verwandtes_material/>
+    <veroeffentlichungen/>
+    <allgemeine_interne_anmerkungen>Dossier 213</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen/>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <erschliessungszustand/>
+    <digitalisierungsgrad/>
+    <zustandskategorie/>
+    <bearbeiter_und_zeitraum_der_verzeichnung/>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
+    <verzeichnungsgrundsaetze/>
+    <schadenserhebung/>
+    <standorte/>
+    <bemerkungen_zum_standort/>
+    <umfaenge/>
+    <registereintraege>
+      <item>
+        <register_bezeichnung>Reidemeister, Leopold</register_bezeichnung>
+        <register_gnd-id>119335603</register_gnd-id>
+        <register_rolle>Verfasser (aut) (Creator)</register_rolle>
+        <register_datum>1900 - 1987</register_datum>
+        <register_id>44504</register_id>
+        <registertyp>Personenregister</registertyp>
+        <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/119335603 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      </item>
+      <item>
+        <register_bezeichnung>Itten, Johannes</register_bezeichnung>
+        <register_gnd-id>118710990</register_gnd-id>
+        <register_rolle>Adressat (rcp) (Contributor)</register_rolle>
+        <register_datum>11.11.1888 - 25.03.1967</register_datum>
+        <register_id>21160</register_id>
+        <registertyp>Personenregister</registertyp>
+        <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      </item>
+    </registereintraege>
+    <dateien/>
+    <doi>https://doi.org/10.7891/e-manuscripta-132167</doi>
+    <oai>
+      <record xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <header>
     <identifier>oai:www.e-manuscripta.ch/zuzcmi:3602895</identifier>
     <datestamp>2022-05-04T15:08:19Z</datestamp>
@@ -293,168 +295,170 @@
       </mets:mets>
   </metadata>
 </record>
-  </oai>
-</record>
-<record>
-  <signatur>Hs NL 11: Ga 1.5.1</signatur>
-  <signatur_in_sortierform/>
-  <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
-  <id>59612</id>
-  <pid/>
-  <guid>b587c12ecb8b4a5fb9c1b7e075b9f8c0</guid>
-  <archivalienarten>
-    <item>
-      <bezeichnung>Brief</bezeichnung>
-      <gnd>4008240-4</gnd>
-    </item>
-    <item>
-      <bezeichnung>Manuskript</bezeichnung>
-      <gnd>4126273-6</gnd>
-    </item>
-  </archivalienarten>
-  <titel>Willem Sandberg an Johannes Itten</titel>
-  <untertitel/>
-  <weitere_titelformationen/>
-  <entstehungszeitraum>05.03.1957</entstehungszeitraum>
-  <bezugszeitraum/>
-  <entstehungsort>Amsterdam</entstehungsort>
-  <bemerkungen_zur_datierung/>
-  <bemerkungen_zum_umfang>1 Blatt</bemerkungen_zum_umfang>
-  <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-128188" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-128188&lt;/a&gt;</link_zu_digitalisat>
-  <link_auf_digitales_original/>
-  <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ga 1.5 - Ausstellung im Stedelijk Museum Amsterdam 1957 - 1957</uebergeordnetes_objekt_in_der_tektonik>
-  <guid_des_uebergeordneten_objekts_in_der_tektonik>f6f51c2dfa80449492bdcad9ddb843fb</guid_des_uebergeordneten_objekts_in_der_tektonik>
-  <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/Ausstellung im Stedelijk Museum Amsterdam 1957</pfad_bestand>
-  <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/f6f51c2dfa80449492bdcad9ddb843fb</pfad_bestand_nur_guid_von_jeder_ebene>
-  <bemerkungen_provenienz/>
-  <verwaltungsgeschichte_-_biografische_angaben/>
-  <bestandesgeschichte/>
-  <abgebende_stellen/>
-  <erwerbsarten/>
-  <form_und_inhalt/>
-  <themenliste/>
-  <ueberlieferungsformen>
-    <item>
-      <bezeichnung>analog ()</bezeichnung>
-      <form/>
-    </item>
-  </ueberlieferungsformen>
-  <bewertung_und_kassation/>
-  <neuzugaenge/>
-  <ordnung_und_klassifikation/>
-  <zugangsbestimmungen>Schutzfrist bis 06.03.1987</zugangsbestimmungen>
-  <basisdatum_schutzfrist/>
-  <publikation>Nach Ablauf Schutzfrist</publikation>
-  <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-  <schutzfrist>
-    <bezeichnung>Jahre</bezeichnung>
-    <frist>30</frist>
-  </schutzfrist>
-  <ablauf_schutzfrist>06.03.1987</ablauf_schutzfrist>
-  <benutzbarkeit>frei einsehbar</benutzbarkeit>
-  <verwertungsrecht>Extern</verwertungsrecht>
-  <ablauf_verwertungsrecht>06.03.2027</ablauf_verwertungsrecht>
-  <lizenz/>
-  <urheber_bekannt/>
-  <urheber/>
-  <todesdatum_urheber/>
-  <reproduktionsbestimmungen/>
-  <sprachen>
-    <item>
-      <kuerzel>ger</kuerzel>
-      <bezeichnung>Deutsch</bezeichnung>
-    </item>
-  </sprachen>
-  <schriften/>
-  <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-  <findmittel/>
-  <aufbewahrungsort_der_originale/>
-  <kopien_-_reproduktionen/>
-  <reproduktionsarten/>
-  <verwandtes_material/>
-  <veroeffentlichungen/>
-  <allgemeine_interne_anmerkungen>Dossier 176</allgemeine_interne_anmerkungen>
-  <allgemeine_anmerkungen/>
-  <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
-  <erschliessungszustand/>
-  <digitalisierungsgrad/>
-  <zustandskategorie/>
-  <bearbeiter_und_zeitraum_der_verzeichnung/>
-  <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
-  <verzeichnungsgrundsaetze/>
-  <schadenserhebung/>
-  <standorte/>
-  <bemerkungen_zum_standort/>
-  <umfaenge/>
-  <registereintraege>
-    <item>
-      <register_bezeichnung>Sandberg, Willem Jacob Henri Berend</register_bezeichnung>
-      <register_gnd-id>118751158</register_gnd-id>
-      <register_rolle>Verfasser (aut) (Creator)</register_rolle>
-      <register_datum>1897 - 1984</register_datum>
-      <register_id>50721</register_id>
-      <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118751158 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
-    </item>
-    <item>
-      <register_bezeichnung>Itten, Johannes</register_bezeichnung>
-      <register_gnd-id>118710990</register_gnd-id>
-      <register_rolle>Adressat (rcp) (Contributor)</register_rolle>
-      <register_datum>11.11.1888 - 25.03.1967</register_datum>
-      <register_id>21160</register_id>
-      <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
-    </item>
-    <item>
-      <register_bezeichnung>Grote, Ludwig</register_bezeichnung>
-      <register_gnd-id>118698222</register_gnd-id>
-      <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1893 - 1974</register_datum>
-      <register_id>46081</register_id>
-      <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118698222 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
-    </item>
-    <item>
-      <register_bezeichnung>Schreyer, Lothar</register_bezeichnung>
-      <register_gnd-id>118980351</register_gnd-id>
-      <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1886 - 1966</register_datum>
-      <register_id>45046</register_id>
-      <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118980351 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
-    </item>
-    <item>
-      <register_bezeichnung>Curjel, Hans</register_bezeichnung>
-      <register_gnd-id>116766107</register_gnd-id>
-      <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1896 - 1974</register_datum>
-      <register_id>50896</register_id>
-      <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/116766107 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
-    </item>
-    <item>
-      <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
-      <register_gnd-id>11721227X</register_gnd-id>
-      <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>17.10.1913 - 10.05.2002</register_datum>
-      <register_id>22078</register_id>
-      <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>Geburtsname: Schl&#246;sser, Anneliese / Link zur GND: &lt;a href=http://d-nb.info/gnd/11721227X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
-    </item>
-    <item>
-      <register_bezeichnung>Sandberg</register_bezeichnung>
-      <register_gnd-id>null</register_gnd-id>
-      <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>null</register_datum>
-      <register_id>60768</register_id>
-      <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>Beziehungen zu Personen: Ehefrau von Sandberg, Willem Jacob Henri Berend (Link zur GND: &lt;a href=http://d-nb.info/gnd/118751158 target="_blank"&gt;GND&lt;/a&gt;)</register_bemerkungen>
-    </item>
-  </registereintraege>
-  <dateien/>
-  <doi>https://doi.org/10.7891/e-manuscripta-128188</doi>
-  <oai>
-    <record xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </oai>
+  </record>
+
+
+  <record>
+    <signatur>Hs NL 11: Ga 1.5.1</signatur>
+    <signatur_in_sortierform/>
+    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <id>59612</id>
+    <pid/>
+    <guid>b587c12ecb8b4a5fb9c1b7e075b9f8c0</guid>
+    <archivalienarten>
+      <item>
+        <bezeichnung>Brief</bezeichnung>
+        <gnd>4008240-4</gnd>
+      </item>
+      <item>
+        <bezeichnung>Manuskript</bezeichnung>
+        <gnd>4126273-6</gnd>
+      </item>
+    </archivalienarten>
+    <titel>Willem Sandberg an Johannes Itten</titel>
+    <untertitel/>
+    <weitere_titelformationen/>
+    <entstehungszeitraum>05.03.1957</entstehungszeitraum>
+    <bezugszeitraum/>
+    <entstehungsort>Amsterdam</entstehungsort>
+    <bemerkungen_zur_datierung/>
+    <bemerkungen_zum_umfang>1 Blatt</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-128188" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-128188&lt;/a&gt;</link_zu_digitalisat>
+    <link_auf_digitales_original/>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ga 1.5 - Ausstellung im Stedelijk Museum Amsterdam 1957 - 1957</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>f6f51c2dfa80449492bdcad9ddb843fb</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/Ausstellung im Stedelijk Museum Amsterdam 1957</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/f6f51c2dfa80449492bdcad9ddb843fb</pfad_bestand_nur_guid_von_jeder_ebene>
+    <bemerkungen_provenienz/>
+    <verwaltungsgeschichte_-_biografische_angaben/>
+    <bestandesgeschichte/>
+    <abgebende_stellen/>
+    <erwerbsarten/>
+    <form_und_inhalt/>
+    <themenliste/>
+    <ueberlieferungsformen>
+      <item>
+        <bezeichnung>analog ()</bezeichnung>
+        <form/>
+      </item>
+    </ueberlieferungsformen>
+    <bewertung_und_kassation/>
+    <neuzugaenge/>
+    <ordnung_und_klassifikation/>
+    <zugangsbestimmungen>Schutzfrist bis 06.03.1987</zugangsbestimmungen>
+    <basisdatum_schutzfrist/>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
+      <bezeichnung>Jahre</bezeichnung>
+      <frist>30</frist>
+    </schutzfrist>
+    <ablauf_schutzfrist>06.03.1987</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <verwertungsrecht>Extern</verwertungsrecht>
+    <ablauf_verwertungsrecht>06.03.2027</ablauf_verwertungsrecht>
+    <lizenz/>
+    <urheber_bekannt/>
+    <urheber/>
+    <todesdatum_urheber/>
+    <reproduktionsbestimmungen/>
+    <sprachen>
+      <item>
+        <kuerzel>ger</kuerzel>
+        <bezeichnung>Deutsch</bezeichnung>
+      </item>
+    </sprachen>
+    <schriften/>
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <findmittel/>
+    <aufbewahrungsort_der_originale/>
+    <kopien_-_reproduktionen/>
+    <reproduktionsarten/>
+    <verwandtes_material/>
+    <veroeffentlichungen/>
+    <allgemeine_interne_anmerkungen>Dossier 176</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen/>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <erschliessungszustand/>
+    <digitalisierungsgrad/>
+    <zustandskategorie/>
+    <bearbeiter_und_zeitraum_der_verzeichnung/>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
+    <verzeichnungsgrundsaetze/>
+    <schadenserhebung/>
+    <standorte/>
+    <bemerkungen_zum_standort/>
+    <umfaenge/>
+    <registereintraege>
+      <item>
+        <register_bezeichnung>Sandberg, Willem Jacob Henri Berend</register_bezeichnung>
+        <register_gnd-id>118751158</register_gnd-id>
+        <register_rolle>Verfasser (aut) (Creator)</register_rolle>
+        <register_datum>1897 - 1984</register_datum>
+        <register_id>50721</register_id>
+        <registertyp>Personenregister</registertyp>
+        <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118751158 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      </item>
+      <item>
+        <register_bezeichnung>Itten, Johannes</register_bezeichnung>
+        <register_gnd-id>118710990</register_gnd-id>
+        <register_rolle>Adressat (rcp) (Contributor)</register_rolle>
+        <register_datum>11.11.1888 - 25.03.1967</register_datum>
+        <register_id>21160</register_id>
+        <registertyp>Personenregister</registertyp>
+        <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      </item>
+      <item>
+        <register_bezeichnung>Grote, Ludwig</register_bezeichnung>
+        <register_gnd-id>118698222</register_gnd-id>
+        <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
+        <register_datum>1893 - 1974</register_datum>
+        <register_id>46081</register_id>
+        <registertyp>Personenregister</registertyp>
+        <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118698222 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      </item>
+      <item>
+        <register_bezeichnung>Schreyer, Lothar</register_bezeichnung>
+        <register_gnd-id>118980351</register_gnd-id>
+        <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
+        <register_datum>1886 - 1966</register_datum>
+        <register_id>45046</register_id>
+        <registertyp>Personenregister</registertyp>
+        <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118980351 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      </item>
+      <item>
+        <register_bezeichnung>Curjel, Hans</register_bezeichnung>
+        <register_gnd-id>116766107</register_gnd-id>
+        <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
+        <register_datum>1896 - 1974</register_datum>
+        <register_id>50896</register_id>
+        <registertyp>Personenregister</registertyp>
+        <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/116766107 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      </item>
+      <item>
+        <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
+        <register_gnd-id>11721227X</register_gnd-id>
+        <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
+        <register_datum>17.10.1913 - 10.05.2002</register_datum>
+        <register_id>22078</register_id>
+        <registertyp>Personenregister</registertyp>
+        <register_bemerkungen>Geburtsname: Schl&#246;sser, Anneliese / Link zur GND: &lt;a href=http://d-nb.info/gnd/11721227X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      </item>
+      <item>
+        <register_bezeichnung>Sandberg</register_bezeichnung>
+        <register_gnd-id>null</register_gnd-id>
+        <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
+        <register_datum>null</register_datum>
+        <register_id>60768</register_id>
+        <registertyp>Personenregister</registertyp>
+        <register_bemerkungen>Beziehungen zu Personen: Ehefrau von Sandberg, Willem Jacob Henri Berend (Link zur GND: &lt;a href=http://d-nb.info/gnd/118751158 target="_blank"&gt;GND&lt;/a&gt;)</register_bemerkungen>
+      </item>
+    </registereintraege>
+    <dateien/>
+    <doi>https://doi.org/10.7891/e-manuscripta-128188</doi>
+    <oai>
+      <record xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <header>
     <identifier>oai:www.e-manuscripta.ch/zuzcmi:3510527</identifier>
     <datestamp>2022-02-26T10:07:10Z</datestamp>
@@ -627,95 +631,97 @@
       </mets:mets>
   </metadata>
 </record>
-  </oai>
-</record>
-<record>
-  <signatur>Hs NL 11: Ch 3.1.14</signatur>
-  <signatur_in_sortierform/>
-  <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
-  <id>59338</id>
-  <pid/>
-  <guid>cdc330b211924b7dad51274f51831e18</guid>
-  <archivalienarten>
-    <item>
-      <bezeichnung>Fotografie</bezeichnung>
-      <gnd>4045895-7</gnd>
-    </item>
-  </archivalienarten>
-  <titel>Herstellung und Montage des Velums 14</titel>
-  <untertitel/>
-  <weitere_titelformationen/>
-  <entstehungszeitraum>1938</entstehungszeitraum>
-  <bezugszeitraum/>
-  <entstehungsort>Amsterdam</entstehungsort>
-  <bemerkungen_zur_datierung/>
-  <bemerkungen_zum_umfang>1 Fotoabzug</bemerkungen_zum_umfang>
-  <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-126366" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126366&lt;/a&gt;</link_zu_digitalisat>
-  <link_auf_digitales_original/>
-  <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
-  <guid_des_uebergeordneten_objekts_in_der_tektonik>5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
-  <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
-  <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
-  <bemerkungen_provenienz/>
-  <verwaltungsgeschichte_-_biografische_angaben/>
-  <bestandesgeschichte/>
-  <abgebende_stellen/>
-  <erwerbsarten/>
-  <form_und_inhalt/>
-  <themenliste/>
-  <ueberlieferungsformen>
-    <item>
-      <bezeichnung>analog ()</bezeichnung>
-      <form/>
-    </item>
-  </ueberlieferungsformen>
-  <bewertung_und_kassation/>
-  <neuzugaenge/>
-  <ordnung_und_klassifikation/>
-  <zugangsbestimmungen>Schutzfrist bis 01.01.1969</zugangsbestimmungen>
-  <basisdatum_schutzfrist/>
-  <publikation>Nach Ablauf Schutzfrist</publikation>
-  <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-  <schutzfrist>
-    <bezeichnung>Jahre</bezeichnung>
-    <frist>30</frist>
-  </schutzfrist>
-  <ablauf_schutzfrist>01.01.1969</ablauf_schutzfrist>
-  <benutzbarkeit>frei einsehbar</benutzbarkeit>
-  <verwertungsrecht/>
-  <ablauf_verwertungsrecht>01.01.2009</ablauf_verwertungsrecht>
-  <lizenz/>
-  <urheber_bekannt/>
-  <urheber/>
-  <todesdatum_urheber/>
-  <reproduktionsbestimmungen/>
-  <sprachen/>
-  <schriften/>
-  <physische_beschaffenheit_und_technische_anforderungen>Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
-  <findmittel/>
-  <aufbewahrungsort_der_originale/>
-  <kopien_-_reproduktionen/>
-  <reproduktionsarten/>
-  <verwandtes_material/>
-  <veroeffentlichungen/>
-  <allgemeine_interne_anmerkungen>Dossier 92</allgemeine_interne_anmerkungen>
-  <allgemeine_anmerkungen/>
-  <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
-  <erschliessungszustand/>
-  <digitalisierungsgrad/>
-  <zustandskategorie/>
-  <bearbeiter_und_zeitraum_der_verzeichnung/>
-  <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
-  <verzeichnungsgrundsaetze/>
-  <schadenserhebung/>
-  <standorte/>
-  <bemerkungen_zum_standort/>
-  <umfaenge/>
-  <registereintraege/>
-  <dateien/>
-  <doi>https://doi.org/10.7891/e-manuscripta-126366</doi>
-  <oai>
-    <record xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    </oai>
+  </record>
+
+
+  <record>
+    <signatur>Hs NL 11: Ch 3.1.14</signatur>
+    <signatur_in_sortierform/>
+    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <id>59338</id>
+    <pid/>
+    <guid>cdc330b211924b7dad51274f51831e18</guid>
+    <archivalienarten>
+      <item>
+        <bezeichnung>Fotografie</bezeichnung>
+        <gnd>4045895-7</gnd>
+      </item>
+    </archivalienarten>
+    <titel>Herstellung und Montage des Velums 14</titel>
+    <untertitel/>
+    <weitere_titelformationen/>
+    <entstehungszeitraum>1938</entstehungszeitraum>
+    <bezugszeitraum/>
+    <entstehungsort>Amsterdam</entstehungsort>
+    <bemerkungen_zur_datierung/>
+    <bemerkungen_zum_umfang>1 Fotoabzug</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-126366" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126366&lt;/a&gt;</link_zu_digitalisat>
+    <link_auf_digitales_original/>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
+    <bemerkungen_provenienz/>
+    <verwaltungsgeschichte_-_biografische_angaben/>
+    <bestandesgeschichte/>
+    <abgebende_stellen/>
+    <erwerbsarten/>
+    <form_und_inhalt/>
+    <themenliste/>
+    <ueberlieferungsformen>
+      <item>
+        <bezeichnung>analog ()</bezeichnung>
+        <form/>
+      </item>
+    </ueberlieferungsformen>
+    <bewertung_und_kassation/>
+    <neuzugaenge/>
+    <ordnung_und_klassifikation/>
+    <zugangsbestimmungen>Schutzfrist bis 01.01.1969</zugangsbestimmungen>
+    <basisdatum_schutzfrist/>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
+      <bezeichnung>Jahre</bezeichnung>
+      <frist>30</frist>
+    </schutzfrist>
+    <ablauf_schutzfrist>01.01.1969</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <verwertungsrecht/>
+    <ablauf_verwertungsrecht>01.01.2009</ablauf_verwertungsrecht>
+    <lizenz/>
+    <urheber_bekannt/>
+    <urheber/>
+    <todesdatum_urheber/>
+    <reproduktionsbestimmungen/>
+    <sprachen/>
+    <schriften/>
+    <physische_beschaffenheit_und_technische_anforderungen>Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
+    <findmittel/>
+    <aufbewahrungsort_der_originale/>
+    <kopien_-_reproduktionen/>
+    <reproduktionsarten/>
+    <verwandtes_material/>
+    <veroeffentlichungen/>
+    <allgemeine_interne_anmerkungen>Dossier 92</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen/>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <erschliessungszustand/>
+    <digitalisierungsgrad/>
+    <zustandskategorie/>
+    <bearbeiter_und_zeitraum_der_verzeichnung/>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <verzeichnungsgrundsaetze/>
+    <schadenserhebung/>
+    <standorte/>
+    <bemerkungen_zum_standort/>
+    <umfaenge/>
+    <registereintraege/>
+    <dateien/>
+    <doi>https://doi.org/10.7891/e-manuscripta-126366</doi>
+    <oai>
+      <record xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <header>
     <identifier>oai:www.e-manuscripta.ch/zuzcmi:3472580</identifier>
     <datestamp>2022-02-01T14:28:15Z</datestamp>
@@ -871,5 +877,7 @@
       </mets:mets>
   </metadata>
 </record>
-  </oai>
-</record>
+    </oai>
+  </record>
+
+</collection>
