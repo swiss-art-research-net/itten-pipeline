@@ -13,6 +13,11 @@ tasks:
       - task: retrieve-data-from-e-manuscripta
       - task: prepare-data-for-mapping
 
+  generate-example-record:
+    desc: Generates an example record for developing the mapping in the X3ML editor
+    cmds:
+      - cat /data/xml/merged/9b570bfd545247fab57346996242c9fd.xml /data/xml/merged/b587c12ecb8b4a5fb9c1b7e075b9f8c0.xml /data/xml/merged/cdc330b211924b7dad51274f51831e18.xml > /mapping/example-record.xml
+
   prepare-data-for-mapping:
     desc: Prepare the source and OAI data for mapping. To include only a subset of the data, use the `--limit` option. To include only records with DOIs, use the `--onlyWithDoi` option.
     sources:
