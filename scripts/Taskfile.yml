@@ -3,6 +3,7 @@
 version: '3'
 
 vars:
+  BLAZEGRAPH_ENDPOINT: http://blazegraph:8080/blazegraph/sparql
   OAI_ENDPOINT: https://www.e-manuscripta.ch/zuzcmi/oai
   GENERATOR_POLICY: /mapping/generator-policy.xml
   MAPPING_BATCH_SIZE: 1
@@ -15,6 +16,7 @@ tasks:
       - task: retrieve-data-from-e-manuscripta
       - task: prepare-data-for-mapping
       - task: perform-mapping
+      - task: ingest-data-main
 
   generate-example-record:
     desc: Generates an example record for developing the mapping in the X3ML editor
@@ -23,6 +25,35 @@ tasks:
       - sed -i 's/<collection>//g' /mapping/example-record.xml
       - sed -i 's/<\/collection>//g' /mapping/example-record.xml
       - echo '<collection>' | cat - /mapping/example-record.xml > temp && mv temp /mapping/example-record.xml; echo '</collection>' >> /mapping/example-record.xml
+  
+  ingest-data-from-folder:
+    desc: Ingests data from a specified folder. If a named graph is specified (GRAPH), TTL files will be ingested into it. Otherwise, the filename will be used as named graph. Named Graphs specified in Trig files will be used as defined
+    cmds:
+      - |
+        numfiles=$(ls -l {{.FOLDER}}/*.{ttl,trig} | wc -l)
+        count=1
+        {{if .GRAPH}}curl --silent -X POST {{.BLAZEGRAPH_ENDPOINT}} --data-urlencode "update=DROP GRAPH <{{.GRAPH}}>" > /dev/null{{end}}
+        for f in $(ls -1 {{.FOLDER}}/*.ttl); do
+          echo "Ingesting file $count of $numfiles ($f)"
+          curl --silent -X POST --data-binary "uri=file://$f" {{.BLAZEGRAPH_ENDPOINT}}?context-uri={{if .GRAPH}}{{.GRAPH}}{{else}}file://$f{{end}} > /dev/null
+          count=$((count+1)) 
+        done
+        for f in $(ls -1 {{.FOLDER}}/*.trig); do
+          echo "Ingesting file $count of $numfiles ($f)"
+          curl --silent -X POST --data-binary "uri=file://$f" {{.BLAZEGRAPH_ENDPOINT}}{{if .GRAPH}}?context-uri={{.GRAPH}}{{end}} > /dev/null
+          count=$((count+1)) 
+        done
+
+  ingest-data-main:
+    desc: Ingest the TTL files located  in /data/ttl to the Blazegraph instance
+    sources:
+      - /data/ttl/main/*.ttl
+    cmds:
+      - echo "Ingest main data"
+      - task: ingest-data-from-folder
+        vars:
+          FOLDER: /data/ttl/main
+          GRAPH: https://resource.swissartresearch.net/graph/main
 
   perform-mapping:
     desc: Map the input XML data to CIDOC/RDF
