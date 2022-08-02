@@ -30,15 +30,15 @@ tasks:
     desc: Ingests data from a specified folder. If a named graph is specified (GRAPH), TTL files will be ingested into it. Otherwise, the filename will be used as named graph. Named Graphs specified in Trig files will be used as defined
     cmds:
       - |
-        numfiles=$(ls -l {{.FOLDER}}/*.{ttl,trig} | wc -l)
+        numfiles=$(ls -l {{.FOLDER}}/* | egrep '.ttl|.trig' | wc -l)
         count=1
         {{if .GRAPH}}curl --silent -X POST {{.BLAZEGRAPH_ENDPOINT}} --data-urlencode "update=DROP GRAPH <{{.GRAPH}}>" > /dev/null{{end}}
-        for f in $(ls -1 {{.FOLDER}}/*.ttl); do
+        for f in $(ls -1 {{.FOLDER}}/* | grep .ttl); do
           echo "Ingesting file $count of $numfiles ($f)"
           curl --silent -X POST --data-binary "uri=file://$f" {{.BLAZEGRAPH_ENDPOINT}}?context-uri={{if .GRAPH}}{{.GRAPH}}{{else}}file://$f{{end}} > /dev/null
           count=$((count+1)) 
         done
-        for f in $(ls -1 {{.FOLDER}}/*.trig); do
+        for f in $(ls -1 {{.FOLDER}}/* | grep .trig); do
           echo "Ingesting file $count of $numfiles ($f)"
           curl --silent -X POST --data-binary "uri=file://$f" {{.BLAZEGRAPH_ENDPOINT}}{{if .GRAPH}}?context-uri={{.GRAPH}}{{end}} > /dev/null
           count=$((count+1)) 
