@@ -18,5 +18,52 @@
         <namespace prefix="wd" uri="http://www.wikidata.org/entity/"/>
     </namespaces>
     <mappings>
+        <mapping>
+            <domain>
+                <source_node>/collection/record</source_node>
+                <target_node>
+                    <entity>
+                        <type>crm:E78_Curated_Holding</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">guid/text()</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>guid</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P1_is_identified_by</relationship>
+                        <entity>
+                            <type>crm:E42_Identifier</type>
+                            <instance_generator name="URIwithTypeSubtypeAndId">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">text()</arg>
+                                <arg name="subtype" type="constant">guid</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P190_has_symbolic_content</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>guid</source_node>
+                    <target_node>
+                        <entity>
+                            <type>rdfs:Literal</type>
+                            <instance_generator name="Literal">
+                                <arg name="text" type="xpath">text()</arg>
+                                <arg name="language" type="constant"/>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
     </mappings>
+
+
 </x3ml>
