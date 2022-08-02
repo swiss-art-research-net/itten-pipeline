@@ -1,6 +1,7 @@
 .env
 __pycache__
 
+data/ttl
 data/source
 data/xml
 !/data/xml/oai/.gitkeep
