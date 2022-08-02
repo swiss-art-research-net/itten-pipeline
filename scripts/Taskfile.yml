@@ -4,6 +4,8 @@ version: '3'
 
 vars:
   OAI_ENDPOINT: https://www.e-manuscripta.ch/zuzcmi/oai
+  GENERATOR_POLICY: /mapping/generator-policy.xml
+  MAPPING_BATCH_SIZE: 10
 
 tasks:
 
@@ -21,6 +23,22 @@ tasks:
       - sed -i 's/<\/collection>//g' /mapping/example-record.xml
       - echo '<collection>' | cat - /mapping/example-record.xml > temp && mv temp /mapping/example-record.xml; echo '</collection>' >> /mapping/example-record.xml
 
+  perform-mapping:
+    desc: Map the input XML data to CIDOC/RDF
+    vars:
+      INPUT_FOLDER: /data/xml/merged
+      OUTPUT_FOLDER: /data/ttl/main
+      MAPPING_FILE: /mapping/mapping.x3ml
+    sources:
+      - /data/xml/merged
+      - /mapping/generator-policy.xml
+      - /mapping/mapping.x3ml
+    generates:
+      - /data/ttl/main/*.ttl
+    cmds:
+      - rm -f {{.OUTPUT_FOLDER}}/*.ttl
+      - bash /scripts/performMapping.sh -i {{.INPUT_FOLDER}} -o {{.OUTPUT_FOLDER}} -m {{.MAPPING_FILE}} -g {{.GENERATOR_POLICY}} -b {{.MAPPING_BATCH_SIZE}}
+  
   prepare-data-for-mapping:
     desc: Prepare the source and OAI data for mapping. To include only a subset of the data, use the `--limit` option. To include only records with DOIs, use the `--onlyWithDoi` option.
     sources:
