@@ -257,7 +257,7 @@ def convertRecordsToXML(records):
 
         cleanedRecord = convertToSafeKeys(record)
         
-        xml = dicttoxml(cleanedRecord, attr_type=False)
+        xml = dicttoxml(cleanedRecord, attr_type=False, custom_root='record')
         return etree.fromstring(xml)
     
     xmlRecords = []
