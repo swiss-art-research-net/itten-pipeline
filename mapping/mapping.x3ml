@@ -131,6 +131,70 @@
                     </target_node>
                 </range>
             </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>archivalienarten/item</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P2_has_type</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>archivalienarten/item</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E55_Type</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">type</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (gnd/text()) then (gnd/text()) else (bezeichnung/text())</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/archivalienarten/item</source_node>
+                <target_node>
+                    <entity>
+                        <type>crm:E55_Type</type>
+                        <instance_generator name="URIwithTypeAndId_hashed">
+                            <arg name="type" type="constant">type</arg>
+                            <arg name="id_HASHED_CONTENTS" type="xpath">if (gnd/text()) then (gnd/text()) else (bezeichnung/text())</arg>
+                        </instance_generator>
+                        <label_generator name="Literal">
+                            <arg name="text" type="xpath">bezeichnung/text()</arg>
+                            <arg name="language" type="constant">de</arg>
+                        </label_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>gnd</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <exists>text()</exists>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>gnd</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E55_Type</type>
+                            <instance_generator name="URIwithGndId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
         </mapping>
     </mappings>
 </x3ml>
