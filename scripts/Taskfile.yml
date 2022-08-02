@@ -31,7 +31,7 @@ tasks:
       OUTPUT_FOLDER: /data/ttl/main
       MAPPING_FILE: /mapping/mapping.x3ml
     sources:
-      - /data/xml/merged
+      - /data/xml/merged/*.xml
       - /mapping/generator-policy.xml
       - /mapping/mapping.x3ml
     generates:
