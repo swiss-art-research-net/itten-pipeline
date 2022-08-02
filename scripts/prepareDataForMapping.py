@@ -297,8 +297,10 @@ def writeXMLRecordsToFiles(records, outputFolder):
     """
     for record in tqdm(records):
         filename = join(outputFolder, record.find('guid').text + ".xml")
+        root = etree.XML("<collection/>")
+        root.append(record)
         with open(filename, 'wb') as f:
-            f.write(etree.tostring(record, pretty_print=True))
+            f.write(etree.tostring(root, pretty_print=True))
 
 if __name__ == "__main__":
     options = {}
