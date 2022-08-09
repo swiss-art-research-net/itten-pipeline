@@ -12,6 +12,7 @@ tasks:
 
   default:
     desc: Runs the entire pipeline
+    silent: true
     cmds:
       - task: retrieve-data-from-e-manuscripta
       - task: cache-iiif-manifests
