@@ -14,9 +14,20 @@ tasks:
     desc: Runs the entire pipeline
     cmds:
       - task: retrieve-data-from-e-manuscripta
+      - task: cache-iiif-manifests
       - task: prepare-data-for-mapping
       - task: perform-mapping
       - task: ingest-data-main
+
+  cache-iiif-manifests:
+    desc: Cache the IIIF manifests linked in the OAI XML records
+    sources:
+      - /data/xml/oai/*.xml
+    generates:
+      - /data/manifests/*.json
+    cmds:
+      - python /scripts/cacheIiifManifests.py --oaiXMLFolder /data/xml/oai --outputFolder /data/manifests {{.CLI_ARGS}}
+
 
   generate-example-record:
     desc: Generates an example record for developing the mapping in the X3ML editor
