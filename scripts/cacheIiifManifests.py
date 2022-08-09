@@ -100,10 +100,14 @@ if __name__ == "__main__":
         print("An output directory must be specified via the --outputFolder option")
         sys.exit(1)
 
-    if not 'offset' in options:
+    if 'offset' in options:
+        options['offset'] = int(options['offset'])
+    else:
         options['offset'] = 0
 
-    if not 'limit' in options:
+    if 'limit' in options:
+        options['limit'] = int(options['limit'])
+    else:
         options['limit'] = 999999
 
     performCaching(options)
