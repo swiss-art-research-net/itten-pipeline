@@ -8,6 +8,8 @@ vars:
   GENERATOR_POLICY: /mapping/generator-policy.xml
   MAPPING_BATCH_SIZE: 1
 
+output: 'group'
+
 tasks:
 
   default:
