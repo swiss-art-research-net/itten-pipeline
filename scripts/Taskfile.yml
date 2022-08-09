@@ -91,7 +91,7 @@ tasks:
     generates:
       - /data/xml/merged/*.xml
     cmds:
-      - python prepareDataForMapping.py --sourceFolder /data/source --oaiXMLFolder /data/xml/oai --outputFolder /data/xml/merged {{.CLI_ARGS}}
+      - python prepareDataForMapping.py --sourceFolder /data/source --manifestsFolder /data/manifests --oaiXMLFolder /data/xml/oai --outputFolder /data/xml/merged {{.CLI_ARGS}}
   
   retrieve-data-from-e-manuscripta:
     desc: Retrieve the OAI records from from e-manuscripta

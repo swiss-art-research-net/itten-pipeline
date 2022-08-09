@@ -22,6 +22,7 @@ import csv
 import json
 import sys
 import unicodedata
+import urllib
 from dicttoxml import dicttoxml
 from lxml import etree
 from os.path import join, isfile
@@ -32,6 +33,7 @@ from lib.utils import readRecords, RetrieveVLIDfromDOI
 def prepareData(options):
     sourceFolder = options['sourceFolder']
     oaiXMLFolder = options['oaiXMLFolder']
+    manifestsFolder = options['manifestsFolder']
     outputFolder = options['outputFolder']
     alignmentDataPrefix = options['alignmentDataPrefix']
     vlidMapFile = options['vlidMapFile']
@@ -56,6 +58,9 @@ def prepareData(options):
 
     # Add data from OAI XML files
     recordsXML = addOaiXMLData(recordsXML, oaiXmlData)
+
+    # Add IIIF image data
+    recordsXML = addImageDataFromManifests(recordsXML, manifestsFolder)
 
     # Write to files
     writeXMLRecordsToFiles(recordsXML, outputFolder)
@@ -172,6 +177,59 @@ def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix):
 
     return records
             
+def addImageDataFromManifests(records, manifestsFolder):
+
+    def getImagesFromCachedManifest(manifest):
+        manifestFilePath = join(manifestsFolder, urllib.parse.quote(manifest, safe='') + '.json')
+        if isfile(manifestFilePath):
+            with open(manifestFilePath, 'r') as f:
+                content = json.load(f)
+                if 'sequences' in content and len(content['sequences']) > 0:
+                    canvases = [d for d in content['sequences'][0]['canvases']]
+                    images = [{
+                        'image': c['images'][0]['resource']['service']['@id'],
+                        'width': c['width'],
+                        'height': c['height']
+                    } for c in canvases]
+                    return {
+                        "status": "success",
+                        "images": images
+                    }
+                else:
+                    return {
+                        "status": "error",
+                        "error": "No sequences found in manifest %s" % manifest
+                    }
+        else:
+            return {
+                "status": "error",
+                "error": "Manifest file not cached: %s" % manifest
+            }
+
+    def imageListToXml(images):
+        imagesNode = etree.Element("images")
+        for image in images:
+            imageNode = etree.SubElement(imagesNode, "image")
+            etree.SubElement(imageNode, "height").text = str(image['height'])
+            etree.SubElement(imageNode, "width").text = str(image['width'])
+            etree.SubElement(imageNode, "url", type="iiif").text = image['image']
+        return imagesNode
+
+    errors = []
+    for record in records:
+        for presentation in record.findall(".//dv:iiif", namespaces={"dv": "http://dfg-viewer.de/"}):
+            result = getImagesFromCachedManifest(presentation.text)
+            if result['status'] == "success" and result['images']:
+                presentation.append(imageListToXml(result['images']))
+            else:
+                errors.append(result['error'])
+    errors = list(set(errors))
+    if len(errors) > 0:
+        print("The following errors occured:")
+        for error in errors:
+            print("    " + error)
+
+    return records
 
 def addOaiXMLData(records, oaiData):
     """
@@ -318,6 +376,9 @@ if __name__ == "__main__":
         sys.exit(1)
     if not 'oaiXMLFolder' in options:
         print("An input directory that contains the OAI XML files must be specified via the --oaiXMLFolder option")
+        sys.exit(1)
+    if not 'manifestsFolder' in options:
+        print("An input directory that contains the manifest files must be specified via the --manifestsFolder option")
         sys.exit(1)
 
     if not 'outputFolder' in options:
