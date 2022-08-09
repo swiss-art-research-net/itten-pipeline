@@ -91,6 +91,7 @@ tasks:
     generates:
       - /data/xml/merged/*.xml
     cmds:
+      - rm -f /data/xml/merged/*.xml
       - python prepareDataForMapping.py --sourceFolder /data/source --manifestsFolder /data/manifests --oaiXMLFolder /data/xml/oai --outputFolder /data/xml/merged {{.CLI_ARGS}}
   
   retrieve-data-from-e-manuscripta:
