@@ -16,7 +16,9 @@ tasks:
       - task: retrieve-data-from-e-manuscripta
       - task: cache-iiif-manifests
       - task: prepare-data-for-mapping
+      - echo "Waiting for all processes to finish" && sleep 3s
       - task: perform-mapping
+      - echo "Waiting for mapping to be finished" && sleep 5s
       - task: ingest-data-main
 
   cache-iiif-manifests:
