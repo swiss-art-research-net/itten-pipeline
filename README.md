@@ -40,6 +40,12 @@ The pipeline can be controlled by the Task runner. To run the entire pipeline, r
 docker compose exec jobs task
 ```
 
+To limit the pipeline to a subset of records use the `--limit` parameter. To include only records that have a doi, use the `--onlyWithDoi` parameter. Both parameters can be combined.
+
+```sh
+docker compose exec jobs task -- --limit 20 --onlyWithDoi true
+```
+
 To list available tasks, run:
 
 ```sh
