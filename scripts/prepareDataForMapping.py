@@ -242,7 +242,8 @@ def addOaiXMLData(records, oaiData):
     :return: list of CMI records with added XML data
     """
 
-    def removeUnneededTags(node):
+    def prepareForMerge(node):
+        # Remove some nodes that will not be used in the apping
         pathsToRemove = [
             ".//{http://www.loc.gov/METS/}metsHdr",
             ".//{http://www.loc.gov/METS/}fileSec",
@@ -253,14 +254,20 @@ def addOaiXMLData(records, oaiData):
         
         for unneeded in nodesToRemove:
             unneeded.getparent().remove(unneeded)
-            
+        
+        # Remove namespaces
+        for elem in node.getiterator():
+            elem.tag = etree.QName(elem).localname
+
         return node
 
     for record in records:
         guid = record.find('guid').text
         if guid in oaiData:
             oaiNode = etree.SubElement(record, 'oai')
-            oaiNode.append(removeUnneededTags(oaiData[guid]).getroot())
+            oaiRecord = prepareForMerge(oaiData[guid])
+            for child in oaiRecord.getroot():
+                oaiNode.append(child)
     return records
 
 def convertRecordsToXML(records):
