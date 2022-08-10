@@ -228,5 +228,30 @@
                 </range>
             </link>
         </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/oai/metadata/mets/dmdSec/mdWrap/xmlData/mods</source_node>
+                <target_node>
+                    <if>
+                        <not>
+                            <if>
+                                <equals value="43a2ab3eb18841db9ec1af3669b74f39">recordInfo/recordIdentifier/text()</equals>
+                            </if>
+                        </not>
+                    </if>
+                    <entity>
+                        <type>crm:E22_Human-Made_Object</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">object</arg>
+                            <arg name="id" type="xpath">recordInfo/recordIdentifier/text()</arg>
+                        </instance_generator>
+                        <label_generator name="Literal">
+                            <arg name="text" type="xpath">titleInfo/title/text()</arg>
+                            <arg name="language" type="constant">de</arg>
+                        </label_generator>
+                    </entity>
+                </target_node>
+            </domain>
+        </mapping>
     </mappings>
 </x3ml>
