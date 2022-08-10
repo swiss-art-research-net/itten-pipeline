@@ -16,6 +16,9 @@
         <namespace prefix="rso" uri="http://www.researchspace.org/ontology/" />
         <namespace prefix="aat" uri="http://vocab.getty.edu/aat/" />
         <namespace prefix="wd" uri="http://www.wikidata.org/entity/"/>
+        <namespace prefix="mets" uri="http://www.loc.gov/METS/"/>
+        <namespace prefix="mods" uri="http://www.loc.gov/mods/v3"/>
+        <namespace prefix="oai" uri="http://www.openarchives.org/OAI/2.0/"/>
     </namespaces>
     <mappings>
         <mapping>
@@ -148,6 +151,35 @@
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">type</arg>
                                 <arg name="id_HASHED_CONTENTS" type="xpath">if (gnd/text()) then (gnd/text()) else (bezeichnung/text())</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>oai/metadata/mets/dmdSec/mdWrap/xmlData/mods</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <not>
+                                <if>
+                                    <equals value="43a2ab3eb18841db9ec1af3669b74f39">recordInfo/recordIdentifier/text()</equals>
+                                </if>
+                            </not>
+                        </if>
+                        <relationship>crm:P46_is_composed_of</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>oai/metadata/mets/dmdSec/mdWrap/xmlData/mods</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E22_Human-Made_Object</type>
+                            <instance_generator name="URIwithTypeAndId">
+                                <arg name="type" type="constant">object</arg>
+                                <arg name="id" type="xpath">recordInfo/recordIdentifier/text()</arg>
                             </instance_generator>
                         </entity>
                     </target_node>
