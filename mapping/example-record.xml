@@ -261,7 +261,7 @@
                 <dv:presentation>https://www.e-manuscripta.ch/zuzcmi/id/3602895</dv:presentation>
                 <dv:iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602895/manifest</dv:iiif>
                 <dv:sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3602895</dv:sru>
-              </dv:links>
+              <images><image><height>4789</height><width>3443</width><url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602896</url></image><image><height>4797</height><width>3443</width><url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602898</url></image></images></dv:links>
             </mets:xmlData>
           </mets:mdWrap>
         </mets:digiprovMD>
@@ -597,7 +597,7 @@
                 <dv:presentation>https://www.e-manuscripta.ch/zuzcmi/id/3510527</dv:presentation>
                 <dv:iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510527/manifest</dv:iiif>
                 <dv:sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3510527</dv:sru>
-              </dv:links>
+              <images><image><height>3200</height><width>3380</width><url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510529</url></image><image><height>3200</height><width>3380</width><url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510530</url></image></images></dv:links>
             </mets:xmlData>
           </mets:mdWrap>
         </mets:digiprovMD>
@@ -843,7 +843,7 @@
                 <dv:presentation>https://www.e-manuscripta.ch/zuzcmi/id/3472580</dv:presentation>
                 <dv:iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3472580/manifest</dv:iiif>
                 <dv:sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3472580</dv:sru>
-              </dv:links>
+              <images><image><height>3347</height><width>3888</width><url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3472581</url></image></images></dv:links>
             </mets:xmlData>
           </mets:mdWrap>
         </mets:digiprovMD>
