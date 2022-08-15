@@ -22,7 +22,9 @@ tasks:
       - echo "Waiting for all processes to finish" && sleep 3s
       - task: perform-mapping
       - echo "Waiting for mapping to be finished" && sleep 5s
+      - task: retrieve-additional-data
       - task: ingest-data-main
+      - task: ingest-data-additional
       - task: ingest-ontologies
 
   cache-iiif-manifests:
@@ -66,6 +68,18 @@ tasks:
       - echo "Ingest {{.NAME}}"
       - curl -X POST -H 'Content-Type:{{.TYPE}}' --data-binary '@{{.FILE}}' {{.BLAZEGRAPH_ENDPOINT}}?context-uri={{.GRAPH}}
 
+  ingest-data-additional:
+    desc: Ingest the TTL and Trig files located in the data/ttl/additional folder to the Blazegraph instance. 
+    sources:
+      - /data/ttl/additional/*.ttl
+      - /data/ttl/additional/*.trig
+    cmds:
+      - echo "Ingest additional data"
+      - task: ingest-data-from-folder
+        vars: 
+          FOLDER: /data/ttl/additional
+          GRAPH: https://resource.swissartresearch.net/graph/external
+          
   ingest-data-main:
     desc: Ingest the TTL files located  in /data/ttl to the Blazegraph instance
     sources:
@@ -124,6 +138,16 @@ tasks:
       - rm -f /data/xml/merged/*.xml
       - python prepareDataForMapping.py --sourceFolder /data/source --manifestsFolder /data/manifests --oaiXMLFolder /data/xml/oai --outputFolder /data/xml/merged {{.CLI_ARGS}}
   
+  retrieve-additional-data:
+    desc: Retrieve additional reference data for the mapped data
+    sources:
+      - /data/ttl/main/*.ttl
+      - /scripts/retrieveAdditionalData.py
+    generates:
+      - /data/ttl/additional/gnd.ttl
+    cmds:
+      - python retrieveAdditionalData.py --sourceFolder /data/ttl/main --targetFolder /data/ttl/additional --sources gnd,wd
+
   retrieve-data-from-e-manuscripta:
     desc: Retrieve the OAI records from from e-manuscripta
     sources:
