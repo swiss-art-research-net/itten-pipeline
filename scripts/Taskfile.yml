@@ -23,6 +23,7 @@ tasks:
       - task: perform-mapping
       - echo "Waiting for mapping to be finished" && sleep 5s
       - task: ingest-data-main
+      - task: ingest-ontologies
 
   cache-iiif-manifests:
     desc: Cache the IIIF manifests linked in the OAI XML records
@@ -60,6 +61,11 @@ tasks:
           count=$((count+1)) 
         done
 
+  ingest-data-from-file:
+    cmds:
+      - echo "Ingest {{.NAME}}"
+      - curl -X POST -H 'Content-Type:{{.TYPE}}' --data-binary '@{{.FILE}}' {{.BLAZEGRAPH_ENDPOINT}}?context-uri={{.GRAPH}}
+
   ingest-data-main:
     desc: Ingest the TTL files located  in /data/ttl to the Blazegraph instance
     sources:
@@ -70,6 +76,25 @@ tasks:
         vars:
           FOLDER: /data/ttl/main
           GRAPH: https://resource.swissartresearch.net/graph/main
+  
+  ingest-ontologies:
+    desc: Ingests the ontologies into individual named Graphs
+    sources:
+      - /mapping/schemas/CIDOC_CRM_7.1.1_RDFS_Impl_v1.1.rdfs
+      - /mapping/schemas/CRMdig_v3.2.1.rdfs
+    cmds:
+      - task: ingest-data-from-file
+        vars:
+          NAME: CIDOC-CRM
+          FILE: /mapping/schemas/CIDOC_CRM_7.1.1_RDFS_Impl_v1.1.rdfs
+          TYPE: application/rdf+xml
+          GRAPH: http://www.cidoc-crm.org/cidoc-crm/
+      - task: ingest-data-from-file
+        vars:
+          NAME: CRMdig
+          FILE: /mapping/schemas/CRMdig_v3.2.1.rdfs
+          TYPE: application/rdf+xml
+          GRAPH: http://www.ics.forth.gr/isl/CRMdig/
 
   perform-mapping:
     desc: Map the input XML data to CIDOC/RDF
