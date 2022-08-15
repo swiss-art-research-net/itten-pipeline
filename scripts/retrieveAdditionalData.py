@@ -4,11 +4,15 @@ import sys
 from rdflib import Graph
 from urllib import request
 from os import path, walk
+from SPARQLWrapper import SPARQLWrapper, N3
+from time import sleep
 from tqdm import tqdm
 
 PREFIXES = """
     PREFIX gvp:  <http://vocab.getty.edu/ontology#>
     PREFIX gndo:  <https://d-nb.info/standards/elementset/gnd#>
+    PREFIX wd: <http://www.wikidata.org/entity/>
+    PREFIX wdt: <http://www.wikidata.org/prop/direct/>
     """
 
 def retrieveData(options):
@@ -19,7 +23,17 @@ def retrieveData(options):
     sourceIdentifiers = extractIdentifiers(sourceFolder, sources)
 
     if 'gnd' in sourceIdentifiers and len(sourceIdentifiers['gnd']) > 0:
+        print("Retrieving GND data")
         status = retrieveGndData(sourceIdentifiers['gnd'], targetFolder)
+        if status['status'] == 'success':
+            print(status['message'])
+        else:
+            print("Error:", status['message'])
+            sys.exit(1)
+
+    if 'wd' in sourceIdentifiers and len(sourceIdentifiers['wd']) > 0:
+        print("Retrieving Wikidata data")
+        status = retrieveWdData(sourceIdentifiers['wd'], targetFolder)
         if status['status'] == 'success':
             print(status['message'])
         else:
@@ -105,6 +119,58 @@ def retrieveGndData(identifiers, targetFolder):
         "message": "Retrieved %d additional GND identifiers (%d present in total)" % (len(identifiersToRetrieve), len(identifiers))
     }
 
+def retrieveWdData(identifiers, targetFolder):
+
+    def chunker(seq, size):
+        # Function to loop through list in chunks
+        return (seq[pos:pos + size] for pos in range(0, len(seq), size))
+
+    # Read the output file and query for existing URIs
+    targetFile = path.join(targetFolder, 'wd.ttl')
+    existingIdentifiers = queryIdentifiersInFile(targetFile, "?identifier wdt:P31 ?type .")
+
+    
+    # Filter out existing identifiers
+    identifiersToRetrieve = [d for d in identifiers if d not in existingIdentifiers]
+
+    # Retrieve relevant data from Wikidata and append to ttl file
+    wdEndpoint = "https://query.wikidata.org/sparql"
+    batchSizeForRetrieval = 100
+    agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+    sparql = SPARQLWrapper(wdEndpoint, agent=agent)    
+    with open(targetFile, 'a') as outputFile:
+        for batch in tqdm(chunker(identifiersToRetrieve, batchSizeForRetrieval)):
+            query = """
+                PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+                CONSTRUCT {
+                    ?entity wdt:P31 ?type ;
+                        wdt:P625 ?coordinates ;
+                        wdt:P18 ?image .
+                } WHERE {
+                    {
+                        ?entity wdt:P31 ?type .
+                    } UNION {
+                        ?entity wdt:P625 ?coordinates .
+                    } UNION {
+                        ?entity wdt:P18 ?image .
+                    }
+                    VALUES (?entity) {
+                        %s
+                    }
+                }
+
+            """ % ( "(<" + ">)\n(<".join(batch) + ">)" )
+            sparql.setQuery(query)
+            try:
+                results = sparql.query().convert()
+            except urllib.error.HTTPError as exception:
+                print(exception)
+            sleep(3)
+            outputFile.write(results.serialize(format='turtle'))
+    return {
+        "status": "success",
+        "message": "Retrieved %d additional Wikidata identifiers (%d present in total)" % (len(identifiersToRetrieve), len(identifiers))
+    }
 
 if __name__ == "__main__":
     options = {}
