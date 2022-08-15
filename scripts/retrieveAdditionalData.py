@@ -1,3 +1,19 @@
+"""
+Script to retrieve additional data based on identifiers found in the Turtle files in the given folder.
+The sources that are queried and retrieved are specified in the sources parameter.
+Currently, the following sources are supported:
+- gnd: GND identifiers
+- wd: Wikidata identifiers
+
+Usage:
+python retrieveAdditionalData.py --sourceFolder <sourceFolder> --targetFolder <targetFolder> --sources <sources>
+
+sourceFolder: The folder where the Turtle files are stored.
+targetFolder: The folder where the retrieved data will be stored.
+sources: The sources to retrieve.
+"""
+
+
 import json
 import sys
 
@@ -40,7 +56,6 @@ def retrieveData(options):
             print("Error:", status['message'])
             sys.exit(1)
     
-
 def extractIdentifiers(folder, sources):
     """
     Extracts the identifiers from the Turtle files in the given folder.
@@ -88,6 +103,14 @@ def extractIdentifiers(folder, sources):
     return identifiers
     
 def queryIdentifiersInFile(sourceFile, queryPart):
+    """
+    Queries the given file for identifiers and returns a list of the identifiers found.
+    Expects a part of a SPARQL select query that is used in the WHERE clause that returns the identifier as ?identifier.
+    
+    :param sourceFile: The Turtle file to query.
+    :param queryPart: A part of a SPARQL select query that is used in the WHERE clause that returns the identifier as ?identifier.
+    :return: A list of the identifiers found.
+    """
     identifiers = []
     if path.isfile(sourceFile):
         data = Graph()
@@ -98,6 +121,14 @@ def queryIdentifiersInFile(sourceFile, queryPart):
     return identifiers
 
 def retrieveGndData(identifiers, targetFolder):
+    """
+    Retrieves the data for the given identifiers and writes it to a file named gnd.ttl in the target folder.
+    Only the data for the identifiers that are not already in the file is retrieved.
+    The data is retrieved from the LOBID API.
+    :param identifiers: The list of identifiers to retrieve.
+    :param targetFolder: The folder where the data is stored.
+    :return: A dictionary with the status and a message.
+    """
     # Read the output file and query for existing URIs
     targetFile = path.join(targetFolder, 'gnd.ttl')
     existingIdentifiers = queryIdentifiersInFile(targetFile, "?identifier a gndo:AuthorityResource .")
@@ -120,9 +151,22 @@ def retrieveGndData(identifiers, targetFolder):
     }
 
 def retrieveWdData(identifiers, targetFolder):
+    """
+    Retrieves the data for the given identifiers and writes it to a file named wd.ttl in the target folder.
+    Only the data for the identifiers that are not already in the file is retrieved.
+    The data is retrieved from the Wikidata SPARQL Endpoint.
+    :param identifiers: The list of identifiers to retrieve.
+    :param targetFolder: The folder where the data is stored.
+    :return: A dictionary with the status and a message.
+    """
 
     def chunker(seq, size):
-        # Function to loop through list in chunks
+        """
+        Function to loop through list in chunks
+        Yields successive chunks from seq.
+        :param seq: The list to loop through.
+        :param size: The size of the chunks.
+        """
         return (seq[pos:pos + size] for pos in range(0, len(seq), size))
 
     # Read the output file and query for existing URIs
