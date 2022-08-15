@@ -146,7 +146,7 @@ tasks:
     generates:
       - /data/ttl/additional/gnd.ttl
     cmds:
-      - python retrieveAdditionalData.py --sourceFolder /data/ttl/main --targetFolder /data/ttl/additional --sources gnd
+      - python retrieveAdditionalData.py --sourceFolder /data/ttl/main --targetFolder /data/ttl/additional --sources gnd,wd
 
   retrieve-data-from-e-manuscripta:
     desc: Retrieve the OAI records from from e-manuscripta
