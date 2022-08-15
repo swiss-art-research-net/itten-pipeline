@@ -142,6 +142,7 @@ tasks:
     desc: Retrieve additional reference data for the mapped data
     sources:
       - /data/ttl/main/*.ttl
+      - /scripts/retrieveAdditionalData.py
     generates:
       - /data/ttl/additional/gnd.ttl
     cmds:
