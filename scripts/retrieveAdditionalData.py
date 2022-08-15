@@ -2,7 +2,9 @@
 Script to retrieve additional data based on identifiers found in the Turtle files in the given folder.
 The sources that are queried and retrieved are specified in the sources parameter.
 Currently, the following sources are supported:
+- aat: Getty AAT
 - gnd: GND identifiers
+- loc: LOC identifiers
 - wd: Wikidata identifiers
 
 Usage:
@@ -15,6 +17,7 @@ sources: The sources to retrieve.
 
 
 import json
+import requests
 import sys
 
 from rdflib import Graph
@@ -32,29 +35,39 @@ PREFIXES = """
     """
 
 def retrieveData(options):
+
+    def printStatus(status):
+        if status['status'] == 'success':
+            print(status['message'])
+        else:
+            print("Error:", status['message'])
+            sys.exit(1)
+
     sourceFolder = options['sourceFolder']
     targetFolder = options['targetFolder']
     sources = options['sources']
 
     sourceIdentifiers = extractIdentifiers(sourceFolder, sources)
 
+    if 'aat' in sourceIdentifiers and len(sourceIdentifiers['aat']) > 0:
+        print("Retrieving AAT data")
+        status = retrieveAatData(sourceIdentifiers['aat'], targetFolder)
+        printStatus(status)
+
+    if 'loc' in sourceIdentifiers and len(sourceIdentifiers['loc']) > 0:
+        print("Retrieving LOC data")
+        status = retrieveLocData(sourceIdentifiers['loc'], targetFolder)
+        printStatus(status)
+
     if 'gnd' in sourceIdentifiers and len(sourceIdentifiers['gnd']) > 0:
         print("Retrieving GND data")
         status = retrieveGndData(sourceIdentifiers['gnd'], targetFolder)
-        if status['status'] == 'success':
-            print(status['message'])
-        else:
-            print("Error:", status['message'])
-            sys.exit(1)
+        printStatus(status)
 
     if 'wd' in sourceIdentifiers and len(sourceIdentifiers['wd']) > 0:
         print("Retrieving Wikidata data")
         status = retrieveWdData(sourceIdentifiers['wd'], targetFolder)
-        if status['status'] == 'success':
-            print(status['message'])
-        else:
-            print("Error:", status['message'])
-            sys.exit(1)
+        printStatus(status)
     
 def extractIdentifiers(folder, sources):
     """
@@ -67,7 +80,10 @@ def extractIdentifiers(folder, sources):
     """
 
     identifierQueries = {
-        "aat": "?identifier a gvp:Concept .",
+        "aat": """
+            ?s ?p ?identifier .
+            FILTER(REGEX(STR(?identifier),"http://vocab.getty.edu/"))
+        """,
         "gnd": """
             ?s ?p ?identifier .
             FILTER(REGEX(STR(?identifier),"https://d-nb.info/gnd/"))
@@ -120,6 +136,43 @@ def queryIdentifiersInFile(sourceFile, queryPart):
             identifiers.append(str(row[0]))
     return identifiers
 
+def retrieveAatData(identifiers, targetFolder):
+    """
+    Retrieves the data for the given identifiers and writes it to a file named aat.ttl in the target folder.
+    Only the data for the identifiers that are not already in the file is retrieved.
+    The data is retrieved from the Getty AAT.
+    :param identifiers: The list of identifiers to retrieve.
+    :param targetFolder: The folder where the data is stored.
+    :return: A dictionary with the status and a message.
+    """
+    # Read the output file and query for existing URIs
+    targetFile = path.join(targetFolder, 'aat.ttl')
+    existingIdentifiers = queryIdentifiersInFile(targetFile, "?identifier a gvp:Concept .")
+    # Filter out existing identifiers
+    identifiersToRetrieve = [d for d in identifiers if d not in existingIdentifiers]
+    # Retrieve ttl data from GND and append to ttl file
+    with open(targetFile, 'a') as outputFile:
+        for identifier in tqdm(identifiersToRetrieve):
+            url = "%s.ttl" % identifier
+            try:
+                firstRequest = requests.get(url)
+                # Follow redirect
+                if firstRequest.status_code == 200:
+                    outputFile.write(firstRequest.text + "\n")
+                elif firstRequest.status_code == 301:
+                    url = firstRequest.headers['location']
+                    secondRequest = requests.get(url)
+                    outputFile.write(secondRequest.text + "\n")
+            except:
+                print("Could not retrieve", url)
+
+        outputFile.close()
+    return {
+        "status": "success",
+        "message": "Retrieved %d additional LOC identifiers (%d present in total)" % (len(identifiersToRetrieve), len(identifiers))
+    }
+
+
 def retrieveGndData(identifiers, targetFolder):
     """
     Retrieves the data for the given identifiers and writes it to a file named gnd.ttl in the target folder.
@@ -148,6 +201,42 @@ def retrieveGndData(identifiers, targetFolder):
     return {
         "status": "success",
         "message": "Retrieved %d additional GND identifiers (%d present in total)" % (len(identifiersToRetrieve), len(identifiers))
+    }
+
+def retrieveLocData(identifiers, targetFolder):
+    """
+    Retrieves the data for the given identifiers and writes it to a file named loc.ttl in the target folder.
+    Only the data for the identifiers that are not already in the file is retrieved.
+    The data is retrieved from the Library of Congress API.
+    :param identifiers: The list of identifiers to retrieve.
+    :param targetFolder: The folder where the data is stored.
+    :return: A dictionary with the status and a message.
+    """
+    # Read the output file and query for existing URIs
+    targetFile = path.join(targetFolder, 'loc.ttl')
+    existingIdentifiers = queryIdentifiersInFile(targetFile, "?identifier a <http://www.loc.gov/mads/rdf/v1#Authority> .")
+    # Filter out existing identifiers
+    identifiersToRetrieve = [d for d in identifiers if d not in existingIdentifiers]
+    # Retrieve ttl data from GND and append to ttl file
+    with open(targetFile, 'a') as outputFile:
+        for identifier in tqdm(identifiersToRetrieve):
+            url = "%s.nt" % identifier
+            try:
+                firstRequest = requests.get(url)
+                # Follow redirect
+                if firstRequest.status_code == 200:
+                    outputFile.write(firstRequest.text + "\n")
+                elif firstRequest.status_code == 301:
+                    url = firstRequest.headers['location']
+                    secondRequest = requests.get(url)
+                    outputFile.write(secondRequest.text + "\n")
+            except:
+                print("Could not retrieve", url)
+
+        outputFile.close()
+    return {
+        "status": "success",
+        "message": "Retrieved %d additional LOC identifiers (%d present in total)" % (len(identifiersToRetrieve), len(identifiers))
     }
 
 def retrieveWdData(identifiers, targetFolder):
