@@ -338,6 +338,7 @@
                     <target_node>
                         <entity>
                             <type>crmdig:D1_Digital_Object</type>
+                            <type>rso:EX_Digital_Image</type>
                             <instance_generator name="URIorUUID">
                                 <arg name="text" type="xpath">text()</arg>
                             </instance_generator>
