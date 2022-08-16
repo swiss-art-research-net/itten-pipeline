@@ -47,8 +47,10 @@ def retrieveData(options):
     targetFolder = options['targetFolder']
     sources = options['sources']
 
+    # Extract identifiers for the specified sources from Turtle files
     sourceIdentifiers = extractIdentifiers(sourceFolder, sources)
 
+    # Check if the requested identifiers are present and if yes, retrieve them
     if 'aat' in sourceIdentifiers and len(sourceIdentifiers['aat']) > 0:
         print("Retrieving AAT data")
         status = retrieveAatData(sourceIdentifiers['aat'], targetFolder)
