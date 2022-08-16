@@ -210,6 +210,7 @@ def addImageDataFromManifests(records, manifestsFolder):
         imagesNode = etree.Element("images")
         for image in images:
             imageNode = etree.SubElement(imagesNode, "image")
+            imageNode.set("id",image['image'].rsplit('/', 1)[-1])
             etree.SubElement(imageNode, "height").text = str(image['height'])
             etree.SubElement(imageNode, "width").text = str(image['width'])
             etree.SubElement(imageNode, "url", type="iiif").text = image['image']
