@@ -29,7 +29,7 @@
                         <type>crm:E78_Curated_Holding</type>
                         <instance_generator name="URIwithTypeAndId">
                             <arg name="type" type="constant">collection</arg>
-                            <arg name="id" type="xpath">guid/text()</arg>
+                            <arg name="id" type="xpath">concat("jila-", guid/text())</arg>
                         </instance_generator>
                         <label_generator name="Literal">
                             <arg name="text" type="xpath">titel/text()</arg>
@@ -49,7 +49,7 @@
                             <type>crm:E42_Identifier</type>
                             <instance_generator name="URIwithTypeSubtypeAndId">
                                 <arg name="type" type="constant">collection</arg>
-                                <arg name="id" type="xpath">text()</arg>
+                                <arg name="id" type="xpath">concat("jila-", text())</arg>
                                 <arg name="subtype" type="constant">guid</arg>
                             </instance_generator>
                             <additional>
@@ -97,7 +97,7 @@
                             <type>crm:E42_Identifier</type>
                             <instance_generator name="URIwithTypeSubtypeAndId">
                                 <arg name="type" type="constant">collection</arg>
-                                <arg name="id" type="xpath">../guid/text()</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
                                 <arg name="subtype" type="constant">signatur</arg>
                             </instance_generator>
                             <additional>
@@ -179,7 +179,7 @@
                             <type>crm:E22_Human-Made_Object</type>
                             <instance_generator name="URIwithTypeAndId">
                                 <arg name="type" type="constant">object</arg>
-                                <arg name="id" type="xpath">substring(../../../@ID, 3)</arg>
+                                <arg name="id" type="xpath">concat("jila-", substring(../../../@ID, 3))</arg>
                             </instance_generator>
                         </entity>
                     </target_node>
@@ -236,7 +236,7 @@
                         <type>crm:E22_Human-Made_Object</type>
                         <instance_generator name="URIwithTypeAndId">
                             <arg name="type" type="constant">object</arg>
-                            <arg name="id" type="xpath">substring(@ID, 9)</arg>
+                            <arg name="id" type="xpath">concat("jila-", substring(@ID, 9))</arg>
                         </instance_generator>
                     </entity>
                 </target_node>
@@ -257,7 +257,7 @@
                             <type>crm:E36_Visual_Item</type>
                             <instance_generator name="URIwithTypeAndId">
                                 <arg name="type" type="constant">image</arg>
-                                <arg name="id" type="xpath">@id</arg>
+                                <arg name="id" type="xpath">concat("jila-", @id)</arg>
                             </instance_generator>
                         </entity>
                     </target_node>
@@ -272,7 +272,7 @@
                         <type>crm:E36_Visual_Item</type>
                         <instance_generator name="URIwithTypeAndId">
                             <arg name="type" type="constant">image</arg>
-                            <arg name="id" type="xpath">@id</arg>
+                            <arg name="id" type="xpath">concat("jila-", @id)</arg>
                         </instance_generator>
                     </entity>
                 </target_node>
@@ -291,7 +291,7 @@
                             <type>crmdig:D1_Digital_Object</type>
                             <instance_generator name="URIwithTypeAndId">
                                 <arg name="type" type="constant">digitalImage</arg>
-                                <arg name="id" type="xpath">../@id</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../@id)</arg>
                             </instance_generator>
                             <additional>
                                 <relationship>crm:P2_has_type</relationship>
@@ -315,7 +315,7 @@
                             <type>la:DigitalService</type>
                             <instance_generator name="URIwithTypeAndId">
                                 <arg name="type" type="constant">iiif</arg>
-                                <arg name="id" type="xpath">../@id</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../@id)</arg>
                             </instance_generator>
                             <additional>
                                 <relationship>la:conforms_to</relationship>
