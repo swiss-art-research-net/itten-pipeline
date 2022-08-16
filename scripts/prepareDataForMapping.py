@@ -217,7 +217,7 @@ def addImageDataFromManifests(records, manifestsFolder):
 
     errors = []
     for record in records:
-        for presentation in record.findall(".//dv:iiif", namespaces={"dv": "http://dfg-viewer.de/"}):
+        for presentation in record.findall(".//iiif"):
             result = getImagesFromCachedManifest(presentation.text)
             if result['status'] == "success" and result['images']:
                 presentation.getparent().append(imageListToXml(result['images']))
