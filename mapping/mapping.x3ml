@@ -228,5 +228,123 @@
                 </range>
             </link>
         </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD</source_node>
+                <target_node>
+                    <entity>
+                        <type>crm:E22_Human-Made_Object</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">object</arg>
+                            <arg name="id" type="xpath">substring(@ID, 9)</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>mdWrap/xmlData/links/images/image</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P138i_has_representation</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>mdWrap/xmlData/links/images/image</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E36_Visual_Item</type>
+                            <instance_generator name="URIwithTypeAndId">
+                                <arg name="type" type="constant">image</arg>
+                                <arg name="id" type="xpath">@id</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image</source_node>
+                <target_node>
+                    <entity>
+                        <type>crm:E36_Visual_Item</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">image</arg>
+                            <arg name="id" type="xpath">@id</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>url</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <equals value="iiif">@type</equals>
+                        </if>
+                        <relationship>la:digitally_shown_by</relationship>
+                        <entity>
+                            <type>crmdig:D1_Digital_Object</type>
+                            <instance_generator name="URIwithTypeAndId">
+                                <arg name="type" type="constant">digitalImage</arg>
+                                <arg name="id" type="xpath">../@id</arg>
+                            </instance_generator>
+                            <additional>
+                                <relationship>crm:P2_has_type</relationship>
+                                <entity>
+                                    <type>crm:E55_Type</type>
+                                    <instance_info>
+                                        <constant/>
+                                    </instance_info>
+                                    <instance_generator name="URIwithAatId">
+                                        <arg name="id" type="xpath">300215302</arg>
+                                    </instance_generator>
+                                    <label_generator name="Literal">
+                                        <arg name="text" type="constant">Digital Image</arg>
+                                        <arg name="language" type="constant">en</arg>
+                                    </label_generator>
+                                </entity>
+                            </additional>
+                        </entity>
+                        <relationship>la:digitally_available_via</relationship>
+                        <entity>
+                            <type>la:DigitalService</type>
+                            <instance_generator name="URIwithTypeAndId">
+                                <arg name="type" type="constant">iiif</arg>
+                                <arg name="id" type="xpath">../@id</arg>
+                            </instance_generator>
+                            <additional>
+                                <relationship>la:conforms_to</relationship>
+                                <entity>
+                                    <type>crm:E73_Information_Object</type>
+                                    <instance_info>
+                                        <constant/>
+                                    </instance_info>
+                                    <instance_generator name="URIorUUID">
+                                        <arg name="text" type="constant">http://iiif.io/api/image</arg>
+                                    </instance_generator>
+                                </entity>
+                            </additional>
+                        </entity>
+                        <relationship>la:access_point</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>url</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crmdig:D1_Digital_Object</type>
+                            <instance_generator name="URIorUUID">
+                                <arg name="text" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
     </mappings>
 </x3ml>
