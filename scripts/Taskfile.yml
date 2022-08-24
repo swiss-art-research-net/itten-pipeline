@@ -14,6 +14,7 @@ tasks:
 
   default:
     desc: Runs the entire pipeline
+    silent: true
     cmds:
       - task: retrieve-data-from-e-manuscripta
       - task: cache-iiif-manifests
@@ -25,6 +26,7 @@ tasks:
       - task: ingest-data-main
       - task: ingest-data-additional
       - task: ingest-ontologies
+      - echo "Pipeline finished!"
 
   cache-iiif-manifests:
     desc: Cache the IIIF manifests linked in the OAI XML records
