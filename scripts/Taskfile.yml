@@ -6,7 +6,7 @@ vars:
   BLAZEGRAPH_ENDPOINT: http://blazegraph:8080/blazegraph/sparql
   OAI_ENDPOINT: https://www.e-manuscripta.ch/zuzcmi/oai
   GENERATOR_POLICY: /mapping/generator-policy.xml
-  MAPPING_BATCH_SIZE: 20
+  MAPPING_BATCH_SIZE: 1
 
 output: 'group'
 
