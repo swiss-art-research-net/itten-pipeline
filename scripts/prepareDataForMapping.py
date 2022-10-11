@@ -16,10 +16,12 @@ Parameters:
     --alignmentDataPrefix The prefix of the alignment data files. Defaults to "alignment-" (optional)
     --vlidMapFile         The path to the file containing the mapping between VLIDs and DOIs (optional)
     --onlyWithDoi         If set to true, only records that contain a DOI are output (optional)
+    --logFile             The path to a log file (optional)
 """
 
 import csv
 import json
+import logging
 import sys
 import unicodedata
 import urllib
@@ -323,8 +325,13 @@ def convertRecordsToXML(records):
 
         cleanedRecord = convertToSafeKeys(record)
         
-        xml = dicttoxml(cleanedRecord, attr_type=False, custom_root='record')
-        return etree.fromstring(xml)
+        xmlString = dicttoxml(cleanedRecord, attr_type=False, custom_root='record')
+        try:
+            xml = etree.fromstring(xmlString)
+        except Exception as e:
+
+            sys.exit(e)
+        return xml
     
     xmlRecords = []
     for record in records:
@@ -401,6 +408,9 @@ if __name__ == "__main__":
     
     if 'limit' in options:
         options['limit'] = int(options['limit'])
+
+    if 'logfile' in options:
+        logging.basicConfig(filename=options['logfile'], level=logging.DEBUG)
 
     if 'onlyWithDoi' in options:
         if options['onlyWithDoi'].lower() == 'true':
