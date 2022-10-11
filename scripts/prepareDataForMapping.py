@@ -13,6 +13,8 @@ Parameters:
     --sourceFolder        The folder containing the source JSON data
     --oaiXMLFolder        The folder containing the XML data retrieved from e-manuscripta
     --outputFolder        The folder to write the output XML files to
+    --limit               Limit the number of records to process
+    --offset              Offset the number of records to process
     --alignmentDataPrefix The prefix of the alignment data files. Defaults to "alignment-" (optional)
     --vlidMapFile         The path to the file containing the mapping between VLIDs and DOIs (optional)
     --onlyWithDoi         If set to true, only records that contain a DOI are output (optional)
@@ -47,7 +49,9 @@ def prepareData(options):
         records = [d for d in records if 'doi' in d]
 
     if 'limit' in options:
-        records = records[:options['limit']]
+        records = records[options['offset']:options['offset'] + options['limit']]
+    elif 'offset' in options:
+        records = records[options['offset']:]
 
     # Retrieve OAI records for records that have VLIDs
     oaiXmlData = retrieveOaiXMLData(records=records, oaiXMLFolder=oaiXMLFolder, vlidMapFile=vlidMapFile)
@@ -329,10 +333,10 @@ def convertRecordsToXML(records):
         try:
             xml = etree.fromstring(xmlString)
         except Exception as e:
-
-            sys.exit(e)
+            print("Error converting record to XML: %s" % e)
+            sys.exit()
         return xml
-    
+
     xmlRecords = []
     for record in records:
         xmlRecords.append(convertCmiJSONtoXML(record))
@@ -408,6 +412,11 @@ if __name__ == "__main__":
     
     if 'limit' in options:
         options['limit'] = int(options['limit'])
+    
+    if 'offset' in options:
+        options['offset'] = int(options['offset'])
+    else:
+        options['offset'] = 0
 
     if 'logfile' in options:
         logging.basicConfig(filename=options['logfile'], level=logging.DEBUG)
