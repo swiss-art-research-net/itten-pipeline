@@ -444,7 +444,7 @@
                     <source_node>register_id</source_node>
                     <target_node>
                         <if>
-                            <equals value="Verfasser (aut) (Creator)">register_rolle/text()</equals>
+                            <equals value="Verfasser (aut) (Creator)">../register_rolle/text()</equals>
                         </if>
                         <entity variable="object_author">
                             <type>crm:E39_Actor</type>
