@@ -19,7 +19,7 @@ services:
   jobs:
     build: ./services/jobs
     container_name: ${PROJECT_NAME}_jobs
-    image: swissartresearx/itten-jobs:1.0.0
+    image: swissartresearx/itten-jobs:1.0.2
     restart: unless-stopped
     volumes:
       - ./data:/data
