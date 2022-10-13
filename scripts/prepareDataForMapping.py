@@ -24,6 +24,7 @@ Parameters:
 import csv
 import json
 import logging
+import re
 import sys
 import unicodedata
 import urllib
@@ -334,7 +335,10 @@ def convertRecordsToXML(records):
             xml = etree.fromstring(xmlString)
         except Exception as e:
             print("Error converting record to XML: %s" % e)
-            sys.exit()
+            column = re.findall(r'column (\d+)', str(e))[0]
+            print("Error in column %s" % column)
+            print('-->' + str(xmlString[int(column)-10:int(column)+10]) + '<--')
+            sys.exit(1)
         return xml
 
     xmlRecords = []
