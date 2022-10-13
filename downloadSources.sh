@@ -10,5 +10,5 @@ download () {
   python3 scripts/getFileContentsFromGit.py $GITHUB_USERNAME $GITHUB_PERSONAL_ACCESS_TOKEN $REPO $remotepath $localpath
 }
 
-download "source/Update20221010.json" "data/source/cmi-export.json"
+download "source/Update20221013.json" "data/source/cmi-export.json"
 download "data/csv/archivalienarten.csv" "data/source/alignment-archivalienarten.csv"
