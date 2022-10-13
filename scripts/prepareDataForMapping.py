@@ -335,9 +335,10 @@ def convertRecordsToXML(records):
             xml = etree.fromstring(xmlString)
         except Exception as e:
             print("Error converting record to XML: %s" % e)
-            column = re.findall(r'column (\d+)', str(e))[0]
+            column = int(re.findall(r'column (\d+)', str(e))[0])
+            padding = 20
             print("Error in column %s" % column)
-            print('-->' + str(xmlString[int(column)-10:int(column)+10]) + '<--')
+            print(xmlString[column-padding:column-1].decode('utf-8-sig') + "-->" + xmlString[column:column+1].decode('utf-8-sig') + "<--" + xmlString[column+1:column+padding].decode('utf-8-sig'))
             sys.exit(1)
         return xml
 
