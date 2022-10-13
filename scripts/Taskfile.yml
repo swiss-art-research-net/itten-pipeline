@@ -131,6 +131,7 @@ tasks:
     desc: Prepare the source and OAI data for mapping. To include only a subset of the data, use the `--limit` option. To include only records with DOIs, use the `--onlyWithDoi` option.
     sources:
       - /scripts/prepareDataForMapping.py
+      - /scripts/lib/utils.py
       - /data/source/*.json
       - /data/xml/oai/*.xml
     generates:
