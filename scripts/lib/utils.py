@@ -1,7 +1,9 @@
+import chardet
 import csv
 import json
 import re
 import requests
+import sys
 from bs4 import BeautifulSoup
 from os import listdir
 from os.path import join
@@ -57,7 +59,7 @@ class RetrieveVLIDfromDOI:
         self.vlidMap[doi] = vlid
 
 
-def readRecords(directory):
+def readRecords(directory, *, detectEncoding=False, encoding='Windows-1252'):
     """
     Reads all JSON files in the given directory and returns a list of records.
     The link to the digitised version is extracted and stored in the doi field.
@@ -68,14 +70,30 @@ def readRecords(directory):
     inputFiles = [join(directory, d) for d in listdir(directory) if d.endswith('.json')]
     records = []
     for file in inputFiles:
-        with open(file, 'r') as f:
-            text = f.read()
+        if detectEncoding:
+            fileEncoding = chardet.detect(open(file, 'rb').read())['encoding']
+        else:
+            fileEncoding = encoding
+        with open(file, 'r', encoding=fileEncoding) as f:
+            try:
+                text = f.read()
+            except Exception as e:
+                print('Error while reading the data: %s' % e)
+                sys.exit(1)
+
             decodedData = text.encode().decode('utf-8-sig') 
             try:
                 data = json.loads(decodedData, strict=False)
                 records += data
             except Exception as e:
-                print(file, e)
+                print('Error while parsing the file %s: %s' % (file, e))
+                charSearch = re.search(r'char (\d+)', str(e))
+                if charSearch:
+                    charPos = int(charSearch.group(1))
+                    padding = 10
+                    print(decodedData[charPos-padding:charPos-1] + "-->" + decodedData[charPos] + "<--" + decodedData[charPos+1:charPos+padding])
+                    sys.exit(1)
+
     for record in records:
         if record['Link zu Digitalisat']:
             link = BeautifulSoup(record['Link zu Digitalisat'], 'html.parser')
