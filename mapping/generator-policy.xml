@@ -165,6 +165,10 @@
 		<pattern>{id}</pattern>
 	</generator>
 
+	<generator name="URIwithLocId" prefix="loc">
+		<pattern>{id}</pattern>
+	</generator>
+
 	<generator name="URIwithUlanId" prefix="ulan">
 		<pattern>{id}</pattern>
 	</generator>
