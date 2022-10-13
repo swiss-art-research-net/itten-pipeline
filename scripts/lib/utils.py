@@ -59,7 +59,7 @@ class RetrieveVLIDfromDOI:
         self.vlidMap[doi] = vlid
 
 
-def readRecords(directory, *, detectEncoding=False, encoding='Windows-1252'):
+def readRecords(directory, *, detectEncoding=False, encoding='utf-8'):
     """
     Reads all JSON files in the given directory and returns a list of records.
     The link to the digitised version is extracted and stored in the doi field.
