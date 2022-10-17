@@ -456,7 +456,7 @@
                                 <arg name="id" type="xpath">../dateCreated[1]/text()</arg>
                             </instance_generator>
                             <label_generator name="Constant">
-                                <arg name="text" type="xpath">text()</arg>
+                                <arg name="text" type="xpath">../dateCreated[1]/text()</arg>
                                 <arg name="language" type="constant"/>
                             </label_generator>
                         </entity>
