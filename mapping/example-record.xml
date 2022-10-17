@@ -121,178 +121,195 @@
     </registereintraege>
     <dateien/>
     <doi>https://doi.org/10.7891/e-manuscripta-132167</doi>
-    <oai><header>
-    <identifier>oai:www.e-manuscripta.ch/zuzcmi:3602895</identifier>
-    <datestamp>2022-05-04T15:08:19Z</datestamp>
-    <setSpec>emanuszuzcmi</setSpec>
-    <setSpec>document</setSpec>
-  </header>
-  <metadata>
-    <mets xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vl="http://visuallibrary.net/vl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
-      <dmdSec ID="md3212613">
-        <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
-          <xmlData>
-            <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-              <titleInfo>
-                <title>Itten, Johannes (1888-1967)</title>
-                <subTitle>Personenarchiv / Itten-Archiv</subTitle>
-              </titleInfo>
-              <typeOfResource>text</typeOfResource>
-              <originInfo>
-                <dateCreated>1794 - 2004</dateCreated>
-                <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1794-01-01</dateCreated>
-                <dateCreated point="end" encoding="w3cdtf">2005-01-01</dateCreated>
-              </originInfo>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
-              </language>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-              </language>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
-              </language>
-              <physicalDescription>
-                <extent>14.77 Laufmeter</extent>
-              </physicalDescription>
-              <abstract>Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</abstract>
-              <location>
-                <shelfLocator>Hs NL 11</shelfLocator>
-              </location>
-              <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
-              <extension>
-                <originInfo displayLabel="dc">
-                  <dateCreated encoding="w3cdtf" point="start">1794-01-01</dateCreated>
-                  <dateCreated encoding="w3cdtf" point="end">2005-01-01</dateCreated>
-                </originInfo>
-                <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
-              </extension>
-              <recordInfo>
-                <recordIdentifier source="emanuszuzcmi">43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
-              </recordInfo>
-            </mods>
-          </xmlData>
-        </mdWrap>
-      </dmdSec>
-      <dmdSec ID="md3602895">
-        <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
-          <xmlData>
-            <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-              <titleInfo>
-                <title>Leopold Reidemeister an Johannes Itten</title>
-              </titleInfo>
-              <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/119335603">
-                <displayForm>Reidemeister, Leopold</displayForm>
-                <role>
-                  <roleTerm type="code" authority="marcrelator">aut</roleTerm>
-                  <roleTerm type="text">Verfasser</roleTerm>
-                </role>
-              </name>
-              <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/118710990">
-                <displayForm>Itten, Johannes</displayForm>
-                <role>
-                  <roleTerm type="code" authority="marcrelator">rcp</roleTerm>
-                  <roleTerm type="text">Adressat</roleTerm>
-                </role>
-              </name>
-              <typeOfResource>text</typeOfResource>
-              <originInfo>
-                <place>
-                  <placeTerm type="text">Berlin</placeTerm>
-                </place>
-                <dateCreated>01.08.1961</dateCreated>
-                <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1961-08-01</dateCreated>
-                <dateCreated point="end" encoding="w3cdtf">1961-08-02</dateCreated>
-              </originInfo>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
-              </language>
-              <physicalDescription>
-                <extent>1 Blatt</extent>
-              </physicalDescription>
-              <identifier type="doi">10.7891/e-manuscripta-132167</identifier>
-              <location>
-                <shelfLocator>Hs NL 11: Ga 1.10.2</shelfLocator>
-              </location>
-              <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
-              <extension>
-                <relatedItem type="inventory">
+    <oai>
+      <header>
+        <identifier>oai:www.e-manuscripta.ch/zuzcmi:3602895</identifier>
+        <datestamp>2022-05-04T15:08:19Z</datestamp>
+        <setSpec>emanuszuzcmi</setSpec>
+        <setSpec>document</setSpec>
+      </header>
+      <metadata>
+        <mets xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:mets="http://www.loc.gov/METS/"
+          xmlns:mods="http://www.loc.gov/mods/v3"
+          xmlns:vl="http://visuallibrary.net/vl"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
+          <dmdSec ID="md3212613">
+            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+              <xmlData>
+                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
                   <titleInfo>
                     <title>Itten, Johannes (1888-1967)</title>
+                    <subTitle>Personenarchiv / Itten-Archiv</subTitle>
                   </titleInfo>
-                  <note type="content">Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/"Sturm-Ausstellung" Berlin 1961</note>
+                  <typeOfResource>text</typeOfResource>
+                  <originInfo>
+                    <dateCreated>1794 - 2004</dateCreated>
+                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1794-01-01</dateCreated>
+                    <dateCreated point="end" encoding="w3cdtf">2005-01-01</dateCreated>
+                  </originInfo>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+                  </language>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+                  </language>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
+                  </language>
+                  <physicalDescription>
+                    <extent>14.77 Laufmeter</extent>
+                  </physicalDescription>
+                  <abstract>Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</abstract>
+                  <location>
+                    <shelfLocator>Hs NL 11</shelfLocator>
+                  </location>
+                  <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
+                  <extension>
+                    <originInfo displayLabel="dc">
+                      <dateCreated encoding="w3cdtf" point="start">1794-01-01</dateCreated>
+                      <dateCreated encoding="w3cdtf" point="end">2005-01-01</dateCreated>
+                    </originInfo>
+                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
+                  </extension>
                   <recordInfo>
-                    <recordIdentifier>43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
+                    <recordIdentifier source="emanuszuzcmi">43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
                   </recordInfo>
-                </relatedItem>
-                <originInfo displayLabel="dc">
-                  <dateCreated encoding="w3cdtf" point="start">1961-08-01</dateCreated>
-                  <dateCreated encoding="w3cdtf" point="end">1961-08-02</dateCreated>
-                </originInfo>
-                <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
-              </extension>
-              <recordInfo>
-                <recordIdentifier source="emanuszuzcmi">9b570bfd545247fab57346996242c9fd</recordIdentifier>
-              </recordInfo>
-            </mods>
-          </xmlData>
-        </mdWrap>
-      </dmdSec>
-      <amdSec ID="amd3602895">
-        <rightsMD ID="rights3602895">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
-            <xmlData>
-              <rights xmlns:dv="http://dfg-viewer.de/">
-                <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
-                <owner>Zentralbibliothek Z&#252;rich</owner>
-                <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
-                <license>pdm</license>
-              </rights>
-            </xmlData>
-          </mdWrap>
-        </rightsMD>
-        <digiprovMD ID="digiprov3602895">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
-            <xmlData>
-              <links xmlns:dv="http://dfg-viewer.de/">
-                <reference>https://zbcollections.ch/home/#/content/9b570bfd545247fab57346996242c9fd</reference>
-                <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3602895</presentation>
-                <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602895/manifest</iiif>
-                <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3602895</sru>
-              <images><image id="3602896"><height>4789</height><width>3443</width><url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602896</url></image><image id="3602898"><height>4797</height><width>3443</width><url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602898</url></image></images></links>
-            </xmlData>
-          </mdWrap>
-        </digiprovMD>
-      </amdSec>
-      <amdSec ID="amd3212613">
-        <rightsMD ID="rights3212613">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
-            <xmlData>
-              <rights xmlns:dv="http://dfg-viewer.de/">
-                <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
-                <owner>Zentralbibliothek Z&#252;rich</owner>
-                <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
-                <license>pdm</license>
-              </rights>
-            </xmlData>
-          </mdWrap>
-        </rightsMD>
-        <digiprovMD ID="digiprov3212613">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
-            <xmlData>
-              <links xmlns:dv="http://dfg-viewer.de/">
-                <reference>https://zbcollections.ch/home/#/content/43a2ab3eb18841db9ec1af3669b74f39</reference>
-                <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3212613</presentation>
-                <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3212613/manifest</iiif>
-                <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3212613</sru>
-              </links>
-            </xmlData>
-          </mdWrap>
-        </digiprovMD>
-      </amdSec>
-      </mets>
-  </metadata>
-</oai>
+                </mods>
+              </xmlData>
+            </mdWrap>
+          </dmdSec>
+          <dmdSec ID="md3602895">
+            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+              <xmlData>
+                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+                  <titleInfo>
+                    <title>Leopold Reidemeister an Johannes Itten</title>
+                  </titleInfo>
+                  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/119335603">
+                    <displayForm>Reidemeister, Leopold</displayForm>
+                    <role>
+                      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                      <roleTerm type="text">Verfasser</roleTerm>
+                    </role>
+                  </name>
+                  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/118710990">
+                    <displayForm>Itten, Johannes</displayForm>
+                    <role>
+                      <roleTerm type="code" authority="marcrelator">rcp</roleTerm>
+                      <roleTerm type="text">Adressat</roleTerm>
+                    </role>
+                  </name>
+                  <typeOfResource>text</typeOfResource>
+                  <originInfo>
+                    <place>
+                      <placeTerm type="text">Berlin</placeTerm>
+                    </place>
+                    <dateCreated>01.08.1961</dateCreated>
+                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1961-08-01</dateCreated>
+                    <dateCreated point="end" encoding="w3cdtf">1961-08-02</dateCreated>
+                  </originInfo>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+                  </language>
+                  <physicalDescription>
+                    <extent>1 Blatt</extent>
+                  </physicalDescription>
+                  <identifier type="doi">10.7891/e-manuscripta-132167</identifier>
+                  <location>
+                    <shelfLocator>Hs NL 11: Ga 1.10.2</shelfLocator>
+                  </location>
+                  <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
+                  <extension>
+                    <relatedItem type="inventory">
+                      <titleInfo>
+                        <title>Itten, Johannes (1888-1967)</title>
+                      </titleInfo>
+                      <note type="content">Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/"Sturm-Ausstellung" Berlin 1961</note>
+                      <recordInfo>
+                        <recordIdentifier>43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
+                      </recordInfo>
+                    </relatedItem>
+                    <originInfo displayLabel="dc">
+                      <dateCreated encoding="w3cdtf" point="start">1961-08-01</dateCreated>
+                      <dateCreated encoding="w3cdtf" point="end">1961-08-02</dateCreated>
+                    </originInfo>
+                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
+                  </extension>
+                  <recordInfo>
+                    <recordIdentifier source="emanuszuzcmi">9b570bfd545247fab57346996242c9fd</recordIdentifier>
+                  </recordInfo>
+                </mods>
+              </xmlData>
+            </mdWrap>
+          </dmdSec>
+          <amdSec ID="amd3602895">
+            <rightsMD ID="rights3602895">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>pdm</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3602895">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/9b570bfd545247fab57346996242c9fd</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3602895</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602895/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3602895</sru>
+                    <images>
+                      <image id="3602896">
+                        <height>4789</height>
+                        <width>3443</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602896</url>
+                      </image>
+                      <image id="3602898">
+                        <height>4797</height>
+                        <width>3443</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602898</url>
+                      </image>
+                    </images>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+          <amdSec ID="amd3212613">
+            <rightsMD ID="rights3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>pdm</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/43a2ab3eb18841db9ec1af3669b74f39</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3212613</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3212613/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3212613</sru>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+        </mets>
+      </metadata>
+    </oai>
   </record>
 
 
@@ -454,178 +471,195 @@
     </registereintraege>
     <dateien/>
     <doi>https://doi.org/10.7891/e-manuscripta-128188</doi>
-    <oai><header>
-    <identifier>oai:www.e-manuscripta.ch/zuzcmi:3510527</identifier>
-    <datestamp>2022-02-26T10:07:10Z</datestamp>
-    <setSpec>emanuszuzcmi</setSpec>
-    <setSpec>document</setSpec>
-  </header>
-  <metadata>
-    <mets xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vl="http://visuallibrary.net/vl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
-      <dmdSec ID="md3212613">
-        <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
-          <xmlData>
-            <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-              <titleInfo>
-                <title>Itten, Johannes (1888-1967)</title>
-                <subTitle>Personenarchiv / Itten-Archiv</subTitle>
-              </titleInfo>
-              <typeOfResource>text</typeOfResource>
-              <originInfo>
-                <dateCreated>1794 - 2004</dateCreated>
-                <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1794-01-01</dateCreated>
-                <dateCreated point="end" encoding="w3cdtf">2005-01-01</dateCreated>
-              </originInfo>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
-              </language>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-              </language>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
-              </language>
-              <physicalDescription>
-                <extent>14.77 Laufmeter</extent>
-              </physicalDescription>
-              <abstract>Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</abstract>
-              <location>
-                <shelfLocator>Hs NL 11</shelfLocator>
-              </location>
-              <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
-              <extension>
-                <originInfo displayLabel="dc">
-                  <dateCreated encoding="w3cdtf" point="start">1794-01-01</dateCreated>
-                  <dateCreated encoding="w3cdtf" point="end">2005-01-01</dateCreated>
-                </originInfo>
-                <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
-              </extension>
-              <recordInfo>
-                <recordIdentifier source="emanuszuzcmi">43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
-              </recordInfo>
-            </mods>
-          </xmlData>
-        </mdWrap>
-      </dmdSec>
-      <dmdSec ID="md3510527">
-        <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
-          <xmlData>
-            <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-              <titleInfo>
-                <title>Willem Sandberg an Johannes Itten</title>
-              </titleInfo>
-              <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/118710990">
-                <displayForm>Itten, Johannes</displayForm>
-                <role>
-                  <roleTerm type="code" authority="marcrelator">rcp</roleTerm>
-                  <roleTerm type="text">Adressat</roleTerm>
-                </role>
-              </name>
-              <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/118751158">
-                <displayForm>Sandberg, Willem Jacob Henri Berend</displayForm>
-                <role>
-                  <roleTerm type="code" authority="marcrelator">aut</roleTerm>
-                  <roleTerm type="text">Verfasser</roleTerm>
-                </role>
-              </name>
-              <typeOfResource>text</typeOfResource>
-              <originInfo>
-                <place>
-                  <placeTerm type="text">Amsterdam</placeTerm>
-                </place>
-                <dateCreated>05.03.1957</dateCreated>
-                <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1957-03-05</dateCreated>
-                <dateCreated point="end" encoding="w3cdtf">1957-03-06</dateCreated>
-              </originInfo>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
-              </language>
-              <physicalDescription>
-                <extent>1 Blatt</extent>
-              </physicalDescription>
-              <identifier type="doi">10.7891/e-manuscripta-128188</identifier>
-              <location>
-                <shelfLocator>Hs NL 11: Ga 1.5.1</shelfLocator>
-              </location>
-              <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
-              <extension>
-                <relatedItem type="inventory">
+    <oai>
+      <header>
+        <identifier>oai:www.e-manuscripta.ch/zuzcmi:3510527</identifier>
+        <datestamp>2022-02-26T10:07:10Z</datestamp>
+        <setSpec>emanuszuzcmi</setSpec>
+        <setSpec>document</setSpec>
+      </header>
+      <metadata>
+        <mets xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:mets="http://www.loc.gov/METS/"
+          xmlns:mods="http://www.loc.gov/mods/v3"
+          xmlns:vl="http://visuallibrary.net/vl"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
+          <dmdSec ID="md3212613">
+            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+              <xmlData>
+                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
                   <titleInfo>
                     <title>Itten, Johannes (1888-1967)</title>
+                    <subTitle>Personenarchiv / Itten-Archiv</subTitle>
                   </titleInfo>
-                  <note type="content">Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/Ausstellung im Stedelijk Museum Amsterdam 1957</note>
+                  <typeOfResource>text</typeOfResource>
+                  <originInfo>
+                    <dateCreated>1794 - 2004</dateCreated>
+                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1794-01-01</dateCreated>
+                    <dateCreated point="end" encoding="w3cdtf">2005-01-01</dateCreated>
+                  </originInfo>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+                  </language>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+                  </language>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
+                  </language>
+                  <physicalDescription>
+                    <extent>14.77 Laufmeter</extent>
+                  </physicalDescription>
+                  <abstract>Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</abstract>
+                  <location>
+                    <shelfLocator>Hs NL 11</shelfLocator>
+                  </location>
+                  <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
+                  <extension>
+                    <originInfo displayLabel="dc">
+                      <dateCreated encoding="w3cdtf" point="start">1794-01-01</dateCreated>
+                      <dateCreated encoding="w3cdtf" point="end">2005-01-01</dateCreated>
+                    </originInfo>
+                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
+                  </extension>
                   <recordInfo>
-                    <recordIdentifier>43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
+                    <recordIdentifier source="emanuszuzcmi">43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
                   </recordInfo>
-                </relatedItem>
-                <originInfo displayLabel="dc">
-                  <dateCreated encoding="w3cdtf" point="start">1957-03-05</dateCreated>
-                  <dateCreated encoding="w3cdtf" point="end">1957-03-06</dateCreated>
-                </originInfo>
-                <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
-              </extension>
-              <recordInfo>
-                <recordIdentifier source="emanuszuzcmi">b587c12ecb8b4a5fb9c1b7e075b9f8c0</recordIdentifier>
-              </recordInfo>
-            </mods>
-          </xmlData>
-        </mdWrap>
-      </dmdSec>
-      <amdSec ID="amd3510527">
-        <rightsMD ID="rights3510527">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
-            <xmlData>
-              <rights xmlns:dv="http://dfg-viewer.de/">
-                <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
-                <owner>Zentralbibliothek Z&#252;rich</owner>
-                <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
-                <license>pdm</license>
-              </rights>
-            </xmlData>
-          </mdWrap>
-        </rightsMD>
-        <digiprovMD ID="digiprov3510527">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
-            <xmlData>
-              <links xmlns:dv="http://dfg-viewer.de/">
-                <reference>https://zbcollections.ch/home/#/content/b587c12ecb8b4a5fb9c1b7e075b9f8c0</reference>
-                <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3510527</presentation>
-                <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510527/manifest</iiif>
-                <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3510527</sru>
-              <images><image id="3510529"><height>3200</height><width>3380</width><url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510529</url></image><image id="3510530"><height>3200</height><width>3380</width><url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510530</url></image></images></links>
-            </xmlData>
-          </mdWrap>
-        </digiprovMD>
-      </amdSec>
-      <amdSec ID="amd3212613">
-        <rightsMD ID="rights3212613">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
-            <xmlData>
-              <rights xmlns:dv="http://dfg-viewer.de/">
-                <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
-                <owner>Zentralbibliothek Z&#252;rich</owner>
-                <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
-                <license>pdm</license>
-              </rights>
-            </xmlData>
-          </mdWrap>
-        </rightsMD>
-        <digiprovMD ID="digiprov3212613">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
-            <xmlData>
-              <links xmlns:dv="http://dfg-viewer.de/">
-                <reference>https://zbcollections.ch/home/#/content/43a2ab3eb18841db9ec1af3669b74f39</reference>
-                <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3212613</presentation>
-                <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3212613/manifest</iiif>
-                <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3212613</sru>
-              </links>
-            </xmlData>
-          </mdWrap>
-        </digiprovMD>
-      </amdSec>
-      </mets>
-  </metadata>
-</oai>
+                </mods>
+              </xmlData>
+            </mdWrap>
+          </dmdSec>
+          <dmdSec ID="md3510527">
+            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+              <xmlData>
+                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+                  <titleInfo>
+                    <title>Willem Sandberg an Johannes Itten</title>
+                  </titleInfo>
+                  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/118710990">
+                    <displayForm>Itten, Johannes</displayForm>
+                    <role>
+                      <roleTerm type="code" authority="marcrelator">rcp</roleTerm>
+                      <roleTerm type="text">Adressat</roleTerm>
+                    </role>
+                  </name>
+                  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/118751158">
+                    <displayForm>Sandberg, Willem Jacob Henri Berend</displayForm>
+                    <role>
+                      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                      <roleTerm type="text">Verfasser</roleTerm>
+                    </role>
+                  </name>
+                  <typeOfResource>text</typeOfResource>
+                  <originInfo>
+                    <place>
+                      <placeTerm type="text">Amsterdam</placeTerm>
+                    </place>
+                    <dateCreated>05.03.1957</dateCreated>
+                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1957-03-05</dateCreated>
+                    <dateCreated point="end" encoding="w3cdtf">1957-03-06</dateCreated>
+                  </originInfo>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+                  </language>
+                  <physicalDescription>
+                    <extent>1 Blatt</extent>
+                  </physicalDescription>
+                  <identifier type="doi">10.7891/e-manuscripta-128188</identifier>
+                  <location>
+                    <shelfLocator>Hs NL 11: Ga 1.5.1</shelfLocator>
+                  </location>
+                  <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
+                  <extension>
+                    <relatedItem type="inventory">
+                      <titleInfo>
+                        <title>Itten, Johannes (1888-1967)</title>
+                      </titleInfo>
+                      <note type="content">Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/Ausstellung im Stedelijk Museum Amsterdam 1957</note>
+                      <recordInfo>
+                        <recordIdentifier>43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
+                      </recordInfo>
+                    </relatedItem>
+                    <originInfo displayLabel="dc">
+                      <dateCreated encoding="w3cdtf" point="start">1957-03-05</dateCreated>
+                      <dateCreated encoding="w3cdtf" point="end">1957-03-06</dateCreated>
+                    </originInfo>
+                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
+                  </extension>
+                  <recordInfo>
+                    <recordIdentifier source="emanuszuzcmi">b587c12ecb8b4a5fb9c1b7e075b9f8c0</recordIdentifier>
+                  </recordInfo>
+                </mods>
+              </xmlData>
+            </mdWrap>
+          </dmdSec>
+          <amdSec ID="amd3510527">
+            <rightsMD ID="rights3510527">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>pdm</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3510527">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/b587c12ecb8b4a5fb9c1b7e075b9f8c0</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3510527</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510527/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3510527</sru>
+                    <images>
+                      <image id="3510529">
+                        <height>3200</height>
+                        <width>3380</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510529</url>
+                      </image>
+                      <image id="3510530">
+                        <height>3200</height>
+                        <width>3380</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510530</url>
+                      </image>
+                    </images>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+          <amdSec ID="amd3212613">
+            <rightsMD ID="rights3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>pdm</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/43a2ab3eb18841db9ec1af3669b74f39</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3212613</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3212613/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3212613</sru>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+        </mets>
+      </metadata>
+    </oai>
   </record>
 
 
@@ -714,161 +748,173 @@
     <registereintraege/>
     <dateien/>
     <doi>https://doi.org/10.7891/e-manuscripta-126366</doi>
-    <oai><header>
-    <identifier>oai:www.e-manuscripta.ch/zuzcmi:3472580</identifier>
-    <datestamp>2022-02-01T14:28:15Z</datestamp>
-    <setSpec>emanuszuzcmi</setSpec>
-    <setSpec>document</setSpec>
-  </header>
-  <metadata>
-    <mets xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vl="http://visuallibrary.net/vl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
-      <dmdSec ID="md3472580">
-        <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
-          <xmlData>
-            <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-              <titleInfo>
-                <title>Herstellung und Montage des Velums 14</title>
-              </titleInfo>
-              <typeOfResource>text</typeOfResource>
-              <originInfo>
-                <place>
-                  <placeTerm type="text">Amsterdam</placeTerm>
-                </place>
-                <dateCreated>1938</dateCreated>
-                <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1938-01-01</dateCreated>
-                <dateCreated point="end" encoding="w3cdtf">1939-01-01</dateCreated>
-              </originInfo>
-              <physicalDescription>
-                <extent>1 Fotoabzug</extent>
-              </physicalDescription>
-              <identifier type="doi">10.7891/e-manuscripta-126366</identifier>
-              <location>
-                <shelfLocator>Hs NL 11: Ch 3.1.14</shelfLocator>
-              </location>
-              <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
-              <extension>
-                <relatedItem type="inventory">
+    <oai>
+      <header>
+        <identifier>oai:www.e-manuscripta.ch/zuzcmi:3472580</identifier>
+        <datestamp>2022-02-01T14:28:15Z</datestamp>
+        <setSpec>emanuszuzcmi</setSpec>
+        <setSpec>document</setSpec>
+      </header>
+      <metadata>
+        <mets xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:mets="http://www.loc.gov/METS/"
+          xmlns:mods="http://www.loc.gov/mods/v3"
+          xmlns:vl="http://visuallibrary.net/vl"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
+          <dmdSec ID="md3472580">
+            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+              <xmlData>
+                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+                  <titleInfo>
+                    <title>Herstellung und Montage des Velums 14</title>
+                  </titleInfo>
+                  <typeOfResource>text</typeOfResource>
+                  <originInfo>
+                    <place>
+                      <placeTerm type="text">Amsterdam</placeTerm>
+                    </place>
+                    <dateCreated>1938</dateCreated>
+                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1938-01-01</dateCreated>
+                    <dateCreated point="end" encoding="w3cdtf">1939-01-01</dateCreated>
+                  </originInfo>
+                  <physicalDescription>
+                    <extent>1 Fotoabzug</extent>
+                  </physicalDescription>
+                  <identifier type="doi">10.7891/e-manuscripta-126366</identifier>
+                  <location>
+                    <shelfLocator>Hs NL 11: Ch 3.1.14</shelfLocator>
+                  </location>
+                  <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
+                  <extension>
+                    <relatedItem type="inventory">
+                      <titleInfo>
+                        <title>Itten, Johannes (1888-1967)</title>
+                      </titleInfo>
+                      <note type="content">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</note>
+                      <recordInfo>
+                        <recordIdentifier>43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
+                      </recordInfo>
+                    </relatedItem>
+                    <originInfo displayLabel="dc">
+                      <dateCreated encoding="w3cdtf" point="start">1938-01-01</dateCreated>
+                      <dateCreated encoding="w3cdtf" point="end">1939-01-01</dateCreated>
+                    </originInfo>
+                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
+                  </extension>
+                  <recordInfo>
+                    <recordIdentifier source="emanuszuzcmi">cdc330b211924b7dad51274f51831e18</recordIdentifier>
+                  </recordInfo>
+                </mods>
+              </xmlData>
+            </mdWrap>
+          </dmdSec>
+          <dmdSec ID="md3212613">
+            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+              <xmlData>
+                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
                   <titleInfo>
                     <title>Itten, Johannes (1888-1967)</title>
+                    <subTitle>Personenarchiv / Itten-Archiv</subTitle>
                   </titleInfo>
-                  <note type="content">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</note>
+                  <typeOfResource>text</typeOfResource>
+                  <originInfo>
+                    <dateCreated>1794 - 2004</dateCreated>
+                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1794-01-01</dateCreated>
+                    <dateCreated point="end" encoding="w3cdtf">2005-01-01</dateCreated>
+                  </originInfo>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+                  </language>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+                  </language>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
+                  </language>
+                  <physicalDescription>
+                    <extent>14.77 Laufmeter</extent>
+                  </physicalDescription>
+                  <abstract>Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</abstract>
+                  <location>
+                    <shelfLocator>Hs NL 11</shelfLocator>
+                  </location>
+                  <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
+                  <extension>
+                    <originInfo displayLabel="dc">
+                      <dateCreated encoding="w3cdtf" point="start">1794-01-01</dateCreated>
+                      <dateCreated encoding="w3cdtf" point="end">2005-01-01</dateCreated>
+                    </originInfo>
+                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
+                  </extension>
                   <recordInfo>
-                    <recordIdentifier>43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
+                    <recordIdentifier source="emanuszuzcmi">43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
                   </recordInfo>
-                </relatedItem>
-                <originInfo displayLabel="dc">
-                  <dateCreated encoding="w3cdtf" point="start">1938-01-01</dateCreated>
-                  <dateCreated encoding="w3cdtf" point="end">1939-01-01</dateCreated>
-                </originInfo>
-                <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
-              </extension>
-              <recordInfo>
-                <recordIdentifier source="emanuszuzcmi">cdc330b211924b7dad51274f51831e18</recordIdentifier>
-              </recordInfo>
-            </mods>
-          </xmlData>
-        </mdWrap>
-      </dmdSec>
-      <dmdSec ID="md3212613">
-        <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
-          <xmlData>
-            <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-              <titleInfo>
-                <title>Itten, Johannes (1888-1967)</title>
-                <subTitle>Personenarchiv / Itten-Archiv</subTitle>
-              </titleInfo>
-              <typeOfResource>text</typeOfResource>
-              <originInfo>
-                <dateCreated>1794 - 2004</dateCreated>
-                <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1794-01-01</dateCreated>
-                <dateCreated point="end" encoding="w3cdtf">2005-01-01</dateCreated>
-              </originInfo>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
-              </language>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-              </language>
-              <language>
-                <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
-              </language>
-              <physicalDescription>
-                <extent>14.77 Laufmeter</extent>
-              </physicalDescription>
-              <abstract>Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</abstract>
-              <location>
-                <shelfLocator>Hs NL 11</shelfLocator>
-              </location>
-              <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
-              <extension>
-                <originInfo displayLabel="dc">
-                  <dateCreated encoding="w3cdtf" point="start">1794-01-01</dateCreated>
-                  <dateCreated encoding="w3cdtf" point="end">2005-01-01</dateCreated>
-                </originInfo>
-                <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
-              </extension>
-              <recordInfo>
-                <recordIdentifier source="emanuszuzcmi">43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
-              </recordInfo>
-            </mods>
-          </xmlData>
-        </mdWrap>
-      </dmdSec>
-      <amdSec ID="amd3472580">
-        <rightsMD ID="rights3472580">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
-            <xmlData>
-              <rights xmlns:dv="http://dfg-viewer.de/">
-                <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
-                <owner>Zentralbibliothek Z&#252;rich</owner>
-                <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
-                <license>pdm</license>
-              </rights>
-            </xmlData>
-          </mdWrap>
-        </rightsMD>
-        <digiprovMD ID="digiprov3472580">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
-            <xmlData>
-              <links xmlns:dv="http://dfg-viewer.de/">
-                <reference>https://zbcollections.ch/home/#/content/cdc330b211924b7dad51274f51831e18</reference>
-                <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3472580</presentation>
-                <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3472580/manifest</iiif>
-                <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3472580</sru>
-              <images><image id="3472581"><height>3347</height><width>3888</width><url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3472581</url></image></images></links>
-            </xmlData>
-          </mdWrap>
-        </digiprovMD>
-      </amdSec>
-      <amdSec ID="amd3212613">
-        <rightsMD ID="rights3212613">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
-            <xmlData>
-              <rights xmlns:dv="http://dfg-viewer.de/">
-                <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
-                <owner>Zentralbibliothek Z&#252;rich</owner>
-                <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
-                <license>pdm</license>
-              </rights>
-            </xmlData>
-          </mdWrap>
-        </rightsMD>
-        <digiprovMD ID="digiprov3212613">
-          <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
-            <xmlData>
-              <links xmlns:dv="http://dfg-viewer.de/">
-                <reference>https://zbcollections.ch/home/#/content/43a2ab3eb18841db9ec1af3669b74f39</reference>
-                <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3212613</presentation>
-                <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3212613/manifest</iiif>
-                <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3212613</sru>
-              </links>
-            </xmlData>
-          </mdWrap>
-        </digiprovMD>
-      </amdSec>
-      </mets>
-  </metadata>
-</oai>
+                </mods>
+              </xmlData>
+            </mdWrap>
+          </dmdSec>
+          <amdSec ID="amd3472580">
+            <rightsMD ID="rights3472580">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>pdm</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3472580">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/cdc330b211924b7dad51274f51831e18</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3472580</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3472580/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3472580</sru>
+                    <images>
+                      <image id="3472581">
+                        <height>3347</height>
+                        <width>3888</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3472581</url>
+                      </image>
+                    </images>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+          <amdSec ID="amd3212613">
+            <rightsMD ID="rights3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>pdm</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/43a2ab3eb18841db9ec1af3669b74f39</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3212613</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3212613/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3212613</sru>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+        </mets>
+      </metadata>
+    </oai>
   </record>
 
 </collection>
