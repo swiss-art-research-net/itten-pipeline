@@ -12,6 +12,7 @@ python prepareDataForMapping.py --sourceFolder=<sourceFolder> --oaiXMLFolder=<oa
 Parameters:
     --sourceFolder        The folder containing the source JSON data
     --oaiXMLFolder        The folder containing the XML data retrieved from e-manuscripta
+    --manifestsFolder     The folder containing the cached IIIF manifests
     --outputFolder        The folder to write the output XML files to
     --limit               Limit the number of records to process
     --offset              Offset the number of records to process
