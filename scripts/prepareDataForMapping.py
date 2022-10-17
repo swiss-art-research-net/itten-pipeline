@@ -67,6 +67,9 @@ def prepareData(options):
     # Add data from OAI XML files
     recordsXML = addOaiXMLData(recordsXML, oaiXmlData)
 
+    # Add role codes to Register entries
+    recordsXML = addRoleCodesToRegisters(recordsXML)
+
     # Add IIIF image data
     recordsXML = addImageDataFromManifests(recordsXML, manifestsFolder)
 
@@ -277,6 +280,29 @@ def addOaiXMLData(records, oaiData):
             oaiRecord = prepareForMerge(oaiData[guid])
             for child in oaiRecord.getroot():
                 oaiNode.append(child)
+    return records
+
+def addRoleCodesToRegisters(records):
+    """
+    The registereintrage/item nodes contain a tag register_rolle that
+    specifies the role of the linked entity in free text. The text contains
+    a LOC role code, which we extract here and add as an attribute to the register_rolle node.
+    We also add the label as an attribute. If no LOC role code is present only the label is added.
+
+    :param records: list of CMI records
+    :return: list of CMI records with added role codes and labels
+    """
+    rTwoCodes = r'(\w{3})(?=\))\)\s\(([^)]*)\)'
+    rOneCode = r'\(([^)]*)\)$'
+    for record in records:
+        for item in record.findall(".//registereintraege/item"):
+            role = item.find("register_rolle")
+            if role is not None:
+                if re.search(rTwoCodes, role.text):
+                    role.set("code", re.search(rTwoCodes, role.text).group(1))
+                    role.set("label", re.search(rTwoCodes, role.text).group(2).lower())
+                elif re.search(rOneCode, role.text):
+                    role.set("label", re.search(rOneCode, role.text).group(1).lower())        
     return records
 
 def convertRecordsToXML(records):
