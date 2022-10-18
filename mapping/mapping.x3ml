@@ -252,6 +252,28 @@
                     </target_node>
                 </range>
             </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>guid_des_uebergeordneten_objekts_in_der_tektonik</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P46i_forms_part_of</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>guid_des_uebergeordneten_objekts_in_der_tektonik</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E78_Curated_Holding</type>
+                            <instance_generator name="URIwithTypeAndId">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", text())</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
         </mapping>
         <mapping>
             <domain>
