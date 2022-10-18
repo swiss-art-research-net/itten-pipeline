@@ -16,6 +16,7 @@ Parameters:
     --outputFolder        The folder to write the output XML files to
     --limit               Limit the number of records to process
     --offset              Offset the number of records to process
+    --idsToOutput         Only output records with the given ids (pass as comma separated list) (optional)
     --alignmentDataPrefix The prefix of the alignment data files. Defaults to "alignment-" (optional)
     --vlidMapFile         The path to the file containing the mapping between VLIDs and DOIs (optional)
     --onlyWithDoi         If set to true, only records that contain a DOI are output (optional)
@@ -54,6 +55,11 @@ def prepareData(options):
         records = records[options['offset']:options['offset'] + options['limit']]
     elif 'offset' in options:
         records = records[options['offset']:]
+
+    # Limit to records with given ids if specified
+    if 'idsToOutput' in options:
+        idsToOutput = options['idsToOutput'].split(',')
+        records = [d for d in records if d['GUID'] in idsToOutput]
 
     # Retrieve OAI records for records that have VLIDs
     oaiXmlData = retrieveOaiXMLData(records=records, oaiXMLFolder=oaiXMLFolder, vlidMapFile=vlidMapFile)
