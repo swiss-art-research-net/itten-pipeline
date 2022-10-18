@@ -337,6 +337,114 @@
         </mapping>
         <mapping>
             <domain>
+                <source_node>/collection/record/oai/metadata/mets/dmdSec/mdWrap/xmlData/mods/originInfo</source_node>
+                <target_node>
+                    <entity variable="collection_production">
+                        <type>crm:E12_Production</type>
+                        <instance_generator name="URIwithTypeSubtypeAndId">
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../recordInfo/recordIdentifier/text())</arg>
+                            <arg name="subtype" type="constant">production</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>dateCreated</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P4_has_time-span</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>dateCreated</source_node>
+                    <target_node>
+                        <entity variable="collection_production_timespan">
+                            <type>crm:E52_Time-Span</type>
+                            <instance_generator name="URIwith2TypesAndId_hashed">
+                                <arg name="type1" type="constant">event</arg>
+                                <arg name="type2" type="constant">timespan</arg>
+                                <arg name="id" type="xpath">../dateCreated[1]/text()</arg>
+                            </instance_generator>
+                            <label_generator name="Constant">
+                                <arg name="text" type="xpath">../dateCreated[1]/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>dateCreated</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <equals value="start">@point</equals>
+                        </if>
+                        <relationship>crm:P4_has_time-span</relationship>
+                        <entity variable="collection_production_timespan">
+                            <type>crm:E52_Time-Span</type>
+                            <instance_generator name="URIwith2TypesAndId_hashed">
+                                <arg name="type1" type="constant">event</arg>
+                                <arg name="type2" type="constant">timespan</arg>
+                                <arg name="id" type="xpath">../dateCreated[1]/text()</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P82a_begin_of_the_begin</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>dateCreated</source_node>
+                    <target_node>
+                        <entity>
+                            <type>xsd:date</type>
+                            <instance_generator name="typedLiteralGen">
+                                <arg name="text" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>dateCreated</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <equals value="end">@point</equals>
+                        </if>
+                        <relationship>crm:P4_has_time-span</relationship>
+                        <entity variable="collection_production_timespan">
+                            <type>crm:E52_Time-Span</type>
+                            <instance_generator name="URIwith2TypesAndId_hashed">
+                                <arg name="type1" type="constant">event</arg>
+                                <arg name="type2" type="constant">timespan</arg>
+                                <arg name="id" type="xpath">../dateCreated[1]/text()</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P82b_end_of_the_end</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>dateCreated</source_node>
+                    <target_node>
+                        <entity>
+                            <type>xsd:date</type>
+                            <instance_generator name="typedLiteralGen">
+                                <arg name="text" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
                 <source_node>/collection/record/archivalienarten/item</source_node>
                 <target_node>
                     <entity variable="collection_type_archivalienarten">
@@ -533,114 +641,6 @@
                             <type>crmdig:D1_Digital_Object</type>
                             <type>rso:EX_Digital_Image</type>
                             <instance_generator name="URIorUUID">
-                                <arg name="text" type="xpath">text()</arg>
-                            </instance_generator>
-                        </entity>
-                    </target_node>
-                </range>
-            </link>
-        </mapping>
-        <mapping>
-            <domain>
-                <source_node>/collection/record/oai/metadata/mets/dmdSec/mdWrap/xmlData/mods/originInfo</source_node>
-                <target_node>
-                    <entity variable="collection_production">
-                        <type>crm:E12_Production</type>
-                        <instance_generator name="URIwithTypeSubtypeAndId">
-                            <arg name="type" type="constant">collection</arg>
-                            <arg name="id" type="xpath">concat("jila-", ../recordInfo/recordIdentifier/text())</arg>
-                            <arg name="subtype" type="constant">production</arg>
-                        </instance_generator>
-                    </entity>
-                </target_node>
-            </domain>
-            <link>
-                <path>
-                    <source_relation>
-                        <relation>dateCreated</relation>
-                    </source_relation>
-                    <target_relation>
-                        <relationship>crm:P4_has_time-span</relationship>
-                    </target_relation>
-                </path>
-                <range>
-                    <source_node>dateCreated</source_node>
-                    <target_node>
-                        <entity variable="collection_production_timespan">
-                            <type>crm:E52_Time-Span</type>
-                            <instance_generator name="URIwith2TypesAndId_hashed">
-                                <arg name="type1" type="constant">event</arg>
-                                <arg name="type2" type="constant">timespan</arg>
-                                <arg name="id" type="xpath">../dateCreated[1]/text()</arg>
-                            </instance_generator>
-                            <label_generator name="Constant">
-                                <arg name="text" type="xpath">../dateCreated[1]/text()</arg>
-                                <arg name="language" type="constant"/>
-                            </label_generator>
-                        </entity>
-                    </target_node>
-                </range>
-            </link>
-            <link>
-                <path>
-                    <source_relation>
-                        <relation>dateCreated</relation>
-                    </source_relation>
-                    <target_relation>
-                        <if>
-                            <equals value="start">@point</equals>
-                        </if>
-                        <relationship>crm:P4_has_time-span</relationship>
-                        <entity variable="collection_production_timespan">
-                            <type>crm:E52_Time-Span</type>
-                            <instance_generator name="URIwith2TypesAndId_hashed">
-                                <arg name="type1" type="constant">event</arg>
-                                <arg name="type2" type="constant">timespan</arg>
-                                <arg name="id" type="xpath">../dateCreated[1]/text()</arg>
-                            </instance_generator>
-                        </entity>
-                        <relationship>crm:P82a_begin_of_the_begin</relationship>
-                    </target_relation>
-                </path>
-                <range>
-                    <source_node>dateCreated</source_node>
-                    <target_node>
-                        <entity>
-                            <type>xsd:date</type>
-                            <instance_generator name="typedLiteralGen">
-                                <arg name="text" type="xpath">text()</arg>
-                            </instance_generator>
-                        </entity>
-                    </target_node>
-                </range>
-            </link>
-            <link>
-                <path>
-                    <source_relation>
-                        <relation>dateCreated</relation>
-                    </source_relation>
-                    <target_relation>
-                        <if>
-                            <equals value="end">@point</equals>
-                        </if>
-                        <relationship>crm:P4_has_time-span</relationship>
-                        <entity variable="collection_production_timespan">
-                            <type>crm:E52_Time-Span</type>
-                            <instance_generator name="URIwith2TypesAndId_hashed">
-                                <arg name="type1" type="constant">event</arg>
-                                <arg name="type2" type="constant">timespan</arg>
-                                <arg name="id" type="xpath">../dateCreated[1]/text()</arg>
-                            </instance_generator>
-                        </entity>
-                        <relationship>crm:P82b_end_of_the_end</relationship>
-                    </target_relation>
-                </path>
-                <range>
-                    <source_node>dateCreated</source_node>
-                    <target_node>
-                        <entity>
-                            <type>xsd:date</type>
-                            <instance_generator name="typedLiteralGen">
                                 <arg name="text" type="xpath">text()</arg>
                             </instance_generator>
                         </entity>
