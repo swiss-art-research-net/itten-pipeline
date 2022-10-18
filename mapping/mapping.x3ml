@@ -26,7 +26,7 @@
             <domain>
                 <source_node>/collection/record</source_node>
                 <target_node>
-                    <entity>
+                    <entity variable="collection">
                         <type>crm:E78_Curated_Holding</type>
                         <instance_generator name="URIwithTypeAndId">
                             <arg name="type" type="constant">collection</arg>
@@ -295,7 +295,7 @@
             <domain>
                 <source_node>/collection/record/archivalienarten/item</source_node>
                 <target_node>
-                    <entity variable="">
+                    <entity variable="collection_type_archivalienarten">
                         <type>crm:E55_Type</type>
                         <instance_generator name="URIwithTypeAndId_hashed">
                             <arg name="type" type="constant">type</arg>
@@ -417,7 +417,7 @@
             <domain>
                 <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image</source_node>
                 <target_node>
-                    <entity>
+                    <entity variable="collection_object_image">
                         <type>crm:E36_Visual_Item</type>
                         <instance_generator name="URIwithTypeAndId">
                             <arg name="type" type="constant">image</arg>
@@ -500,7 +500,7 @@
             <domain>
                 <source_node>/collection/record/parsed_internal_remarks</source_node>
                 <target_node>
-                    <entity>
+                    <entity variable="collection_production">
                         <type>crm:E12_Production</type>
                         <instance_generator name="URIwithTypeSubtypeAndId">
                             <arg name="type" type="constant">collection</arg>
