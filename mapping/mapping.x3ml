@@ -615,7 +615,7 @@
                         <type>crm:E12_Production</type>
                         <instance_generator name="URIwithTypeSubtypeAndId">
                             <arg name="type" type="constant">object</arg>
-                            <arg name="id" type="xpath">concat("jila-", substring(../../oai/metadata/mets/dmdSec[2]/@ID, 3))</arg>
+                            <arg name="id" type="xpath">concat("jila-", substring(../../oai/metadata/mets/dmdSec[1]/@ID, 3))</arg>
                             <arg name="subtype" type="constant">production</arg>
                         </instance_generator>
                     </entity>
@@ -632,7 +632,7 @@
                             <type>crm:E12_Production</type>
                             <instance_generator name="URIwithTypeSubtypeIdAndCounter">
                                 <arg name="type" type="constant">object</arg>
-                                <arg name="id" type="xpath">concat("jila-", substring(../../../oai/metadata/mets/dmdSec[2]/@ID, 3))</arg>
+                                <arg name="id" type="xpath">concat("jila-", substring(../../../oai/metadata/mets/dmdSec[1]/@ID, 3))</arg>
                                 <arg name="subtype" type="constant">production</arg>
                                 <arg name="position" type="position"/>
                             </instance_generator>
