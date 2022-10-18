@@ -88,7 +88,28 @@ class Parser:
                     record[key]['value'] = raw
             else:
                     record[key]['value'] = raw
+            if "#" in record[key]['value']:
+                record[key] = self._processIdentifiers(record[key])
         return record
+
+    def _processIdentifiers(self, item):
+        """
+        If an identifier is set in the value (e.g. #GND4127793-4) extract it and add it as key 'identifier' to the item.
+        The extracted identifier is then removed from the value
+        """
+        sources = ['GND']
+        identifier = re.search(r'#(.*?)$', item['value'])
+        if identifier:
+            item['value'] = item['value'].replace(f'#{identifier.group(1)}', '').strip()
+            extractedIdentifier = identifier.group(1)
+            item['identifier'] = {}
+            for source in sources:
+                if extractedIdentifier.startswith(source):
+                    item['identifier']['source'] = source
+                    item['identifier']['value'] = extractedIdentifier.replace(source, '')
+
+        return item
+        
     
     def parse(self, text):
         """
