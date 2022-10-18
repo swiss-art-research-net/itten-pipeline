@@ -26,7 +26,7 @@
             <domain>
                 <source_node>/collection/record</source_node>
                 <target_node>
-                    <entity>
+                    <entity variable="collection">
                         <type>crm:E78_Curated_Holding</type>
                         <instance_generator name="URIwithTypeAndId">
                             <arg name="type" type="constant">collection</arg>
@@ -293,214 +293,9 @@
         </mapping>
         <mapping>
             <domain>
-                <source_node>/collection/record/archivalienarten/item</source_node>
-                <target_node>
-                    <entity variable="">
-                        <type>crm:E55_Type</type>
-                        <instance_generator name="URIwithTypeAndId_hashed">
-                            <arg name="type" type="constant">type</arg>
-                            <arg name="id_HASHED_CONTENTS" type="xpath">if (gnd/text()) then (gnd/text()) else (bezeichnung/text())</arg>
-                        </instance_generator>
-                        <label_generator name="Literal">
-                            <arg name="text" type="xpath">bezeichnung/text()</arg>
-                            <arg name="language" type="constant">de</arg>
-                        </label_generator>
-                    </entity>
-                </target_node>
-            </domain>
-            <link>
-                <path>
-                    <source_relation>
-                        <relation>gnd</relation>
-                    </source_relation>
-                    <target_relation>
-                        <if>
-                            <exists>text()</exists>
-                        </if>
-                        <relationship>crmdig:L54_is_same-as</relationship>
-                    </target_relation>
-                </path>
-                <range>
-                    <source_node>gnd</source_node>
-                    <target_node>
-                        <entity>
-                            <type>crm:E55_Type</type>
-                            <instance_generator name="URIwithGndId">
-                                <arg name="id" type="xpath">text()</arg>
-                            </instance_generator>
-                        </entity>
-                    </target_node>
-                </range>
-            </link>
-        </mapping>
-        <mapping>
-            <domain>
-                <source_node>/collection/record/oai/metadata/mets/dmdSec/mdWrap/xmlData/mods</source_node>
-                <target_node>
-                    <if>
-                        <not>
-                            <if>
-                                <equals value="43a2ab3eb18841db9ec1af3669b74f39">recordInfo/recordIdentifier/text()</equals>
-                            </if>
-                        </not>
-                    </if>
-                    <entity variable="collection_object">
-                        <type>crm:E22_Human-Made_Object</type>
-                        <instance_generator name="URIwithTypeAndId">
-                            <arg name="type" type="constant">object</arg>
-                            <arg name="id" type="xpath">concat("jila-", substring(../../../@ID, 3))</arg>
-                        </instance_generator>
-                    </entity>
-                </target_node>
-            </domain>
-            <link>
-                <path>
-                    <source_relation>
-                        <relation>.</relation>
-                    </source_relation>
-                    <target_relation>
-                        <relationship>crm:P108i_was_produced_by</relationship>
-                    </target_relation>
-                </path>
-                <range>
-                    <source_node>.</source_node>
-                    <target_node>
-                        <entity variable="object_production">
-                            <type>crm:E12_Production</type>
-                            <instance_generator name="URIwithTypeSubtypeAndId">
-                                <arg name="type" type="constant">object</arg>
-                                <arg name="id" type="xpath">concat("jila-", substring(../../../@ID,3))</arg>
-                                <arg name="subtype" type="constant">production</arg>
-                            </instance_generator>
-                        </entity>
-                    </target_node>
-                </range>
-            </link>
-        </mapping>
-        <mapping>
-            <domain>
-                <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD</source_node>
-                <target_node>
-                    <entity variable="collection_object">
-                        <type>crm:E22_Human-Made_Object</type>
-                        <instance_generator name="URIwithTypeAndId">
-                            <arg name="type" type="constant">object</arg>
-                            <arg name="id" type="xpath">concat("jila-", substring(@ID, 9))</arg>
-                        </instance_generator>
-                    </entity>
-                </target_node>
-            </domain>
-            <link>
-                <path>
-                    <source_relation>
-                        <relation>mdWrap/xmlData/links/images/image</relation>
-                    </source_relation>
-                    <target_relation>
-                        <relationship>crm:P138i_has_representation</relationship>
-                    </target_relation>
-                </path>
-                <range>
-                    <source_node>mdWrap/xmlData/links/images/image</source_node>
-                    <target_node>
-                        <entity>
-                            <type>crm:E36_Visual_Item</type>
-                            <instance_generator name="URIwithTypeAndId">
-                                <arg name="type" type="constant">image</arg>
-                                <arg name="id" type="xpath">concat("jila-", @id)</arg>
-                            </instance_generator>
-                        </entity>
-                    </target_node>
-                </range>
-            </link>
-        </mapping>
-        <mapping>
-            <domain>
-                <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image</source_node>
-                <target_node>
-                    <entity>
-                        <type>crm:E36_Visual_Item</type>
-                        <instance_generator name="URIwithTypeAndId">
-                            <arg name="type" type="constant">image</arg>
-                            <arg name="id" type="xpath">concat("jila-", @id)</arg>
-                        </instance_generator>
-                    </entity>
-                </target_node>
-            </domain>
-            <link>
-                <path>
-                    <source_relation>
-                        <relation>url</relation>
-                    </source_relation>
-                    <target_relation>
-                        <if>
-                            <equals value="iiif">@type</equals>
-                        </if>
-                        <relationship>la:digitally_shown_by</relationship>
-                        <entity>
-                            <type>crmdig:D1_Digital_Object</type>
-                            <instance_generator name="URIwithTypeAndId">
-                                <arg name="type" type="constant">digitalImage</arg>
-                                <arg name="id" type="xpath">concat("jila-", ../@id)</arg>
-                            </instance_generator>
-                            <additional>
-                                <relationship>crm:P2_has_type</relationship>
-                                <entity>
-                                    <type>crm:E55_Type</type>
-                                    <instance_info>
-                                        <constant/>
-                                    </instance_info>
-                                    <instance_generator name="URIwithAatId">
-                                        <arg name="id" type="xpath">300215302</arg>
-                                    </instance_generator>
-                                    <label_generator name="Literal">
-                                        <arg name="text" type="constant">Digital Image</arg>
-                                        <arg name="language" type="constant">en</arg>
-                                    </label_generator>
-                                </entity>
-                            </additional>
-                        </entity>
-                        <relationship>la:digitally_available_via</relationship>
-                        <entity>
-                            <type>la:DigitalService</type>
-                            <instance_generator name="URIwithTypeAndId">
-                                <arg name="type" type="constant">iiif</arg>
-                                <arg name="id" type="xpath">concat("jila-", ../@id)</arg>
-                            </instance_generator>
-                            <additional>
-                                <relationship>la:conforms_to</relationship>
-                                <entity>
-                                    <type>crm:E73_Information_Object</type>
-                                    <instance_info>
-                                        <constant/>
-                                    </instance_info>
-                                    <instance_generator name="URIorUUID">
-                                        <arg name="text" type="constant">http://iiif.io/api/image</arg>
-                                    </instance_generator>
-                                </entity>
-                            </additional>
-                        </entity>
-                        <relationship>la:access_point</relationship>
-                    </target_relation>
-                </path>
-                <range>
-                    <source_node>url</source_node>
-                    <target_node>
-                        <entity>
-                            <type>crmdig:D1_Digital_Object</type>
-                            <type>rso:EX_Digital_Image</type>
-                            <instance_generator name="URIorUUID">
-                                <arg name="text" type="xpath">text()</arg>
-                            </instance_generator>
-                        </entity>
-                    </target_node>
-                </range>
-            </link>
-        </mapping>
-        <mapping>
-            <domain>
                 <source_node>/collection/record/parsed_internal_remarks</source_node>
                 <target_node>
-                    <entity>
+                    <entity variable="collection_production">
                         <type>crm:E12_Production</type>
                         <instance_generator name="URIwithTypeSubtypeAndId">
                             <arg name="type" type="constant">collection</arg>
@@ -641,6 +436,211 @@
                         <entity>
                             <type>xsd:date</type>
                             <instance_generator name="typedLiteralGen">
+                                <arg name="text" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/archivalienarten/item</source_node>
+                <target_node>
+                    <entity variable="collection_type_archivalienarten">
+                        <type>crm:E55_Type</type>
+                        <instance_generator name="URIwithTypeAndId_hashed">
+                            <arg name="type" type="constant">type</arg>
+                            <arg name="id_HASHED_CONTENTS" type="xpath">if (gnd/text()) then (gnd/text()) else (bezeichnung/text())</arg>
+                        </instance_generator>
+                        <label_generator name="Literal">
+                            <arg name="text" type="xpath">bezeichnung/text()</arg>
+                            <arg name="language" type="constant">de</arg>
+                        </label_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>gnd</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <exists>text()</exists>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>gnd</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E55_Type</type>
+                            <instance_generator name="URIwithGndId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/oai/metadata/mets/dmdSec/mdWrap/xmlData/mods</source_node>
+                <target_node>
+                    <if>
+                        <not>
+                            <if>
+                                <equals value="43a2ab3eb18841db9ec1af3669b74f39">recordInfo/recordIdentifier/text()</equals>
+                            </if>
+                        </not>
+                    </if>
+                    <entity variable="collection_object">
+                        <type>crm:E22_Human-Made_Object</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">object</arg>
+                            <arg name="id" type="xpath">concat("jila-", substring(../../../@ID, 3))</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>.</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P108i_was_produced_by</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>.</source_node>
+                    <target_node>
+                        <entity variable="object_production">
+                            <type>crm:E12_Production</type>
+                            <instance_generator name="URIwithTypeSubtypeAndId">
+                                <arg name="type" type="constant">object</arg>
+                                <arg name="id" type="xpath">concat("jila-", substring(../../../@ID,3))</arg>
+                                <arg name="subtype" type="constant">production</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD</source_node>
+                <target_node>
+                    <entity variable="collection_object">
+                        <type>crm:E22_Human-Made_Object</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">object</arg>
+                            <arg name="id" type="xpath">concat("jila-", substring(@ID, 9))</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>mdWrap/xmlData/links/images/image</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P138i_has_representation</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>mdWrap/xmlData/links/images/image</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E36_Visual_Item</type>
+                            <instance_generator name="URIwithTypeAndId">
+                                <arg name="type" type="constant">image</arg>
+                                <arg name="id" type="xpath">concat("jila-", @id)</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image</source_node>
+                <target_node>
+                    <entity variable="collection_object_image">
+                        <type>crm:E36_Visual_Item</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">image</arg>
+                            <arg name="id" type="xpath">concat("jila-", @id)</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>url</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <equals value="iiif">@type</equals>
+                        </if>
+                        <relationship>la:digitally_shown_by</relationship>
+                        <entity>
+                            <type>crmdig:D1_Digital_Object</type>
+                            <instance_generator name="URIwithTypeAndId">
+                                <arg name="type" type="constant">digitalImage</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../@id)</arg>
+                            </instance_generator>
+                            <additional>
+                                <relationship>crm:P2_has_type</relationship>
+                                <entity>
+                                    <type>crm:E55_Type</type>
+                                    <instance_info>
+                                        <constant/>
+                                    </instance_info>
+                                    <instance_generator name="URIwithAatId">
+                                        <arg name="id" type="xpath">300215302</arg>
+                                    </instance_generator>
+                                    <label_generator name="Literal">
+                                        <arg name="text" type="constant">Digital Image</arg>
+                                        <arg name="language" type="constant">en</arg>
+                                    </label_generator>
+                                </entity>
+                            </additional>
+                        </entity>
+                        <relationship>la:digitally_available_via</relationship>
+                        <entity>
+                            <type>la:DigitalService</type>
+                            <instance_generator name="URIwithTypeAndId">
+                                <arg name="type" type="constant">iiif</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../@id)</arg>
+                            </instance_generator>
+                            <additional>
+                                <relationship>la:conforms_to</relationship>
+                                <entity>
+                                    <type>crm:E73_Information_Object</type>
+                                    <instance_info>
+                                        <constant/>
+                                    </instance_info>
+                                    <instance_generator name="URIorUUID">
+                                        <arg name="text" type="constant">http://iiif.io/api/image</arg>
+                                    </instance_generator>
+                                </entity>
+                            </additional>
+                        </entity>
+                        <relationship>la:access_point</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>url</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crmdig:D1_Digital_Object</type>
+                            <type>rso:EX_Digital_Image</type>
+                            <instance_generator name="URIorUUID">
                                 <arg name="text" type="xpath">text()</arg>
                             </instance_generator>
                         </entity>
