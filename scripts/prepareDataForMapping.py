@@ -67,6 +67,9 @@ def prepareData(options):
     # Add data from OAI XML files
     recordsXML = addOaiXMLData(recordsXML, oaiXmlData)
 
+    # Remove Itten Archive node from XML
+    recordsXML = removeIttenArchiveNode(recordsXML)
+
     # Add role codes to Register entries
     recordsXML = addRoleCodesToRegisters(recordsXML)
 
@@ -373,6 +376,21 @@ def convertRecordsToXML(records):
     for record in records:
         xmlRecords.append(convertCmiJSONtoXML(record))
     return xmlRecords
+
+def removeIttenArchiveNode(records):
+    """
+    Remove the node in the data retrieved from e-manuscripta that refers to the Itten Archive as a whole.
+    It is found the oai/metadata/mets/dmdsec node where mdWrap/xmlData/mods/recordInfo/recordIdentifier/text() is 43a2ab3eb18841db9ec1af3669b74f39
+
+    :param records: list of CMI records
+    :return: list of CMI records with removed Itten Archive node
+    """
+    for record in records:
+        for node in record.findall(".//oai/metadata/mets/dmdSec"):
+            if node.find('mdWrap/xmlData/mods/recordInfo/recordIdentifier').text == '43a2ab3eb18841db9ec1af3669b74f39':
+                node.getparent().remove(node)
+    return records
+
 
 def retrieveOaiXMLData(*, records, oaiXMLFolder, vlidMapFile):
     """
