@@ -498,6 +498,50 @@
         </mapping>
         <mapping>
             <domain>
+                <source_node>/collection/record/parsed_internal_remarks</source_node>
+                <target_node>
+                    <entity>
+                        <type>crm:E12_Production</type>
+                        <instance_generator name="URIwithTypeSubtypeAndId">
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                            <arg name="subtype" type="constant">production</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>item</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <equals value="Entstehungsort">rolle/value/text()</equals>
+                        </if>
+                        <relationship>crm:P7_took_place_at</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>item</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E53_Place</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">place</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifier/source/text() = 'GND') then (entitaet/identifier/value/text()) else (entitaet/value/text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">entitaet/value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
                 <source_node>/collection/record/oai/metadata/mets/dmdSec/mdWrap/xmlData/mods/originInfo</source_node>
                 <target_node>
                     <entity variable="collection_production">
@@ -749,6 +793,51 @@
                             <instance_generator name="Literal">
                                 <arg name="text" type="xpath">text()</arg>
                                 <arg name="language" type="constant"/>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/parsed_internal_remarks/item/entitaet/identifier</source_node>
+                <target_node>
+                    <if>
+                        <and>
+                            <if>
+                                <equals value="GND">source/text()</equals>
+                            </if>
+                            <if>
+                                <equals value="Geografikum">../../typ/value/text()</equals>
+                            </if>
+                        </and>
+                    </if>
+                    <entity>
+                        <type>crm:E53_Place</type>
+                        <instance_generator name="URIwithTypeAndId_hashed">
+                            <arg name="type" type="constant">place</arg>
+                            <arg name="id_HASHED_CONTENTS" type="xpath">value/text()</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>value</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>value</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E53_Place</type>
+                            <instance_generator name="URIwithGndId">
+                                <arg name="id" type="xpath">text()</arg>
                             </instance_generator>
                         </entity>
                     </target_node>
