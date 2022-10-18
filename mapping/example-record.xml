@@ -121,6 +121,23 @@
     </registereintraege>
     <dateien/>
     <doi>https://doi.org/10.7891/e-manuscripta-132167</doi>
+    <parsed_internal_remarks>
+      <item>
+        <entitaet>
+          <value>Berlin</value>
+          <identifier>
+            <source>GND</source>
+            <value>4005728-8</value>
+          </identifier>
+        </entitaet>
+        <typ>
+          <value>Geografikum</value>
+        </typ>
+        <rolle>
+          <value>Entstehungsort</value>
+        </rolle>
+      </item>
+    </parsed_internal_remarks>
     <oai>
       <header>
         <identifier>oai:www.e-manuscripta.ch/zuzcmi:3602895</identifier>
@@ -426,6 +443,23 @@
     </registereintraege>
     <dateien/>
     <doi>https://doi.org/10.7891/e-manuscripta-128188</doi>
+    <parsed_internal_remarks>
+      <item>
+        <entitaet>
+          <value>Amsterdam</value>
+          <identifier>
+            <source>GND</source>
+            <value>4001783-7</value>
+          </identifier>
+        </entitaet>
+        <typ>
+          <value>Geografikum</value>
+        </typ>
+        <rolle>
+          <value>Entstehungsort</value>
+        </rolle>
+      </item>
+    </parsed_internal_remarks>
     <oai>
       <header>
         <identifier>oai:www.e-manuscripta.ch/zuzcmi:3510527</identifier>
@@ -658,6 +692,23 @@
     <registereintraege/>
     <dateien/>
     <doi>https://doi.org/10.7891/e-manuscripta-126366</doi>
+    <parsed_internal_remarks>
+      <item>
+        <entitaet>
+          <value>Amsterdam</value>
+          <identifier>
+            <source>GND</source>
+            <value>4001783-7</value>
+          </identifier>
+        </entitaet>
+        <typ>
+          <value>Geografikum</value>
+        </typ>
+        <rolle>
+          <value>Entstehungsort</value>
+        </rolle>
+      </item>
+    </parsed_internal_remarks>
     <oai>
       <header>
         <identifier>oai:www.e-manuscripta.ch/zuzcmi:3472580</identifier>

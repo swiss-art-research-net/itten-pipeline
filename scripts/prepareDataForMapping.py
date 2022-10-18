@@ -16,6 +16,7 @@ Parameters:
     --outputFolder        The folder to write the output XML files to
     --limit               Limit the number of records to process
     --offset              Offset the number of records to process
+    --idsToOutput         Only output records with the given ids (pass as comma separated list) (optional)
     --alignmentDataPrefix The prefix of the alignment data files. Defaults to "alignment-" (optional)
     --vlidMapFile         The path to the file containing the mapping between VLIDs and DOIs (optional)
     --onlyWithDoi         If set to true, only records that contain a DOI are output (optional)
@@ -35,6 +36,7 @@ from os.path import join, isfile
 from tqdm import tqdm
 
 from lib.utils import readRecords, RetrieveVLIDfromDOI
+from lib.parser import Parser
 
 def prepareData(options):
     sourceFolder = options['sourceFolder']
@@ -55,12 +57,20 @@ def prepareData(options):
     elif 'offset' in options:
         records = records[options['offset']:]
 
+    # Limit to records with given ids if specified
+    if 'idsToOutput' in options:
+        idsToOutput = options['idsToOutput'].split(',')
+        records = [d for d in records if d['GUID'] in idsToOutput]
+
     # Retrieve OAI records for records that have VLIDs
     oaiXmlData = retrieveOaiXMLData(records=records, oaiXMLFolder=oaiXMLFolder, vlidMapFile=vlidMapFile)
 
     # Add alignment data
     records = addAlignmentData(records, sourceFolder=sourceFolder, alignmentDataPrefix=alignmentDataPrefix)
     
+    # Parse internal remarks
+    records = parseInternalRemarks(records)
+
     # Convert to XML
     recordsXML = convertRecordsToXML(records)
 
@@ -377,6 +387,23 @@ def convertRecordsToXML(records):
         xmlRecords.append(convertCmiJSONtoXML(record))
     return xmlRecords
 
+def parseInternalRemarks(records):
+    """
+    Parse the semi-structured information specified as part of the internal remarks node ("Allgemeine Interne Anmerkungen")
+
+    :param records: list of CMI records in source format
+    :return: list of CMI records in source format with parsed internal remarks
+    """
+    p = Parser()
+    internalRemarksKey = "Allgemeine Interne Anmerkungen"
+    for record in records:
+        remarks = record[internalRemarksKey]
+        if remarks:
+            record["parsed internal remarks"] = p.parse(remarks)
+
+    return records
+    
+
 def removeIttenArchiveNode(records):
     """
     Remove the node in the data retrieved from e-manuscripta that refers to the Itten Archive as a whole.
@@ -390,7 +417,6 @@ def removeIttenArchiveNode(records):
             if node.find('mdWrap/xmlData/mods/recordInfo/recordIdentifier').text == '43a2ab3eb18841db9ec1af3669b74f39':
                 node.getparent().remove(node)
     return records
-
 
 def retrieveOaiXMLData(*, records, oaiXMLFolder, vlidMapFile):
     """
