@@ -36,6 +36,7 @@ from os.path import join, isfile
 from tqdm import tqdm
 
 from lib.utils import readRecords, RetrieveVLIDfromDOI
+from lib.parser import Parser
 
 def prepareData(options):
     sourceFolder = options['sourceFolder']
@@ -67,6 +68,9 @@ def prepareData(options):
     # Add alignment data
     records = addAlignmentData(records, sourceFolder=sourceFolder, alignmentDataPrefix=alignmentDataPrefix)
     
+    # Parse internal remarks
+    records = parseInternalRemarks(records)
+
     # Convert to XML
     recordsXML = convertRecordsToXML(records)
 
@@ -383,6 +387,23 @@ def convertRecordsToXML(records):
         xmlRecords.append(convertCmiJSONtoXML(record))
     return xmlRecords
 
+def parseInternalRemarks(records):
+    """
+    Parse the semi-structured information specified as part of the internal remarks node ("Allgemeine Interne Anmerkungen")
+
+    :param records: list of CMI records in source format
+    :return: list of CMI records in source format with parsed internal remarks
+    """
+    p = Parser()
+    internalRemarksKey = "Allgemeine Interne Anmerkungen"
+    for record in records:
+        remarks = record[internalRemarksKey]
+        if remarks:
+            record["parsed internal remarks"] = p.parse(remarks)
+
+    return records
+    
+
 def removeIttenArchiveNode(records):
     """
     Remove the node in the data retrieved from e-manuscripta that refers to the Itten Archive as a whole.
@@ -396,7 +417,6 @@ def removeIttenArchiveNode(records):
             if node.find('mdWrap/xmlData/mods/recordInfo/recordIdentifier').text == '43a2ab3eb18841db9ec1af3669b74f39':
                 node.getparent().remove(node)
     return records
-
 
 def retrieveOaiXMLData(*, records, oaiXMLFolder, vlidMapFile):
     """
