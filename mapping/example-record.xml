@@ -86,7 +86,7 @@
     <reproduktionsarten/>
     <verwandtes_material/>
     <veroeffentlichungen/>
-    <allgemeine_interne_anmerkungen>Dossier 213</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen>Dossier 213 / Entit&#228;t: Berlin #GND4005728-8 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
     <allgemeine_anmerkungen/>
     <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
     <erschliessungszustand/>
@@ -103,7 +103,7 @@
       <item>
         <register_bezeichnung>Reidemeister, Leopold</register_bezeichnung>
         <register_gnd-id>119335603</register_gnd-id>
-        <register_rolle>Verfasser (aut) (Creator)</register_rolle>
+        <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
         <register_datum>1900 - 1987</register_datum>
         <register_id>44504</register_id>
         <registertyp>Personenregister</registertyp>
@@ -112,7 +112,7 @@
       <item>
         <register_bezeichnung>Itten, Johannes</register_bezeichnung>
         <register_gnd-id>118710990</register_gnd-id>
-        <register_rolle>Adressat (rcp) (Contributor)</register_rolle>
+        <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
         <register_datum>11.11.1888 - 25.03.1967</register_datum>
         <register_id>21160</register_id>
         <registertyp>Personenregister</registertyp>
@@ -134,51 +134,6 @@
           xmlns:mods="http://www.loc.gov/mods/v3"
           xmlns:vl="http://visuallibrary.net/vl"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
-          <dmdSec ID="md3212613">
-            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
-              <xmlData>
-                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-                  <titleInfo>
-                    <title>Itten, Johannes (1888-1967)</title>
-                    <subTitle>Personenarchiv / Itten-Archiv</subTitle>
-                  </titleInfo>
-                  <typeOfResource>text</typeOfResource>
-                  <originInfo>
-                    <dateCreated>1794 - 2004</dateCreated>
-                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1794-01-01</dateCreated>
-                    <dateCreated point="end" encoding="w3cdtf">2005-01-01</dateCreated>
-                  </originInfo>
-                  <language>
-                    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
-                  </language>
-                  <language>
-                    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-                  </language>
-                  <language>
-                    <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
-                  </language>
-                  <physicalDescription>
-                    <extent>14.77 Laufmeter</extent>
-                  </physicalDescription>
-                  <abstract>Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</abstract>
-                  <location>
-                    <shelfLocator>Hs NL 11</shelfLocator>
-                  </location>
-                  <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
-                  <extension>
-                    <originInfo displayLabel="dc">
-                      <dateCreated encoding="w3cdtf" point="start">1794-01-01</dateCreated>
-                      <dateCreated encoding="w3cdtf" point="end">2005-01-01</dateCreated>
-                    </originInfo>
-                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
-                  </extension>
-                  <recordInfo>
-                    <recordIdentifier source="emanuszuzcmi">43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
-                  </recordInfo>
-                </mods>
-              </xmlData>
-            </mdWrap>
-          </dmdSec>
           <dmdSec ID="md3602895">
             <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
               <xmlData>
@@ -391,7 +346,7 @@
     <reproduktionsarten/>
     <verwandtes_material/>
     <veroeffentlichungen/>
-    <allgemeine_interne_anmerkungen>Dossier 176</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen>Dossier 176 / Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
     <allgemeine_anmerkungen/>
     <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
     <erschliessungszustand/>
@@ -408,7 +363,7 @@
       <item>
         <register_bezeichnung>Sandberg, Willem Jacob Henri Berend</register_bezeichnung>
         <register_gnd-id>118751158</register_gnd-id>
-        <register_rolle>Verfasser (aut) (Creator)</register_rolle>
+        <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
         <register_datum>1897 - 1984</register_datum>
         <register_id>50721</register_id>
         <registertyp>Personenregister</registertyp>
@@ -417,7 +372,7 @@
       <item>
         <register_bezeichnung>Itten, Johannes</register_bezeichnung>
         <register_gnd-id>118710990</register_gnd-id>
-        <register_rolle>Adressat (rcp) (Contributor)</register_rolle>
+        <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
         <register_datum>11.11.1888 - 25.03.1967</register_datum>
         <register_id>21160</register_id>
         <registertyp>Personenregister</registertyp>
@@ -426,7 +381,7 @@
       <item>
         <register_bezeichnung>Grote, Ludwig</register_bezeichnung>
         <register_gnd-id>118698222</register_gnd-id>
-        <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
+        <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
         <register_datum>1893 - 1974</register_datum>
         <register_id>46081</register_id>
         <registertyp>Personenregister</registertyp>
@@ -435,7 +390,7 @@
       <item>
         <register_bezeichnung>Schreyer, Lothar</register_bezeichnung>
         <register_gnd-id>118980351</register_gnd-id>
-        <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
+        <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
         <register_datum>1886 - 1966</register_datum>
         <register_id>45046</register_id>
         <registertyp>Personenregister</registertyp>
@@ -444,7 +399,7 @@
       <item>
         <register_bezeichnung>Curjel, Hans</register_bezeichnung>
         <register_gnd-id>116766107</register_gnd-id>
-        <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
+        <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
         <register_datum>1896 - 1974</register_datum>
         <register_id>50896</register_id>
         <registertyp>Personenregister</registertyp>
@@ -453,7 +408,7 @@
       <item>
         <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
         <register_gnd-id>11721227X</register_gnd-id>
-        <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
+        <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
         <register_datum>17.10.1913 - 10.05.2002</register_datum>
         <register_id>22078</register_id>
         <registertyp>Personenregister</registertyp>
@@ -462,11 +417,11 @@
       <item>
         <register_bezeichnung>Sandberg</register_bezeichnung>
         <register_gnd-id>null</register_gnd-id>
-        <register_rolle>Erw&#228;hnt (Empty)</register_rolle>
+        <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
         <register_datum>null</register_datum>
         <register_id>60768</register_id>
         <registertyp>Personenregister</registertyp>
-        <register_bemerkungen>Beziehungen zu Personen: Ehefrau von Sandberg, Willem Jacob Henri Berend (Link zur GND: &lt;a href=http://d-nb.info/gnd/118751158 target="_blank"&gt;GND&lt;/a&gt;)</register_bemerkungen>
+        <register_bemerkungen>Beziehungen zu Personen: Ehefrau von Sandberg, Willem Jacob Henri Berend #GND118751158 (Ehemann)</register_bemerkungen>
       </item>
     </registereintraege>
     <dateien/>
@@ -484,51 +439,6 @@
           xmlns:mods="http://www.loc.gov/mods/v3"
           xmlns:vl="http://visuallibrary.net/vl"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
-          <dmdSec ID="md3212613">
-            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
-              <xmlData>
-                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-                  <titleInfo>
-                    <title>Itten, Johannes (1888-1967)</title>
-                    <subTitle>Personenarchiv / Itten-Archiv</subTitle>
-                  </titleInfo>
-                  <typeOfResource>text</typeOfResource>
-                  <originInfo>
-                    <dateCreated>1794 - 2004</dateCreated>
-                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1794-01-01</dateCreated>
-                    <dateCreated point="end" encoding="w3cdtf">2005-01-01</dateCreated>
-                  </originInfo>
-                  <language>
-                    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
-                  </language>
-                  <language>
-                    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-                  </language>
-                  <language>
-                    <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
-                  </language>
-                  <physicalDescription>
-                    <extent>14.77 Laufmeter</extent>
-                  </physicalDescription>
-                  <abstract>Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</abstract>
-                  <location>
-                    <shelfLocator>Hs NL 11</shelfLocator>
-                  </location>
-                  <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
-                  <extension>
-                    <originInfo displayLabel="dc">
-                      <dateCreated encoding="w3cdtf" point="start">1794-01-01</dateCreated>
-                      <dateCreated encoding="w3cdtf" point="end">2005-01-01</dateCreated>
-                    </originInfo>
-                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
-                  </extension>
-                  <recordInfo>
-                    <recordIdentifier source="emanuszuzcmi">43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
-                  </recordInfo>
-                </mods>
-              </xmlData>
-            </mdWrap>
-          </dmdSec>
           <dmdSec ID="md3510527">
             <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
               <xmlData>
@@ -732,7 +642,7 @@
     <reproduktionsarten/>
     <verwandtes_material/>
     <veroeffentlichungen/>
-    <allgemeine_interne_anmerkungen>Dossier 92</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen>Dossier 92 / Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
     <allgemeine_anmerkungen/>
     <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
     <erschliessungszustand/>
@@ -803,51 +713,6 @@
                   </extension>
                   <recordInfo>
                     <recordIdentifier source="emanuszuzcmi">cdc330b211924b7dad51274f51831e18</recordIdentifier>
-                  </recordInfo>
-                </mods>
-              </xmlData>
-            </mdWrap>
-          </dmdSec>
-          <dmdSec ID="md3212613">
-            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
-              <xmlData>
-                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
-                  <titleInfo>
-                    <title>Itten, Johannes (1888-1967)</title>
-                    <subTitle>Personenarchiv / Itten-Archiv</subTitle>
-                  </titleInfo>
-                  <typeOfResource>text</typeOfResource>
-                  <originInfo>
-                    <dateCreated>1794 - 2004</dateCreated>
-                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1794-01-01</dateCreated>
-                    <dateCreated point="end" encoding="w3cdtf">2005-01-01</dateCreated>
-                  </originInfo>
-                  <language>
-                    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
-                  </language>
-                  <language>
-                    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-                  </language>
-                  <language>
-                    <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
-                  </language>
-                  <physicalDescription>
-                    <extent>14.77 Laufmeter</extent>
-                  </physicalDescription>
-                  <abstract>Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</abstract>
-                  <location>
-                    <shelfLocator>Hs NL 11</shelfLocator>
-                  </location>
-                  <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
-                  <extension>
-                    <originInfo displayLabel="dc">
-                      <dateCreated encoding="w3cdtf" point="start">1794-01-01</dateCreated>
-                      <dateCreated encoding="w3cdtf" point="end">2005-01-01</dateCreated>
-                    </originInfo>
-                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
-                  </extension>
-                  <recordInfo>
-                    <recordIdentifier source="emanuszuzcmi">43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
                   </recordInfo>
                 </mods>
               </xmlData>
