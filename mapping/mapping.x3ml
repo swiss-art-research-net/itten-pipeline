@@ -324,7 +324,7 @@
                             <type>crm:E53_Place</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">place</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifier/source/text() = 'GND') then (entitaet/identifier/value/text()) else (entitaet/value/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
                             </instance_generator>
                             <label_generator name="Literal">
                                 <arg name="text" type="xpath">entitaet/value/text()</arg>
@@ -801,7 +801,7 @@
         </mapping>
         <mapping>
             <domain>
-                <source_node>/collection/record/parsed_internal_remarks/item/entitaet/identifier</source_node>
+                <source_node>/collection/record/parsed_internal_remarks/item/entitaet/identifiers/item</source_node>
                 <target_node>
                     <if>
                         <and>
@@ -809,7 +809,7 @@
                                 <equals value="GND">source/text()</equals>
                             </if>
                             <if>
-                                <equals value="Geografikum">../../typ/value/text()</equals>
+                                <equals value="Geografikum">../../../typ/value/text()</equals>
                             </if>
                         </and>
                     </if>
