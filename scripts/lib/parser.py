@@ -98,16 +98,18 @@ class Parser:
         The extracted identifier is then removed from the value
         """
         sources = ['GND']
-        identifier = re.search(r'#(.*?)$', item['value'])
-        if identifier:
-            item['value'] = item['value'].replace(f'#{identifier.group(1)}', '').strip()
-            extractedIdentifier = identifier.group(1)
-            item['identifier'] = {}
-            for source in sources:
-                if extractedIdentifier.startswith(source):
-                    item['identifier']['source'] = source
-                    item['identifier']['value'] = extractedIdentifier.replace(source, '')
-
+        identifiers = re.findall(r'#([\w\d\-]+)', item['value'])
+        if len(identifiers):
+            item['identifiers'] = []
+            for identifier in identifiers:
+                position = item['value'].find("#%s" % identifier)
+                item['value'] = item['value'].replace(f' #{identifier}', '').strip()
+                identifierObject = {'position': position}
+                for source in sources:
+                    if identifier.startswith(source):
+                        identifierObject['source'] = source
+                        identifierObject['value'] = identifier.replace(source, '')
+                item['identifiers'].append(identifierObject)
         return item
         
     
@@ -139,8 +141,10 @@ class Parser:
         records = []
         recordBlocks = self._extractRecordBlocks(text)
         for recordBlock in recordBlocks:
-            records.append(self._parseRecordBlock(recordBlock))
-        return records  
+            parsedBlock = self._parseRecordBlock(recordBlock)
+            if len(parsedBlock):
+                records.append(parsedBlock)
+        return records
 
 if __name__ == '__main__':
     import doctest
