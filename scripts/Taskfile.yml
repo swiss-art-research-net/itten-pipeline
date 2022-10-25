@@ -132,6 +132,7 @@ tasks:
     sources:
       - /scripts/prepareDataForMapping.py
       - /scripts/lib/utils.py
+      - /scripts/lib/parser.py
       - /data/source/*.json
       - /data/xml/oai/*.xml
     generates:
