@@ -125,10 +125,13 @@
       <item>
         <entitaet>
           <value>Berlin</value>
-          <identifier>
-            <source>GND</source>
-            <value>4005728-8</value>
-          </identifier>
+          <identifiers>
+            <item>
+              <position>7</position>
+              <source>GND</source>
+              <value>4005728-8</value>
+            </item>
+          </identifiers>
         </entitaet>
         <typ>
           <value>Geografikum</value>
@@ -447,10 +450,13 @@
       <item>
         <entitaet>
           <value>Amsterdam</value>
-          <identifier>
-            <source>GND</source>
-            <value>4001783-7</value>
-          </identifier>
+          <identifiers>
+            <item>
+              <position>10</position>
+              <source>GND</source>
+              <value>4001783-7</value>
+            </item>
+          </identifiers>
         </entitaet>
         <typ>
           <value>Geografikum</value>
@@ -696,10 +702,13 @@
       <item>
         <entitaet>
           <value>Amsterdam</value>
-          <identifier>
-            <source>GND</source>
-            <value>4001783-7</value>
-          </identifier>
+          <identifiers>
+            <item>
+              <position>10</position>
+              <source>GND</source>
+              <value>4001783-7</value>
+            </item>
+          </identifiers>
         </entitaet>
         <typ>
           <value>Geografikum</value>
@@ -1422,8 +1431,6 @@
     <dateien/>
     <doi>https://doi.org/10.7891/e-manuscripta-135316</doi>
     <parsed_internal_remarks>
-      <item/>
-      <item/>
       <item>
         <entitaet>
           <value>Schwedischer Industrieller</value>
@@ -1436,11 +1443,14 @@
           <qualifier>Empty</qualifier>
         </rolle>
         <bemerkungen>
-          <value>Person in einer von Donald Brinkmann</value>
-          <identifier>
-            <source>GND</source>
-            <value>118674161 berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Fd 13)</value>
-          </identifier>
+          <value>Person in einer von Donald Brinkmann berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Fd 13)</value>
+          <identifiers>
+            <item>
+              <position>37</position>
+              <source>GND</source>
+              <value>118674161</value>
+            </item>
+          </identifiers>
         </bemerkungen>
       </item>
       <item>
@@ -1455,11 +1465,14 @@
           <qualifier>Empty</qualifier>
         </rolle>
         <bemerkungen>
-          <value>Personen in einer von Donald Brinkmann</value>
-          <identifier>
-            <source>GND</source>
-            <value>118674161 berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Fd 13)</value>
-          </identifier>
+          <value>Personen in einer von Donald Brinkmann berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Fd 13)</value>
+          <identifiers>
+            <item>
+              <position>39</position>
+              <source>GND</source>
+              <value>118674161</value>
+            </item>
+          </identifiers>
         </bemerkungen>
       </item>
       <item>
@@ -1474,11 +1487,14 @@
           <qualifier>Empty</qualifier>
         </rolle>
         <bemerkungen>
-          <value>Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens</value>
-          <identifier>
-            <source>GND</source>
-            <value>118710990 Klasse (Quelle: Fd 13)</value>
-          </identifier>
+          <value>Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens Klasse (Quelle: Fd 13)</value>
+          <identifiers>
+            <item>
+              <position>87</position>
+              <source>GND</source>
+              <value>118710990</value>
+            </item>
+          </identifiers>
         </bemerkungen>
       </item>
       <item>
@@ -1493,11 +1509,14 @@
           <qualifier>Empty</qualifier>
         </rolle>
         <bemerkungen>
-          <value>Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens</value>
-          <identifier>
-            <source>GND</source>
-            <value>118710990 Klasse (Quelle: Fd 13)</value>
-          </identifier>
+          <value>Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens Klasse (Quelle: Fd 13)</value>
+          <identifiers>
+            <item>
+              <position>84</position>
+              <source>GND</source>
+              <value>118710990</value>
+            </item>
+          </identifiers>
         </bemerkungen>
       </item>
       <item>
@@ -1512,11 +1531,14 @@
           <qualifier>Empty</qualifier>
         </rolle>
         <bemerkungen>
-          <value>Aus der Mongolei stammende Grossmutter oder Grossvater Nataschas, einer Sch&#252;lerin aus Ittens</value>
-          <identifier>
-            <source>GND</source>
-            <value>118710990 Klasse (Quelle: Fd 13)</value>
-          </identifier>
+          <value>Aus der Mongolei stammende Grossmutter oder Grossvater Nataschas, einer Sch&#252;lerin aus Ittens Klasse (Quelle: Fd 13)</value>
+          <identifiers>
+            <item>
+              <position>93</position>
+              <source>GND</source>
+              <value>118710990</value>
+            </item>
+          </identifiers>
         </bemerkungen>
       </item>
       <item>
@@ -1531,11 +1553,19 @@
           <qualifier>Empty</qualifier>
         </rolle>
         <bemerkungen>
-          <value>Sch&#252;lerin Ittens</value>
-          <identifier>
-            <source>GND</source>
-            <value>118710990, in Moskau #4074987-3 geboren, hat einen mongolischen Grossvater oder eine mongolische Grossmutter, vermutlich identisch mit Natascha D. s. HS NL 11: Fd 11 (Quelle: Fd 13)</value>
-          </identifier>
+          <value>Sch&#252;lerin Ittens, in Moskau geboren, hat einen mongolischen Grossvater oder eine mongolische Grossmutter, vermutlich identisch mit Natascha D. s. HS NL 11: Fd 11 (Quelle: Fd 13)</value>
+          <identifiers>
+            <item>
+              <position>17</position>
+              <source>GND</source>
+              <value>118710990</value>
+            </item>
+            <item>
+              <position>28</position>
+              <source>GND</source>
+              <value>4074987-3</value>
+            </item>
+          </identifiers>
         </bemerkungen>
       </item>
       <item>
@@ -1550,11 +1580,14 @@
           <qualifier>Empty</qualifier>
         </rolle>
         <bemerkungen>
-          <value>Aus der Mongolei stammende Grossmutter oder Grossvater Nataschas, einer Sch&#252;lerin aus Ittens</value>
-          <identifier>
-            <source>GND</source>
-            <value>118710990 Klasse (Quelle: Fd 13)</value>
-          </identifier>
+          <value>Aus der Mongolei stammende Grossmutter oder Grossvater Nataschas, einer Sch&#252;lerin aus Ittens Klasse (Quelle: Fd 13)</value>
+          <identifiers>
+            <item>
+              <position>93</position>
+              <source>GND</source>
+              <value>118710990</value>
+            </item>
+          </identifiers>
         </bemerkungen>
       </item>
     </parsed_internal_remarks>
