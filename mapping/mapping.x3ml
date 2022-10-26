@@ -480,50 +480,6 @@
         </mapping>
         <mapping>
             <domain>
-                <source_node>/collection/record/oai/metadata/mets/dmdSec/mdWrap/xmlData/mods</source_node>
-                <target_node>
-                    <if>
-                        <not>
-                            <if>
-                                <equals value="43a2ab3eb18841db9ec1af3669b74f39">recordInfo/recordIdentifier/text()</equals>
-                            </if>
-                        </not>
-                    </if>
-                    <entity variable="collection_object">
-                        <type>crm:E22_Human-Made_Object</type>
-                        <instance_generator name="URIwithTypeAndId">
-                            <arg name="type" type="constant">object</arg>
-                            <arg name="id" type="xpath">concat("jila-", substring(../../../@ID, 3))</arg>
-                        </instance_generator>
-                    </entity>
-                </target_node>
-            </domain>
-            <link>
-                <path>
-                    <source_relation>
-                        <relation>.</relation>
-                    </source_relation>
-                    <target_relation>
-                        <relationship>crm:P108i_was_produced_by</relationship>
-                    </target_relation>
-                </path>
-                <range>
-                    <source_node>.</source_node>
-                    <target_node>
-                        <entity variable="object_production">
-                            <type>crm:E12_Production</type>
-                            <instance_generator name="URIwithTypeSubtypeAndId">
-                                <arg name="type" type="constant">object</arg>
-                                <arg name="id" type="xpath">concat("jila-", substring(../../../@ID,3))</arg>
-                                <arg name="subtype" type="constant">production</arg>
-                            </instance_generator>
-                        </entity>
-                    </target_node>
-                </range>
-            </link>
-        </mapping>
-        <mapping>
-            <domain>
                 <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD</source_node>
                 <target_node>
                     <entity variable="collection_object">
