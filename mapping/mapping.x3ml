@@ -205,27 +205,20 @@
             <link>
                 <path>
                     <source_relation>
-                        <relation>oai/metadata/mets/dmdSec/mdWrap/xmlData/mods/originInfo</relation>
+                        <relation>.</relation>
                     </source_relation>
                     <target_relation>
-                        <if>
-                            <not>
-                                <if>
-                                    <equals value="43a2ab3eb18841db9ec1af3669b74f39">../recordInfo/recordIdentifier/text()</equals>
-                                </if>
-                            </not>
-                        </if>
                         <relationship>crm:P108i_was_produced_by</relationship>
                     </target_relation>
                 </path>
                 <range>
-                    <source_node>oai/metadata/mets/dmdSec/mdWrap/xmlData/mods/originInfo</source_node>
+                    <source_node>.</source_node>
                     <target_node>
                         <entity variable="collection_production">
                             <type>crm:E12_Production</type>
                             <instance_generator name="URIwithTypeSubtypeAndId">
                                 <arg name="type" type="constant">collection</arg>
-                                <arg name="id" type="xpath">concat("jila-", ../recordInfo/recordIdentifier/text())</arg>
+                                <arg name="id" type="xpath">concat("jila-", guid/text())</arg>
                                 <arg name="subtype" type="constant">production</arg>
                             </instance_generator>
                         </entity>
