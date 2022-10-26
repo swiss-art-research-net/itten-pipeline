@@ -602,13 +602,13 @@
                 <source_node>/collection/record/registereintraege/item</source_node>
                 <target_node>
                     <if>
-                        <equals value="Verfasser (aut) (Creator)">register_rolle/text()</equals>
+                        <equals value="aut">register_rolle/@code</equals>
                     </if>
-                    <entity variable="object_production">
+                    <entity variable="collection_production">
                         <type>crm:E12_Production</type>
                         <instance_generator name="URIwithTypeSubtypeAndId">
-                            <arg name="type" type="constant">object</arg>
-                            <arg name="id" type="xpath">concat("jila-", substring(../../oai/metadata/mets/dmdSec[1]/@ID, 3))</arg>
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
                             <arg name="subtype" type="constant">production</arg>
                         </instance_generator>
                     </entity>
@@ -624,8 +624,8 @@
                         <entity>
                             <type>crm:E12_Production</type>
                             <instance_generator name="URIwithTypeSubtypeIdAndCounter">
-                                <arg name="type" type="constant">object</arg>
-                                <arg name="id" type="xpath">concat("jila-", substring(../../../oai/metadata/mets/dmdSec[1]/@ID, 3))</arg>
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../../guid/text())</arg>
                                 <arg name="subtype" type="constant">production</arg>
                                 <arg name="position" type="position"/>
                             </instance_generator>
@@ -649,7 +649,7 @@
                     <source_node>register_id</source_node>
                     <target_node>
                         <if>
-                            <equals value="Verfasser (aut) (Creator)">../register_rolle/text()</equals>
+                            <equals value="aut">../register_rolle/@code</equals>
                         </if>
                         <entity variable="object_author">
                             <type>crm:E39_Actor</type>
