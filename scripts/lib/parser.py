@@ -30,7 +30,11 @@ class Parser:
     """
 
     FIELDS = {
-        "Anzahl": {},
+        "Anzahl": {
+            "options": {
+                "qualifier": True
+            }
+        },
         "Bemerkungen": {},
         "Entität": {
             "options": {
