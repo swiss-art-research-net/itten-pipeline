@@ -3177,4 +3177,262 @@
     </oai>
   </record>
 
+
+  <record>
+    <signatur>Hs NL 11: Ch 3.1.41</signatur>
+    <signatur_in_sortierform/>
+    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <id>59342</id>
+    <pid/>
+    <guid>712bf7c61f594314b146f81bf6a01add</guid>
+    <archivalienarten>
+      <item>
+        <bezeichnung>Fotografie</bezeichnung>
+        <gnd>4045895-7</gnd>
+      </item>
+    </archivalienarten>
+    <titel>Herstellung und Montage des Velums 41</titel>
+    <untertitel/>
+    <weitere_titelformationen/>
+    <entstehungszeitraum>1938</entstehungszeitraum>
+    <bezugszeitraum/>
+    <entstehungsort>Amsterdam</entstehungsort>
+    <bemerkungen_zur_datierung/>
+    <bemerkungen_zum_umfang>1 Fotoabzug</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-126364" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126364&lt;/a&gt;</link_zu_digitalisat>
+    <link_auf_digitales_original/>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
+    <bemerkungen_provenienz/>
+    <verwaltungsgeschichte_-_biografische_angaben/>
+    <bestandesgeschichte/>
+    <abgebende_stellen/>
+    <erwerbsarten/>
+    <form_und_inhalt/>
+    <themenliste/>
+    <ueberlieferungsformen>
+      <item>
+        <bezeichnung>analog ()</bezeichnung>
+        <form/>
+      </item>
+    </ueberlieferungsformen>
+    <bewertung_und_kassation/>
+    <neuzugaenge/>
+    <ordnung_und_klassifikation/>
+    <zugangsbestimmungen>Schutzfrist bis 01.01.1969</zugangsbestimmungen>
+    <basisdatum_schutzfrist/>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
+      <bezeichnung>Jahre</bezeichnung>
+      <frist>30</frist>
+    </schutzfrist>
+    <ablauf_schutzfrist>01.01.1969</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <verwertungsrecht/>
+    <ablauf_verwertungsrecht>01.01.2009</ablauf_verwertungsrecht>
+    <lizenz/>
+    <urheber_bekannt/>
+    <urheber/>
+    <todesdatum_urheber/>
+    <reproduktionsbestimmungen/>
+    <sprachen/>
+    <schriften/>
+    <physische_beschaffenheit_und_technische_anforderungen>Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
+    <findmittel/>
+    <aufbewahrungsort_der_originale/>
+    <kopien_-_reproduktionen/>
+    <reproduktionsarten/>
+    <verwandtes_material/>
+    <veroeffentlichungen/>
+    <allgemeine_interne_anmerkungen>Dossier 92 / Entit&#228;t: Monteur am Velum #GND1218719192 im Stedelijk Museum Amsterdam #GND004191196 Typ: Person Rolle: Abgebildet (dpc) (Empty) Anzahl: 2 (Quelle: Vorlage Ch 3.1.41); Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen/>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <erschliessungszustand/>
+    <digitalisierungsgrad/>
+    <zustandskategorie/>
+    <bearbeiter_und_zeitraum_der_verzeichnung/>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <verzeichnungsgrundsaetze/>
+    <schadenserhebung/>
+    <standorte/>
+    <bemerkungen_zum_standort/>
+    <umfaenge/>
+    <registereintraege/>
+    <dateien/>
+    <doi>https://doi.org/10.7891/e-manuscripta-126364</doi>
+    <parsed_internal_remarks>
+      <item>
+        <entitaet>
+          <value>Monteur am Velum im Stedelijk Museum Amsterdam</value>
+          <identifiers>
+            <item>
+              <position>17</position>
+              <source>GND</source>
+              <value>1218719192</value>
+            </item>
+            <item>
+              <position>47</position>
+              <source>GND</source>
+              <value>004191196</value>
+            </item>
+          </identifiers>
+        </entitaet>
+        <typ>
+          <value>Person</value>
+        </typ>
+        <rolle>
+          <value>Abgebildet</value>
+          <qualifier>dpc) (Empty</qualifier>
+        </rolle>
+        <anzahl>
+          <value>2</value>
+          <qualifier>Quelle: Vorlage Ch 3.1.41</qualifier>
+        </anzahl>
+      </item>
+      <item>
+        <entitaet>
+          <value>Amsterdam</value>
+          <identifiers>
+            <item>
+              <position>10</position>
+              <source>GND</source>
+              <value>4001783-7</value>
+            </item>
+          </identifiers>
+        </entitaet>
+        <typ>
+          <value>Geografikum</value>
+        </typ>
+        <rolle>
+          <value>Entstehungsort</value>
+        </rolle>
+      </item>
+    </parsed_internal_remarks>
+    <oai>
+      <header>
+        <identifier>oai:www.e-manuscripta.ch/zuzcmi:3472571</identifier>
+        <datestamp>2022-02-01T14:24:55Z</datestamp>
+        <setSpec>emanuszuzcmi</setSpec>
+        <setSpec>document</setSpec>
+      </header>
+      <metadata>
+        <mets xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:mets="http://www.loc.gov/METS/"
+          xmlns:mods="http://www.loc.gov/mods/v3"
+          xmlns:vl="http://visuallibrary.net/vl"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
+          <dmdSec ID="md3472571">
+            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+              <xmlData>
+                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+                  <titleInfo>
+                    <title>Herstellung und Montage des Velums 41</title>
+                  </titleInfo>
+                  <typeOfResource>text</typeOfResource>
+                  <originInfo>
+                    <place>
+                      <placeTerm type="text">Amsterdam</placeTerm>
+                    </place>
+                    <dateCreated>1938</dateCreated>
+                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1938-01-01</dateCreated>
+                    <dateCreated point="end" encoding="w3cdtf">1939-01-01</dateCreated>
+                  </originInfo>
+                  <physicalDescription>
+                    <extent>1 Fotoabzug</extent>
+                  </physicalDescription>
+                  <identifier type="doi">10.7891/e-manuscripta-126364</identifier>
+                  <location>
+                    <shelfLocator>Hs NL 11: Ch 3.1.41</shelfLocator>
+                  </location>
+                  <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0" displayLabel="Public Domain Mark">pdm</accessCondition>
+                  <extension>
+                    <relatedItem type="inventory">
+                      <titleInfo>
+                        <title>Itten, Johannes (1888-1967)</title>
+                      </titleInfo>
+                      <note type="content">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</note>
+                      <recordInfo>
+                        <recordIdentifier>43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
+                      </recordInfo>
+                    </relatedItem>
+                    <originInfo displayLabel="dc">
+                      <dateCreated encoding="w3cdtf" point="start">1938-01-01</dateCreated>
+                      <dateCreated encoding="w3cdtf" point="end">1939-01-01</dateCreated>
+                    </originInfo>
+                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
+                  </extension>
+                  <recordInfo>
+                    <recordIdentifier source="emanuszuzcmi">712bf7c61f594314b146f81bf6a01add</recordIdentifier>
+                  </recordInfo>
+                </mods>
+              </xmlData>
+            </mdWrap>
+          </dmdSec>
+          <amdSec ID="amd3472571">
+            <rightsMD ID="rights3472571">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>pdm</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3472571">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/712bf7c61f594314b146f81bf6a01add</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3472571</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3472571/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3472571</sru>
+                    <images>
+                      <image id="3472572">
+                        <height>3905</height>
+                        <width>3358</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3472572</url>
+                      </image>
+                    </images>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+          <amdSec ID="amd3212613">
+            <rightsMD ID="rights3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>pdm</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/43a2ab3eb18841db9ec1af3669b74f39</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3212613</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3212613/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3212613</sru>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+        </mets>
+      </metadata>
+    </oai>
+  </record>
+
 </collection>
