@@ -389,6 +389,56 @@
         </mapping>
         <mapping>
             <domain>
+                <source_node>/collection/record/parsed_internal_remarks</source_node>
+                <target_node>
+                    <entity variable="collection_object_image">
+                        <type>crm:E36_Visual_Item</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">image</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/@id)</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>item</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <equals value="Person">typ/value/text()</equals>
+                                </if>
+                                <if>
+                                    <equals value="Abgebildet">rolle/value/text()</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P138_represents</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>item</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">entitaet/value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
                 <source_node>/collection/record/parsed_internal_remarks/item</source_node>
                 <target_node>
                     <if>
