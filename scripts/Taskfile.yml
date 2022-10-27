@@ -41,7 +41,7 @@ tasks:
   generate-example-record:
     desc: Generates an example record for developing the mapping in the X3ML editor
     cmds:
-      - cat /data/xml/merged/9b570bfd545247fab57346996242c9fd.xml /data/xml/merged/b587c12ecb8b4a5fb9c1b7e075b9f8c0.xml /data/xml/merged/cdc330b211924b7dad51274f51831e18.xml /data/xml/merged/0c0583bb7ac742b08269229ac595be7b.xml > /mapping/example-record.xml
+      - cat /data/xml/merged/9b570bfd545247fab57346996242c9fd.xml /data/xml/merged/b587c12ecb8b4a5fb9c1b7e075b9f8c0.xml /data/xml/merged/cdc330b211924b7dad51274f51831e18.xml /data/xml/merged/0c0583bb7ac742b08269229ac595be7b.xml /data/xml/merged/712bf7c61f594314b146f81bf6a01add.xml > /mapping/example-record.xml
       - sed -i 's/<collection>//g' /mapping/example-record.xml
       - sed -i 's/<\/collection>//g' /mapping/example-record.xml
       - echo '<collection>' | cat - /mapping/example-record.xml > temp && mv temp /mapping/example-record.xml; echo '</collection>' >> /mapping/example-record.xml
