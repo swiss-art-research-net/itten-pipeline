@@ -147,7 +147,10 @@ tasks:
       - /data/ttl/main/*.ttl
       - /scripts/retrieveAdditionalData.py
     generates:
+      - /data/ttl/additional/aat.ttl
       - /data/ttl/additional/gnd.ttl
+      - /data/ttl/additional/loc.ttl
+      - /data/ttl/additional/wd.ttl
     cmds:
       - python retrieveAdditionalData.py --sourceFolder /data/ttl/main --targetFolder /data/ttl/additional --sources aat,gnd,wd,loc
 
