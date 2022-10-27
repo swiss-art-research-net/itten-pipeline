@@ -391,6 +391,9 @@
             <domain>
                 <source_node>/collection/record/parsed_internal_remarks</source_node>
                 <target_node>
+                    <if>
+                        <exists>../oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/@id</exists>
+                    </if>
                     <entity variable="collection_object_image">
                         <type>crm:E36_Visual_Item</type>
                         <instance_generator name="URIwithTypeAndId">
