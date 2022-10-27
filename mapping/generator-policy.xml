@@ -161,6 +161,10 @@
 		<pattern>{id}</pattern>
 	</generator>
 
+	<generator name="URIwithCidocCrmId" prefix="crm">
+		<pattern>{id}</pattern>
+	</generator>
+
 	<generator name="URIwithGndId" prefix="gnd">
 		<pattern>{id}</pattern>
 	</generator>
