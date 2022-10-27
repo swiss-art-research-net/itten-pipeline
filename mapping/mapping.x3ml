@@ -392,7 +392,85 @@
                 <source_node>/collection/record/parsed_internal_remarks</source_node>
                 <target_node>
                     <if>
-                        <exists>../oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/@id</exists>
+                        <not>
+                            <if>
+                                <exists>../oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/@id</exists>
+                            </if>
+                        </not>
+                    </if>
+                    <entity variable="collection">
+                        <type>crm:E78_Curated_Holding</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>item</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <equals value="Person">typ/value/text()</equals>
+                                </if>
+                                <if>
+                                    <equals value="Abgebildet">rolle/value/text()</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P62_depicts</relationship>
+                    </target_relation>
+                    <comments>
+                        <comment type="">
+                            <rationale>If no digitised image exists we map the person as P62 depicted by the curated holding</rationale>
+                            <alternatives/>
+                            <typical_mistakes/>
+                            <local_habits/>
+                            <link_to_cook_book/>
+                            <example>
+                                <example_source/>
+                                <example_target/>
+                            </example>
+                            <comments_last_update date="" person=""/>
+                        </comment>
+                    </comments>
+                </path>
+                <range>
+                    <source_node>item</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">entitaet/value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/parsed_internal_remarks</source_node>
+                <target_node>
+                    <if>
+                        <and>
+                            <if>
+                                <exists>../oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/text()</exists>
+                            </if>
+                            <if>
+                                <equals value="Abgebildet">rolle/value/text()</equals>
+                            </if>
+                        </and>
                     </if>
                     <entity variable="collection_object_image">
                         <type>crm:E36_Visual_Item</type>
@@ -402,6 +480,20 @@
                         </instance_generator>
                     </entity>
                 </target_node>
+                <comments>
+                    <comment type="">
+                        <rationale>If a digitised image exists we map the person as P138 represented by the visual item</rationale>
+                        <alternatives/>
+                        <typical_mistakes/>
+                        <local_habits/>
+                        <link_to_cook_book/>
+                        <example>
+                            <example_source/>
+                            <example_target/>
+                        </example>
+                        <comments_last_update date="" person=""/>
+                    </comment>
+                </comments>
             </domain>
             <link>
                 <path>
