@@ -527,7 +527,7 @@
                         <entity>
                             <type>crm:E1_CRM_Entity</type>
                             <instance_generator name="URIorUUID">
-                                <arg name="text" type="xpath">if(source/text()='GND') then (concat("https://d-nb.info/gnd/", value/text())</arg>
+                                <arg name="text" type="xpath">if(source/text()='GND') then (concat("https://d-nb.info/gnd/", value/text())) else "unknown"</arg>
                             </instance_generator>
                         </entity>
                     </target_node>
