@@ -327,6 +327,64 @@
                     </target_node>
                 </range>
             </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>item</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <equals value="Person">typ/value/text()</equals>
+                                </if>
+                                <if>
+                                    <equals value="Beteiligt">rolle/value/text()</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P9_consists_of</relationship>
+                        <entity>
+                            <type>crm:E12_Production</type>
+                            <instance_generator name="URIwithTypeSubtypeIdAndCounter">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                                <arg name="subtype" type="constant">production</arg>
+                                <arg name="position" type="xpath">concat("rem-", position())</arg>
+                            </instance_generator>
+                            <additional>
+                                <relationship>crm:P2_has_type</relationship>
+                                <entity>
+                                    <type>crm:E55_Type</type>
+                                    <instance_info>
+                                        <constant/>
+                                    </instance_info>
+                                    <instance_generator name="URIwithLocId">
+                                        <arg name="id" type="constant">ctb</arg>
+                                    </instance_generator>
+                                </entity>
+                            </additional>
+                        </entity>
+                        <relationship>crm:P11_had_participant</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>item</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">entitaet/value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
         </mapping>
         <mapping>
             <domain>
@@ -978,7 +1036,7 @@
                                 <arg name="type" type="constant">collection</arg>
                                 <arg name="id" type="xpath">concat("jila-", ../../../guid/text())</arg>
                                 <arg name="subtype" type="constant">production</arg>
-                                <arg name="position" type="position"/>
+                                <arg name="position" type="xpath">concat("reg-", position())</arg>
                             </instance_generator>
                             <additional>
                                 <relationship>crm:P2_has_type</relationship>
