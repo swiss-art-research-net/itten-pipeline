@@ -611,7 +611,7 @@
                         <type>crm:E13_Attribute_Assignment</type>
                         <instance_generator name="URIwithOneLevelIdHashed">
                             <arg name="type" type="constant">event</arg>
-                            <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
                             <arg name="subtype" type="constant">assignment</arg>
                             <arg name="subId_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (entitaet/value/text())</arg>
                         </instance_generator>
@@ -624,7 +624,7 @@
                                 </instance_info>
                                 <instance_generator name="URIwithTypeSubtypeAndId">
                                     <arg name="type" type="constant">collection</arg>
-                                    <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                                    <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
                                     <arg name="subtype" type="constant">expression</arg>
                                 </instance_generator>
                             </entity>
@@ -682,7 +682,7 @@
                             <type>crm:E73_Information_Object</type>
                             <instance_generator name="URIwithOneLevelIdAndSuffixHashed">
                                 <arg name="type" type="constant">event</arg>
-                                <arg name="id" type="xpath">concat("jila-", ../../../../guid/text())</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../../guid/text())</arg>
                                 <arg name="subtype" type="constant">assignment</arg>
                                 <arg name="subId_HASHED_CONTENTS" type="xpath">if (../../entitaet/identifiers/source/text() = 'GND') then (../../entitaet/identifiers/value/text()) else (../../entitaet/value/text())</arg>
                                 <arg name="suffix" type="constant">comment</arg>
@@ -1167,7 +1167,7 @@
                                 <equals value="GND">source/text()</equals>
                             </if>
                             <if>
-                                <equals value="Geografikum">../../../typ/value/text()</equals>
+                                <equals value="Geografikum">../../typ/value/text()</equals>
                             </if>
                         </and>
                     </if>
