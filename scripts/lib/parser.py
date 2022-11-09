@@ -115,6 +115,18 @@ class Parser:
         return value, identifiers
         
     def _updateRecord(self, record, *, key, value, qualifier=False):
+        """
+        Update a record with a new key/value pair and an optional identifier.
+        The value is converted to an object that contains the value as well as any identifiers that are extracted automatically.
+        If the key does not yet exist in the record, it is created and the data is added.
+        If the key already exists, the new value is appended to a list of values, converting the previous value to a list if necessary.
+
+        :param record: The record to update
+        :param key: The key to update
+        :param value: The value to add
+        :param qualifier: An optional qualifier for the value
+        :return: The updated record
+        """
         obj = { 'value': value }
         if "#" in value:
             value, identifiers = self._processIdentifiers(value)
