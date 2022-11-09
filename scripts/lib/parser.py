@@ -159,6 +159,11 @@ class Parser:
         >>> example5 = 'Entität: Mona Lisa #GND4074156-4 Typ: Werk Rolle: Erwähnt Bemerkung: ...'
         >>> p.parse(example5)
         [{'Entität': {'value': 'Mona Lisa', 'identifiers': [{'position': 10, 'source': 'GND', 'value': '4074156-4'}]}, 'Typ': {'value': 'Werk'}, 'Rolle': {'value': 'Erwähnt Bemerkung: ...'}}]
+        
+        >>> example6 = 'Entität: Taube Rolle: Abgebildet Rolle: Erwähnt Bemerkungen: Eine Taube ist auf dem Bild zu sehen und wird im Brief mehrfach erwähnt.'
+        >>> p.parse(example6)
+        [{'Entität': {'value': 'Taube'}, 'Rolle': [{'value': 'Abgebildet'}, {'value': 'Erwähnt'}], 'Bemerkungen': {'value': 'Eine Taube ist auf dem Bild zu sehen und wird im Brief mehrfach erwähnt.'}}]
+        
         """
         records = []
         recordBlocks = self._extractRecordBlocks(text)
