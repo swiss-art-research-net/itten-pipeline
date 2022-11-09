@@ -318,7 +318,7 @@ def addRoleCodesToRegisters(records):
                     role.set("label", re.search(rOneCode, role.text).group(1).lower())        
     return records
 
-def convertRecordsToXML(records, *, flattenLists=False):
+def convertRecordsToXML(records, *, removeEmptyNodes=True, flattenLists=False):
     """
     Convert CMI records to XML.
 
@@ -389,6 +389,11 @@ def convertRecordsToXML(records, *, flattenLists=False):
                 parent.addnext(item)
                 if len(parent) == 0:
                     grandparent.remove(parent)
+
+        # Remove empty nodes
+        if removeEmptyNodes:
+            for empty in xml.xpath('//*[not(node())]'):
+                empty.getparent().remove(empty)
 
         return xml
 
