@@ -308,7 +308,7 @@ def addRoleCodesToRegisters(records):
     rTwoCodes = r'(\w{3})(?=\))\)\s\(([^)]*)\)'
     rOneCode = r'\(([^)]*)\)$'
     for record in records:
-        for item in record.findall(".//registereintraege/item"):
+        for item in record.findall(".//registereintraege"):
             role = item.find("register_rolle")
             if role is not None:
                 if re.search(rTwoCodes, role.text):
