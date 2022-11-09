@@ -72,7 +72,7 @@ def prepareData(options):
     records = parseInternalRemarks(records)
 
     # Convert to XML
-    recordsXML = convertRecordsToXML(records)
+    recordsXML = convertRecordsToXML(records, flattenLists=True)
 
     # Add data from OAI XML files
     recordsXML = addOaiXMLData(recordsXML, oaiXmlData)
@@ -318,7 +318,7 @@ def addRoleCodesToRegisters(records):
                     role.set("label", re.search(rOneCode, role.text).group(1).lower())        
     return records
 
-def convertRecordsToXML(records):
+def convertRecordsToXML(records, *, flattenLists=False):
     """
     Convert CMI records to XML.
 
@@ -380,6 +380,16 @@ def convertRecordsToXML(records):
             print("Error in column %s" % column)
             print(xmlString[column-padding:column-1].decode('utf-8-sig') + "-->" + xmlString[column:column+1].decode('utf-8-sig') + "<--" + xmlString[column+1:column+padding].decode('utf-8-sig'))
             sys.exit(1)
+
+        if flattenLists:
+            for item in xml.findall(".//item"):
+                parent = item.getparent()
+                grandparent = parent.getparent()
+                item.tag = parent.tag
+                parent.addnext(item)
+                if len(parent) == 0:
+                    grandparent.remove(parent)
+
         return xml
 
     xmlRecords = []
@@ -402,7 +412,6 @@ def parseInternalRemarks(records):
             record["parsed internal remarks"] = p.parse(remarks)
 
     return records
-    
 
 def removeIttenArchiveNode(records):
     """
