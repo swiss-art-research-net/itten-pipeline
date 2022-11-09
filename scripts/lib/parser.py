@@ -158,7 +158,7 @@ class Parser:
 
         >>> example5 = 'Entität: Mona Lisa #GND4074156-4 Typ: Werk Rolle: Erwähnt Bemerkung: ...'
         >>> p.parse(example5)
-        [{'Entität': {'value': 'Mona Lisa #GND4074156-4'}, 'Typ': {'value': 'Werk'}, 'Rolle': {'value': 'Erwähnt Bemerkung: ...'}}]
+        [{'Entität': {'value': 'Mona Lisa', 'identifiers': [{'position': 10, 'source': 'GND', 'value': '4074156-4'}]}, 'Typ': {'value': 'Werk'}, 'Rolle': {'value': 'Erwähnt Bemerkung: ...'}}]
         """
         records = []
         recordBlocks = self._extractRecordBlocks(text)
