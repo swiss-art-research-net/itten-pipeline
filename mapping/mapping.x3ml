@@ -138,14 +138,14 @@
             <link>
                 <path>
                     <source_relation>
-                        <relation>archivalienarten/item</relation>
+                        <relation>archivalienarten</relation>
                     </source_relation>
                     <target_relation>
                         <relationship>crm:P2_has_type</relationship>
                     </target_relation>
                 </path>
                 <range>
-                    <source_node>archivalienarten/item</source_node>
+                    <source_node>archivalienarten</source_node>
                     <target_node>
                         <entity>
                             <type>crm:E55_Type</type>
@@ -301,26 +301,26 @@
             <link>
                 <path>
                     <source_relation>
-                        <relation>item</relation>
+                        <relation>entitaet</relation>
                     </source_relation>
                     <target_relation>
                         <if>
-                            <equals value="Entstehungsort">rolle/value/text()</equals>
+                            <equals value="Entstehungsort">../rolle/value/text()</equals>
                         </if>
                         <relationship>crm:P7_took_place_at</relationship>
                     </target_relation>
                 </path>
                 <range>
-                    <source_node>item</source_node>
+                    <source_node>entitaet</source_node>
                     <target_node>
                         <entity>
                             <type>crm:E53_Place</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">place</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (identifiers/value/text()) else (value/text())</arg>
                             </instance_generator>
                             <label_generator name="Literal">
-                                <arg name="text" type="xpath">entitaet/value/text()</arg>
+                                <arg name="text" type="xpath">value/text()</arg>
                                 <arg name="language" type="constant"/>
                             </label_generator>
                         </entity>
@@ -330,16 +330,16 @@
             <link>
                 <path>
                     <source_relation>
-                        <relation>item</relation>
+                        <relation>entitaet</relation>
                     </source_relation>
                     <target_relation>
                         <if>
                             <and>
                                 <if>
-                                    <equals value="Person">typ/value/text()</equals>
+                                    <equals value="Person">../typ/value/text()</equals>
                                 </if>
                                 <if>
-                                    <equals value="Beteiligt">rolle/value/text()</equals>
+                                    <equals value="Beteiligt">../rolle/value/text()</equals>
                                 </if>
                             </and>
                         </if>
@@ -369,16 +369,16 @@
                     </target_relation>
                 </path>
                 <range>
-                    <source_node>item</source_node>
+                    <source_node>entitaet</source_node>
                     <target_node>
                         <entity>
                             <type>crm:E21_Person</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (identifiers/value/text()) else (value/text())</arg>
                             </instance_generator>
                             <label_generator name="Literal">
-                                <arg name="text" type="xpath">entitaet/value/text()</arg>
+                                <arg name="text" type="xpath">value/text()</arg>
                                 <arg name="language" type="constant"/>
                             </label_generator>
                         </entity>
@@ -402,16 +402,16 @@
             <link>
                 <path>
                     <source_relation>
-                        <relation>item</relation>
+                        <relation>entitaet</relation>
                     </source_relation>
                     <target_relation>
                         <if>
                             <and>
                                 <if>
-                                    <equals value="Person">typ/value/text()</equals>
+                                    <equals value="Person">../typ/value/text()</equals>
                                 </if>
                                 <if>
-                                    <equals value="Erwähnt">rolle/value/text()</equals>
+                                    <equals value="Erwähnt">../rolle/value/text()</equals>
                                 </if>
                             </and>
                         </if>
@@ -428,16 +428,16 @@
                     </target_relation>
                 </path>
                 <range>
-                    <source_node>item</source_node>
+                    <source_node>entitaet</source_node>
                     <target_node>
                         <entity>
                             <type>crm:E21_Person</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (value/text())</arg>
                             </instance_generator>
                             <label_generator name="Literal">
-                                <arg name="text" type="xpath">entitaet/value/text()</arg>
+                                <arg name="text" type="xpath">value/text()</arg>
                                 <arg name="language" type="constant"/>
                             </label_generator>
                         </entity>
@@ -468,16 +468,16 @@
             <link>
                 <path>
                     <source_relation>
-                        <relation>item</relation>
+                        <relation>entitaet</relation>
                     </source_relation>
                     <target_relation>
                         <if>
                             <and>
                                 <if>
-                                    <equals value="Person">typ/value/text()</equals>
+                                    <equals value="Person">../typ/value/text()</equals>
                                 </if>
                                 <if>
-                                    <equals value="Abgebildet">rolle/value/text()</equals>
+                                    <equals value="Abgebildet">../rolle/value/text()</equals>
                                 </if>
                             </and>
                         </if>
@@ -499,16 +499,16 @@
                     </comments>
                 </path>
                 <range>
-                    <source_node>item</source_node>
+                    <source_node>entitaet</source_node>
                     <target_node>
                         <entity>
                             <type>crm:E21_Person</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (entitaet/value/text())</arg>
                             </instance_generator>
                             <label_generator name="Literal">
-                                <arg name="text" type="xpath">entitaet/value/text()</arg>
+                                <arg name="text" type="xpath">value/text()</arg>
                                 <arg name="language" type="constant"/>
                             </label_generator>
                         </entity>
@@ -556,16 +556,16 @@
             <link>
                 <path>
                     <source_relation>
-                        <relation>item</relation>
+                        <relation>entitaet</relation>
                     </source_relation>
                     <target_relation>
                         <if>
                             <and>
                                 <if>
-                                    <equals value="Person">typ/value/text()</equals>
+                                    <equals value="Person">../typ/value/text()</equals>
                                 </if>
                                 <if>
-                                    <equals value="Abgebildet">rolle/value/text()</equals>
+                                    <equals value="Abgebildet">../rolle/value/text()</equals>
                                 </if>
                             </and>
                         </if>
@@ -573,16 +573,16 @@
                     </target_relation>
                 </path>
                 <range>
-                    <source_node>item</source_node>
+                    <source_node>entitaet</source_node>
                     <target_node>
                         <entity>
                             <type>crm:E21_Person</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (identifiers/value/text()) else (value/text())</arg>
                             </instance_generator>
                             <label_generator name="Literal">
-                                <arg name="text" type="xpath">entitaet/value/text()</arg>
+                                <arg name="text" type="xpath">value/text()</arg>
                                 <arg name="language" type="constant"/>
                             </label_generator>
                         </entity>
@@ -592,7 +592,7 @@
         </mapping>
         <mapping>
             <domain>
-                <source_node>/collection/record/parsed_internal_remarks/item</source_node>
+                <source_node>/collection/record/parsed_internal_remarks</source_node>
                 <target_node>
                     <if>
                         <and>
@@ -613,7 +613,7 @@
                             <arg name="type" type="constant">event</arg>
                             <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
                             <arg name="subtype" type="constant">assignment</arg>
-                            <arg name="subId_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                            <arg name="subId_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (entitaet/value/text())</arg>
                         </instance_generator>
                         <additional>
                             <relationship>crm:P140_assigned_attribute_to</relationship>
@@ -638,7 +638,7 @@
                                 </instance_info>
                                 <instance_generator name="URIwithTypeAndId_hashed">
                                     <arg name="type" type="constant">actor</arg>
-                                    <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                                    <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (entitaet/value/text())</arg>
                                 </instance_generator>
                             </entity>
                         </additional>
@@ -684,7 +684,7 @@
                                 <arg name="type" type="constant">event</arg>
                                 <arg name="id" type="xpath">concat("jila-", ../../../../guid/text())</arg>
                                 <arg name="subtype" type="constant">assignment</arg>
-                                <arg name="subId_HASHED_CONTENTS" type="xpath">if (../../entitaet/identifiers/item[1]/source/text() = 'GND') then (../../entitaet/identifiers/item[1]/value/text()) else (../../entitaet/value/text())</arg>
+                                <arg name="subId_HASHED_CONTENTS" type="xpath">if (../../entitaet/identifiers/source/text() = 'GND') then (../../entitaet/identifiers/value/text()) else (../../entitaet/value/text())</arg>
                                 <arg name="suffix" type="constant">comment</arg>
                             </instance_generator>
                         </entity>
@@ -707,7 +707,7 @@
             <link>
                 <path>
                     <source_relation>
-                        <relation>bemerkungen/identifiers/item</relation>
+                        <relation>bemerkungen/identifiers</relation>
                     </source_relation>
                     <target_relation>
                         <relationship>crm:P129i_is_subject_of</relationship>
@@ -715,9 +715,9 @@
                             <type>crm:E73_Information_Object</type>
                             <instance_generator name="URIwithOneLevelIdAndSuffixHashed">
                                 <arg name="type" type="constant">event</arg>
-                                <arg name="id" type="xpath">concat("jila-", ../../../../../guid/text())</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../../../guid/text())</arg>
                                 <arg name="subtype" type="constant">assignment</arg>
-                                <arg name="subId_HASHED_CONTENTS" type="xpath">if (../../../entitaet/identifiers/item[1]/source/text() = 'GND') then (../../../entitaet/identifiers/item[1]/value/text()) else (../../../entitaet/value/text())</arg>
+                                <arg name="subId_HASHED_CONTENTS" type="xpath">if (../../entitaet/identifiers/source/text() = 'GND') then (../../entitaet/identifiers/value/text()) else (../../entitaet/value/text())</arg>
                                 <arg name="suffix" type="constant">comment</arg>
                             </instance_generator>
                         </entity>
@@ -725,7 +725,7 @@
                     </target_relation>
                 </path>
                 <range>
-                    <source_node>bemerkungen/identifiers/item</source_node>
+                    <source_node>bemerkungen/identifiers</source_node>
                     <target_node>
                         <entity>
                             <type>crm:E1_CRM_Entity</type>
@@ -847,7 +847,7 @@
         </mapping>
         <mapping>
             <domain>
-                <source_node>/collection/record/archivalienarten/item</source_node>
+                <source_node>/collection/record/archivalienarten</source_node>
                 <target_node>
                     <entity variable="collection_type_archivalienarten">
                         <type>crm:E55_Type</type>
@@ -1008,7 +1008,7 @@
         </mapping>
         <mapping>
             <domain>
-                <source_node>/collection/record/registereintraege/item</source_node>
+                <source_node>/collection/record/registereintraege</source_node>
                 <target_node>
                     <if>
                         <equals value="aut">register_rolle/@code</equals>
@@ -1017,7 +1017,7 @@
                         <type>crm:E12_Production</type>
                         <instance_generator name="URIwithTypeSubtypeAndId">
                             <arg name="type" type="constant">collection</arg>
-                            <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
                             <arg name="subtype" type="constant">production</arg>
                         </instance_generator>
                     </entity>
@@ -1034,7 +1034,7 @@
                             <type>crm:E12_Production</type>
                             <instance_generator name="URIwithTypeSubtypeIdAndCounter">
                                 <arg name="type" type="constant">collection</arg>
-                                <arg name="id" type="xpath">concat("jila-", ../../../guid/text())</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
                                 <arg name="subtype" type="constant">production</arg>
                                 <arg name="position" type="xpath">concat("reg-", position())</arg>
                             </instance_generator>
@@ -1159,7 +1159,7 @@
         </mapping>
         <mapping>
             <domain>
-                <source_node>/collection/record/parsed_internal_remarks/item/entitaet/identifiers/item</source_node>
+                <source_node>/collection/record/parsed_internal_remarks/entitaet/identifiers</source_node>
                 <target_node>
                     <if>
                         <and>
