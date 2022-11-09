@@ -1,5 +1,4 @@
 import re
-
 class Parser:
     """
     Parser to extract structured information from free text remarks in the CMI export. 
@@ -81,41 +80,60 @@ class Parser:
             spans.append(match.span())
         for i, span in enumerate(spans):
             key = text[span[0]:span[1] - len(self.FIELD_SEPARATOR)]
-            record[key] = {}
             raw = text[span[1] + 1 : spans[i + 1][0] if i < len(spans) - 1 else None ].strip()
             if 'options' in self.FIELDS[key] and self.FIELDS[key]['options']['qualifier']:
                 qualifier = re.search(r'\((.*?)\)$', raw)
                 if qualifier:
-                    record[key]['value'] = raw.replace(f'({qualifier.group(1)})', '').strip()
-                    record[key]['qualifier'] = qualifier.group(1)
+                    value = raw.replace(f'({qualifier.group(1)})', '').strip()
+                    qualifier = qualifier.group(1)
+                    record = self._updateRecord(record, key=key, value=value, qualifier=qualifier)
                 else:
-                    record[key]['value'] = raw
+                    record = self._updateRecord(record, key=key, value=raw)
             else:
-                    record[key]['value'] = raw
-            if "#" in record[key]['value']:
-                record[key] = self._processIdentifiers(record[key])
+                    record = self._updateRecord(record, key=key, value=raw)
         return record
 
-    def _processIdentifiers(self, item):
+    def _processIdentifiers(self, value):
         """
-        If an identifier is set in the value (e.g. #GND4127793-4) extract it and add it as key 'identifier' to the item.
-        The extracted identifier is then removed from the value
+        If an identifier is set in the value (e.g. #GND4127793-4) extract them.
+        The extracted identifier is then removed from the value.
+        The function returns the changed value and a list of extracted identifiers
         """
         sources = ['GND']
-        identifiers = re.findall(r'#([\w\d\-]+)', item['value'])
-        if len(identifiers):
-            item['identifiers'] = []
-            for identifier in identifiers:
-                position = item['value'].find("#%s" % identifier)
-                item['value'] = item['value'].replace(f' #{identifier}', '').strip()
+        extractedIdentifiers = re.findall(r'#([\w\d\-]+)', value)
+        if len(extractedIdentifiers):
+            identifiers = []
+            for extractedIdentifier in extractedIdentifiers:
+                position = value.find("#%s" % extractedIdentifier)
+                value = value.replace(f' #{extractedIdentifier}', '').strip()
                 identifierObject = {'position': position}
                 for source in sources:
-                    if identifier.startswith(source):
+                    if extractedIdentifier.startswith(source):
                         identifierObject['source'] = source
-                        identifierObject['value'] = identifier.replace(source, '')
-                item['identifiers'].append(identifierObject)
-        return item
+                        identifierObject['value'] = extractedIdentifier.replace(source, '')
+                identifiers.append(identifierObject)
+        return value, identifiers
         
+    def _updateRecord(self, record, *, key, value, qualifier=False):
+        obj = { 'value': value }
+        if "#" in value:
+            value, identifiers = self._processIdentifiers(value)
+            obj['value'] = value
+            obj['identifiers'] = identifiers
+            
+        if qualifier:
+            obj['qualifier'] = qualifier
+            
+        if not key in record:
+            # If key is not yet set we just add the data under the key
+            record[key] = obj
+        elif isinstance(record[key], list):
+            # If the key already contains a list we add a new object to that list
+            record[key].append(obj)
+        else:
+            # If the key exists but is not yet a list we convert it into a list, appendig the new object
+            record[key] = [ record[key], obj]
+        return record
     
     def parse(self, text):
         """
