@@ -3390,4 +3390,499 @@
     </oai>
   </record>
 
+
+  <record>
+    <signatur>Hs NL 11: Fb 2.20.3</signatur>
+    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <id>60399</id>
+    <guid>7a96e18b43c44899a85b906109775066</guid>
+    <archivalienarten>
+      <bezeichnung>Typoskript</bezeichnung>
+      <gnd>4186519-4</gnd>
+    </archivalienarten>
+    <archivalienarten>
+      <bezeichnung>Manuskript</bezeichnung>
+      <gnd>4126273-6</gnd>
+    </archivalienarten>
+    <archivalienarten>
+      <bezeichnung>Autograf</bezeichnung>
+      <gnd>4003942-0</gnd>
+    </archivalienarten>
+    <titel>Manuskript zum Vortrag "Allgemeine Erziehung und Kunsterziehung"</titel>
+    <entstehungszeitraum>1961</entstehungszeitraum>
+    <bemerkungen_zum_umfang>14 Bl&#228;tter</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-126762" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126762&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Fb 2.20 - Vortrag "Allgemeine Erziehung und Kunsterziehung" - 1961</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>c49c163e9c764264bb83224abad1709e</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Werke und Manuskripte/Vortr&#228;ge und Aufs&#228;tze/Vortr&#228;ge und Aufs&#228;tze 1954-1967/Vortrag "Allgemeine Erziehung und Kunsterziehung"</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/95f5542c2ea84104b63179f64e19a826/12edee1922174655bcbbc5cd1a26089b/0c4cc1b8361741adaba10c05d0409875/c49c163e9c764264bb83224abad1709e</pfad_bestand_nur_guid_von_jeder_ebene>
+    <verwaltungsgeschichte_-_biografische_angaben>Pablo Casals, andere Namen: Pau Casals; Paul Casals / John F. Kennedy, vollst&#228;ndiger Name: John Fitzgerald Kennedy</verwaltungsgeschichte_-_biografische_angaben>
+    <ueberlieferungsformen>
+      <bezeichnung>analog ()</bezeichnung>
+    </ueberlieferungsformen>
+    <zugangsbestimmungen>Ohne rechtliche Einschr&#228;nkungen einsehbar</zugangsbestimmungen>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
+      <bezeichnung>Keine</bezeichnung>
+      <frist>0</frist>
+    </schutzfrist>
+    <ablauf_schutzfrist>01.01.1962</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <ablauf_verwertungsrecht>01.01.2038</ablauf_verwertungsrecht>
+    <lizenz>
+      <bezeichnung>CC BY-NC-SA 4.0</bezeichnung>
+      <link>https://creativecommons.org/licenses/by-nc-sa/4.0/</link>
+    </lizenz>
+    <urheber_bekannt>Ja</urheber_bekannt>
+    <urheber>Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
+    <todesdatum_urheber>1967</todesdatum_urheber>
+    <sprachen>
+      <kuerzel>ger</kuerzel>
+      <bezeichnung>Deutsch</bezeichnung>
+    </sprachen>
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 206 / Entit&#228;t: Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung" Typ: Person Rolle: Adressat (rcp) (Contributor) Bemerkungen: Damen und Herren (Name in Vorlageform, Quelle: Vorlage Fb 2.20.3); Entit&#228;t: Direktor der Chirurgischen Klinik Z&#252;rich Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Direktor der Chirurgischen Klinik Z&#252;rich #GND1086229142 im Jahr 1961. Vermutlich identisch mit Brunner, Alfred #GND13133056X (Quelle: Vorlage Fb 2.20.3); Entit&#228;t: Klaus Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: (Quelle: Vorlage Fb 2.20.3)</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen>Ort nicht ermittelt</allgemeine_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <registereintraege>
+      <register_bezeichnung>Reger, Max</register_bezeichnung>
+      <register_gnd-id>118598988</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1873 - 1916</register_datum>
+      <register_id>65970</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118598988 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Bosch, Hieronymus</register_bezeichnung>
+      <register_gnd-id>11851380X</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1450 - 1516</register_datum>
+      <register_id>65321</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11851380X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Edison, Thomas A.</register_bezeichnung>
+      <register_gnd-id>118528912</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1847 - 1931</register_datum>
+      <register_id>64861</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118528912 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Edison, Thomas; Edison, Thomas Alva; Alva Edison, Thomas</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Angelico, Fra</register_bezeichnung>
+      <register_gnd-id>118503081</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1387 - 1455</register_datum>
+      <register_id>60771</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118503081 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Saint-Exup&#233;ry, Antoine de</register_bezeichnung>
+      <register_gnd-id>118604902</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1900 - 1944</register_datum>
+      <register_id>60406</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118604902 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Weinstock, Heinrich</register_bezeichnung>
+      <register_gnd-id>117275824</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1889 - 1960</register_datum>
+      <register_id>60382</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/117275824 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Einstein, Albert</register_bezeichnung>
+      <register_gnd-id>118529579</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1879 - 1955</register_datum>
+      <register_id>15239</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118529579 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Plato</register_bezeichnung>
+      <register_gnd-id>118594893</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>null</register_datum>
+      <register_id>60394</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Lebensdaten: ca. 427-347 v. Chr. / Link zur GND: &lt;a href=http://d-nb.info/gnd/118594893 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Holbein, Hans</register_bezeichnung>
+      <register_gnd-id>118552953</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1497 - 1543</register_datum>
+      <register_id>29481</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552953 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Holbein, Hans der J&#252;ngere</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Ford, Henry</register_bezeichnung>
+      <register_gnd-id>118534300</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1863 - 1947</register_datum>
+      <register_id>60405</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118534300 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>El Greco</register_bezeichnung>
+      <register_gnd-id>118722778</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1541 - 1614</register_datum>
+      <register_id>60404</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118722778 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Kant, Immanuel</register_bezeichnung>
+      <register_gnd-id>118559796</register_gnd-id>
+      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum>1724 - 1804</register_datum>
+      <register_id>60403</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118559796 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege>
+      <register_bezeichnung>Itten, Johannes</register_bezeichnung>
+      <register_gnd-id>118710990</register_gnd-id>
+      <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
+      <register_datum>11.11.1888 - 25.03.1967</register_datum>
+      <register_id>21160</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <doi>https://doi.org/10.7891/e-manuscripta-126762</doi>
+    <parsed_internal_remarks>
+      <entitaet>
+        <value>Klaus</value>
+      </entitaet>
+      <typ>
+        <value>Person</value>
+      </typ>
+      <rolle>
+        <value>Erw&#228;hnt</value>
+        <qualifier>Empty</qualifier>
+      </rolle>
+      <bemerkungen>
+        <value>(Quelle: Vorlage Fb 2.20.3)</value>
+      </bemerkungen>
+    </parsed_internal_remarks>
+    <parsed_internal_remarks>
+      <entitaet>
+        <value>Direktor der Chirurgischen Klinik Z&#252;rich</value>
+      </entitaet>
+      <typ>
+        <value>Person</value>
+      </typ>
+      <rolle>
+        <value>Erw&#228;hnt</value>
+        <qualifier>Empty</qualifier>
+      </rolle>
+      <bemerkungen>
+        <value>Direktor der Chirurgischen Klinik Z&#252;rich im Jahr 1961. Vermutlich identisch mit Brunner, Alfred (Quelle: Vorlage Fb 2.20.3)</value>
+        <identifiers>
+          <position>96</position>
+          <source>GND</source>
+          <value>13133056X</value>
+        </identifiers>
+        <identifiers>
+          <position>41</position>
+          <source>GND</source>
+          <value>1086229142</value>
+        </identifiers>
+      </bemerkungen>
+    </parsed_internal_remarks>
+    <parsed_internal_remarks>
+      <entitaet>
+        <value>Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung"</value>
+      </entitaet>
+      <typ>
+        <value>Person</value>
+      </typ>
+      <rolle>
+        <value>Adressat</value>
+        <qualifier>rcp) (Contributor</qualifier>
+      </rolle>
+      <bemerkungen>
+        <value>Damen und Herren (Name in Vorlageform, Quelle: Vorlage Fb 2.20.3)</value>
+      </bemerkungen>
+    </parsed_internal_remarks>
+    <oai>
+      <header>
+        <identifier>oai:www.e-manuscripta.ch/zuzcmi:3484901</identifier>
+        <datestamp>2022-02-19T10:34:26Z</datestamp>
+        <setSpec>emanuszuzcmi</setSpec>
+        <setSpec>document</setSpec>
+      </header>
+      <metadata>
+        <mets xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:mets="http://www.loc.gov/METS/"
+          xmlns:mods="http://www.loc.gov/mods/v3"
+          xmlns:vl="http://visuallibrary.net/vl"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
+          <dmdSec ID="md3484901">
+            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+              <xmlData>
+                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+                  <titleInfo>
+                    <title>Manuskript zum Vortrag "Allgemeine Erziehung und Kunsterziehung"</title>
+                  </titleInfo>
+                  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/118710990">
+                    <displayForm>Itten, Johannes</displayForm>
+                    <role>
+                      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                      <roleTerm type="text">Verfasser</roleTerm>
+                    </role>
+                  </name>
+                  <typeOfResource>text</typeOfResource>
+                  <originInfo>
+                    <dateCreated>1961</dateCreated>
+                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1961-01-01</dateCreated>
+                    <dateCreated point="end" encoding="w3cdtf">1962-01-01</dateCreated>
+                  </originInfo>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+                  </language>
+                  <physicalDescription>
+                    <extent>14 Bl&#228;tter</extent>
+                  </physicalDescription>
+                  <identifier type="doi">10.7891/e-manuscripta-126762</identifier>
+                  <location>
+                    <shelfLocator>Hs NL 11: Fb 2.20.3</shelfLocator>
+                  </location>
+                  <accessCondition type="use and reproduction" xlink:href="http://rightsstatements.org/vocab/InC/1.0/" displayLabel="Nutzungsrechte eingeschr&#228;nkt">reserved</accessCondition>
+                  <extension>
+                    <relatedItem type="inventory">
+                      <titleInfo>
+                        <title>Itten, Johannes (1888-1967)</title>
+                      </titleInfo>
+                      <note type="content">Hs NL 11 Itten, Johannes (1888-1967)/Werke und Manuskripte/Vortr&#228;ge und Aufs&#228;tze/Vortr&#228;ge und Aufs&#228;tze 1954-1967/Vortrag "Allgemeine Erziehung und Kunsterziehung"</note>
+                      <recordInfo>
+                        <recordIdentifier>43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
+                      </recordInfo>
+                    </relatedItem>
+                    <originInfo displayLabel="dc">
+                      <dateCreated encoding="w3cdtf" point="start">1961-01-01</dateCreated>
+                      <dateCreated encoding="w3cdtf" point="end">1962-01-01</dateCreated>
+                    </originInfo>
+                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
+                  </extension>
+                  <recordInfo>
+                    <recordIdentifier source="emanuszuzcmi">7a96e18b43c44899a85b906109775066</recordIdentifier>
+                  </recordInfo>
+                </mods>
+              </xmlData>
+            </mdWrap>
+          </dmdSec>
+          <amdSec ID="amd3484901">
+            <rightsMD ID="rights3484901">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>reserved</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3484901">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/7a96e18b43c44899a85b906109775066</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3484901</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484901/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3484901</sru>
+                    <images>
+                      <image id="3484903">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484903</url>
+                      </image>
+                      <image id="3484904">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484904</url>
+                      </image>
+                      <image id="3484905">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484905</url>
+                      </image>
+                      <image id="3484906">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484906</url>
+                      </image>
+                      <image id="3484907">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484907</url>
+                      </image>
+                      <image id="3484908">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484908</url>
+                      </image>
+                      <image id="3484909">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484909</url>
+                      </image>
+                      <image id="3484910">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484910</url>
+                      </image>
+                      <image id="3484911">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484911</url>
+                      </image>
+                      <image id="3484912">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484912</url>
+                      </image>
+                      <image id="3484913">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484913</url>
+                      </image>
+                      <image id="3484914">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484914</url>
+                      </image>
+                      <image id="3484915">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484915</url>
+                      </image>
+                      <image id="3484916">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484916</url>
+                      </image>
+                      <image id="3484917">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484917</url>
+                      </image>
+                      <image id="3484918">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484918</url>
+                      </image>
+                      <image id="3484919">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484919</url>
+                      </image>
+                      <image id="3484920">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484920</url>
+                      </image>
+                      <image id="3484921">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484921</url>
+                      </image>
+                      <image id="3484922">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484922</url>
+                      </image>
+                      <image id="3484923">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484923</url>
+                      </image>
+                      <image id="3484924">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484924</url>
+                      </image>
+                      <image id="3484925">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484925</url>
+                      </image>
+                      <image id="3484926">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484926</url>
+                      </image>
+                      <image id="3484927">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484927</url>
+                      </image>
+                      <image id="3484928">
+                        <height>4856</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484928</url>
+                      </image>
+                      <image id="3484929">
+                        <height>5216</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484929</url>
+                      </image>
+                      <image id="3484930">
+                        <height>5192</height>
+                        <width>3512</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484930</url>
+                      </image>
+                    </images>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+          <amdSec ID="amd3212613">
+            <rightsMD ID="rights3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>pdm</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/43a2ab3eb18841db9ec1af3669b74f39</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3212613</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3212613/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3212613</sru>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+        </mets>
+      </metadata>
+    </oai>
+  </record>
+
 </collection>
