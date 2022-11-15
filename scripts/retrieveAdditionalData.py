@@ -210,7 +210,6 @@ def retrieveLocData(identifiers, targetFolder):
     with open(targetFile, 'a') as outputFile:
         for identifier in tqdm(identifiersToRetrieve):
             url = "%s.nt" % identifier
-            print(url)
             try:
                 firstRequest = requests.get(url)
                 # Follow redirect
