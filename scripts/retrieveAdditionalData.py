@@ -83,7 +83,7 @@ def extractIdentifiers(folder, sources):
     identifierNamespaces = {
         "aat": "http://vocab.getty.edu/",
         "gnd": "https://d-nb.info/gnd/",
-        "loc": "http://id.loc.gov/",
+        "loc": "http://id.loc.gov/vocabulary/relators/",
         "wd": "http://www.wikidata.org/entity/"
     }
 
@@ -210,6 +210,7 @@ def retrieveLocData(identifiers, targetFolder):
     with open(targetFile, 'a') as outputFile:
         for identifier in tqdm(identifiersToRetrieve):
             url = "%s.nt" % identifier
+            print(url)
             try:
                 firstRequest = requests.get(url)
                 # Follow redirect

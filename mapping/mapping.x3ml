@@ -19,7 +19,7 @@
         <namespace prefix="mets" uri="http://www.loc.gov/METS/"/>
         <namespace prefix="mods" uri="http://www.loc.gov/mods/v3"/>
         <namespace prefix="oai" uri="http://www.openarchives.org/OAI/2.0/"/>
-        <namespace prefix="loc" uri="http://id.loc.gov/"/>
+        <namespace prefix="loc" uri="http://id.loc.gov/vocabulary/relators/"/>
     </namespaces>
     <mappings>
         <mapping>
