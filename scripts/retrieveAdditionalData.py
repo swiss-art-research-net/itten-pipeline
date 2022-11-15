@@ -83,7 +83,7 @@ def extractIdentifiers(folder, sources):
     identifierNamespaces = {
         "aat": "http://vocab.getty.edu/",
         "gnd": "https://d-nb.info/gnd/",
-        "loc": "http://id.loc.gov/",
+        "loc": "http://id.loc.gov/vocabulary/relators/",
         "wd": "http://www.wikidata.org/entity/"
     }
 
