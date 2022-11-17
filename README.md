@@ -15,7 +15,7 @@ cp .env.example .env
 
 Run the project with
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Initialisation
