@@ -5,7 +5,7 @@
         <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
         <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
         <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
-        <namespace prefix="frbr" uri="http://iflastandards.info/ns/fr/frbr/frbroo/" />
+        <namespace prefix="frbroo" uri="http://iflastandards.info/ns/fr/frbr/frbroo/" />
         <namespace prefix="gnd" uri="https://d-nb.info/gnd/"/>
         <namespace prefix="ulan" uri="http://vocab.getty.edu/page/ulan/"/>
         <namespace prefix="wikidata" uri="https://www.wikidata.org/wiki/"/>
@@ -19,7 +19,7 @@
         <namespace prefix="mets" uri="http://www.loc.gov/METS/"/>
         <namespace prefix="mods" uri="http://www.loc.gov/mods/v3"/>
         <namespace prefix="oai" uri="http://www.openarchives.org/OAI/2.0/"/>
-        <namespace prefix="loc" uri="http://id.loc.gov/"/>
+        <namespace prefix="loc" uri="http://id.loc.gov/vocabulary/relators/"/>
     </namespaces>
     <mappings>
         <mapping>
@@ -138,14 +138,14 @@
             <link>
                 <path>
                     <source_relation>
-                        <relation>archivalienarten/item</relation>
+                        <relation>archivalienarten</relation>
                     </source_relation>
                     <target_relation>
                         <relationship>crm:P2_has_type</relationship>
                     </target_relation>
                 </path>
                 <range>
-                    <source_node>archivalienarten/item</source_node>
+                    <source_node>archivalienarten</source_node>
                     <target_node>
                         <entity>
                             <type>crm:E55_Type</type>
@@ -301,28 +301,496 @@
             <link>
                 <path>
                     <source_relation>
-                        <relation>item</relation>
+                        <relation>entitaet</relation>
                     </source_relation>
                     <target_relation>
                         <if>
-                            <equals value="Entstehungsort">rolle/value/text()</equals>
+                            <equals value="Entstehungsort">../rolle/value/text()</equals>
                         </if>
                         <relationship>crm:P7_took_place_at</relationship>
                     </target_relation>
                 </path>
                 <range>
-                    <source_node>item</source_node>
+                    <source_node>entitaet</source_node>
                     <target_node>
                         <entity>
                             <type>crm:E53_Place</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">place</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/item[1]/source/text() = 'GND') then (entitaet/identifiers/item[1]/value/text()) else (entitaet/value/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (identifiers/value/text()) else (value/text())</arg>
                             </instance_generator>
                             <label_generator name="Literal">
-                                <arg name="text" type="xpath">entitaet/value/text()</arg>
+                                <arg name="text" type="xpath">value/text()</arg>
                                 <arg name="language" type="constant"/>
                             </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>entitaet</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <equals value="Person">../typ/value/text()</equals>
+                                </if>
+                                <if>
+                                    <equals value="Beteiligt">../rolle/value/text()</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P9_consists_of</relationship>
+                        <entity>
+                            <type>crm:E12_Production</type>
+                            <instance_generator name="URIwithTypeSubtypeIdAndCounter">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                                <arg name="subtype" type="constant">production</arg>
+                                <arg name="position" type="xpath">concat("rem-", position())</arg>
+                            </instance_generator>
+                            <additional>
+                                <relationship>crm:P2_has_type</relationship>
+                                <entity>
+                                    <type>crm:E55_Type</type>
+                                    <instance_info>
+                                        <constant/>
+                                    </instance_info>
+                                    <instance_generator name="URIwithLocId">
+                                        <arg name="id" type="constant">ctb</arg>
+                                    </instance_generator>
+                                </entity>
+                            </additional>
+                        </entity>
+                        <relationship>crm:P11_had_participant</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>entitaet</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (identifiers/value/text()) else (value/text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/parsed_internal_remarks</source_node>
+                <target_node>
+                    <entity>
+                        <type>crm:E78_Curated_Holding</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>entitaet</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <equals value="Person">../typ/value/text()</equals>
+                                </if>
+                                <if>
+                                    <equals value="Erwähnt">../rolle/value/text()</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P128_carries</relationship>
+                        <entity variable="collection_expression">
+                            <type>frbroo:F2_Expression</type>
+                            <instance_generator name="URIwithTypeSubtypeAndId">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                                <arg name="subtype" type="constant">expression</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P67_refers_to</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>entitaet</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (value/text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/parsed_internal_remarks</source_node>
+                <target_node>
+                    <if>
+                        <and>
+                            <if>
+                                <equals value="Adressat">rolle/value/text()</equals>
+                            </if>
+                            <if>
+                                <equals value="Person">typ/value/text()</equals>
+                            </if>
+                        </and>
+                    </if>
+                    <entity>
+                        <type>crm:E78_Curated_Holding</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>entitaet</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P30i_custody_transferred_through</relationship>
+                        <entity>
+                            <type>crm:E10_Transfer_of_Custody</type>
+                            <instance_generator name="URIwithTypeSubtypeAndId">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                                <arg name="subtype" type="constant">transfer</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P29_custody_received_by</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>entitaet</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (value/text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/parsed_internal_remarks</source_node>
+                <target_node>
+                    <if>
+                        <not>
+                            <if>
+                                <exists>../oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/@id</exists>
+                            </if>
+                        </not>
+                    </if>
+                    <entity variable="collection">
+                        <type>crm:E78_Curated_Holding</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>entitaet</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <equals value="Person">../typ/value/text()</equals>
+                                </if>
+                                <if>
+                                    <equals value="Abgebildet">../rolle/value/text()</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P62_depicts</relationship>
+                    </target_relation>
+                    <comments>
+                        <comment type="">
+                            <rationale>If no digitised image exists we map the person as P62 depicted by the curated holding</rationale>
+                            <alternatives/>
+                            <typical_mistakes/>
+                            <local_habits/>
+                            <link_to_cook_book/>
+                            <example>
+                                <example_source/>
+                                <example_target/>
+                            </example>
+                            <comments_last_update date="" person=""/>
+                        </comment>
+                    </comments>
+                </path>
+                <range>
+                    <source_node>entitaet</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (entitaet/value/text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/parsed_internal_remarks</source_node>
+                <target_node>
+                    <if>
+                        <and>
+                            <if>
+                                <exists>../oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/text()</exists>
+                            </if>
+                            <if>
+                                <equals value="Abgebildet">rolle/value/text()</equals>
+                            </if>
+                        </and>
+                    </if>
+                    <entity variable="collection_object_image">
+                        <type>crm:E36_Visual_Item</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">image</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/@id)</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+                <comments>
+                    <comment type="">
+                        <rationale>If a digitised image exists we map the person as P138 represented by the visual item</rationale>
+                        <alternatives/>
+                        <typical_mistakes/>
+                        <local_habits/>
+                        <link_to_cook_book/>
+                        <example>
+                            <example_source/>
+                            <example_target/>
+                        </example>
+                        <comments_last_update date="" person=""/>
+                    </comment>
+                </comments>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>entitaet</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <equals value="Person">../typ/value/text()</equals>
+                                </if>
+                                <if>
+                                    <equals value="Abgebildet">../rolle/value/text()</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P138_represents</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>entitaet</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (identifiers/value/text()) else (value/text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/parsed_internal_remarks</source_node>
+                <target_node>
+                    <if>
+                        <and>
+                            <if>
+                                <exists>bemerkungen/value/text()</exists>
+                            </if>
+                            <if>
+                                <equals value="Person">typ/value/text()</equals>
+                            </if>
+                            <if>
+                                <equals value="Erwähnt">rolle/value/text()</equals>
+                            </if>
+                        </and>
+                    </if>
+                    <entity variable="internal_remarks_person_mentioned_assignment">
+                        <type>crm:E13_Attribute_Assignment</type>
+                        <instance_generator name="URIwithOneLevelIdHashed">
+                            <arg name="type" type="constant">event</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                            <arg name="subtype" type="constant">assignment</arg>
+                            <arg name="subId_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (entitaet/value/text())</arg>
+                        </instance_generator>
+                        <additional>
+                            <relationship>crm:P140_assigned_attribute_to</relationship>
+                            <entity>
+                                <type>frbroo:F2_Expression</type>
+                                <instance_info>
+                                    <constant/>
+                                </instance_info>
+                                <instance_generator name="URIwithTypeSubtypeAndId">
+                                    <arg name="type" type="constant">collection</arg>
+                                    <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                                    <arg name="subtype" type="constant">expression</arg>
+                                </instance_generator>
+                            </entity>
+                        </additional>
+                        <additional>
+                            <relationship>crm:P141_assigned</relationship>
+                            <entity>
+                                <type>crm:E21_Person</type>
+                                <instance_info>
+                                    <constant/>
+                                </instance_info>
+                                <instance_generator name="URIwithTypeAndId_hashed">
+                                    <arg name="type" type="constant">actor</arg>
+                                    <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (entitaet/value/text())</arg>
+                                </instance_generator>
+                            </entity>
+                        </additional>
+                        <additional>
+                            <relationship>crm:P177_assigned_property_of_type</relationship>
+                            <entity>
+                                <type>crm:E55_Type</type>
+                                <instance_info>
+                                    <constant/>
+                                </instance_info>
+                                <instance_generator name="URIwithCidocCrmId">
+                                    <arg name="id" type="constant">P67_refers_to</arg>
+                                </instance_generator>
+                            </entity>
+                        </additional>
+                    </entity>
+                </target_node>
+                <comments>
+                    <comment type="">
+                        <rationale>Comments about the assignment of a E21 Person to the F2 using P67</rationale>
+                        <alternatives/>
+                        <typical_mistakes/>
+                        <local_habits/>
+                        <link_to_cook_book/>
+                        <example>
+                            <example_source/>
+                            <example_target/>
+                        </example>
+                        <comments_last_update date="" person=""/>
+                    </comment>
+                </comments>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>bemerkungen/value</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P129i_is_subject_of</relationship>
+                        <entity variable="internal_remarks_person_mentioned_assignment_comment">
+                            <type>crm:E73_Information_Object</type>
+                            <instance_generator name="URIwithOneLevelIdAndSuffixHashed">
+                                <arg name="type" type="constant">event</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../../guid/text())</arg>
+                                <arg name="subtype" type="constant">assignment</arg>
+                                <arg name="subId_HASHED_CONTENTS" type="xpath">if (../../entitaet/identifiers/source/text() = 'GND') then (../../entitaet/identifiers/value/text()) else (../../entitaet/value/text())</arg>
+                                <arg name="suffix" type="constant">comment</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P3_has_note</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>bemerkungen/value</source_node>
+                    <target_node>
+                        <entity>
+                            <type>rdfs:Literal</type>
+                            <instance_generator name="Literal">
+                                <arg name="text" type="xpath">text()</arg>
+                                <arg name="language" type="constant"/>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>bemerkungen/identifiers</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P129i_is_subject_of</relationship>
+                        <entity variable="internal_remarks_person_mentioned_assignment_comment">
+                            <type>crm:E73_Information_Object</type>
+                            <instance_generator name="URIwithOneLevelIdAndSuffixHashed">
+                                <arg name="type" type="constant">event</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../../../guid/text())</arg>
+                                <arg name="subtype" type="constant">assignment</arg>
+                                <arg name="subId_HASHED_CONTENTS" type="xpath">if (../../entitaet/identifiers/source/text() = 'GND') then (../../entitaet/identifiers/value/text()) else (../../entitaet/value/text())</arg>
+                                <arg name="suffix" type="constant">comment</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P67_refers_to</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>bemerkungen/identifiers</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E1_CRM_Entity</type>
+                            <instance_generator name="URIorUUID">
+                                <arg name="text" type="xpath">if(source/text()='GND') then (concat("https://d-nb.info/gnd/", value/text())) else "unknown"</arg>
+                            </instance_generator>
                         </entity>
                     </target_node>
                 </range>
@@ -438,7 +906,7 @@
         </mapping>
         <mapping>
             <domain>
-                <source_node>/collection/record/archivalienarten/item</source_node>
+                <source_node>/collection/record/archivalienarten</source_node>
                 <target_node>
                     <entity variable="collection_type_archivalienarten">
                         <type>crm:E55_Type</type>
@@ -599,7 +1067,7 @@
         </mapping>
         <mapping>
             <domain>
-                <source_node>/collection/record/registereintraege/item</source_node>
+                <source_node>/collection/record/registereintraege</source_node>
                 <target_node>
                     <if>
                         <equals value="aut">register_rolle/@code</equals>
@@ -608,7 +1076,7 @@
                         <type>crm:E12_Production</type>
                         <instance_generator name="URIwithTypeSubtypeAndId">
                             <arg name="type" type="constant">collection</arg>
-                            <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
                             <arg name="subtype" type="constant">production</arg>
                         </instance_generator>
                     </entity>
@@ -625,9 +1093,9 @@
                             <type>crm:E12_Production</type>
                             <instance_generator name="URIwithTypeSubtypeIdAndCounter">
                                 <arg name="type" type="constant">collection</arg>
-                                <arg name="id" type="xpath">concat("jila-", ../../../guid/text())</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
                                 <arg name="subtype" type="constant">production</arg>
-                                <arg name="position" type="position"/>
+                                <arg name="position" type="xpath">concat("reg-", position())</arg>
                             </instance_generator>
                             <additional>
                                 <relationship>crm:P2_has_type</relationship>
@@ -750,7 +1218,7 @@
         </mapping>
         <mapping>
             <domain>
-                <source_node>/collection/record/parsed_internal_remarks/item/entitaet/identifiers/item</source_node>
+                <source_node>/collection/record/parsed_internal_remarks/entitaet/identifiers</source_node>
                 <target_node>
                     <if>
                         <and>
@@ -758,7 +1226,7 @@
                                 <equals value="GND">source/text()</equals>
                             </if>
                             <if>
-                                <equals value="Geografikum">../../../typ/value/text()</equals>
+                                <equals value="Geografikum">../../typ/value/text()</equals>
                             </if>
                         </and>
                     </if>
