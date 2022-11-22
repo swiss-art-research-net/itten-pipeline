@@ -181,7 +181,7 @@ def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix):
 
     alignmentData = readAlignmentFiles(fieldsToAlign, sourceFolder=sourceFolder, alignmentDataPrefix=alignmentDataPrefix)
     
-    for field, data in alignmentData.items():
+    for data in alignmentData.values():
         for record in records:
             # Get record value by path
             if len(data['path']) > 1:
