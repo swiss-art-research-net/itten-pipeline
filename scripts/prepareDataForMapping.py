@@ -176,6 +176,7 @@ def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix):
        
     fieldsToAlign = {
         "archivalienarten": ["Archivalienarten", "Bezeichnung"],
+        "sprachen": ["Sprachen", "Bezeichnung"],
         "verzeichnungsstufe": ["Verzeichnungsstufe"]
     }
 
