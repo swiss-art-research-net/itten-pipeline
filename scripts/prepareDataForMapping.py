@@ -196,7 +196,7 @@ def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix):
                                 print("Could not find alignment value for: " + str(value))
                                 sys.exit(1)
                             for alignmentKey, alignmentValue in alignmentValues.items():
-                                if alignmentKey not in ['key', 'path', 'value']:
+                                if alignmentKey not in ['key', 'path', 'value', None]:
                                     value[alignmentKey] = alignmentValue
                             setValueByPathAndKey(record, data['path'], key, value, index)
             else:
@@ -208,10 +208,11 @@ def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix):
                     except:
                         print("Could not find alignment value for: " + str(value))
                         sys.exit(1)
-                    for alignmentKey, alignmentValue in alignmentValues.items():
-                        newValue = {'value': value}
-                        if alignmentKey not in ['key', 'path']:
-                            newValue[alignmentKey] = alignmentValue
+                    newValue = {'value': value}
+                    for alignmentKey, alignmentValue in alignmentValue.items():
+                        if alignmentKey not in ['key', 'path', None]:
+                            if alignmentValue:
+                                newValue[alignmentKey] = alignmentValue
                     setValueByPathAndKey(record, data['path'], key, newValue, index)
 
 
