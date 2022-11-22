@@ -12,3 +12,4 @@ download () {
 
 download "source/source.json" "data/source/cmi-export.json"
 download "data/csv/archivalienarten.csv" "data/source/alignment-archivalienarten.csv"
+download "data/csv/verzeichnungsstufe.csv" "data/source/alignment-verzeichnungsstufe.csv"
