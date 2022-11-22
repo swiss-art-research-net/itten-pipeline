@@ -347,6 +347,50 @@
                     </target_node>
                 </range>
             </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>sprachen</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P128_carries</relationship>
+                        <entity>
+                            <type>frbroo:F2_Expression</type>
+                            <type>crm:E33_Linguistic_Object</type>
+                            <instance_generator name="URIwithTypeSubtypeAndId">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                                <arg name="subtype" type="constant">expression</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P72_has_language</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>sprachen</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E56_Language</type>
+                            <instance_generator name="URIwithTypeAndId">
+                                <arg name="type" type="constant">language</arg>
+                                <arg name="id" type="xpath">kuerzel/text()</arg>
+                            </instance_generator>
+                            <additional>
+                                <relationship>crmdig:L54_is_same-as</relationship>
+                                <entity>
+                                    <type>crm:E56_Language</type>
+                                    <instance_info>
+                                        <constant/>
+                                    </instance_info>
+                                    <instance_generator name="URIwithGndId">
+                                        <arg name="id" type="xpath">gnd/text()</arg>
+                                    </instance_generator>
+                                </entity>
+                            </additional>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
         </mapping>
         <mapping>
             <domain>
