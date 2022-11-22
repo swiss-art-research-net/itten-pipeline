@@ -283,6 +283,28 @@
                     </target_node>
                 </range>
             </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>bemerkungen_zum_umfang</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P57_has_number_of_parts</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>bemerkungen_zum_umfang</source_node>
+                    <target_node>
+                        <entity>
+                            <type>rdfs:Literal</type>
+                            <instance_generator name="Literal">
+                                <arg name="text" type="xpath">text()</arg>
+                                <arg name="language" type="constant"/>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
         </mapping>
         <mapping>
             <domain>
