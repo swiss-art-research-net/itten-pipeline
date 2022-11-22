@@ -990,6 +990,68 @@
         </mapping>
         <mapping>
             <domain>
+                <source_node>/collection/record/verzeichnungsstufe</source_node>
+                <target_node>
+                    <entity>
+                        <type>crm:E55_Type</type>
+                        <instance_generator name="URIwithTypeAndId_hashed">
+                            <arg name="type" type="constant">type</arg>
+                            <arg name="id_HASHED_CONTENTS" type="xpath">if (gnd/text()) then (gnd/text()) else (value/text())</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>gnd</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <exists>text()</exists>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>gnd</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E55_Type</type>
+                            <instance_generator name="URIwithGndId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>aat</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <exists>text()</exists>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>gnd</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E55_Type</type>
+                            <instance_generator name="URIwithAatId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
                 <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD</source_node>
                 <target_node>
                     <entity variable="collection_object">
