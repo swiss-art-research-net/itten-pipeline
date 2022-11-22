@@ -2,7 +2,11 @@
 
   <record>
     <signatur>Hs NL 11: Ga 1.10.2</signatur>
-    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <verzeichnungsstufe>
+      <value>Einzelst&#252;ck</value>
+      <gnd>7556778-7</gnd>
+      <aat>300404024</aat>
+    </verzeichnungsstufe>
     <id>61791</id>
     <guid>9b570bfd545247fab57346996242c9fd</guid>
     <archivalienarten>
@@ -235,7 +239,11 @@
 
   <record>
     <signatur>Hs NL 11: Ga 1.5.1</signatur>
-    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <verzeichnungsstufe>
+      <value>Einzelst&#252;ck</value>
+      <gnd>7556778-7</gnd>
+      <aat>300404024</aat>
+    </verzeichnungsstufe>
     <id>59612</id>
     <guid>b587c12ecb8b4a5fb9c1b7e075b9f8c0</guid>
     <archivalienarten>
@@ -506,7 +514,11 @@
 
   <record>
     <signatur>Hs NL 11: Ch 3.1.14</signatur>
-    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <verzeichnungsstufe>
+      <value>Einzelst&#252;ck</value>
+      <gnd>7556778-7</gnd>
+      <aat>300404024</aat>
+    </verzeichnungsstufe>
     <id>59338</id>
     <guid>cdc330b211924b7dad51274f51831e18</guid>
     <archivalienarten>
@@ -683,7 +695,11 @@
 
   <record>
     <signatur>Hs NL 11: Fd 13</signatur>
-    <verzeichnungsstufe>Dossier</verzeichnungsstufe>
+    <verzeichnungsstufe>
+      <value>Dossier</value>
+      <gnd>4434863-0</gnd>
+      <aat>300133146</aat>
+    </verzeichnungsstufe>
     <id>27318</id>
     <guid>0c0583bb7ac742b08269229ac595be7b</guid>
     <archivalienarten>
@@ -2939,7 +2955,11 @@
 
   <record>
     <signatur>Hs NL 11: Ch 3.1.41</signatur>
-    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <verzeichnungsstufe>
+      <value>Einzelst&#252;ck</value>
+      <gnd>7556778-7</gnd>
+      <aat>300404024</aat>
+    </verzeichnungsstufe>
     <id>59342</id>
     <guid>712bf7c61f594314b146f81bf6a01add</guid>
     <archivalienarten>
@@ -3145,7 +3165,11 @@
 
   <record>
     <signatur>Hs NL 11: Cf 1</signatur>
-    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <verzeichnungsstufe>
+      <value>Einzelst&#252;ck</value>
+      <gnd>7556778-7</gnd>
+      <aat>300404024</aat>
+    </verzeichnungsstufe>
     <id>42831</id>
     <guid>87f585a3871a4f459da1d77cf3d8b2d5</guid>
     <archivalienarten>
@@ -3393,7 +3417,11 @@
 
   <record>
     <signatur>Hs NL 11: Fb 2.20.3</signatur>
-    <verzeichnungsstufe>Einzelst&#252;ck</verzeichnungsstufe>
+    <verzeichnungsstufe>
+      <value>Einzelst&#252;ck</value>
+      <gnd>7556778-7</gnd>
+      <aat>300404024</aat>
+    </verzeichnungsstufe>
     <id>60399</id>
     <guid>7a96e18b43c44899a85b906109775066</guid>
     <archivalienarten>

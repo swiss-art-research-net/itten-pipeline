@@ -175,28 +175,45 @@ def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix):
                 record[path[0]][path[1]][path[2]] = value
        
     fieldsToAlign = {
-        "archivalienarten": ["Archivalienarten", "Bezeichnung"]
+        "archivalienarten": ["Archivalienarten", "Bezeichnung"],
+        "verzeichnungsstufe": ["Verzeichnungsstufe"]
     }
 
     alignmentData = readAlignmentFiles(fieldsToAlign, sourceFolder=sourceFolder, alignmentDataPrefix=alignmentDataPrefix)
     
-    for field, data in alignmentData.items():
+    for data in alignmentData.values():
         for record in records:
             # Get record value by path
-            values = getValueByPath(record, data['path'])
-            key = data['path'][-1]
-            if isinstance(values, list):
-                for index, value in enumerate(values):
-                    if key in value:
-                        try:
-                            alignmentValues = data['content'][data['lookup'][customHash(value[key])]]
-                        except:
-                            print("Could not find alignment value for: " + str(value))
-                            sys.exit(1)
-                        for alignmentKey, alignmentValue in alignmentValues.items():
-                            if alignmentKey not in ['key', 'path', 'value']:
-                                value[alignmentKey] = alignmentValue
-                    setValueByPathAndKey(record, data['path'], key, value, index)
+            if len(data['path']) > 1:
+                values = getValueByPath(record, data['path'])
+                key = data['path'][-1]
+                if isinstance(values, list):
+                    for index, value in enumerate(values):
+                        if key in value:
+                            try:
+                                alignmentValues = data['content'][data['lookup'][customHash(value[key])]]
+                            except:
+                                print("Could not find alignment value for: " + str(value))
+                                sys.exit(1)
+                            for alignmentKey, alignmentValue in alignmentValues.items():
+                                if alignmentKey not in ['key', 'path', 'value', None]:
+                                    value[alignmentKey] = alignmentValue
+                            setValueByPathAndKey(record, data['path'], key, value, index)
+            else:
+                value = record[data['path'][0]]
+                key = data['path'][0]
+                if isinstance(value, str):
+                    try:
+                        alignmentValue = data['content'][data['lookup'][customHash(value)]]
+                    except:
+                        print("Could not find alignment value for: " + str(value))
+                        sys.exit(1)
+                    newValue = {'value': value}
+                    for alignmentKey, alignmentValue in alignmentValue.items():
+                        if alignmentKey not in ['key', 'path', None]:
+                            if alignmentValue:
+                                newValue[alignmentKey] = alignmentValue
+                    setValueByPathAndKey(record, data['path'], key, newValue, index)
 
 
     return records
