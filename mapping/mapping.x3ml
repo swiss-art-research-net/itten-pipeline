@@ -1476,19 +1476,8 @@
             <domain>
                 <source_node>/collection/record/registereintraege</source_node>
                 <target_node>
-                    <if>
-                        <and>
-                            <if>
-                                <not>
-                                    <if>
-                                        <exists>register_rolle/@code</exists>
-                                    </if>
-                                </not>
-                            </if>
-                            <if>
-                                <equals value="contributor">register_rolle/@label</equals>
-                            </if>
-                        </and>
+                    <if>        
+                        <equals value="beteiligt">register_rolle/@term</equals>    
                     </if>
                     <entity variable="collection_production">
                         <type>crm:E12_Production</type>
