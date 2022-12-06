@@ -2,9 +2,6 @@
 This script prepares the data for mapping. 
 It converts the source data to XML and adds the XML data retrieved from e-manuscripta via OAI.
 
-Todo:
-- Add curated and enriched data
-
 Usage:
 
 python prepareDataForMapping.py --sourceFolder=<sourceFolder> --oaiXMLFolder=<oaiXMLFolder> --outputFolder=<outputFolder>
