@@ -32,8 +32,10 @@ from lxml import etree
 from os.path import join, isfile
 from tqdm import tqdm
 
+from edtf import parse_edtf
 from lib.utils import readRecords, RetrieveVLIDfromDOI
 from lib.parser import Parser
+from sariDateParser.dateParser import parse
 
 def prepareData(options):
     sourceFolder = options['sourceFolder']
@@ -79,6 +81,9 @@ def prepareData(options):
 
     # Add role codes to Register entries
     recordsXML = addRoleCodesToRegisters(recordsXML)
+
+    # Parse dates
+    recordsXML = parseDates(recordsXML)
 
     # Add IIIF image data
     recordsXML = addImageDataFromManifests(recordsXML, manifestsFolder)
@@ -426,6 +431,48 @@ def convertRecordsToXML(records, *, removeEmptyNodes=True, flattenLists=False):
     for record in records:
         xmlRecords.append(convertCmiJSONtoXML(record))
     return xmlRecords
+
+def parseDates(records):
+    """
+    Parse dates in XML records and add them in machine readable format as attributes.
+
+    :param records: list of XML records
+    :return: list of XML records with added dates
+    """
+
+    def parseDate(dateString):
+        """
+        Parse a date string and return a list containing one or two dates (date range).
+        The date can be a single date or of the form "DD.MM.YYYY - DD.MM.YYYY".
+        Therefore we need to split the string and parse the two dates separately.
+        """
+        dates = []
+        if " - " in dateString:
+            for date in dateString.split(" - "):
+                parsedDate = parse(date)
+                if parsedDate:
+                    dates.append(parsedDate)
+        else:
+            parsedDate = parse(dateString)
+            if parsedDate:
+                dates.append(parsedDate)
+
+        return dates
+
+    tagsWithDates = ['register_datum']
+    for record in records:
+        for tag in tagsWithDates:
+            for tagWithDate in record.findall(".//%s" % tag):
+                if tagWithDate.text is not None and tagWithDate.text != "null":
+                    dates = parseDate(tagWithDate.text)
+                    if dates is not None:
+                        if len(dates) == 1:
+                            tagWithDate.set("dateFrom", dates[0])
+                            tagWithDate.set("dateTo", dates[0])
+                        elif len(dates) == 2:
+                            tagWithDate.set("dateFrom", dates[0])
+                            tagWithDate.set("dateTo", dates[1])
+    return records
 
 def parseInternalRemarks(records):
     """
