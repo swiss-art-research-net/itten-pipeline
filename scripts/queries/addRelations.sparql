@@ -1,0 +1,95 @@
+PREFIX sari: <https://platform.swissartresearch.net/>
+PREFIX search: <https://platform.swissartresearch.net/search/>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/>
+PREFIX rds: <http://schema.swissartresearch.net/ontology/rds#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX schema: <http://schema.org/>
+
+# Add basic ontology for Search relations
+INSERT DATA {
+  GRAPH sari:relations {
+    search:Entity a rdfs:Class ;
+      rdfs:equivalentClass crm:E1_CRM_Entity ;
+      rdfs:label 'Search Entity' .
+    search:Object rdfs:label 'Collection' ;
+      a rdfs:Class ;
+      rdfs:subClassOf search:Entity ;
+      rdfs:equivalentClass crm:E78_Curated_Holding .
+    search:Object rdfs:label 'Object' ;
+      a rdfs:Class ;
+      rdfs:subClassOf search:Entity ;
+      rdfs:equivalentClass crm:E22_Human-Made_Object .
+    search:Person rdfs:label 'Person' ;
+      a rdfs:Class ;
+      rdfs:subClassOf search:Entity ;
+      rdfs:equivalentClass crm:E39_Actor, rds:Person .
+    search:Place rdfs:label 'Place'  ;
+      a rdfs:Class ;
+      rdfs:subClassOf search:Entity ;
+      rdfs:equivalentClass crm:E53_Place, rds:Place  .
+    search:Type rdfs:label 'Type' ;
+      a rdfs:Class ;
+      rdfs:subClassOf search:Entity ;
+      rdfs:equivalentClass crm:E55_Type, rds:Type .
+    search:Event rdfs:label 'Event' ;
+      a rdfs:Class ;
+      rdfs:subClassOf search:Entity ;
+      rdfs:equivalentClass crm:E5_Event, rds:Event .
+    search:BibliographicItem rdfs:label 'Bibliographic Item' ;
+      a rdfs:Class ;
+      rdfs:subClassOf search:Entity ;
+      rdfs:equivalentClass frbroo:F24_Publication_Expression, rds:BibliographicItem .
+  }
+};
+
+# Add Search entity types to respective resources
+INSERT {
+  GRAPH sari:relations {
+      ?subject a search:Person .
+  }
+} WHERE {
+  ?subject a crm:E21_Person .
+  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
+};
+
+INSERT {
+  GRAPH sari:relations {
+    ?subject a search:Type .
+  }
+} WHERE {
+  ?subject a crm:E55_Type
+  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
+};
+
+INSERT {
+  GRAPH sari:relations {
+    ?subject a search:Place .
+  }
+} WHERE {
+  ?subject a crm:E53_Place
+  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
+};
+
+INSERT {
+  GRAPH sari:relations {
+      ?subject a search:Collection .
+  }
+} WHERE {
+  ?subject a crm:E78_Curated_Holding .
+  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
+};
+
+INSERT {
+  GRAPH sari:relations {
+      ?subject a search:Object .
+  }
+} WHERE {
+  ?subject a crm:E22_Human-Made_Object .
+  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
+}
