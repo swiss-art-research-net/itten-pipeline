@@ -325,8 +325,24 @@ def addRoleCodesToRegisters(records):
     :param records: list of CMI records
     :return: list of CMI records with added role codes and labels
     """
+
+    def convertUmlauts(text):
+        """
+        Convert Umlauts to two characters
+        """
+        text = text.replace("ä", "ae")
+        text = text.replace("ö", "oe")
+        text = text.replace("ü", "ue")
+        text = text.replace("Ä", "Ae")
+        text = text.replace("Ö", "Oe")
+        text = text.replace("Ü", "Ue")
+        text = text.replace("ß", "ss")
+        return text
+
     rTwoCodes = r'(\w{3})(?=\))\)\s\(([^)]*)\)'
     rOneCode = r'\(([^)]*)\)$'
+    rRole = r'^(\S*)'
+
     for record in records:
         for item in record.findall(".//registereintraege"):
             role = item.find("register_rolle")
@@ -335,7 +351,11 @@ def addRoleCodesToRegisters(records):
                     role.set("code", re.search(rTwoCodes, role.text).group(1))
                     role.set("label", re.search(rTwoCodes, role.text).group(2).lower())
                 elif re.search(rOneCode, role.text):
-                    role.set("label", re.search(rOneCode, role.text).group(1).lower())        
+                    role.set("label", re.search(rOneCode, role.text).group(1).lower())
+                if re.search(rRole, role.text):
+                    term = re.search(rRole, role.text).group(1).lower()
+                    term = convertUmlauts(term)
+                    role.set("term", term)
     return records
 
 def convertRecordsToXML(records, *, removeEmptyNodes=True, flattenLists=False):
