@@ -1448,7 +1448,7 @@
                 <range>
                     <source_node>register_id</source_node>
                     <target_node>
-                        <entity variable="">
+                        <entity>
                             <type>crm:E39_Actor</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
