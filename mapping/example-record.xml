@@ -1,62 +1,62 @@
 <collection>
 
   <record>
-    <signatur>Hs NL 11: Ga 1.10.2</signatur>
-    <verzeichnungsstufe>
+    <signatur index="0">Hs NL 11: Ga 1.10.2</signatur>
+    <verzeichnungsstufe index="0">
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id>61791</id>
-    <guid>9b570bfd545247fab57346996242c9fd</guid>
-    <archivalienarten>
+    <id index="0">61791</id>
+    <guid index="0">9b570bfd545247fab57346996242c9fd</guid>
+    <archivalienarten index="0">
       <bezeichnung>Typoskript</bezeichnung>
       <gnd>4186519-4</gnd>
     </archivalienarten>
-    <archivalienarten>
+    <archivalienarten index="1">
       <bezeichnung>Autograf</bezeichnung>
       <gnd>4003942-0</gnd>
     </archivalienarten>
-    <archivalienarten>
+    <archivalienarten index="2">
       <bezeichnung>Manuskript</bezeichnung>
       <gnd>4126273-6</gnd>
     </archivalienarten>
-    <archivalienarten>
+    <archivalienarten index="3">
       <bezeichnung>Brief</bezeichnung>
       <gnd>4008240-4</gnd>
     </archivalienarten>
-    <titel>Leopold Reidemeister an Johannes Itten</titel>
-    <entstehungszeitraum>01.08.1961</entstehungszeitraum>
-    <entstehungsort>Berlin</entstehungsort>
-    <bemerkungen_zum_umfang>1 Blatt</bemerkungen_zum_umfang>
-    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-132167" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-132167&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ga 1.10 - "Sturm-Ausstellung" Berlin 1961 - 1961</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik>4e5f15f1e8fd48e0b265fd22ed041597</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/"Sturm-Ausstellung" Berlin 1961</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/4e5f15f1e8fd48e0b265fd22ed041597</pfad_bestand_nur_guid_von_jeder_ebene>
-    <ueberlieferungsformen>
+    <titel index="0">Leopold Reidemeister an Johannes Itten</titel>
+    <entstehungszeitraum index="0">01.08.1961</entstehungszeitraum>
+    <entstehungsort index="0">Berlin</entstehungsort>
+    <bemerkungen_zum_umfang index="0">1 Blatt</bemerkungen_zum_umfang>
+    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-132167" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-132167&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Ga 1.10 - "Sturm-Ausstellung" Berlin 1961 - 1961</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">4e5f15f1e8fd48e0b265fd22ed041597</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/"Sturm-Ausstellung" Berlin 1961</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/4e5f15f1e8fd48e0b265fd22ed041597</pfad_bestand_nur_guid_von_jeder_ebene>
+    <ueberlieferungsformen index="0">
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen>Schutzfrist bis 02.08.1991</zugangsbestimmungen>
-    <publikation>Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist>
+    <zugangsbestimmungen index="0">Schutzfrist bis 02.08.1991</zugangsbestimmungen>
+    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist index="0">
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist>02.08.1991</ablauf_schutzfrist>
-    <benutzbarkeit>frei einsehbar</benutzbarkeit>
-    <ablauf_verwertungsrecht>02.08.2031</ablauf_verwertungsrecht>
-    <sprachen>
+    <ablauf_schutzfrist index="0">02.08.1991</ablauf_schutzfrist>
+    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
+    <ablauf_verwertungsrecht index="0">02.08.2031</ablauf_verwertungsrecht>
+    <sprachen index="0">
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen>Dossier 213 / Entit&#228;t: Berlin #GND4005728-8 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
-    <registereintraege>
+    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 213 / Entit&#228;t: Berlin #GND4005728-8 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
+    <registereintraege index="0">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
@@ -65,7 +65,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="1">
       <register_bezeichnung>Reidemeister, Leopold</register_bezeichnung>
       <register_gnd-id>119335603</register_gnd-id>
       <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
@@ -74,8 +74,8 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/119335603 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <doi>https://doi.org/10.7891/e-manuscripta-132167</doi>
-    <parsed_internal_remarks>
+    <doi index="0">https://doi.org/10.7891/e-manuscripta-132167</doi>
+    <parsed_internal_remarks index="0">
       <entitaet>
         <value>Berlin</value>
         <identifiers>
@@ -239,55 +239,55 @@
 
 
   <record>
-    <signatur>Hs NL 11: Ga 1.5.1</signatur>
-    <verzeichnungsstufe>
+    <signatur index="0">Hs NL 11: Ga 1.5.1</signatur>
+    <verzeichnungsstufe index="0">
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id>59612</id>
-    <guid>b587c12ecb8b4a5fb9c1b7e075b9f8c0</guid>
-    <archivalienarten>
+    <id index="0">59612</id>
+    <guid index="0">b587c12ecb8b4a5fb9c1b7e075b9f8c0</guid>
+    <archivalienarten index="0">
       <bezeichnung>Manuskript</bezeichnung>
       <gnd>4126273-6</gnd>
     </archivalienarten>
-    <archivalienarten>
+    <archivalienarten index="1">
       <bezeichnung>Brief</bezeichnung>
       <gnd>4008240-4</gnd>
     </archivalienarten>
-    <titel>Willem Sandberg an Johannes Itten</titel>
-    <entstehungszeitraum>05.03.1957</entstehungszeitraum>
-    <entstehungsort>Amsterdam</entstehungsort>
-    <bemerkungen_zum_umfang>1 Blatt</bemerkungen_zum_umfang>
-    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-128188" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-128188&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ga 1.5 - Ausstellung im Stedelijk Museum Amsterdam 1957 - 1957</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik>f6f51c2dfa80449492bdcad9ddb843fb</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/Ausstellung im Stedelijk Museum Amsterdam 1957</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/f6f51c2dfa80449492bdcad9ddb843fb</pfad_bestand_nur_guid_von_jeder_ebene>
-    <ueberlieferungsformen>
+    <titel index="0">Willem Sandberg an Johannes Itten</titel>
+    <entstehungszeitraum index="0">05.03.1957</entstehungszeitraum>
+    <entstehungsort index="0">Amsterdam</entstehungsort>
+    <bemerkungen_zum_umfang index="0">1 Blatt</bemerkungen_zum_umfang>
+    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-128188" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-128188&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Ga 1.5 - Ausstellung im Stedelijk Museum Amsterdam 1957 - 1957</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">f6f51c2dfa80449492bdcad9ddb843fb</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/Ausstellung im Stedelijk Museum Amsterdam 1957</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/f6f51c2dfa80449492bdcad9ddb843fb</pfad_bestand_nur_guid_von_jeder_ebene>
+    <ueberlieferungsformen index="0">
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen>Schutzfrist bis 06.03.1987</zugangsbestimmungen>
-    <publikation>Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist>
+    <zugangsbestimmungen index="0">Schutzfrist bis 06.03.1987</zugangsbestimmungen>
+    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist index="0">
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist>06.03.1987</ablauf_schutzfrist>
-    <benutzbarkeit>frei einsehbar</benutzbarkeit>
-    <verwertungsrecht>Extern</verwertungsrecht>
-    <ablauf_verwertungsrecht>06.03.2027</ablauf_verwertungsrecht>
-    <sprachen>
+    <ablauf_schutzfrist index="0">06.03.1987</ablauf_schutzfrist>
+    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
+    <verwertungsrecht index="0">Extern</verwertungsrecht>
+    <ablauf_verwertungsrecht index="0">06.03.2027</ablauf_verwertungsrecht>
+    <sprachen index="0">
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen>Dossier 176 / Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
-    <registereintraege>
+    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 176 / Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
+    <registereintraege index="0">
       <register_bezeichnung>Sandberg</register_bezeichnung>
       <register_gnd-id>null</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -296,7 +296,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Beziehungen zu Personen: Ehefrau von Sandberg, Willem Jacob Henri Berend #GND118751158 (Ehemann)</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="1">
       <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
       <register_gnd-id>11721227X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -305,7 +305,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Geburtsname: Schl&#246;sser, Anneliese / Link zur GND: &lt;a href=http://d-nb.info/gnd/11721227X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="2">
       <register_bezeichnung>Curjel, Hans</register_bezeichnung>
       <register_gnd-id>116766107</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -314,7 +314,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/116766107 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="3">
       <register_bezeichnung>Schreyer, Lothar</register_bezeichnung>
       <register_gnd-id>118980351</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -323,7 +323,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118980351 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="4">
       <register_bezeichnung>Grote, Ludwig</register_bezeichnung>
       <register_gnd-id>118698222</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -332,7 +332,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118698222 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="5">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
@@ -341,7 +341,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="6">
       <register_bezeichnung>Sandberg, Willem Jacob Henri Berend</register_bezeichnung>
       <register_gnd-id>118751158</register_gnd-id>
       <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
@@ -350,8 +350,8 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118751158 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <doi>https://doi.org/10.7891/e-manuscripta-128188</doi>
-    <parsed_internal_remarks>
+    <doi index="0">https://doi.org/10.7891/e-manuscripta-128188</doi>
+    <parsed_internal_remarks index="0">
       <entitaet>
         <value>Amsterdam</value>
         <identifiers>
@@ -515,46 +515,46 @@
 
 
   <record>
-    <signatur>Hs NL 11: Ch 3.1.14</signatur>
-    <verzeichnungsstufe>
+    <signatur index="0">Hs NL 11: Ch 3.1.14</signatur>
+    <verzeichnungsstufe index="0">
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id>59338</id>
-    <guid>cdc330b211924b7dad51274f51831e18</guid>
-    <archivalienarten>
+    <id index="0">59338</id>
+    <guid index="0">cdc330b211924b7dad51274f51831e18</guid>
+    <archivalienarten index="0">
       <bezeichnung>Fotografie</bezeichnung>
       <gnd>4045895-7</gnd>
     </archivalienarten>
-    <titel>Herstellung und Montage des Velums 14</titel>
-    <entstehungszeitraum>1938</entstehungszeitraum>
-    <entstehungsort>Amsterdam</entstehungsort>
-    <bemerkungen_zum_umfang>1 Fotoabzug</bemerkungen_zum_umfang>
-    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-126366" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126366&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik>5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
-    <ueberlieferungsformen>
+    <titel index="0">Herstellung und Montage des Velums 14</titel>
+    <entstehungszeitraum index="0">1938</entstehungszeitraum>
+    <entstehungsort index="0">Amsterdam</entstehungsort>
+    <bemerkungen_zum_umfang index="0">1 Fotoabzug</bemerkungen_zum_umfang>
+    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-126366" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126366&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
+    <ueberlieferungsformen index="0">
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen>Schutzfrist bis 01.01.1969</zugangsbestimmungen>
-    <publikation>Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist>
+    <zugangsbestimmungen index="0">Schutzfrist bis 01.01.1969</zugangsbestimmungen>
+    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist index="0">
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist>01.01.1969</ablauf_schutzfrist>
-    <benutzbarkeit>frei einsehbar</benutzbarkeit>
-    <ablauf_verwertungsrecht>01.01.2009</ablauf_verwertungsrecht>
-    <physische_beschaffenheit_und_technische_anforderungen>Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen>Dossier 92 / Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
-    <doi>https://doi.org/10.7891/e-manuscripta-126366</doi>
-    <parsed_internal_remarks>
+    <ablauf_schutzfrist index="0">01.01.1969</ablauf_schutzfrist>
+    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
+    <ablauf_verwertungsrecht index="0">01.01.2009</ablauf_verwertungsrecht>
+    <physische_beschaffenheit_und_technische_anforderungen index="0">Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 92 / Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <doi index="0">https://doi.org/10.7891/e-manuscripta-126366</doi>
+    <parsed_internal_remarks index="0">
       <entitaet>
         <value>Amsterdam</value>
         <identifiers>
@@ -696,77 +696,77 @@
 
 
   <record>
-    <signatur>Hs NL 11: Fd 13</signatur>
-    <verzeichnungsstufe>
+    <signatur index="0">Hs NL 11: Fd 13</signatur>
+    <verzeichnungsstufe index="0">
       <value>Dossier</value>
       <gnd>4434863-0</gnd>
       <aat>300133146</aat>
     </verzeichnungsstufe>
-    <id>27318</id>
-    <guid>0c0583bb7ac742b08269229ac595be7b</guid>
-    <archivalienarten>
+    <id index="0">27318</id>
+    <guid index="0">0c0583bb7ac742b08269229ac595be7b</guid>
+    <archivalienarten index="0">
       <bezeichnung>Typoskript</bezeichnung>
       <gnd>4186519-4</gnd>
     </archivalienarten>
-    <archivalienarten>
+    <archivalienarten index="1">
       <bezeichnung>Druckschrift</bezeichnung>
       <gnd>4013120-8</gnd>
     </archivalienarten>
-    <archivalienarten>
+    <archivalienarten index="2">
       <bezeichnung>Bildmaterial</bezeichnung>
       <gnd>4435709-6</gnd>
     </archivalienarten>
-    <archivalienarten>
+    <archivalienarten index="3">
       <bezeichnung>Autograf</bezeichnung>
       <gnd>4003942-0</gnd>
     </archivalienarten>
-    <archivalienarten>
+    <archivalienarten index="4">
       <bezeichnung>Manuskript</bezeichnung>
       <gnd>4126273-6</gnd>
     </archivalienarten>
-    <titel>Manuskripte zur Farbenlehre. Ordner IV</titel>
-    <entstehungszeitraum>ca. 1950 er</entstehungszeitraum>
-    <bemerkungen_zum_umfang>150 Bl&#228;tter, 1 Druckschrift; Beilage</bemerkungen_zum_umfang>
-    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-135316" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-135316&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Fd - Farbenlehre - 1908 - ca. 1960 er</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik>ea0f6529babd41a0bd8d27606d031a88</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Werke und Manuskripte/Farbenlehre</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/95f5542c2ea84104b63179f64e19a826/ea0f6529babd41a0bd8d27606d031a88</pfad_bestand_nur_guid_von_jeder_ebene>
-    <form_und_inhalt>Das Dossier enth&#228;lt haupts&#228;chlich handschriftliche Aufzeichnungen und Skizzen Johannes Ittens zur Farbenlehre. Einige Texte zeigen Vorstufen zu Kapiteln in "Kunst der Farbe". Die Dokumente befanden sich urspr&#252;nglich in einem unbeschrifteten Ordner und waren mit beschrifteten Registertrennbl&#228;ttern thematisch in folgende Bereiche geordnet: Impressiv, Expressiv, Malerei, Kunstwissenschaft, Architektur, Mode, Foto-Film, Reklame, Keramik, G&#228;rtner, Methodik. In den Bereichen Malerei, Kunstwissenschaft, Architektur, Keramik und G&#228;rtner sind keine Dokumente enthalten. Der Bereich Mode enth&#228;lt diverse einzelne Manuskriptbl&#228;tter sowie sechs zusammenh&#228;ngende Manuskripte mit folgenden Titeln: Aufsatz, Die Farbe in der Mode (zwei Manuskripte), Erziehung, P&#228;dagogik, Vom Kolorieren in der Textilindustrie. Der Bereich Foto-Film enth&#228;lt die Druckschrift "Le Cin&#233;ma en couleurs" von Pierre Brard, Juli 1946. Beilagen: Notizzettel von Anneliese Itten, Notizzettel von 2002</form_und_inhalt>
-    <ueberlieferungsformen>
+    <titel index="0">Manuskripte zur Farbenlehre. Ordner IV</titel>
+    <entstehungszeitraum index="0">ca. 1950 er</entstehungszeitraum>
+    <bemerkungen_zum_umfang index="0">150 Bl&#228;tter, 1 Druckschrift; Beilage</bemerkungen_zum_umfang>
+    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-135316" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-135316&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Fd - Farbenlehre - 1908 - ca. 1960 er</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">ea0f6529babd41a0bd8d27606d031a88</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Werke und Manuskripte/Farbenlehre</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/95f5542c2ea84104b63179f64e19a826/ea0f6529babd41a0bd8d27606d031a88</pfad_bestand_nur_guid_von_jeder_ebene>
+    <form_und_inhalt index="0">Das Dossier enth&#228;lt haupts&#228;chlich handschriftliche Aufzeichnungen und Skizzen Johannes Ittens zur Farbenlehre. Einige Texte zeigen Vorstufen zu Kapiteln in "Kunst der Farbe". Die Dokumente befanden sich urspr&#252;nglich in einem unbeschrifteten Ordner und waren mit beschrifteten Registertrennbl&#228;ttern thematisch in folgende Bereiche geordnet: Impressiv, Expressiv, Malerei, Kunstwissenschaft, Architektur, Mode, Foto-Film, Reklame, Keramik, G&#228;rtner, Methodik. In den Bereichen Malerei, Kunstwissenschaft, Architektur, Keramik und G&#228;rtner sind keine Dokumente enthalten. Der Bereich Mode enth&#228;lt diverse einzelne Manuskriptbl&#228;tter sowie sechs zusammenh&#228;ngende Manuskripte mit folgenden Titeln: Aufsatz, Die Farbe in der Mode (zwei Manuskripte), Erziehung, P&#228;dagogik, Vom Kolorieren in der Textilindustrie. Der Bereich Foto-Film enth&#228;lt die Druckschrift "Le Cin&#233;ma en couleurs" von Pierre Brard, Juli 1946. Beilagen: Notizzettel von Anneliese Itten, Notizzettel von 2002</form_und_inhalt>
+    <ueberlieferungsformen index="0">
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <ordnung_und_klassifikation>Originalordnung wurde grunds&#228;tzlich beibehalten. Offensichtliche Fehleinordnungen wurden in einzelnen F&#228;llen korrigiert sowie Zusammenh&#228;nge von wenigen Manuskripten wieder hergestellt.</ordnung_und_klassifikation>
-    <zugangsbestimmungen>Ohne rechtliche Einschr&#228;nkungen einsehbar</zugangsbestimmungen>
-    <publikation>Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist>
+    <ordnung_und_klassifikation index="0">Originalordnung wurde grunds&#228;tzlich beibehalten. Offensichtliche Fehleinordnungen wurden in einzelnen F&#228;llen korrigiert sowie Zusammenh&#228;nge von wenigen Manuskripten wieder hergestellt.</ordnung_und_klassifikation>
+    <zugangsbestimmungen index="0">Ohne rechtliche Einschr&#228;nkungen einsehbar</zugangsbestimmungen>
+    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist index="0">
       <bezeichnung>Keine</bezeichnung>
       <frist>0</frist>
     </schutzfrist>
-    <ablauf_schutzfrist>01.01.1960</ablauf_schutzfrist>
-    <benutzbarkeit>frei einsehbar</benutzbarkeit>
-    <ablauf_verwertungsrecht>01.01.2038</ablauf_verwertungsrecht>
-    <lizenz>
+    <ablauf_schutzfrist index="0">01.01.1960</ablauf_schutzfrist>
+    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
+    <ablauf_verwertungsrecht index="0">01.01.2038</ablauf_verwertungsrecht>
+    <lizenz index="0">
       <bezeichnung>CC BY-NC-SA 4.0</bezeichnung>
       <link>https://creativecommons.org/licenses/by-nc-sa/4.0/</link>
     </lizenz>
-    <urheber_bekannt>Ja</urheber_bekannt>
-    <urheber>Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
-    <todesdatum_urheber>1967</todesdatum_urheber>
-    <sprachen>
+    <urheber_bekannt index="0">Ja</urheber_bekannt>
+    <urheber index="0">Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
+    <todesdatum_urheber index="0">1967</todesdatum_urheber>
+    <sprachen index="0">
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen>Papierdokumente</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen>Dossier 72; Dossier 218 (Ms. "Impressive Farblehre", S. 1-19; S. 22-23) / Entit&#228;t: Schwedischer Industrieller Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Person in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Fd 13); Entit&#228;t: G&#228;ste eines schwedischen Industriellen Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Fd 13); Entit&#228;t: S&#252;dfranz&#246;sische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Fd 13); Entit&#228;t: Schottische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Fd 13); Entit&#228;t: Mongolischer Grosselternteil Nataschas Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus der Mongolei stammende Grossmutter oder Grossvater Nataschas, einer Sch&#252;lerin aus Ittens #GND118710990 Klasse (Quelle: Fd 13); Entit&#228;t: Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Sch&#252;lerin Ittens #GND118710990, in Moskau #GND4074987-3 geboren, hat einen mongolischen Grossvater oder eine mongolische Grossmutter, vermutlich identisch mit Natascha D. s. HS NL 11: Fd 11 (Quelle: Fd 13)</allgemeine_interne_anmerkungen>
-    <allgemeine_anmerkungen>Beilagen und Druckschrift nicht digitalisiert</allgemeine_anmerkungen>
-    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
-    <zustandskategorie>BE-Restaurierungsbedarf</zustandskategorie>
-    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
-    <schadenserhebung>beginnender Tintenfrass</schadenserhebung>
-    <registereintraege>
+    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokumente</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 72; Dossier 218 (Ms. "Impressive Farblehre", S. 1-19; S. 22-23) / Entit&#228;t: Schwedischer Industrieller Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Person in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Fd 13); Entit&#228;t: G&#228;ste eines schwedischen Industriellen Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Fd 13); Entit&#228;t: S&#252;dfranz&#246;sische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Fd 13); Entit&#228;t: Schottische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Fd 13); Entit&#228;t: Mongolischer Grosselternteil Nataschas Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus der Mongolei stammende Grossmutter oder Grossvater Nataschas, einer Sch&#252;lerin aus Ittens #GND118710990 Klasse (Quelle: Fd 13); Entit&#228;t: Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Sch&#252;lerin Ittens #GND118710990, in Moskau #GND4074987-3 geboren, hat einen mongolischen Grossvater oder eine mongolische Grossmutter, vermutlich identisch mit Natascha D. s. HS NL 11: Fd 11 (Quelle: Fd 13)</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen index="0">Beilagen und Druckschrift nicht digitalisiert</allgemeine_anmerkungen>
+    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
+    <zustandskategorie index="0">BE-Restaurierungsbedarf</zustandskategorie>
+    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <schadenserhebung index="0">beginnender Tintenfrass</schadenserhebung>
+    <registereintraege index="0">
       <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
       <register_gnd-id>11721227X</register_gnd-id>
       <register_rolle label="contributor">Beteiligt (Contributor)</register_rolle>
@@ -775,7 +775,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Geburtsname: Schl&#246;sser, Anneliese / Link zur GND: &lt;a href=http://d-nb.info/gnd/11721227X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="1">
       <register_bezeichnung>Brard, Pierre</register_bezeichnung>
       <register_gnd-id>null</register_gnd-id>
       <register_rolle label="contributor">Beteiligt (Contributor)</register_rolle>
@@ -784,7 +784,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>null</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="2">
       <register_bezeichnung>Jesus Christus</register_bezeichnung>
       <register_gnd-id>118557513</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -793,7 +793,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118557513 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="3">
       <register_bezeichnung>Gasquet, Joachim</register_bezeichnung>
       <register_gnd-id>118904523</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -802,7 +802,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118904523 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="4">
       <register_bezeichnung>H&#246;lzel, Adolf</register_bezeichnung>
       <register_gnd-id>118552058</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -811,7 +811,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552058 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: H&#246;lzel, Adolf Richard; Hoelzel, Adolf</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="5">
       <register_bezeichnung>Matisse, Henri</register_bezeichnung>
       <register_gnd-id>118578847</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -820,7 +820,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118578847 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="6">
       <register_bezeichnung>Thomas, von Kempen</register_bezeichnung>
       <register_gnd-id>118642766</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -829,7 +829,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118642766 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Thomas, a Kempis; Thomas, van Kempen; Hermerken a Kempis, Thomas; Hemerken a Kempis, Thomas; H&#228;mmerken, Toma; Harmelein, Toma; Hamerkens Kempenes, Toms; Champs, Thomas des; DesChamps, Thomas; Kempen, Thomas van; Kempen, Tomas de; Kempen-Sailer, Thomas v.; Kempis, Thoma a; Kempes, Thomas a; Kempis, Thomas &#226;; Kempis, Tomas de; Kempis, Thomas Hermerken a; Kempenac, Toma; Kempenski, Toma; Kempten, Thomas von / Wirklicher Name: Hemerken, Thomas</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="7">
       <register_bezeichnung>Tintoretto</register_bezeichnung>
       <register_gnd-id>118622854</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -838,7 +838,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118622854 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Robusti, Jacopo (Wirklicher Name); Robusti, Iacopo; Tintoretto, Jacopo R.; Tintoret; Le Tintoret; Tintoret, Le; Tintoretto, Jacopo Robusti; Tintoretto, Jacomo (Vornamensform in Buchtitel); Tintoret, Jacopo; Il Tintoretto; Tintoretto, Il; Tintoretto; Tintoretto, Giacomo; Robusti, Giacopo; Tintoretto, Jacobo; Tentor, Jacomo; RobustiTintoretto, Jacopo; Tintoretto, Jacopo; Tinctorettus, Iacobus; Comin, Jacopo</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="8">
       <register_bezeichnung>Piero, della Francesca</register_bezeichnung>
       <register_gnd-id>118524577</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -847,7 +847,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118524577 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="9">
       <register_bezeichnung>Thomas, von Aquin, Heiliger</register_bezeichnung>
       <register_gnd-id>118622110</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -856,7 +856,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118622110 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="10">
       <register_bezeichnung>Vecellio, Tiziano</register_bezeichnung>
       <register_gnd-id>118622994</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -865,7 +865,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118622994 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="11">
       <register_bezeichnung>Xipe Totec, Gott</register_bezeichnung>
       <register_gnd-id>1152347241</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -874,7 +874,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/1152347241 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Xipe T&#243;tec, Gott</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="12">
       <register_bezeichnung>Rembrandt, Harmensz van Rijn</register_bezeichnung>
       <register_gnd-id>11859964X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -883,7 +883,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>null</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="13">
       <register_bezeichnung>C&#233;zanne, Paul</register_bezeichnung>
       <register_gnd-id>118519964</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -892,7 +892,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118519964 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="14">
       <register_bezeichnung>Bruegel, Pieter, de Oudere</register_bezeichnung>
       <register_gnd-id>118674013</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -901,7 +901,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118674013 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Bruegel, Pieter, der &#196;ltere (B 1986, Winkler Prins); Bruegel, Pieter, d. &#196;.; Bruegel, Pieter, the Elder; Bruegel, Pieter; Bruegel, Pieter, il Vecchio; Bruegel, Pieter, el Viejo; Bruegel, Peter, de Oudere; Bruegel, Peter, der &#196;ltere; Bruegel, Peter; Bruegel, Peeter; Bruegel, Pierre, l'Ancien; Bruegel, Pierre, der &#196;ltere; Bruegel, Pierre, le Vieux; Bruegel; Bruegel, der &#196;ltere; Brueghel, Pieter, de Oudere; Brueghel, Pieter van; Brueghel, Pieter; Brueghel, Peter, de Oudere; Brueghel, Peter, der &#196;ltere; Brueghel, Peter; Brueghel, de Oudere; Breugel, Pierre, l'Ancien; Breugel, Pieter, der &#196;ltere; Breugel, Peter, der &#196;ltere; Breugel, Peter; Breugel, Petrus; Breughel, Pieter, der &#196;ltere (M); Breughel, Pieter, de Oudere; Breughel, Pieter; Breughel, Peter, der &#196;ltere; Breughel, Peter; Bauern-Bruegel; Bauernbruegel; Bauern-Breughel; Boere-Brueghel; Peer, den Drol; Brejgel', Piter</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="15">
       <register_bezeichnung>Ganz, Paul Leonhard</register_bezeichnung>
       <register_gnd-id>137933096</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -910,7 +910,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/137933096 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="16">
       <register_bezeichnung>Mu?ammad</register_bezeichnung>
       <register_gnd-id>118583158</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -919,7 +919,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118583158 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Mu?ammad, Prophet; Muhammad, der Prophet; Mu?ammad an-Nabi; Mu?ammad, Nabi; Mu?ammad Ibn-?Abdallah Ibn-?Abd-al-Mu??alib; Mu?ammad Ibn-?Abdallah, Prophet; Mu?ammad,; Rasul Allah; Muhhamad, Prophet; Muhammad; Muhamed; Muhammed; Muhammed, der Sohn Abdall; Mu?ammad Ibn-?Abdallah; Muhhammed, Prophet; Muhammedanus; Macometto; Maometto, Profeta; Machomet; Mahmed; Mahomed; Mahomed, Prophet; Mahommed; Mahomet, Prophet; Machomet, Prophet; Mahoma; Mahomet; Mahumed; Machumet; Mahumetus; Magomet; Me?met; Me?med; Mehemmed; Mohamad; Mohamed; Mohamed, Prophet; Mo?ammad; Mohammed, Prophet; Mohammed Ibn Abdallah; Mohammed, Abdallah, Sohn; Mohammed Filius Abdallae; Mohammed; Mohamet; Mohamet, Prophet; Mouhamed</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="17">
       <register_bezeichnung>Eyck, Jan van</register_bezeichnung>
       <register_gnd-id>118531557</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -928,7 +928,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118531557 target="_blank"&gt;GND&lt;/a&gt; / Eyck, Jean van; Eyck, Joh. van; Eyck, Ioannes ab; Eijck, Jan van; Jan, van Eyck; Eyck, Johan van; Eyck, Johann von; Eyck, Johannes van; Eyck, John van; Van Eyck, Jan; Eik, Ian van; Van Eyck, Johann; Eyck, Johann van</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="18">
       <register_bezeichnung>G&#233;ricault, Th&#233;odore</register_bezeichnung>
       <register_gnd-id>118538675</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -937,7 +937,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118538675 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: G&#233;ricault, Jean L.; G&#233;ricault, Jean Louis Andr&#233; Th&#233;odore</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="19">
       <register_bezeichnung>Spinoza, Benedictus de</register_bezeichnung>
       <register_gnd-id>118616242</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -946,7 +946,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118616242 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="20">
       <register_bezeichnung>Einstein, Albert</register_bezeichnung>
       <register_gnd-id>118529579</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -955,7 +955,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118529579 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="21">
       <register_bezeichnung>Brinkmann, Donald</register_bezeichnung>
       <register_gnd-id>118674161</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -964,7 +964,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118674161 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="22">
       <register_bezeichnung>Zurbar&#225;n, Francisco de</register_bezeichnung>
       <register_gnd-id>118808672</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -973,7 +973,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118808672 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="23">
       <register_bezeichnung>Chardin, Jean Baptiste Sim&#233;on</register_bezeichnung>
       <register_gnd-id>118520121</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -982,7 +982,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118520121 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="24">
       <register_bezeichnung>Gogh, Theo van</register_bezeichnung>
       <register_gnd-id>118953974</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -991,7 +991,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118953974 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="25">
       <register_bezeichnung>Gogh, Vincent van</register_bezeichnung>
       <register_gnd-id>118540416</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1000,7 +1000,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118540416 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Gogh, Vincent-Willem van; Gogh, Vincent Willem van; VanGogh, Vincent</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="26">
       <register_bezeichnung>Libiszewski, Serge</register_bezeichnung>
       <register_gnd-id>1011337037</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1009,7 +1009,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/1011337037 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Libis, Sergio; Sibiszewsky, Serge</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="27">
       <register_bezeichnung>Finsler, Hans</register_bezeichnung>
       <register_gnd-id>11900013X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1018,7 +1018,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11900013X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="28">
       <register_bezeichnung>Delacroix, Eug&#232;ne</register_bezeichnung>
       <register_gnd-id>118524461</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1027,7 +1027,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118524461 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="29">
       <register_bezeichnung>Leibl, Wilhelm</register_bezeichnung>
       <register_gnd-id>118571222</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1036,7 +1036,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118571222 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="30">
       <register_bezeichnung>Monet, Claude</register_bezeichnung>
       <register_gnd-id>11858345X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1045,7 +1045,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11858345X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="31">
       <register_bezeichnung>Renoir, Auguste</register_bezeichnung>
       <register_gnd-id>118599755</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1054,7 +1054,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118599755 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="32">
       <register_bezeichnung>Pissarro, Camille</register_bezeichnung>
       <register_gnd-id>118594672</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1063,7 +1063,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118594672 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Pissarro, C.; Pissarro, ...; Pissarro, Camille Jacob; Pissarro, Jacob-Abraham-Camille; Pissarro, Jacob Abraham Camille; Pissaro, Camille; Pisaro, ?ami</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="33">
       <register_bezeichnung>Witz, Konrad</register_bezeichnung>
       <register_gnd-id>118769677</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1072,7 +1072,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118769677 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="34">
       <register_bezeichnung>David, Jacques Louis</register_bezeichnung>
       <register_gnd-id>118523945</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1081,7 +1081,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118523945 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="35">
       <register_bezeichnung>Holbein, Hans</register_bezeichnung>
       <register_gnd-id>118552953</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1090,7 +1090,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552953 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Holbein, Hans der J&#252;ngere</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="36">
       <register_bezeichnung>Saint-Exup&#233;ry, Antoine de</register_bezeichnung>
       <register_gnd-id>118604902</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1099,7 +1099,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118604902 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="37">
       <register_bezeichnung>Runge, Philipp Otto</register_bezeichnung>
       <register_gnd-id>118604155</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1108,7 +1108,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118604155 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="38">
       <register_bezeichnung>Goethe, Johann Wolfgang von</register_bezeichnung>
       <register_gnd-id>118540238</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1117,7 +1117,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>null</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="39">
       <register_bezeichnung>Ostwald, Wilhelm</register_bezeichnung>
       <register_gnd-id>11859057X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1126,7 +1126,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11859057X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="40">
       <register_bezeichnung>Mussolini, Benito</register_bezeichnung>
       <register_gnd-id>118585967</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1135,7 +1135,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118585967 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="41">
       <register_bezeichnung>Le Corbusier</register_bezeichnung>
       <register_gnd-id>118676873</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1144,7 +1144,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118676873 target="_blank"&gt;GND&lt;/a&gt; / Wirklicher Name: Jeanneret-Gris, Charles &#201;douard</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="42">
       <register_bezeichnung>L&#233;ger, Fernand</register_bezeichnung>
       <register_gnd-id>118570994</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1153,7 +1153,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118570994 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="43">
       <register_bezeichnung>Braque, Georges</register_bezeichnung>
       <register_gnd-id>118514504</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1162,7 +1162,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118514504 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="44">
       <register_bezeichnung>Picasso, Pablo</register_bezeichnung>
       <register_gnd-id>118594206</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1171,7 +1171,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118594206 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="45">
       <register_bezeichnung>Mondrian, Piet</register_bezeichnung>
       <register_gnd-id>118583441</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1180,7 +1180,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118583441 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="46">
       <register_bezeichnung>Br&#226;ncusi, Constantin</register_bezeichnung>
       <register_gnd-id>118673076</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1189,7 +1189,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118673076 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Brancusi; Br&#238;ncusi, Constantin; Br&#226;ncusi, C.</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="47">
       <register_bezeichnung>Arp, Hans</register_bezeichnung>
       <register_gnd-id>118504398</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1198,7 +1198,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118504398 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="48">
       <register_bezeichnung>Gr&#252;newald, Matthias</register_bezeichnung>
       <register_gnd-id>118542907</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1207,7 +1207,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118542907 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="49">
       <register_bezeichnung>El Greco</register_bezeichnung>
       <register_gnd-id>118722778</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1216,7 +1216,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118722778 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="50">
       <register_bezeichnung>Veronese, Paolo</register_bezeichnung>
       <register_gnd-id>118626647</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1225,7 +1225,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118626647 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="51">
       <register_bezeichnung>Giotto, di Bondone</register_bezeichnung>
       <register_gnd-id>118539477</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -1234,7 +1234,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118539477 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="52">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
@@ -1243,8 +1243,8 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <doi>https://doi.org/10.7891/e-manuscripta-135316</doi>
-    <parsed_internal_remarks>
+    <doi index="0">https://doi.org/10.7891/e-manuscripta-135316</doi>
+    <parsed_internal_remarks index="0">
       <entitaet>
         <value>Natascha</value>
       </entitaet>
@@ -1269,7 +1269,7 @@
         </identifiers>
       </bemerkungen>
     </parsed_internal_remarks>
-    <parsed_internal_remarks>
+    <parsed_internal_remarks index="1">
       <entitaet>
         <value>Mongolischer Grosselternteil Nataschas</value>
       </entitaet>
@@ -1289,7 +1289,7 @@
         </identifiers>
       </bemerkungen>
     </parsed_internal_remarks>
-    <parsed_internal_remarks>
+    <parsed_internal_remarks index="2">
       <entitaet>
         <value>Schottische Grossmutter</value>
       </entitaet>
@@ -1309,7 +1309,7 @@
         </identifiers>
       </bemerkungen>
     </parsed_internal_remarks>
-    <parsed_internal_remarks>
+    <parsed_internal_remarks index="3">
       <entitaet>
         <value>S&#252;dfranz&#246;sische Grossmutter</value>
       </entitaet>
@@ -1329,7 +1329,7 @@
         </identifiers>
       </bemerkungen>
     </parsed_internal_remarks>
-    <parsed_internal_remarks>
+    <parsed_internal_remarks index="4">
       <entitaet>
         <value>G&#228;ste eines schwedischen Industriellen</value>
       </entitaet>
@@ -1349,7 +1349,7 @@
         </identifiers>
       </bemerkungen>
     </parsed_internal_remarks>
-    <parsed_internal_remarks>
+    <parsed_internal_remarks index="5">
       <entitaet>
         <value>Schwedischer Industrieller</value>
       </entitaet>
@@ -2957,46 +2957,46 @@
 
 
   <record>
-    <signatur>Hs NL 11: Ch 3.1.41</signatur>
-    <verzeichnungsstufe>
+    <signatur index="0">Hs NL 11: Ch 3.1.41</signatur>
+    <verzeichnungsstufe index="0">
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id>59342</id>
-    <guid>712bf7c61f594314b146f81bf6a01add</guid>
-    <archivalienarten>
+    <id index="0">59342</id>
+    <guid index="0">712bf7c61f594314b146f81bf6a01add</guid>
+    <archivalienarten index="0">
       <bezeichnung>Fotografie</bezeichnung>
       <gnd>4045895-7</gnd>
     </archivalienarten>
-    <titel>Herstellung und Montage des Velums 41</titel>
-    <entstehungszeitraum>1938</entstehungszeitraum>
-    <entstehungsort>Amsterdam</entstehungsort>
-    <bemerkungen_zum_umfang>1 Fotoabzug</bemerkungen_zum_umfang>
-    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-126364" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126364&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik>5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
-    <ueberlieferungsformen>
+    <titel index="0">Herstellung und Montage des Velums 41</titel>
+    <entstehungszeitraum index="0">1938</entstehungszeitraum>
+    <entstehungsort index="0">Amsterdam</entstehungsort>
+    <bemerkungen_zum_umfang index="0">1 Fotoabzug</bemerkungen_zum_umfang>
+    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-126364" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126364&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
+    <ueberlieferungsformen index="0">
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen>Schutzfrist bis 01.01.1969</zugangsbestimmungen>
-    <publikation>Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist>
+    <zugangsbestimmungen index="0">Schutzfrist bis 01.01.1969</zugangsbestimmungen>
+    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist index="0">
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist>01.01.1969</ablauf_schutzfrist>
-    <benutzbarkeit>frei einsehbar</benutzbarkeit>
-    <ablauf_verwertungsrecht>01.01.2009</ablauf_verwertungsrecht>
-    <physische_beschaffenheit_und_technische_anforderungen>Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen>Dossier 92 / Entit&#228;t: Monteur am Velum im Stedelijk Museum Amsterdam 1938 Typ: Person Rolle: Abgebildet (dpc) (Empty) Bemerkungen: Beziehungen zu Werken: Gesamtkomposition des Velum (Stedelijk Museum Amsterdam) #GND1218719192. Bezeihungen zu Organisationen: Stedelijk Museum Amsterdam #GND1030247-5. Anzahl: 2 (Quelle: Vorlage Ch 3.1.41); Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
-    <doi>https://doi.org/10.7891/e-manuscripta-126364</doi>
-    <parsed_internal_remarks>
+    <ablauf_schutzfrist index="0">01.01.1969</ablauf_schutzfrist>
+    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
+    <ablauf_verwertungsrecht index="0">01.01.2009</ablauf_verwertungsrecht>
+    <physische_beschaffenheit_und_technische_anforderungen index="0">Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 92 / Entit&#228;t: Monteur am Velum im Stedelijk Museum Amsterdam 1938 Typ: Person Rolle: Abgebildet (dpc) (Empty) Bemerkungen: Beziehungen zu Werken: Gesamtkomposition des Velum (Stedelijk Museum Amsterdam) #GND1218719192. Bezeihungen zu Organisationen: Stedelijk Museum Amsterdam #GND1030247-5. Anzahl: 2 (Quelle: Vorlage Ch 3.1.41); Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <doi index="0">https://doi.org/10.7891/e-manuscripta-126364</doi>
+    <parsed_internal_remarks index="0">
       <entitaet>
         <value>Amsterdam</value>
         <identifiers>
@@ -3012,7 +3012,7 @@
         <value>Entstehungsort</value>
       </rolle>
     </parsed_internal_remarks>
-    <parsed_internal_remarks>
+    <parsed_internal_remarks index="1">
       <entitaet>
         <value>Monteur am Velum im Stedelijk Museum Amsterdam 1938</value>
       </entitaet>
@@ -3167,53 +3167,53 @@
 
 
   <record>
-    <signatur>Hs NL 11: Cf 1</signatur>
-    <verzeichnungsstufe>
+    <signatur index="0">Hs NL 11: Cf 1</signatur>
+    <verzeichnungsstufe index="0">
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id>42831</id>
-    <guid>87f585a3871a4f459da1d77cf3d8b2d5</guid>
-    <archivalienarten>
+    <id index="0">42831</id>
+    <guid index="0">87f585a3871a4f459da1d77cf3d8b2d5</guid>
+    <archivalienarten index="0">
       <bezeichnung>Typoskript</bezeichnung>
       <gnd>4186519-4</gnd>
     </archivalienarten>
-    <titel>Erlaubnisurkunde f&#252;r Johannes Itten zum Betrieb einer privaten Zeichen- und Malschule</titel>
-    <entstehungszeitraum>25.10.1927</entstehungszeitraum>
-    <entstehungsort>Berlin-Lichterfelde</entstehungsort>
-    <bemerkungen_zum_umfang>1 Blatt</bemerkungen_zum_umfang>
-    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-124359" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-124359&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Cf - Berlin - 1916 - 1988</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik>70a096002da9466f9385f4b41277c768</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Berlin</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/70a096002da9466f9385f4b41277c768</pfad_bestand_nur_guid_von_jeder_ebene>
-    <form_und_inhalt>Erlaubnisurkunde zum Betrieb einer privaten Zeichen- und Malschule an der Potsdamer Strasse 75, Berlin, ausgestellt vom Preussischen Provinzial-Schulkollegium Berlin / Enth&#228;lt auch: 1 Fotokopie der Erlaubnisurkunde / Umfang: 1 Blatt gefalten, 3 Seiten beschrieben</form_und_inhalt>
-    <ueberlieferungsformen>
+    <titel index="0">Erlaubnisurkunde f&#252;r Johannes Itten zum Betrieb einer privaten Zeichen- und Malschule</titel>
+    <entstehungszeitraum index="0">25.10.1927</entstehungszeitraum>
+    <entstehungsort index="0">Berlin-Lichterfelde</entstehungsort>
+    <bemerkungen_zum_umfang index="0">1 Blatt</bemerkungen_zum_umfang>
+    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-124359" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-124359&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Cf - Berlin - 1916 - 1988</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">70a096002da9466f9385f4b41277c768</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Berlin</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/70a096002da9466f9385f4b41277c768</pfad_bestand_nur_guid_von_jeder_ebene>
+    <form_und_inhalt index="0">Erlaubnisurkunde zum Betrieb einer privaten Zeichen- und Malschule an der Potsdamer Strasse 75, Berlin, ausgestellt vom Preussischen Provinzial-Schulkollegium Berlin / Enth&#228;lt auch: 1 Fotokopie der Erlaubnisurkunde / Umfang: 1 Blatt gefalten, 3 Seiten beschrieben</form_und_inhalt>
+    <ueberlieferungsformen index="0">
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen>Schutzfrist bis 26.10.1957</zugangsbestimmungen>
-    <publikation>Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist>
+    <zugangsbestimmungen index="0">Schutzfrist bis 26.10.1957</zugangsbestimmungen>
+    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist index="0">
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist>26.10.1957</ablauf_schutzfrist>
-    <benutzbarkeit>frei einsehbar</benutzbarkeit>
-    <ablauf_verwertungsrecht>26.10.1997</ablauf_verwertungsrecht>
-    <sprachen>
+    <ablauf_schutzfrist index="0">26.10.1957</ablauf_schutzfrist>
+    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
+    <ablauf_verwertungsrecht index="0">26.10.1997</ablauf_verwertungsrecht>
+    <sprachen index="0">
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen>Dossier 35 / Entit&#228;t: Unterzeichner einer Erlaubnisurkunde des Provinzial-Schulkollegiums Berlin Typ: Person Rolle: Beteiligt (Contributor) Bemerkungen: Name unleserlich, m&#246;glicherweise Pretzel (Quelle: Vorlage Cf 1). Beziehungen zu Organisationen: Berlin. Provinzial-Schulkollegium #GND1082551279; Entit&#228;t: Berlin-Lichterfelde #GND4087328-6 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <allgemeine_anmerkungen>Beilage nicht digitalisiert</allgemeine_anmerkungen>
-    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
-    <bemerkungen_zum_standort>&#220;bergr&#246;sse in separater Mappe</bemerkungen_zum_standort>
-    <registereintraege>
+    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 35 / Entit&#228;t: Unterzeichner einer Erlaubnisurkunde des Provinzial-Schulkollegiums Berlin Typ: Person Rolle: Beteiligt (Contributor) Bemerkungen: Name unleserlich, m&#246;glicherweise Pretzel (Quelle: Vorlage Cf 1). Beziehungen zu Organisationen: Berlin. Provinzial-Schulkollegium #GND1082551279; Entit&#228;t: Berlin-Lichterfelde #GND4087328-6 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen index="0">Beilage nicht digitalisiert</allgemeine_anmerkungen>
+    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <bemerkungen_zum_standort index="0">&#220;bergr&#246;sse in separater Mappe</bemerkungen_zum_standort>
+    <registereintraege index="0">
       <register_bezeichnung>Engel</register_bezeichnung>
       <register_gnd-id>null</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3222,7 +3222,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>GND-Recherchen unergiebig (lutz, 03/2022) / T&#228;tigkeit: Schulrat in Berlin (Quelle: Vorlage Hs NL 11: Cf 1) / GND-Recherchen unergiebig (lutz, 03/2022)</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="1">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
@@ -3231,8 +3231,8 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <doi>https://doi.org/10.7891/e-manuscripta-124359</doi>
-    <parsed_internal_remarks>
+    <doi index="0">https://doi.org/10.7891/e-manuscripta-124359</doi>
+    <parsed_internal_remarks index="0">
       <entitaet>
         <value>Berlin-Lichterfelde</value>
         <identifiers>
@@ -3248,7 +3248,7 @@
         <value>Entstehungsort</value>
       </rolle>
     </parsed_internal_remarks>
-    <parsed_internal_remarks>
+    <parsed_internal_remarks index="1">
       <entitaet>
         <value>Unterzeichner einer Erlaubnisurkunde des Provinzial-Schulkollegiums Berlin</value>
       </entitaet>
@@ -3420,66 +3420,66 @@
 
 
   <record>
-    <signatur>Hs NL 11: Fb 2.20.3</signatur>
-    <verzeichnungsstufe>
+    <signatur index="0">Hs NL 11: Fb 2.20.3</signatur>
+    <verzeichnungsstufe index="0">
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id>60399</id>
-    <guid>7a96e18b43c44899a85b906109775066</guid>
-    <archivalienarten>
+    <id index="0">60399</id>
+    <guid index="0">7a96e18b43c44899a85b906109775066</guid>
+    <archivalienarten index="0">
       <bezeichnung>Typoskript</bezeichnung>
       <gnd>4186519-4</gnd>
     </archivalienarten>
-    <archivalienarten>
+    <archivalienarten index="1">
       <bezeichnung>Manuskript</bezeichnung>
       <gnd>4126273-6</gnd>
     </archivalienarten>
-    <archivalienarten>
+    <archivalienarten index="2">
       <bezeichnung>Autograf</bezeichnung>
       <gnd>4003942-0</gnd>
     </archivalienarten>
-    <titel>Manuskript zum Vortrag "Allgemeine Erziehung und Kunsterziehung"</titel>
-    <entstehungszeitraum>1961</entstehungszeitraum>
-    <bemerkungen_zum_umfang>14 Bl&#228;tter</bemerkungen_zum_umfang>
-    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-126762" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126762&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Fb 2.20 - Vortrag "Allgemeine Erziehung und Kunsterziehung" - 1961</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik>c49c163e9c764264bb83224abad1709e</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Werke und Manuskripte/Vortr&#228;ge und Aufs&#228;tze/Vortr&#228;ge und Aufs&#228;tze 1954-1967/Vortrag "Allgemeine Erziehung und Kunsterziehung"</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/95f5542c2ea84104b63179f64e19a826/12edee1922174655bcbbc5cd1a26089b/0c4cc1b8361741adaba10c05d0409875/c49c163e9c764264bb83224abad1709e</pfad_bestand_nur_guid_von_jeder_ebene>
-    <verwaltungsgeschichte_-_biografische_angaben>Pablo Casals, andere Namen: Pau Casals; Paul Casals / John F. Kennedy, vollst&#228;ndiger Name: John Fitzgerald Kennedy</verwaltungsgeschichte_-_biografische_angaben>
-    <ueberlieferungsformen>
+    <titel index="0">Manuskript zum Vortrag "Allgemeine Erziehung und Kunsterziehung"</titel>
+    <entstehungszeitraum index="0">1961</entstehungszeitraum>
+    <bemerkungen_zum_umfang index="0">14 Bl&#228;tter</bemerkungen_zum_umfang>
+    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-126762" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126762&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Fb 2.20 - Vortrag "Allgemeine Erziehung und Kunsterziehung" - 1961</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">c49c163e9c764264bb83224abad1709e</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Werke und Manuskripte/Vortr&#228;ge und Aufs&#228;tze/Vortr&#228;ge und Aufs&#228;tze 1954-1967/Vortrag "Allgemeine Erziehung und Kunsterziehung"</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/95f5542c2ea84104b63179f64e19a826/12edee1922174655bcbbc5cd1a26089b/0c4cc1b8361741adaba10c05d0409875/c49c163e9c764264bb83224abad1709e</pfad_bestand_nur_guid_von_jeder_ebene>
+    <verwaltungsgeschichte_-_biografische_angaben index="0">Pablo Casals, andere Namen: Pau Casals; Paul Casals / John F. Kennedy, vollst&#228;ndiger Name: John Fitzgerald Kennedy</verwaltungsgeschichte_-_biografische_angaben>
+    <ueberlieferungsformen index="0">
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen>Ohne rechtliche Einschr&#228;nkungen einsehbar</zugangsbestimmungen>
-    <publikation>Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist>
+    <zugangsbestimmungen index="0">Ohne rechtliche Einschr&#228;nkungen einsehbar</zugangsbestimmungen>
+    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist index="0">
       <bezeichnung>Keine</bezeichnung>
       <frist>0</frist>
     </schutzfrist>
-    <ablauf_schutzfrist>01.01.1962</ablauf_schutzfrist>
-    <benutzbarkeit>frei einsehbar</benutzbarkeit>
-    <ablauf_verwertungsrecht>01.01.2038</ablauf_verwertungsrecht>
-    <lizenz>
+    <ablauf_schutzfrist index="0">01.01.1962</ablauf_schutzfrist>
+    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
+    <ablauf_verwertungsrecht index="0">01.01.2038</ablauf_verwertungsrecht>
+    <lizenz index="0">
       <bezeichnung>CC BY-NC-SA 4.0</bezeichnung>
       <link>https://creativecommons.org/licenses/by-nc-sa/4.0/</link>
     </lizenz>
-    <urheber_bekannt>Ja</urheber_bekannt>
-    <urheber>Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
-    <todesdatum_urheber>1967</todesdatum_urheber>
-    <sprachen>
+    <urheber_bekannt index="0">Ja</urheber_bekannt>
+    <urheber index="0">Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
+    <todesdatum_urheber index="0">1967</todesdatum_urheber>
+    <sprachen index="0">
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen>Dossier 206 / Entit&#228;t: Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung" Typ: Person Rolle: Adressat (rcp) (Contributor) Bemerkungen: Damen und Herren (Name in Vorlageform, Quelle: Vorlage Fb 2.20.3); Entit&#228;t: Direktor der Chirurgischen Klinik Z&#252;rich Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Direktor der Chirurgischen Klinik Z&#252;rich #GND1086229142 im Jahr 1961. Vermutlich identisch mit Brunner, Alfred #GND13133056X (Quelle: Vorlage Fb 2.20.3); Entit&#228;t: Klaus Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: (Quelle: Vorlage Fb 2.20.3)</allgemeine_interne_anmerkungen>
-    <allgemeine_anmerkungen>Ort nicht ermittelt</allgemeine_anmerkungen>
-    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
-    <registereintraege>
+    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 206 / Entit&#228;t: Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung" Typ: Person Rolle: Adressat (rcp) (Contributor) Bemerkungen: Damen und Herren (Name in Vorlageform, Quelle: Vorlage Fb 2.20.3); Entit&#228;t: Direktor der Chirurgischen Klinik Z&#252;rich Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Direktor der Chirurgischen Klinik Z&#252;rich #GND1086229142 im Jahr 1961. Vermutlich identisch mit Brunner, Alfred #GND13133056X (Quelle: Vorlage Fb 2.20.3); Entit&#228;t: Klaus Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: (Quelle: Vorlage Fb 2.20.3)</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen index="0">Ort nicht ermittelt</allgemeine_anmerkungen>
+    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <registereintraege index="0">
       <register_bezeichnung>Reger, Max</register_bezeichnung>
       <register_gnd-id>118598988</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3488,7 +3488,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118598988 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="1">
       <register_bezeichnung>Bosch, Hieronymus</register_bezeichnung>
       <register_gnd-id>11851380X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3497,7 +3497,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11851380X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="2">
       <register_bezeichnung>Edison, Thomas A.</register_bezeichnung>
       <register_gnd-id>118528912</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3506,7 +3506,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118528912 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Edison, Thomas; Edison, Thomas Alva; Alva Edison, Thomas</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="3">
       <register_bezeichnung>Angelico, Fra</register_bezeichnung>
       <register_gnd-id>118503081</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3515,7 +3515,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118503081 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="4">
       <register_bezeichnung>Saint-Exup&#233;ry, Antoine de</register_bezeichnung>
       <register_gnd-id>118604902</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3524,7 +3524,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118604902 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="5">
       <register_bezeichnung>Weinstock, Heinrich</register_bezeichnung>
       <register_gnd-id>117275824</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3533,7 +3533,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/117275824 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="6">
       <register_bezeichnung>Einstein, Albert</register_bezeichnung>
       <register_gnd-id>118529579</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3542,7 +3542,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118529579 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="7">
       <register_bezeichnung>Plato</register_bezeichnung>
       <register_gnd-id>118594893</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3551,7 +3551,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Lebensdaten: ca. 427-347 v. Chr. / Link zur GND: &lt;a href=http://d-nb.info/gnd/118594893 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="8">
       <register_bezeichnung>Holbein, Hans</register_bezeichnung>
       <register_gnd-id>118552953</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3560,7 +3560,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552953 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Holbein, Hans der J&#252;ngere</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="9">
       <register_bezeichnung>Ford, Henry</register_bezeichnung>
       <register_gnd-id>118534300</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3569,7 +3569,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118534300 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="10">
       <register_bezeichnung>El Greco</register_bezeichnung>
       <register_gnd-id>118722778</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3578,7 +3578,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118722778 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="11">
       <register_bezeichnung>Kant, Immanuel</register_bezeichnung>
       <register_gnd-id>118559796</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
@@ -3587,7 +3587,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118559796 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <registereintraege>
+    <registereintraege index="12">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
@@ -3596,8 +3596,8 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
     </registereintraege>
-    <doi>https://doi.org/10.7891/e-manuscripta-126762</doi>
-    <parsed_internal_remarks>
+    <doi index="0">https://doi.org/10.7891/e-manuscripta-126762</doi>
+    <parsed_internal_remarks index="0">
       <entitaet>
         <value>Klaus</value>
       </entitaet>
@@ -3612,7 +3612,7 @@
         <value>(Quelle: Vorlage Fb 2.20.3)</value>
       </bemerkungen>
     </parsed_internal_remarks>
-    <parsed_internal_remarks>
+    <parsed_internal_remarks index="1">
       <entitaet>
         <value>Direktor der Chirurgischen Klinik Z&#252;rich</value>
       </entitaet>
@@ -3637,7 +3637,7 @@
         </identifiers>
       </bemerkungen>
     </parsed_internal_remarks>
-    <parsed_internal_remarks>
+    <parsed_internal_remarks index="2">
       <entitaet>
         <value>Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung"</value>
       </entitaet>
