@@ -60,7 +60,7 @@
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
-      <register_datum>11.11.1888 - 25.03.1967</register_datum>
+      <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -69,7 +69,7 @@
       <register_bezeichnung>Reidemeister, Leopold</register_bezeichnung>
       <register_gnd-id>119335603</register_gnd-id>
       <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
-      <register_datum>1900 - 1987</register_datum>
+      <register_datum dateFrom="1900" dateTo="1987">1900 - 1987</register_datum>
       <register_id>44504</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/119335603 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -300,7 +300,7 @@
       <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
       <register_gnd-id>11721227X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>17.10.1913 - 10.05.2002</register_datum>
+      <register_datum dateFrom="1913-10-17" dateTo="2002-05-10">17.10.1913 - 10.05.2002</register_datum>
       <register_id>22078</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Geburtsname: Schl&#246;sser, Anneliese / Link zur GND: &lt;a href=http://d-nb.info/gnd/11721227X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -309,7 +309,7 @@
       <register_bezeichnung>Curjel, Hans</register_bezeichnung>
       <register_gnd-id>116766107</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1896 - 1974</register_datum>
+      <register_datum dateFrom="1896" dateTo="1974">1896 - 1974</register_datum>
       <register_id>50896</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/116766107 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -318,7 +318,7 @@
       <register_bezeichnung>Schreyer, Lothar</register_bezeichnung>
       <register_gnd-id>118980351</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1886 - 1966</register_datum>
+      <register_datum dateFrom="1886" dateTo="1966">1886 - 1966</register_datum>
       <register_id>45046</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118980351 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -327,7 +327,7 @@
       <register_bezeichnung>Grote, Ludwig</register_bezeichnung>
       <register_gnd-id>118698222</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1893 - 1974</register_datum>
+      <register_datum dateFrom="1893" dateTo="1974">1893 - 1974</register_datum>
       <register_id>46081</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118698222 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -336,7 +336,7 @@
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
-      <register_datum>11.11.1888 - 25.03.1967</register_datum>
+      <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -345,7 +345,7 @@
       <register_bezeichnung>Sandberg, Willem Jacob Henri Berend</register_bezeichnung>
       <register_gnd-id>118751158</register_gnd-id>
       <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
-      <register_datum>1897 - 1984</register_datum>
+      <register_datum dateFrom="1897" dateTo="1984">1897 - 1984</register_datum>
       <register_id>50721</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118751158 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -770,7 +770,7 @@
       <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
       <register_gnd-id>11721227X</register_gnd-id>
       <register_rolle label="contributor">Beteiligt (Contributor)</register_rolle>
-      <register_datum>17.10.1913 - 10.05.2002</register_datum>
+      <register_datum dateFrom="1913-10-17" dateTo="2002-05-10">17.10.1913 - 10.05.2002</register_datum>
       <register_id>22078</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Geburtsname: Schl&#246;sser, Anneliese / Link zur GND: &lt;a href=http://d-nb.info/gnd/11721227X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -779,7 +779,7 @@
       <register_bezeichnung>Brard, Pierre</register_bezeichnung>
       <register_gnd-id>null</register_gnd-id>
       <register_rolle label="contributor">Beteiligt (Contributor)</register_rolle>
-      <register_datum>20. Jh.</register_datum>
+      <register_datum dateFrom="19XX">20. Jh.</register_datum>
       <register_id>65870</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>null</register_bemerkungen>
@@ -797,7 +797,7 @@
       <register_bezeichnung>Gasquet, Joachim</register_bezeichnung>
       <register_gnd-id>118904523</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1873 - 1921</register_datum>
+      <register_datum dateFrom="1873" dateTo="1921">1873 - 1921</register_datum>
       <register_id>65119</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118904523 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -806,7 +806,7 @@
       <register_bezeichnung>H&#246;lzel, Adolf</register_bezeichnung>
       <register_gnd-id>118552058</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1853 - 1934</register_datum>
+      <register_datum dateFrom="1853" dateTo="1934">1853 - 1934</register_datum>
       <register_id>39785</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552058 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: H&#246;lzel, Adolf Richard; Hoelzel, Adolf</register_bemerkungen>
@@ -815,7 +815,7 @@
       <register_bezeichnung>Matisse, Henri</register_bezeichnung>
       <register_gnd-id>118578847</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1869 - 1954</register_datum>
+      <register_datum dateFrom="1869" dateTo="1954">1869 - 1954</register_datum>
       <register_id>60572</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118578847 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -824,7 +824,7 @@
       <register_bezeichnung>Thomas, von Kempen</register_bezeichnung>
       <register_gnd-id>118642766</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1379 - 1471</register_datum>
+      <register_datum dateFrom="1379" dateTo="1471">1379 - 1471</register_datum>
       <register_id>65441</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118642766 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Thomas, a Kempis; Thomas, van Kempen; Hermerken a Kempis, Thomas; Hemerken a Kempis, Thomas; H&#228;mmerken, Toma; Harmelein, Toma; Hamerkens Kempenes, Toms; Champs, Thomas des; DesChamps, Thomas; Kempen, Thomas van; Kempen, Tomas de; Kempen-Sailer, Thomas v.; Kempis, Thoma a; Kempes, Thomas a; Kempis, Thomas &#226;; Kempis, Tomas de; Kempis, Thomas Hermerken a; Kempenac, Toma; Kempenski, Toma; Kempten, Thomas von / Wirklicher Name: Hemerken, Thomas</register_bemerkungen>
@@ -833,7 +833,7 @@
       <register_bezeichnung>Tintoretto</register_bezeichnung>
       <register_gnd-id>118622854</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1518 - 1594</register_datum>
+      <register_datum dateFrom="1518" dateTo="1594">1518 - 1594</register_datum>
       <register_id>65333</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118622854 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Robusti, Jacopo (Wirklicher Name); Robusti, Iacopo; Tintoretto, Jacopo R.; Tintoret; Le Tintoret; Tintoret, Le; Tintoretto, Jacopo Robusti; Tintoretto, Jacomo (Vornamensform in Buchtitel); Tintoret, Jacopo; Il Tintoretto; Tintoretto, Il; Tintoretto; Tintoretto, Giacomo; Robusti, Giacopo; Tintoretto, Jacobo; Tentor, Jacomo; RobustiTintoretto, Jacopo; Tintoretto, Jacopo; Tinctorettus, Iacobus; Comin, Jacopo</register_bemerkungen>
@@ -842,7 +842,7 @@
       <register_bezeichnung>Piero, della Francesca</register_bezeichnung>
       <register_gnd-id>118524577</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1416 - 1492</register_datum>
+      <register_datum dateFrom="1416" dateTo="1492">1416 - 1492</register_datum>
       <register_id>65134</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118524577 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -851,7 +851,7 @@
       <register_bezeichnung>Thomas, von Aquin, Heiliger</register_bezeichnung>
       <register_gnd-id>118622110</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1225 - 1274</register_datum>
+      <register_datum dateFrom="1225" dateTo="1274">1225 - 1274</register_datum>
       <register_id>65438</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118622110 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -860,7 +860,7 @@
       <register_bezeichnung>Vecellio, Tiziano</register_bezeichnung>
       <register_gnd-id>118622994</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1477 - 1576</register_datum>
+      <register_datum dateFrom="1477" dateTo="1576">1477 - 1576</register_datum>
       <register_id>55947</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118622994 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -878,7 +878,7 @@
       <register_bezeichnung>Rembrandt, Harmensz van Rijn</register_bezeichnung>
       <register_gnd-id>11859964X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1606 - 1669</register_datum>
+      <register_datum dateFrom="1606" dateTo="1669">1606 - 1669</register_datum>
       <register_id>35417</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>null</register_bemerkungen>
@@ -887,7 +887,7 @@
       <register_bezeichnung>C&#233;zanne, Paul</register_bezeichnung>
       <register_gnd-id>118519964</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1839 - 1906</register_datum>
+      <register_datum dateFrom="1839" dateTo="1906">1839 - 1906</register_datum>
       <register_id>60374</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118519964 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -896,7 +896,7 @@
       <register_bezeichnung>Bruegel, Pieter, de Oudere</register_bezeichnung>
       <register_gnd-id>118674013</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1525 - 1569</register_datum>
+      <register_datum dateFrom="1525" dateTo="1569">1525 - 1569</register_datum>
       <register_id>65322</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118674013 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Bruegel, Pieter, der &#196;ltere (B 1986, Winkler Prins); Bruegel, Pieter, d. &#196;.; Bruegel, Pieter, the Elder; Bruegel, Pieter; Bruegel, Pieter, il Vecchio; Bruegel, Pieter, el Viejo; Bruegel, Peter, de Oudere; Bruegel, Peter, der &#196;ltere; Bruegel, Peter; Bruegel, Peeter; Bruegel, Pierre, l'Ancien; Bruegel, Pierre, der &#196;ltere; Bruegel, Pierre, le Vieux; Bruegel; Bruegel, der &#196;ltere; Brueghel, Pieter, de Oudere; Brueghel, Pieter van; Brueghel, Pieter; Brueghel, Peter, de Oudere; Brueghel, Peter, der &#196;ltere; Brueghel, Peter; Brueghel, de Oudere; Breugel, Pierre, l'Ancien; Breugel, Pieter, der &#196;ltere; Breugel, Peter, der &#196;ltere; Breugel, Peter; Breugel, Petrus; Breughel, Pieter, der &#196;ltere (M); Breughel, Pieter, de Oudere; Breughel, Pieter; Breughel, Peter, der &#196;ltere; Breughel, Peter; Bauern-Bruegel; Bauernbruegel; Bauern-Breughel; Boere-Brueghel; Peer, den Drol; Brejgel', Piter</register_bemerkungen>
@@ -905,7 +905,7 @@
       <register_bezeichnung>Ganz, Paul Leonhard</register_bezeichnung>
       <register_gnd-id>137933096</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1910 - 1976</register_datum>
+      <register_datum dateFrom="1910" dateTo="1976">1910 - 1976</register_datum>
       <register_id>20019</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/137933096 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -914,7 +914,7 @@
       <register_bezeichnung>Mu?ammad</register_bezeichnung>
       <register_gnd-id>118583158</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>0570 - 0632</register_datum>
+      <register_datum dateFrom="0570" dateTo="0632">0570 - 0632</register_datum>
       <register_id>65302</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118583158 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Mu?ammad, Prophet; Muhammad, der Prophet; Mu?ammad an-Nabi; Mu?ammad, Nabi; Mu?ammad Ibn-?Abdallah Ibn-?Abd-al-Mu??alib; Mu?ammad Ibn-?Abdallah, Prophet; Mu?ammad,; Rasul Allah; Muhhamad, Prophet; Muhammad; Muhamed; Muhammed; Muhammed, der Sohn Abdall; Mu?ammad Ibn-?Abdallah; Muhhammed, Prophet; Muhammedanus; Macometto; Maometto, Profeta; Machomet; Mahmed; Mahomed; Mahomed, Prophet; Mahommed; Mahomet, Prophet; Machomet, Prophet; Mahoma; Mahomet; Mahumed; Machumet; Mahumetus; Magomet; Me?met; Me?med; Mehemmed; Mohamad; Mohamed; Mohamed, Prophet; Mo?ammad; Mohammed, Prophet; Mohammed Ibn Abdallah; Mohammed, Abdallah, Sohn; Mohammed Filius Abdallae; Mohammed; Mohamet; Mohamet, Prophet; Mouhamed</register_bemerkungen>
@@ -923,7 +923,7 @@
       <register_bezeichnung>Eyck, Jan van</register_bezeichnung>
       <register_gnd-id>118531557</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1390 - 1441</register_datum>
+      <register_datum dateFrom="1390" dateTo="1441">1390 - 1441</register_datum>
       <register_id>65129</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118531557 target="_blank"&gt;GND&lt;/a&gt; / Eyck, Jean van; Eyck, Joh. van; Eyck, Ioannes ab; Eijck, Jan van; Jan, van Eyck; Eyck, Johan van; Eyck, Johann von; Eyck, Johannes van; Eyck, John van; Van Eyck, Jan; Eik, Ian van; Van Eyck, Johann; Eyck, Johann van</register_bemerkungen>
@@ -932,7 +932,7 @@
       <register_bezeichnung>G&#233;ricault, Th&#233;odore</register_bezeichnung>
       <register_gnd-id>118538675</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1791 - 1824</register_datum>
+      <register_datum dateFrom="1791" dateTo="1824">1791 - 1824</register_datum>
       <register_id>65318</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118538675 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: G&#233;ricault, Jean L.; G&#233;ricault, Jean Louis Andr&#233; Th&#233;odore</register_bemerkungen>
@@ -941,7 +941,7 @@
       <register_bezeichnung>Spinoza, Benedictus de</register_bezeichnung>
       <register_gnd-id>118616242</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1632 - 1677</register_datum>
+      <register_datum dateFrom="1632" dateTo="1677">1632 - 1677</register_datum>
       <register_id>36065</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118616242 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -950,7 +950,7 @@
       <register_bezeichnung>Einstein, Albert</register_bezeichnung>
       <register_gnd-id>118529579</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1879 - 1955</register_datum>
+      <register_datum dateFrom="1879" dateTo="1955">1879 - 1955</register_datum>
       <register_id>15239</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118529579 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -959,7 +959,7 @@
       <register_bezeichnung>Brinkmann, Donald</register_bezeichnung>
       <register_gnd-id>118674161</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1909 - 1963</register_datum>
+      <register_datum dateFrom="1909" dateTo="1963">1909 - 1963</register_datum>
       <register_id>36572</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118674161 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -968,7 +968,7 @@
       <register_bezeichnung>Zurbar&#225;n, Francisco de</register_bezeichnung>
       <register_gnd-id>118808672</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1598 - 1664</register_datum>
+      <register_datum dateFrom="1598" dateTo="1664">1598 - 1664</register_datum>
       <register_id>65334</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118808672 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -977,7 +977,7 @@
       <register_bezeichnung>Chardin, Jean Baptiste Sim&#233;on</register_bezeichnung>
       <register_gnd-id>118520121</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1699 - 1779</register_datum>
+      <register_datum dateFrom="1699" dateTo="1779">1699 - 1779</register_datum>
       <register_id>59609</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118520121 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -986,7 +986,7 @@
       <register_bezeichnung>Gogh, Theo van</register_bezeichnung>
       <register_gnd-id>118953974</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1857 - 1891</register_datum>
+      <register_datum dateFrom="1857" dateTo="1891">1857 - 1891</register_datum>
       <register_id>65423</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118953974 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -995,7 +995,7 @@
       <register_bezeichnung>Gogh, Vincent van</register_bezeichnung>
       <register_gnd-id>118540416</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1853 - 1890</register_datum>
+      <register_datum dateFrom="1853" dateTo="1890">1853 - 1890</register_datum>
       <register_id>60511</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118540416 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Gogh, Vincent-Willem van; Gogh, Vincent Willem van; VanGogh, Vincent</register_bemerkungen>
@@ -1004,7 +1004,7 @@
       <register_bezeichnung>Libiszewski, Serge</register_bezeichnung>
       <register_gnd-id>1011337037</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>03.03.1930 - 22.07.2019</register_datum>
+      <register_datum dateFrom="1930-03-03" dateTo="2019-07-22">03.03.1930 - 22.07.2019</register_datum>
       <register_id>55197</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/1011337037 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Libis, Sergio; Sibiszewsky, Serge</register_bemerkungen>
@@ -1013,7 +1013,7 @@
       <register_bezeichnung>Finsler, Hans</register_bezeichnung>
       <register_gnd-id>11900013X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1891 - 1972</register_datum>
+      <register_datum dateFrom="1891" dateTo="1972">1891 - 1972</register_datum>
       <register_id>37888</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11900013X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1022,7 +1022,7 @@
       <register_bezeichnung>Delacroix, Eug&#232;ne</register_bezeichnung>
       <register_gnd-id>118524461</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1798 - 1863</register_datum>
+      <register_datum dateFrom="1798" dateTo="1863">1798 - 1863</register_datum>
       <register_id>64841</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118524461 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1031,7 +1031,7 @@
       <register_bezeichnung>Leibl, Wilhelm</register_bezeichnung>
       <register_gnd-id>118571222</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1844 - 1900</register_datum>
+      <register_datum dateFrom="1844" dateTo="1900">1844 - 1900</register_datum>
       <register_id>64874</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118571222 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1040,7 +1040,7 @@
       <register_bezeichnung>Monet, Claude</register_bezeichnung>
       <register_gnd-id>11858345X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1840 - 1926</register_datum>
+      <register_datum dateFrom="1840" dateTo="1926">1840 - 1926</register_datum>
       <register_id>60514</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11858345X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1049,7 +1049,7 @@
       <register_bezeichnung>Renoir, Auguste</register_bezeichnung>
       <register_gnd-id>118599755</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1841 - 1919</register_datum>
+      <register_datum dateFrom="1841" dateTo="1919">1841 - 1919</register_datum>
       <register_id>65123</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118599755 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1058,7 +1058,7 @@
       <register_bezeichnung>Pissarro, Camille</register_bezeichnung>
       <register_gnd-id>118594672</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1830 - 1903</register_datum>
+      <register_datum dateFrom="1830" dateTo="1903">1830 - 1903</register_datum>
       <register_id>65124</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118594672 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Pissarro, C.; Pissarro, ...; Pissarro, Camille Jacob; Pissarro, Jacob-Abraham-Camille; Pissarro, Jacob Abraham Camille; Pissaro, Camille; Pisaro, ?ami</register_bemerkungen>
@@ -1067,7 +1067,7 @@
       <register_bezeichnung>Witz, Konrad</register_bezeichnung>
       <register_gnd-id>118769677</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1405 - 1446</register_datum>
+      <register_datum dateFrom="1405" dateTo="1446">1405 - 1446</register_datum>
       <register_id>60772</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118769677 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1076,7 +1076,7 @@
       <register_bezeichnung>David, Jacques Louis</register_bezeichnung>
       <register_gnd-id>118523945</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1748 - 1825</register_datum>
+      <register_datum dateFrom="1748" dateTo="1825">1748 - 1825</register_datum>
       <register_id>64870</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118523945 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1085,7 +1085,7 @@
       <register_bezeichnung>Holbein, Hans</register_bezeichnung>
       <register_gnd-id>118552953</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1497 - 1543</register_datum>
+      <register_datum dateFrom="1497" dateTo="1543">1497 - 1543</register_datum>
       <register_id>29481</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552953 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Holbein, Hans der J&#252;ngere</register_bemerkungen>
@@ -1094,7 +1094,7 @@
       <register_bezeichnung>Saint-Exup&#233;ry, Antoine de</register_bezeichnung>
       <register_gnd-id>118604902</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1900 - 1944</register_datum>
+      <register_datum dateFrom="1900" dateTo="1944">1900 - 1944</register_datum>
       <register_id>60406</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118604902 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1103,7 +1103,7 @@
       <register_bezeichnung>Runge, Philipp Otto</register_bezeichnung>
       <register_gnd-id>118604155</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1777 - 1810</register_datum>
+      <register_datum dateFrom="1777" dateTo="1810">1777 - 1810</register_datum>
       <register_id>43920</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118604155 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1112,7 +1112,7 @@
       <register_bezeichnung>Goethe, Johann Wolfgang von</register_bezeichnung>
       <register_gnd-id>118540238</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1749 - 1832</register_datum>
+      <register_datum dateFrom="1749" dateTo="1832">1749 - 1832</register_datum>
       <register_id>334</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>null</register_bemerkungen>
@@ -1121,7 +1121,7 @@
       <register_bezeichnung>Ostwald, Wilhelm</register_bezeichnung>
       <register_gnd-id>11859057X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1853 - 1932</register_datum>
+      <register_datum dateFrom="1853" dateTo="1932">1853 - 1932</register_datum>
       <register_id>60614</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11859057X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1130,7 +1130,7 @@
       <register_bezeichnung>Mussolini, Benito</register_bezeichnung>
       <register_gnd-id>118585967</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1883 - 1945</register_datum>
+      <register_datum dateFrom="1883" dateTo="1945">1883 - 1945</register_datum>
       <register_id>65420</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118585967 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1139,7 +1139,7 @@
       <register_bezeichnung>Le Corbusier</register_bezeichnung>
       <register_gnd-id>118676873</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1887 - 1965</register_datum>
+      <register_datum dateFrom="1887" dateTo="1965">1887 - 1965</register_datum>
       <register_id>65419</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118676873 target="_blank"&gt;GND&lt;/a&gt; / Wirklicher Name: Jeanneret-Gris, Charles &#201;douard</register_bemerkungen>
@@ -1148,7 +1148,7 @@
       <register_bezeichnung>L&#233;ger, Fernand</register_bezeichnung>
       <register_gnd-id>118570994</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1881 - 1955</register_datum>
+      <register_datum dateFrom="1881" dateTo="1955">1881 - 1955</register_datum>
       <register_id>65329</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118570994 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1157,7 +1157,7 @@
       <register_bezeichnung>Braque, Georges</register_bezeichnung>
       <register_gnd-id>118514504</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1882 - 1963</register_datum>
+      <register_datum dateFrom="1882" dateTo="1963">1882 - 1963</register_datum>
       <register_id>60573</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118514504 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1166,7 +1166,7 @@
       <register_bezeichnung>Picasso, Pablo</register_bezeichnung>
       <register_gnd-id>118594206</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1881 - 1973</register_datum>
+      <register_datum dateFrom="1881" dateTo="1973">1881 - 1973</register_datum>
       <register_id>59513</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118594206 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1175,7 +1175,7 @@
       <register_bezeichnung>Mondrian, Piet</register_bezeichnung>
       <register_gnd-id>118583441</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1872 - 1944</register_datum>
+      <register_datum dateFrom="1872" dateTo="1944">1872 - 1944</register_datum>
       <register_id>60592</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118583441 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1184,7 +1184,7 @@
       <register_bezeichnung>Br&#226;ncusi, Constantin</register_bezeichnung>
       <register_gnd-id>118673076</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1876 - 1957</register_datum>
+      <register_datum dateFrom="1876" dateTo="1957">1876 - 1957</register_datum>
       <register_id>65418</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118673076 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Brancusi; Br&#238;ncusi, Constantin; Br&#226;ncusi, C.</register_bemerkungen>
@@ -1193,7 +1193,7 @@
       <register_bezeichnung>Arp, Hans</register_bezeichnung>
       <register_gnd-id>118504398</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1887 - 1966</register_datum>
+      <register_datum dateFrom="1887" dateTo="1966">1887 - 1966</register_datum>
       <register_id>14896</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118504398 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1202,7 +1202,7 @@
       <register_bezeichnung>Gr&#252;newald, Matthias</register_bezeichnung>
       <register_gnd-id>118542907</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1480 - 1528</register_datum>
+      <register_datum dateFrom="1480" dateTo="1528">1480 - 1528</register_datum>
       <register_id>60773</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118542907 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1211,7 +1211,7 @@
       <register_bezeichnung>El Greco</register_bezeichnung>
       <register_gnd-id>118722778</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1541 - 1614</register_datum>
+      <register_datum dateFrom="1541" dateTo="1614">1541 - 1614</register_datum>
       <register_id>60404</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118722778 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1220,7 +1220,7 @@
       <register_bezeichnung>Veronese, Paolo</register_bezeichnung>
       <register_gnd-id>118626647</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1528 - 1588</register_datum>
+      <register_datum dateFrom="1528" dateTo="1588">1528 - 1588</register_datum>
       <register_id>65417</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118626647 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1229,7 +1229,7 @@
       <register_bezeichnung>Giotto, di Bondone</register_bezeichnung>
       <register_gnd-id>118539477</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1266 - 1337</register_datum>
+      <register_datum dateFrom="1266" dateTo="1337">1266 - 1337</register_datum>
       <register_id>65327</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118539477 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -1238,7 +1238,7 @@
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
-      <register_datum>11.11.1888 - 25.03.1967</register_datum>
+      <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3226,7 +3226,7 @@
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
-      <register_datum>11.11.1888 - 25.03.1967</register_datum>
+      <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3483,7 +3483,7 @@
       <register_bezeichnung>Reger, Max</register_bezeichnung>
       <register_gnd-id>118598988</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1873 - 1916</register_datum>
+      <register_datum dateFrom="1873" dateTo="1916">1873 - 1916</register_datum>
       <register_id>65970</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118598988 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3492,7 +3492,7 @@
       <register_bezeichnung>Bosch, Hieronymus</register_bezeichnung>
       <register_gnd-id>11851380X</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1450 - 1516</register_datum>
+      <register_datum dateFrom="1450" dateTo="1516">1450 - 1516</register_datum>
       <register_id>65321</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11851380X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3501,7 +3501,7 @@
       <register_bezeichnung>Edison, Thomas A.</register_bezeichnung>
       <register_gnd-id>118528912</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1847 - 1931</register_datum>
+      <register_datum dateFrom="1847" dateTo="1931">1847 - 1931</register_datum>
       <register_id>64861</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118528912 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Edison, Thomas; Edison, Thomas Alva; Alva Edison, Thomas</register_bemerkungen>
@@ -3510,7 +3510,7 @@
       <register_bezeichnung>Angelico, Fra</register_bezeichnung>
       <register_gnd-id>118503081</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1387 - 1455</register_datum>
+      <register_datum dateFrom="1387" dateTo="1455">1387 - 1455</register_datum>
       <register_id>60771</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118503081 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3519,7 +3519,7 @@
       <register_bezeichnung>Saint-Exup&#233;ry, Antoine de</register_bezeichnung>
       <register_gnd-id>118604902</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1900 - 1944</register_datum>
+      <register_datum dateFrom="1900" dateTo="1944">1900 - 1944</register_datum>
       <register_id>60406</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118604902 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3528,7 +3528,7 @@
       <register_bezeichnung>Weinstock, Heinrich</register_bezeichnung>
       <register_gnd-id>117275824</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1889 - 1960</register_datum>
+      <register_datum dateFrom="1889" dateTo="1960">1889 - 1960</register_datum>
       <register_id>60382</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/117275824 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3537,7 +3537,7 @@
       <register_bezeichnung>Einstein, Albert</register_bezeichnung>
       <register_gnd-id>118529579</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1879 - 1955</register_datum>
+      <register_datum dateFrom="1879" dateTo="1955">1879 - 1955</register_datum>
       <register_id>15239</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118529579 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3555,7 +3555,7 @@
       <register_bezeichnung>Holbein, Hans</register_bezeichnung>
       <register_gnd-id>118552953</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1497 - 1543</register_datum>
+      <register_datum dateFrom="1497" dateTo="1543">1497 - 1543</register_datum>
       <register_id>29481</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552953 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Holbein, Hans der J&#252;ngere</register_bemerkungen>
@@ -3564,7 +3564,7 @@
       <register_bezeichnung>Ford, Henry</register_bezeichnung>
       <register_gnd-id>118534300</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1863 - 1947</register_datum>
+      <register_datum dateFrom="1863" dateTo="1947">1863 - 1947</register_datum>
       <register_id>60405</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118534300 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3573,7 +3573,7 @@
       <register_bezeichnung>El Greco</register_bezeichnung>
       <register_gnd-id>118722778</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1541 - 1614</register_datum>
+      <register_datum dateFrom="1541" dateTo="1614">1541 - 1614</register_datum>
       <register_id>60404</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118722778 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3582,7 +3582,7 @@
       <register_bezeichnung>Kant, Immanuel</register_bezeichnung>
       <register_gnd-id>118559796</register_gnd-id>
       <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>1724 - 1804</register_datum>
+      <register_datum dateFrom="1724" dateTo="1804">1724 - 1804</register_datum>
       <register_id>60403</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118559796 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3591,7 +3591,7 @@
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
-      <register_datum>11.11.1888 - 25.03.1967</register_datum>
+      <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
