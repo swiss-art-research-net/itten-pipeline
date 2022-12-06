@@ -1452,7 +1452,83 @@
                             <equals value="Personenregister">../registertyp</equals>
                         </if>
                         <entity>
-                            <type>crm:E39_Actor</type>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../register_gnd-id/text()) then (../register_gnd-id/text()) else (text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">../register_bezeichnung/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/registereintraege</source_node>
+                <target_node>
+                    <if>
+                        <and>
+                            <if>
+                                <not>
+                                    <if>
+                                        <exists>register_rolle/@code</exists>
+                                    </if>
+                                </not>
+                            </if>
+                            <if>
+                                <equals value="contributor">register_rolle/@label</equals>
+                            </if>
+                        </and>
+                    </if>
+                    <entity variable="collection_production">
+                        <type>crm:E12_Production</type>
+                        <instance_generator name="URIwithTypeSubtypeAndId">
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                            <arg name="subtype" type="constant">production</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>register_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P9_consists_of</relationship>
+                        <entity>
+                            <type>crm:E12_Production</type>
+                            <instance_generator name="URIwithTypeSubtypeIdAndCounter">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                                <arg name="subtype" type="constant">production</arg>
+                                <arg name="position" type="xpath">concat("reg-", ../@index, "-ctb")</arg>
+                            </instance_generator>
+                            <additional>
+                                <relationship>crm:P2_has_type</relationship>
+                                <entity>
+                                    <type>crm:E55_Type</type>
+                                    <instance_info>
+                                        <constant/>
+                                    </instance_info>
+                                    <instance_generator name="URIwithLocId">
+                                        <arg name="id" type="constant">ctb</arg>
+                                    </instance_generator>
+                                </entity>
+                            </additional>
+                        </entity>
+                        <relationship>crm:P11_had_participant</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>register_id</source_node>
+                    <target_node>
+                        <entity>
                             <type>crm:E21_Person</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
