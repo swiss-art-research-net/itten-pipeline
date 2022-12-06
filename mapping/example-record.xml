@@ -779,7 +779,7 @@
       <register_bezeichnung>Brard, Pierre</register_bezeichnung>
       <register_gnd-id>null</register_gnd-id>
       <register_rolle label="contributor">Beteiligt (Contributor)</register_rolle>
-      <register_datum dateFrom="19XX" dateTo="19XX">20. Jh.</register_datum>
+      <register_datum dateFrom="19XX">20. Jh.</register_datum>
       <register_id>65870</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>null</register_bemerkungen>

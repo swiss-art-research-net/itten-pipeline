@@ -466,11 +466,8 @@ def parseDates(records):
                 if tagWithDate.text is not None and tagWithDate.text != "null":
                     dates = parseDate(tagWithDate.text)
                     if dates is not None:
-                        if len(dates) == 1:
-                            tagWithDate.set("dateFrom", dates[0])
-                            tagWithDate.set("dateTo", dates[0])
-                        elif len(dates) == 2:
-                            tagWithDate.set("dateFrom", dates[0])
+                        tagWithDate.set("dateFrom", dates[0])    
+                        if len(dates) == 2:
                             tagWithDate.set("dateTo", dates[1])
     return records
 
