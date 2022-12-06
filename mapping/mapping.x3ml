@@ -869,7 +869,6 @@
                             <type>crm:E21_Person</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (entitaet/value/text())</arg>
                                 <arg name="id_HASHED_CONTENTS" type="xpath">if (identifiers/source/text() = 'GND') then (identifiers/value/text()) else (value/text())</arg>
                             </instance_generator>
                             <label_generator name="Literal">
@@ -998,6 +997,59 @@
                             </instance_generator>
                             <label_generator name="Literal">
                                 <arg name="text" type="xpath">value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/registereintraege</source_node>
+                <target_node>
+                    <if>
+                        <and>
+                            <if>
+                                <exists>../oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/text()</exists>
+                            </if>
+                            <if>
+                                <equals value="doc">register_rolle/@code</equals>
+                            </if>
+                            <if>
+                                <equals value="Personenregister">registertyp/text()</equals>
+                            </if>
+                        </and>
+                    </if>
+                    <entity variable="collection_object_image">
+                        <type>crm:E36_Visual_Item</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">image</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/@id)</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>register_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P138_represents</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>register_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../register_gnd-id/text()) then (../register_gnd-id/text()) else (text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">../register_bezeichnung/text()</arg>
                                 <arg name="language" type="constant"/>
                             </label_generator>
                         </entity>
