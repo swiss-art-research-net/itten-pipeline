@@ -543,6 +543,61 @@
         </mapping>
         <mapping>
             <domain>
+                <source_node>/collection/record/registereintraege</source_node>
+                <target_node>
+                    <if>
+                        <equals value="bestandsbildner">register_rolle/@term</equals>
+                    </if>
+                    <entity variable="collection">
+                        <type>crm:E78_Curated_Holding</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>register_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P147i_was_curated_by</relationship>
+                        <entity>
+                            <type>crm:E87_Curation_Activity</type>
+                            <instance_generator name="URIwithTypeSubtypeAndId">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                                <arg name="subtype" type="constant">curation</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P14_carried_out_by</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>register_id</source_node>
+                    <target_node>
+                        <if>
+                            <equals value="Personenregister">../registertyp/text()</equals>
+                        </if>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../register_gnd-id/text()) then (../register_gnd-id/text()) else (text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">../register_bezeichnung/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
                 <source_node>/collection/record/parsed_internal_remarks</source_node>
                 <target_node>
                     <entity variable="collection_production">
@@ -1476,8 +1531,8 @@
             <domain>
                 <source_node>/collection/record/registereintraege</source_node>
                 <target_node>
-                    <if>        
-                        <equals value="beteiligt">register_rolle/@term</equals>    
+                    <if>
+                        <equals value="beteiligt">register_rolle/@term</equals>
                     </if>
                     <entity variable="collection_production">
                         <type>crm:E12_Production</type>
