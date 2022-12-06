@@ -4177,4 +4177,138 @@
     </dateien>
   </record>
 
+
+  <record>
+    <signatur index="0">Hs NL 11: Cb 5.15</signatur>
+    <verzeichnungsstufe index="0">
+      <value>Teildossier</value>
+    </verzeichnungsstufe>
+    <id index="0">48672</id>
+    <guid index="0">1d8aa2259598424982799bce87ec3c86</guid>
+    <archivalienarten index="0">
+      <bezeichnung>Fotografie</bezeichnung>
+      <gnd>4045895-7</gnd>
+    </archivalienarten>
+    <archivalienarten index="1">
+      <bezeichnung>Reproduktion</bezeichnung>
+      <gnd>4115749-7</gnd>
+    </archivalienarten>
+    <archivalienarten index="2">
+      <bezeichnung>Druckschrift</bezeichnung>
+      <gnd>4013120-8</gnd>
+    </archivalienarten>
+    <titel index="0">Dokumente zu Sch&#252;lerinnen und Sch&#252;lern Adolf H&#246;lzels</titel>
+    <entstehungszeitraum index="0">ca. 1960 er - ca. 1980 er</entstehungszeitraum>
+    <bemerkungen_zum_umfang index="0">10 Dokumente</bemerkungen_zum_umfang>
+    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Cb 5 - Dokumente zu Adolf H&#246;lzel (1853-1934) und H&#246;lzel-Kreis - ca. 1900 - 1991</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">9d1b686513244640b43d5bd6ec96b7b7</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Stuttgart/Dokumente zu Adolf H&#246;lzel (1853-1934) und H&#246;lzel-Kreis</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/7079371ddf1d45088efde741d5392eb0/9d1b686513244640b43d5bd6ec96b7b7</pfad_bestand_nur_guid_von_jeder_ebene>
+    <form_und_inhalt index="0">Enth&#228;lt: Druckschriften zum H&#246;lzelkreis, zu Gottfried Graf und zu Albert Mueller; 1 Karte zur Er&#246;ffnung einer Ausstellung zu Bruno St&#228;rk, 1988; 1 Karte zur Er&#246;ffnung einer Ausstellung zu Willi Baumeister, 1989; 1 Zeitungsartikel &#252;ber Alfred Heinrich Pellegrini und die H&#246;lzel-Schule; Ausz&#252;ge aus der Druckschrift einer H&#246;lzel-Sch&#252;lerin: Carry van Biema, Farben und Formen als lebendige Kr&#228;fte. Eine Farbenlehre; 2 Dokumente zu Ida Kerkovius (1879-1970): 1 Fotokopie aus einem Fotoalbum mit Fotografien, auf denen u.a. Johannes Itten und Ida Kerkovius abgebildet sind sowie Zeitungsartikel "Erinnerung an H&#246;lzel und seine Sch&#252;ler" vom 09.09.1961, u.a. mit einer Fotografie von Johannes Itten und Ida Kerkovius (Original und Fotokopie)</form_und_inhalt>
+    <ueberlieferungsformen index="0">
+      <bezeichnung>analog ()</bezeichnung>
+    </ueberlieferungsformen>
+    <zugangsbestimmungen index="0">Schutzfrist bis 01.01.2000</zugangsbestimmungen>
+    <basisdatum_schutzfrist index="0">1969</basisdatum_schutzfrist>
+    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist index="0">
+      <bezeichnung>Jahre</bezeichnung>
+      <frist>30</frist>
+    </schutzfrist>
+    <ablauf_schutzfrist index="0">01.01.2000</ablauf_schutzfrist>
+    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
+    <ablauf_verwertungsrecht index="0">01.01.2060</ablauf_verwertungsrecht>
+    <sprachen index="0">
+      <kuerzel>ger</kuerzel>
+      <bezeichnung>Deutsch</bezeichnung>
+      <gnd>4113292-0</gnd>
+    </sprachen>
+    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokumente / Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 54; Dossier 55</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
+    <registereintraege index="0">
+      <register_bezeichnung>Kerkovius, Ida</register_bezeichnung>
+      <register_gnd-id>118561480</register_gnd-id>
+      <register_rolle code="dpc" label="empty" term="abgebildet">Abgebildet (dpc) (Empty)</register_rolle>
+      <register_datum dateFrom="1879" dateTo="1970">1879 - 1970</register_datum>
+      <register_id>31380</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118561480 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="1">
+      <register_bezeichnung>Itten, Johannes</register_bezeichnung>
+      <register_gnd-id>118710990</register_gnd-id>
+      <register_rolle code="dpc" label="empty" term="abgebildet">Abgebildet (dpc) (Empty)</register_rolle>
+      <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
+      <register_id>21160</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="2">
+      <register_bezeichnung>Biema, Carry van</register_bezeichnung>
+      <register_gnd-id>116165421</register_gnd-id>
+      <register_rolle label="contributor" term="beteiligt">Beteiligt (Contributor)</register_rolle>
+      <register_datum dateFrom="1881" dateTo="1942">1881 - 1942</register_datum>
+      <register_id>61493</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/116165421 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="3">
+      <register_bezeichnung>Pellegrini, Alfred Heinrich</register_bezeichnung>
+      <register_gnd-id>11859253X</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1881" dateTo="1958">1881 - 1958</register_datum>
+      <register_id>59371</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11859253X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="4">
+      <register_bezeichnung>St&#228;rk, Bruno</register_bezeichnung>
+      <register_gnd-id>118752537</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1894" dateTo="1979">1894 - 1979</register_datum>
+      <register_id>65351</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=https://d-nb.info/gnd/118752537 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="5">
+      <register_bezeichnung>Mueller, Albert</register_bezeichnung>
+      <register_gnd-id>119069849</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1884" dateTo="1963">1884 - 1963</register_datum>
+      <register_id>59370</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/119069849 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="6">
+      <register_bezeichnung>Graf, Gottfried</register_bezeichnung>
+      <register_gnd-id>118541323</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1881" dateTo="1938">1881 - 1938</register_datum>
+      <register_id>65350</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=https://d-nb.info/gnd/118541323 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="7">
+      <register_bezeichnung>Baumeister, Willi</register_bezeichnung>
+      <register_gnd-id>118507559</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1889" dateTo="1955">1889 - 1955</register_datum>
+      <register_id>36309</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118507559 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="8">
+      <register_bezeichnung>Kerkovius, Ida</register_bezeichnung>
+      <register_gnd-id>118561480</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1879" dateTo="1970">1879 - 1970</register_datum>
+      <register_id>31380</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118561480 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+  </record>
+
 </collection>
