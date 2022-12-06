@@ -17,6 +17,10 @@ INSERT DATA {
     search:Entity a rdfs:Class ;
       rdfs:equivalentClass crm:E1_CRM_Entity ;
       rdfs:label 'Search Entity' .
+    search:Object rdfs:label 'Collection' ;
+      a rdfs:Class ;
+      rdfs:subClassOf search:Entity ;
+      rdfs:equivalentClass crm:E78_Curated_Holding .
     search:Object rdfs:label 'Object' ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
@@ -69,5 +73,23 @@ INSERT {
   }
 } WHERE {
   ?subject a crm:E53_Place
+  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
+};
+
+INSERT {
+  GRAPH sari:relations {
+      ?subject a search:Collection .
+  }
+} WHERE {
+  ?subject a crm:E78_Curated_Holding .
+  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
+};
+
+INSERT {
+  GRAPH sari:relations {
+      ?subject a search:Object .
+  }
+} WHERE {
+  ?subject a crm:E22_Human-Made_Object .
   FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
 }
