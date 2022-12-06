@@ -1448,8 +1448,12 @@
                 <range>
                     <source_node>register_id</source_node>
                     <target_node>
+                        <if>
+                            <equals value="Personenregister">../registertyp</equals>
+                        </if>
                         <entity>
                             <type>crm:E39_Actor</type>
+                            <type>crm:E21_Person</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
                                 <arg name="id_HASHED_CONTENTS" type="xpath">if (../register_gnd-id/text()) then (../register_gnd-id/text()) else (text())</arg>
