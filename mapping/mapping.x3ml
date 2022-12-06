@@ -1661,6 +1661,206 @@
                     </target_node>
                 </range>
             </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>register_datum/@dateFrom</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>../text()</exists>
+                                </if>
+                                <if>
+                                    <equals value="10">string-length(../@dateFrom)</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P98i_was_born</relationship>
+                        <entity>
+                            <type>crm:E67_Birth</type>
+                            <instance_generator name="URIwithTypeSuptypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="subtype" type="constant">birth</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P4_has_time-span</relationship>
+                        <entity>
+                            <type>crm:E52_Time-Span</type>
+                            <instance_generator name="URIwithTypeSubtypeIdAnd1Level_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="subtype" type="constant">birth</arg>
+                                <arg name="level1" type="constant">date</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P82_at_some_time_within</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>register_datum/@dateFrom</source_node>
+                    <target_node>
+                        <entity>
+                            <type>xsd:date</type>
+                            <instance_generator name="typedLiteralGen">
+                                <arg name="text" type="xpath">../@dateFrom</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>register_datum/@dateTo</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>../text()</exists>
+                                </if>
+                                <if>
+                                    <equals value="10">string-length(../@dateTo)</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P100i_died_in</relationship>
+                        <entity>
+                            <type>crm:E69_Death</type>
+                            <instance_generator name="URIwithTypeSuptypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="subtype" type="constant">death</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P4_has_time-span</relationship>
+                        <entity>
+                            <type>crm:E52_Time-Span</type>
+                            <instance_generator name="URIwithTypeSubtypeIdAnd1Level_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="subtype" type="constant">death</arg>
+                                <arg name="level1" type="constant">date</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P82_at_some_time_within</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>register_datum/@dateTo</source_node>
+                    <target_node>
+                        <entity>
+                            <type>xsd:date</type>
+                            <instance_generator name="typedLiteralGen">
+                                <arg name="text" type="xpath">../@dateTo</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>register_datum/@dateFrom</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>../text()</exists>
+                                </if>
+                                <if>
+                                    <equals value="4">string-length(../@dateFrom)</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P98i_was_born</relationship>
+                        <entity>
+                            <type>crm:E67_Birth</type>
+                            <instance_generator name="URIwithTypeSuptypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="subtype" type="constant">birth</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P4_has_time-span</relationship>
+                        <entity>
+                            <type>crm:E52_Time-Span</type>
+                            <instance_generator name="URIwithTypeSubtypeIdAnd1Level_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="subtype" type="constant">birth</arg>
+                                <arg name="level1" type="constant">date</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P82_at_some_time_within</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>register_datum/@dateFrom</source_node>
+                    <target_node>
+                        <entity>
+                            <type>xsd:gYear</type>
+                            <instance_generator name="typedLiteralGen">
+                                <arg name="text" type="xpath">../@dateFrom</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>register_datum/@dateTo</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>../text()</exists>
+                                </if>
+                                <if>
+                                    <equals value="4">string-length(../@dateTo)</equals>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crm:P100i_died_in</relationship>
+                        <entity>
+                            <type>crm:E69_Death</type>
+                            <instance_generator name="URIwithTypeSuptypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="subtype" type="constant">death</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P4_has_time-span</relationship>
+                        <entity>
+                            <type>crm:E52_Time-Span</type>
+                            <instance_generator name="URIwithTypeSubtypeIdAnd1Level_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="subtype" type="constant">death</arg>
+                                <arg name="level1" type="constant">date</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P82_at_some_time_within</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>register_datum/@dateTo</source_node>
+                    <target_node>
+                        <entity>
+                            <type>xsd:gYear</type>
+                            <instance_generator name="typedLiteralGen">
+                                <arg name="text" type="xpath">../@dateTo</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
         </mapping>
     </mappings>
 </x3ml>
