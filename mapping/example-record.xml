@@ -59,7 +59,7 @@
     <registereintraege index="0">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
-      <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
+      <register_rolle code="rcp" label="contributor" term="adressat">Adressat (rcp) (Contributor)</register_rolle>
       <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
@@ -68,7 +68,7 @@
     <registereintraege index="1">
       <register_bezeichnung>Reidemeister, Leopold</register_bezeichnung>
       <register_gnd-id>119335603</register_gnd-id>
-      <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
+      <register_rolle code="aut" label="creator" term="verfasser">Verfasser (aut) (Creator)</register_rolle>
       <register_datum dateFrom="1900" dateTo="1987">1900 - 1987</register_datum>
       <register_id>44504</register_id>
       <registertyp>Personenregister</registertyp>
@@ -290,7 +290,7 @@
     <registereintraege index="0">
       <register_bezeichnung>Sandberg</register_bezeichnung>
       <register_gnd-id>null</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum>null</register_datum>
       <register_id>60768</register_id>
       <registertyp>Personenregister</registertyp>
@@ -299,7 +299,7 @@
     <registereintraege index="1">
       <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
       <register_gnd-id>11721227X</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1913-10-17" dateTo="2002-05-10">17.10.1913 - 10.05.2002</register_datum>
       <register_id>22078</register_id>
       <registertyp>Personenregister</registertyp>
@@ -308,7 +308,7 @@
     <registereintraege index="2">
       <register_bezeichnung>Curjel, Hans</register_bezeichnung>
       <register_gnd-id>116766107</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1896" dateTo="1974">1896 - 1974</register_datum>
       <register_id>50896</register_id>
       <registertyp>Personenregister</registertyp>
@@ -317,7 +317,7 @@
     <registereintraege index="3">
       <register_bezeichnung>Schreyer, Lothar</register_bezeichnung>
       <register_gnd-id>118980351</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1886" dateTo="1966">1886 - 1966</register_datum>
       <register_id>45046</register_id>
       <registertyp>Personenregister</registertyp>
@@ -326,7 +326,7 @@
     <registereintraege index="4">
       <register_bezeichnung>Grote, Ludwig</register_bezeichnung>
       <register_gnd-id>118698222</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1893" dateTo="1974">1893 - 1974</register_datum>
       <register_id>46081</register_id>
       <registertyp>Personenregister</registertyp>
@@ -335,7 +335,7 @@
     <registereintraege index="5">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
-      <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
+      <register_rolle code="rcp" label="contributor" term="adressat">Adressat (rcp) (Contributor)</register_rolle>
       <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
@@ -344,7 +344,7 @@
     <registereintraege index="6">
       <register_bezeichnung>Sandberg, Willem Jacob Henri Berend</register_bezeichnung>
       <register_gnd-id>118751158</register_gnd-id>
-      <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
+      <register_rolle code="aut" label="creator" term="verfasser">Verfasser (aut) (Creator)</register_rolle>
       <register_datum dateFrom="1897" dateTo="1984">1897 - 1984</register_datum>
       <register_id>50721</register_id>
       <registertyp>Personenregister</registertyp>
@@ -769,7 +769,7 @@
     <registereintraege index="0">
       <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
       <register_gnd-id>11721227X</register_gnd-id>
-      <register_rolle label="contributor">Beteiligt (Contributor)</register_rolle>
+      <register_rolle label="contributor" term="beteiligt">Beteiligt (Contributor)</register_rolle>
       <register_datum dateFrom="1913-10-17" dateTo="2002-05-10">17.10.1913 - 10.05.2002</register_datum>
       <register_id>22078</register_id>
       <registertyp>Personenregister</registertyp>
@@ -778,7 +778,7 @@
     <registereintraege index="1">
       <register_bezeichnung>Brard, Pierre</register_bezeichnung>
       <register_gnd-id>null</register_gnd-id>
-      <register_rolle label="contributor">Beteiligt (Contributor)</register_rolle>
+      <register_rolle label="contributor" term="beteiligt">Beteiligt (Contributor)</register_rolle>
       <register_datum dateFrom="19XX">20. Jh.</register_datum>
       <register_id>65870</register_id>
       <registertyp>Personenregister</registertyp>
@@ -787,7 +787,7 @@
     <registereintraege index="2">
       <register_bezeichnung>Jesus Christus</register_bezeichnung>
       <register_gnd-id>118557513</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum>null</register_datum>
       <register_id>29863</register_id>
       <registertyp>Personenregister</registertyp>
@@ -796,7 +796,7 @@
     <registereintraege index="3">
       <register_bezeichnung>Gasquet, Joachim</register_bezeichnung>
       <register_gnd-id>118904523</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1873" dateTo="1921">1873 - 1921</register_datum>
       <register_id>65119</register_id>
       <registertyp>Personenregister</registertyp>
@@ -805,7 +805,7 @@
     <registereintraege index="4">
       <register_bezeichnung>H&#246;lzel, Adolf</register_bezeichnung>
       <register_gnd-id>118552058</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1853" dateTo="1934">1853 - 1934</register_datum>
       <register_id>39785</register_id>
       <registertyp>Personenregister</registertyp>
@@ -814,7 +814,7 @@
     <registereintraege index="5">
       <register_bezeichnung>Matisse, Henri</register_bezeichnung>
       <register_gnd-id>118578847</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1869" dateTo="1954">1869 - 1954</register_datum>
       <register_id>60572</register_id>
       <registertyp>Personenregister</registertyp>
@@ -823,7 +823,7 @@
     <registereintraege index="6">
       <register_bezeichnung>Thomas, von Kempen</register_bezeichnung>
       <register_gnd-id>118642766</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1379" dateTo="1471">1379 - 1471</register_datum>
       <register_id>65441</register_id>
       <registertyp>Personenregister</registertyp>
@@ -832,7 +832,7 @@
     <registereintraege index="7">
       <register_bezeichnung>Tintoretto</register_bezeichnung>
       <register_gnd-id>118622854</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1518" dateTo="1594">1518 - 1594</register_datum>
       <register_id>65333</register_id>
       <registertyp>Personenregister</registertyp>
@@ -841,7 +841,7 @@
     <registereintraege index="8">
       <register_bezeichnung>Piero, della Francesca</register_bezeichnung>
       <register_gnd-id>118524577</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1416" dateTo="1492">1416 - 1492</register_datum>
       <register_id>65134</register_id>
       <registertyp>Personenregister</registertyp>
@@ -850,7 +850,7 @@
     <registereintraege index="9">
       <register_bezeichnung>Thomas, von Aquin, Heiliger</register_bezeichnung>
       <register_gnd-id>118622110</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1225" dateTo="1274">1225 - 1274</register_datum>
       <register_id>65438</register_id>
       <registertyp>Personenregister</registertyp>
@@ -859,7 +859,7 @@
     <registereintraege index="10">
       <register_bezeichnung>Vecellio, Tiziano</register_bezeichnung>
       <register_gnd-id>118622994</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1477" dateTo="1576">1477 - 1576</register_datum>
       <register_id>55947</register_id>
       <registertyp>Personenregister</registertyp>
@@ -868,7 +868,7 @@
     <registereintraege index="11">
       <register_bezeichnung>Xipe Totec, Gott</register_bezeichnung>
       <register_gnd-id>1152347241</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum>null</register_datum>
       <register_id>64868</register_id>
       <registertyp>Personenregister</registertyp>
@@ -877,7 +877,7 @@
     <registereintraege index="12">
       <register_bezeichnung>Rembrandt, Harmensz van Rijn</register_bezeichnung>
       <register_gnd-id>11859964X</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1606" dateTo="1669">1606 - 1669</register_datum>
       <register_id>35417</register_id>
       <registertyp>Personenregister</registertyp>
@@ -886,7 +886,7 @@
     <registereintraege index="13">
       <register_bezeichnung>C&#233;zanne, Paul</register_bezeichnung>
       <register_gnd-id>118519964</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1839" dateTo="1906">1839 - 1906</register_datum>
       <register_id>60374</register_id>
       <registertyp>Personenregister</registertyp>
@@ -895,7 +895,7 @@
     <registereintraege index="14">
       <register_bezeichnung>Bruegel, Pieter, de Oudere</register_bezeichnung>
       <register_gnd-id>118674013</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1525" dateTo="1569">1525 - 1569</register_datum>
       <register_id>65322</register_id>
       <registertyp>Personenregister</registertyp>
@@ -904,7 +904,7 @@
     <registereintraege index="15">
       <register_bezeichnung>Ganz, Paul Leonhard</register_bezeichnung>
       <register_gnd-id>137933096</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1910" dateTo="1976">1910 - 1976</register_datum>
       <register_id>20019</register_id>
       <registertyp>Personenregister</registertyp>
@@ -913,7 +913,7 @@
     <registereintraege index="16">
       <register_bezeichnung>Mu?ammad</register_bezeichnung>
       <register_gnd-id>118583158</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="0570" dateTo="0632">0570 - 0632</register_datum>
       <register_id>65302</register_id>
       <registertyp>Personenregister</registertyp>
@@ -922,7 +922,7 @@
     <registereintraege index="17">
       <register_bezeichnung>Eyck, Jan van</register_bezeichnung>
       <register_gnd-id>118531557</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1390" dateTo="1441">1390 - 1441</register_datum>
       <register_id>65129</register_id>
       <registertyp>Personenregister</registertyp>
@@ -931,7 +931,7 @@
     <registereintraege index="18">
       <register_bezeichnung>G&#233;ricault, Th&#233;odore</register_bezeichnung>
       <register_gnd-id>118538675</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1791" dateTo="1824">1791 - 1824</register_datum>
       <register_id>65318</register_id>
       <registertyp>Personenregister</registertyp>
@@ -940,7 +940,7 @@
     <registereintraege index="19">
       <register_bezeichnung>Spinoza, Benedictus de</register_bezeichnung>
       <register_gnd-id>118616242</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1632" dateTo="1677">1632 - 1677</register_datum>
       <register_id>36065</register_id>
       <registertyp>Personenregister</registertyp>
@@ -949,7 +949,7 @@
     <registereintraege index="20">
       <register_bezeichnung>Einstein, Albert</register_bezeichnung>
       <register_gnd-id>118529579</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1879" dateTo="1955">1879 - 1955</register_datum>
       <register_id>15239</register_id>
       <registertyp>Personenregister</registertyp>
@@ -958,7 +958,7 @@
     <registereintraege index="21">
       <register_bezeichnung>Brinkmann, Donald</register_bezeichnung>
       <register_gnd-id>118674161</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1909" dateTo="1963">1909 - 1963</register_datum>
       <register_id>36572</register_id>
       <registertyp>Personenregister</registertyp>
@@ -967,7 +967,7 @@
     <registereintraege index="22">
       <register_bezeichnung>Zurbar&#225;n, Francisco de</register_bezeichnung>
       <register_gnd-id>118808672</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1598" dateTo="1664">1598 - 1664</register_datum>
       <register_id>65334</register_id>
       <registertyp>Personenregister</registertyp>
@@ -976,7 +976,7 @@
     <registereintraege index="23">
       <register_bezeichnung>Chardin, Jean Baptiste Sim&#233;on</register_bezeichnung>
       <register_gnd-id>118520121</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1699" dateTo="1779">1699 - 1779</register_datum>
       <register_id>59609</register_id>
       <registertyp>Personenregister</registertyp>
@@ -985,7 +985,7 @@
     <registereintraege index="24">
       <register_bezeichnung>Gogh, Theo van</register_bezeichnung>
       <register_gnd-id>118953974</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1857" dateTo="1891">1857 - 1891</register_datum>
       <register_id>65423</register_id>
       <registertyp>Personenregister</registertyp>
@@ -994,7 +994,7 @@
     <registereintraege index="25">
       <register_bezeichnung>Gogh, Vincent van</register_bezeichnung>
       <register_gnd-id>118540416</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1853" dateTo="1890">1853 - 1890</register_datum>
       <register_id>60511</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1003,7 +1003,7 @@
     <registereintraege index="26">
       <register_bezeichnung>Libiszewski, Serge</register_bezeichnung>
       <register_gnd-id>1011337037</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1930-03-03" dateTo="2019-07-22">03.03.1930 - 22.07.2019</register_datum>
       <register_id>55197</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1012,7 +1012,7 @@
     <registereintraege index="27">
       <register_bezeichnung>Finsler, Hans</register_bezeichnung>
       <register_gnd-id>11900013X</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1891" dateTo="1972">1891 - 1972</register_datum>
       <register_id>37888</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1021,7 +1021,7 @@
     <registereintraege index="28">
       <register_bezeichnung>Delacroix, Eug&#232;ne</register_bezeichnung>
       <register_gnd-id>118524461</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1798" dateTo="1863">1798 - 1863</register_datum>
       <register_id>64841</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1030,7 +1030,7 @@
     <registereintraege index="29">
       <register_bezeichnung>Leibl, Wilhelm</register_bezeichnung>
       <register_gnd-id>118571222</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1844" dateTo="1900">1844 - 1900</register_datum>
       <register_id>64874</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1039,7 +1039,7 @@
     <registereintraege index="30">
       <register_bezeichnung>Monet, Claude</register_bezeichnung>
       <register_gnd-id>11858345X</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1840" dateTo="1926">1840 - 1926</register_datum>
       <register_id>60514</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1048,7 +1048,7 @@
     <registereintraege index="31">
       <register_bezeichnung>Renoir, Auguste</register_bezeichnung>
       <register_gnd-id>118599755</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1841" dateTo="1919">1841 - 1919</register_datum>
       <register_id>65123</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1057,7 +1057,7 @@
     <registereintraege index="32">
       <register_bezeichnung>Pissarro, Camille</register_bezeichnung>
       <register_gnd-id>118594672</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1830" dateTo="1903">1830 - 1903</register_datum>
       <register_id>65124</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1066,7 +1066,7 @@
     <registereintraege index="33">
       <register_bezeichnung>Witz, Konrad</register_bezeichnung>
       <register_gnd-id>118769677</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1405" dateTo="1446">1405 - 1446</register_datum>
       <register_id>60772</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1075,7 +1075,7 @@
     <registereintraege index="34">
       <register_bezeichnung>David, Jacques Louis</register_bezeichnung>
       <register_gnd-id>118523945</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1748" dateTo="1825">1748 - 1825</register_datum>
       <register_id>64870</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1084,7 +1084,7 @@
     <registereintraege index="35">
       <register_bezeichnung>Holbein, Hans</register_bezeichnung>
       <register_gnd-id>118552953</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1497" dateTo="1543">1497 - 1543</register_datum>
       <register_id>29481</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1093,7 +1093,7 @@
     <registereintraege index="36">
       <register_bezeichnung>Saint-Exup&#233;ry, Antoine de</register_bezeichnung>
       <register_gnd-id>118604902</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1900" dateTo="1944">1900 - 1944</register_datum>
       <register_id>60406</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1102,7 +1102,7 @@
     <registereintraege index="37">
       <register_bezeichnung>Runge, Philipp Otto</register_bezeichnung>
       <register_gnd-id>118604155</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1777" dateTo="1810">1777 - 1810</register_datum>
       <register_id>43920</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1111,7 +1111,7 @@
     <registereintraege index="38">
       <register_bezeichnung>Goethe, Johann Wolfgang von</register_bezeichnung>
       <register_gnd-id>118540238</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1749" dateTo="1832">1749 - 1832</register_datum>
       <register_id>334</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1120,7 +1120,7 @@
     <registereintraege index="39">
       <register_bezeichnung>Ostwald, Wilhelm</register_bezeichnung>
       <register_gnd-id>11859057X</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1853" dateTo="1932">1853 - 1932</register_datum>
       <register_id>60614</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1129,7 +1129,7 @@
     <registereintraege index="40">
       <register_bezeichnung>Mussolini, Benito</register_bezeichnung>
       <register_gnd-id>118585967</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1883" dateTo="1945">1883 - 1945</register_datum>
       <register_id>65420</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1138,7 +1138,7 @@
     <registereintraege index="41">
       <register_bezeichnung>Le Corbusier</register_bezeichnung>
       <register_gnd-id>118676873</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1887" dateTo="1965">1887 - 1965</register_datum>
       <register_id>65419</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1147,7 +1147,7 @@
     <registereintraege index="42">
       <register_bezeichnung>L&#233;ger, Fernand</register_bezeichnung>
       <register_gnd-id>118570994</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1881" dateTo="1955">1881 - 1955</register_datum>
       <register_id>65329</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1156,7 +1156,7 @@
     <registereintraege index="43">
       <register_bezeichnung>Braque, Georges</register_bezeichnung>
       <register_gnd-id>118514504</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1882" dateTo="1963">1882 - 1963</register_datum>
       <register_id>60573</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1165,7 +1165,7 @@
     <registereintraege index="44">
       <register_bezeichnung>Picasso, Pablo</register_bezeichnung>
       <register_gnd-id>118594206</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1881" dateTo="1973">1881 - 1973</register_datum>
       <register_id>59513</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1174,7 +1174,7 @@
     <registereintraege index="45">
       <register_bezeichnung>Mondrian, Piet</register_bezeichnung>
       <register_gnd-id>118583441</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1872" dateTo="1944">1872 - 1944</register_datum>
       <register_id>60592</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1183,7 +1183,7 @@
     <registereintraege index="46">
       <register_bezeichnung>Br&#226;ncusi, Constantin</register_bezeichnung>
       <register_gnd-id>118673076</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1876" dateTo="1957">1876 - 1957</register_datum>
       <register_id>65418</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1192,7 +1192,7 @@
     <registereintraege index="47">
       <register_bezeichnung>Arp, Hans</register_bezeichnung>
       <register_gnd-id>118504398</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1887" dateTo="1966">1887 - 1966</register_datum>
       <register_id>14896</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1201,7 +1201,7 @@
     <registereintraege index="48">
       <register_bezeichnung>Gr&#252;newald, Matthias</register_bezeichnung>
       <register_gnd-id>118542907</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1480" dateTo="1528">1480 - 1528</register_datum>
       <register_id>60773</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1210,7 +1210,7 @@
     <registereintraege index="49">
       <register_bezeichnung>El Greco</register_bezeichnung>
       <register_gnd-id>118722778</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1541" dateTo="1614">1541 - 1614</register_datum>
       <register_id>60404</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1219,7 +1219,7 @@
     <registereintraege index="50">
       <register_bezeichnung>Veronese, Paolo</register_bezeichnung>
       <register_gnd-id>118626647</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1528" dateTo="1588">1528 - 1588</register_datum>
       <register_id>65417</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1228,7 +1228,7 @@
     <registereintraege index="51">
       <register_bezeichnung>Giotto, di Bondone</register_bezeichnung>
       <register_gnd-id>118539477</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1266" dateTo="1337">1266 - 1337</register_datum>
       <register_id>65327</register_id>
       <registertyp>Personenregister</registertyp>
@@ -1237,7 +1237,7 @@
     <registereintraege index="52">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
-      <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
+      <register_rolle code="aut" label="creator" term="verfasser">Verfasser (aut) (Creator)</register_rolle>
       <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3216,7 +3216,7 @@
     <registereintraege index="0">
       <register_bezeichnung>Engel</register_bezeichnung>
       <register_gnd-id>null</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum>null</register_datum>
       <register_id>65298</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3225,7 +3225,7 @@
     <registereintraege index="1">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
-      <register_rolle code="rcp" label="contributor">Adressat (rcp) (Contributor)</register_rolle>
+      <register_rolle code="rcp" label="contributor" term="adressat">Adressat (rcp) (Contributor)</register_rolle>
       <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3482,7 +3482,7 @@
     <registereintraege index="0">
       <register_bezeichnung>Reger, Max</register_bezeichnung>
       <register_gnd-id>118598988</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1873" dateTo="1916">1873 - 1916</register_datum>
       <register_id>65970</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3491,7 +3491,7 @@
     <registereintraege index="1">
       <register_bezeichnung>Bosch, Hieronymus</register_bezeichnung>
       <register_gnd-id>11851380X</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1450" dateTo="1516">1450 - 1516</register_datum>
       <register_id>65321</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3500,7 +3500,7 @@
     <registereintraege index="2">
       <register_bezeichnung>Edison, Thomas A.</register_bezeichnung>
       <register_gnd-id>118528912</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1847" dateTo="1931">1847 - 1931</register_datum>
       <register_id>64861</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3509,7 +3509,7 @@
     <registereintraege index="3">
       <register_bezeichnung>Angelico, Fra</register_bezeichnung>
       <register_gnd-id>118503081</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1387" dateTo="1455">1387 - 1455</register_datum>
       <register_id>60771</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3518,7 +3518,7 @@
     <registereintraege index="4">
       <register_bezeichnung>Saint-Exup&#233;ry, Antoine de</register_bezeichnung>
       <register_gnd-id>118604902</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1900" dateTo="1944">1900 - 1944</register_datum>
       <register_id>60406</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3527,7 +3527,7 @@
     <registereintraege index="5">
       <register_bezeichnung>Weinstock, Heinrich</register_bezeichnung>
       <register_gnd-id>117275824</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1889" dateTo="1960">1889 - 1960</register_datum>
       <register_id>60382</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3536,7 +3536,7 @@
     <registereintraege index="6">
       <register_bezeichnung>Einstein, Albert</register_bezeichnung>
       <register_gnd-id>118529579</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1879" dateTo="1955">1879 - 1955</register_datum>
       <register_id>15239</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3545,7 +3545,7 @@
     <registereintraege index="7">
       <register_bezeichnung>Plato</register_bezeichnung>
       <register_gnd-id>118594893</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum>null</register_datum>
       <register_id>60394</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3554,7 +3554,7 @@
     <registereintraege index="8">
       <register_bezeichnung>Holbein, Hans</register_bezeichnung>
       <register_gnd-id>118552953</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1497" dateTo="1543">1497 - 1543</register_datum>
       <register_id>29481</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3563,7 +3563,7 @@
     <registereintraege index="9">
       <register_bezeichnung>Ford, Henry</register_bezeichnung>
       <register_gnd-id>118534300</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1863" dateTo="1947">1863 - 1947</register_datum>
       <register_id>60405</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3572,7 +3572,7 @@
     <registereintraege index="10">
       <register_bezeichnung>El Greco</register_bezeichnung>
       <register_gnd-id>118722778</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1541" dateTo="1614">1541 - 1614</register_datum>
       <register_id>60404</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3581,7 +3581,7 @@
     <registereintraege index="11">
       <register_bezeichnung>Kant, Immanuel</register_bezeichnung>
       <register_gnd-id>118559796</register_gnd-id>
-      <register_rolle label="empty">Erw&#228;hnt (Empty)</register_rolle>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1724" dateTo="1804">1724 - 1804</register_datum>
       <register_id>60403</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3590,7 +3590,7 @@
     <registereintraege index="12">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
-      <register_rolle code="aut" label="creator">Verfasser (aut) (Creator)</register_rolle>
+      <register_rolle code="aut" label="creator" term="verfasser">Verfasser (aut) (Creator)</register_rolle>
       <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
@@ -3916,6 +3916,265 @@
         </mets>
       </metadata>
     </oai>
+  </record>
+
+
+  <record>
+    <signatur index="0">Hs NL 11</signatur>
+    <verzeichnungsstufe index="0">
+      <value>Bestand</value>
+      <gnd>4442471-1</gnd>
+      <aat>300189759</aat>
+    </verzeichnungsstufe>
+    <id index="0">22069</id>
+    <guid index="0">43a2ab3eb18841db9ec1af3669b74f39</guid>
+    <archivalienarten index="0">
+      <bezeichnung>Reproduktion</bezeichnung>
+      <gnd>4115749-7</gnd>
+    </archivalienarten>
+    <archivalienarten index="1">
+      <bezeichnung>Plan</bezeichnung>
+      <gnd>4188555-7</gnd>
+    </archivalienarten>
+    <archivalienarten index="2">
+      <bezeichnung>Musikdruck</bezeichnung>
+      <gnd>4075121-1</gnd>
+    </archivalienarten>
+    <archivalienarten index="3">
+      <bezeichnung>Fotonegativ</bezeichnung>
+      <gnd>4347758-6</gnd>
+    </archivalienarten>
+    <archivalienarten index="4">
+      <bezeichnung>Dia</bezeichnung>
+      <gnd>4149435-0</gnd>
+    </archivalienarten>
+    <archivalienarten index="5">
+      <bezeichnung>Computerausdruck</bezeichnung>
+    </archivalienarten>
+    <archivalienarten index="6">
+      <bezeichnung>Autograf</bezeichnung>
+      <gnd>4003942-0</gnd>
+    </archivalienarten>
+    <archivalienarten index="7">
+      <bezeichnung>Typoskript</bezeichnung>
+      <gnd>4186519-4</gnd>
+    </archivalienarten>
+    <archivalienarten index="8">
+      <bezeichnung>Manuskript</bezeichnung>
+      <gnd>4126273-6</gnd>
+    </archivalienarten>
+    <archivalienarten index="9">
+      <bezeichnung>Fotografie</bezeichnung>
+      <gnd>4045895-7</gnd>
+    </archivalienarten>
+    <archivalienarten index="10">
+      <bezeichnung>Druckschrift</bezeichnung>
+      <gnd>4013120-8</gnd>
+    </archivalienarten>
+    <archivalienarten index="11">
+      <bezeichnung>Brief</bezeichnung>
+      <gnd>4008240-4</gnd>
+    </archivalienarten>
+    <archivalienarten index="12">
+      <bezeichnung>Bildmaterial</bezeichnung>
+      <gnd>4435709-6</gnd>
+    </archivalienarten>
+    <titel index="0">Itten, Johannes (1888-1967)</titel>
+    <untertitel index="0">Personenarchiv / Itten-Archiv</untertitel>
+    <entstehungszeitraum index="0">1794 - 2004</entstehungszeitraum>
+    <uebergeordnetes_objekt_in_der_tektonik index="0"> - I</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">859afc5815a047a58569cee9db123f30</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <verwaltungsgeschichte_-_biografische_angaben index="0">Itten, Johannes (1888-1967); bildender K&#252;nstler, Kunsttheoretiker, Kunstp&#228;dagoge Johannes Itten wurde 1888 in S&#252;deren-Linden im Berner Oberland geboren. Er liess sich am Lehrerseminar in Hofwil bei Bern zum Primarlehrer ausbilden, sp&#228;ter folge die Ausbildung zum Sekundarlehrer. Dazwischen und danach studiert er Kunst an der &#201;cole des Beaux-Arts in Genf. 1914 wurde Itten in Adolf H&#246;lzels Meisterklasse in Stuttgart aufgenommen. Zu dieser Zeit begann er selber auch Zeichenunterricht zu erteilen. Ab 1916 lebte Itten in Wien, wo er seine ungegenst&#228;ndliche Malerei sowie seinen privaten Kunstunterricht weiterf&#252;hrte. 1919 folgte Itten dem Ruf von Walter Gropius nach Weimar, wo er am staatlichen Bauhaus den Vorkurs einf&#252;hrte und als Formmeister verschiedene Werkst&#228;tten f&#252;hrte. 1923 kehrte Itten zur&#252;ck in die Schweiz und liess sich in der internationalen Mazdaznan-Tempel-Gemeinschaft in Herrliberg nieder. 1925 gr&#252;ndete Itten seine eigene private Kunstschule in Berlin, die Itten-Schule. Ab 1932 &#252;bernahm er zus&#228;tzlich zu seiner Arbeit in Berlin die Direktion der Preussischen Fachschule f&#252;r textile Fl&#228;chenkunst in Krefeld. Dort lernte er seine zweite Ehefrau Anneliese Schl&#246;sser kennen, eine ehemalige Sch&#252;lerin und sp&#228;tere Lehrerin der Musterweberei. Nach seiner Entlassung als Direktor der Fl&#228;chenkunstschule verliess Itten Deutschland und lebte in den Niederlanden, wo er das grosse textile Kunstwerk &#171;Velum&#187; f&#252;r das Stedelijk Museum in Amsterdam schuf. 1938 bewarb sich Itten erfolgreich f&#252;r die Direktorenstelle der Kunstgewerbeschule und des Kunstgewerbemuseums Z&#252;rich, sp&#228;ter &#252;bernahm er zus&#228;tzlich die Leitung der Textilfachschule Z&#252;rich und richtete das Museum Rietberg in Z&#252;rich ein, dessen Direktion er ebenfalls &#252;bernahm. Nach seiner Pensionierung 1956 arbeitete Itten an der Drucklegung seiner beiden erfolgreichen theoretischen Schriften &#171;Kunst der Farbe&#187; und &#171;Mein Vorkurs am Bauhaus&#187;, die in den 1960er Jahren ver&#246;ffentlicht wurden. 1964 fand eine Retrospektive im Kunsthaus Z&#252;rich statt und 1966 stellte er an der Biennale in Venedig aus, was ihm breite Anerkennung brachte. Itten starb 1967 in Z&#252;rich. (Vgl. Wagner, Christoph: Johannes Itten, Werkverzeichnis. M&#252;nchen 2018)</verwaltungsgeschichte_-_biografische_angaben>
+    <bestandesgeschichte index="0">Die Erben Johannes Ittens schenkten das Itten-Archiv 2015 der Zentralbibliothek Z&#252;rich. Vor &#220;bergabe befand sich der Bestand am Lehrstuhl f&#252;r Kunstgeschichte an der Universit&#228;t Regensburg und wurde dort zu Forschungszwecken vollst&#228;ndig digitalisiert. Die Digitalisate der Archivdokumente wurden von der Zentralbibliothek erworben. Einzelne Dokumente befinden sich physisch noch am Lehrstuhl f&#252;r Kunstgeschichte an der Universit&#228;t Regensburg und werden zu einem sp&#228;teren Zeitpunkt (voraussichtlich 2022) von der Zentralbibliothek in den Bestand integriert.</bestandesgeschichte>
+    <abgebende_stellen index="0">Erbengemeinschaft Johannes Itten  Prof. Dr. Klaus I. Itten Sunnhaldenstrasse 48c CH-8704 Herrliberg Email: klaus.itten@geo.uzh.ch  Prof. Dr. Marion Lichardus-Itten Max-Braun-Strasse 47 D-66123 Saarbr&#252;cken Email: lichardus@saarmail.de  Thomas Itten Bergstrasse 8 CH-5085 Sulz Email: thomas-itten@gmx.ch</abgebende_stellen>
+    <erwerbsarten index="0">
+      <bezeichnung>Schenkung</bezeichnung>
+    </erwerbsarten>
+    <form_und_inhalt index="0">Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</form_und_inhalt>
+    <themenliste index="0">
+      <bezeichnung>Bildende Kunst</bezeichnung>
+    </themenliste>
+    <ueberlieferungsformen index="0">
+      <bezeichnung>analog ()</bezeichnung>
+    </ueberlieferungsformen>
+    <bewertung_und_kassation index="0">Es wurden keine Kassationen vorgenommen.</bewertung_und_kassation>
+    <ordnung_und_klassifikation index="0">Der Nachlass wurde gr&#246;sstenteils neu geordnet und in 8 Hauptserien gegliedert. Bei Dossiers, die stark von Anneliese Itten strukturiert und bearbeitet wurden, wie die Dossiers zu Johannes Ittens Wirken, die Korrespondenz und die Verwaltung des Nachlasses durch Anneliese Itten, wurde die urspr&#252;ngliche Ordnung weitestgehend beibehalten. &#196;hnliche Dokumente k&#246;nnen daher an verschiedenen Orten abgelegt worden sein.</ordnung_und_klassifikation>
+    <zugangsbestimmungen index="0">Sofern personenrechtlich relevante Dokumente vorhanden sind, gelten in Anlehnung an das kantonale Z&#252;rcher Archivrecht Schutzfristen von 30, 80 und 120 Jahren (abh&#228;ngig von der personenrechtlichen Relevanz). In einem Fall muss die Einsichtnahme in Originale von der Abteilungsleitung bewilligt werden. Gebrauchskopien k&#246;nnen in jedem Fall genutzt werden. / Die Nutzung von urheberrechtlich gesch&#252;tzten Dokumenten aus dem Itten-Archiv f&#252;r Ausstellungen, Publikationen u.a. ist genehmigungspflichtig. F&#252;r Dokumente von Johannes Itten liegen die Urheberrechte bei den Erben Ittens und k&#246;nnen &#252;ber die Handschriftenabteilung der Zentralbibliothek Z&#252;rich eingeholt werden.</zugangsbestimmungen>
+    <basisdatum_schutzfrist index="0">30.06.2021</basisdatum_schutzfrist>
+    <publikation index="0">Sofort</publikation>
+    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (Informationen zur Bestellbarkeit bei der jeweiligen Bestelleinheit)</verfuegbarkeit>
+    <schutzfrist index="0">
+      <bezeichnung>Keine</bezeichnung>
+      <frist>0</frist>
+    </schutzfrist>
+    <ablauf_schutzfrist index="0">01.07.2021</ablauf_schutzfrist>
+    <benutzbarkeit index="0">Teile davon gesuchspflichtig</benutzbarkeit>
+    <ablauf_verwertungsrecht index="0">01.01.2075</ablauf_verwertungsrecht>
+    <sprachen index="0">
+      <kuerzel>null</kuerzel>
+      <bezeichnung>Niederl&#228;ndisch</bezeichnung>
+      <gnd>4122614-8</gnd>
+    </sprachen>
+    <sprachen index="1">
+      <kuerzel>fre</kuerzel>
+      <bezeichnung>Franz&#246;sisch</bezeichnung>
+      <gnd>4113615-9</gnd>
+    </sprachen>
+    <sprachen index="2">
+      <kuerzel>eng</kuerzel>
+      <bezeichnung>Englisch</bezeichnung>
+      <gnd>4014777-0</gnd>
+    </sprachen>
+    <sprachen index="3">
+      <kuerzel>ger</kuerzel>
+      <bezeichnung>Deutsch</bezeichnung>
+      <gnd>4113292-0</gnd>
+    </sprachen>
+    <verwandtes_material index="0">Siehe auch: Sammlung zu Josef Matthias Hauer aus dem Nachlass Johannes Itten. Zentralbibliothek Z&#252;rich, Mus NL 114. Siehe auch: Privatbibliothek Johannes Ittens. Zentralbibliothek Z&#252;rich. Signatur: Itten ... Nachgewiesen im Rechercheportal.</verwandtes_material>
+    <allgemeine_interne_anmerkungen index="0">Zu urheberrechtlich gesch&#252;tzten Dokumenten: Die Nutzung von urheberrechtlich gesch&#252;tzten Dokumenten aus dem Itten-Archiv f&#252;r Ausstellungen, Publikationen u.a. ist genehmigungspflichtig. F&#252;r Dokumente von Johannes Itten liegen die Urheberrechte bei den Erben Ittens. Anfragen sind von den Nutzenden in schriftlicher Form an Prof. Dr. Marion Lichardus-Itten, Max-Braun-Strasse 47, D-66123 Saarbr&#252;cken, Email: lichardus@saarmail.de, zu richten. Die Bearbeitung von Anfragen kann eine gewisse Zeit in Anspruch nehmen. /  Zu den Digitalisaten des Archivs: Das Itten-Archiv war bei &#220;bergabe in 215 Einheiten geordnet (in der Regel Bundesordner, teilweise auch Ablageschachteln oder Kartons). Diese Z&#228;hlung ist von grosser Bedeutung. Die Digitalisate des Itten-Archivs, die an der Universit&#228;t Regensburg (Prof. Dr. Christoph Wagner) vor &#220;bergabe des Bestands an die ZB erstellt worden sind, sind anhand dieser so genannten Dossiernummern abgelegt. Um die Digitalisate ausfindig zu machen, wurde im Feld &#171;Allgemeine interne Anmerkungen&#187; jeweils die Dossiernummer angegeben, aus dem die Dokumente urspr&#252;nglich stammen. Physisch ist jeweils auf der R&#252;ckseite des Umschlags die urspr&#252;ngliche Dossiernummer aufgef&#252;hrt. Daher ist die Beibehaltung der Ordnung in den Archivschachteln &#228;usserst wichtig. Ein entsprechender Hinweis liegt jeder Archivschachtel bei. Die Digitalisate werden als Tiff-Dateien im Digitalisierungszentrum aufbewahrt. Zugang zu JPGs und PDFs gibt es &#252;ber das Laufwerk U (emanuscripta-in-Arbeit). Zur Bestellung von Digitalisaten wird der Datei-Name ben&#246;tigt. Nach Ankauf der Digitalisate Ende 2019 wurde erstmals offenbar, dass bei der Digitalisierung 234 Dossiers statt den physisch vorhandenen 215 Dossiers zugrunde gelegt wurden. Die entsprechenden Dokumente im Itten-Archiv wurden nachtr&#228;glich den Dossiernummern 216 bis 234 zugeordnet.</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
+    <erschliessungszustand index="0">1-Basiserschliessung</erschliessungszustand>
+    <bearbeiter_und_zeitraum_der_verzeichnung index="0">baur (2019-2021); vogb (2019-2021)</bearbeiter_und_zeitraum_der_verzeichnung>
+    <verzeichnungsgrundsaetze index="0">Erschlossen auf Basis der RNAB und den Richtlinien zur Erschliessung von Nachl&#228;ssen und Archiven in der Zentralbibliothek Z&#252;rich / Basiserschliessung</verzeichnungsgrundsaetze>
+    <standorte index="0">
+      <kuerzel>06.5.</kuerzel>
+      <auslastung>null</auslastung>
+      <bezeichnung>Magazin 06.5.</bezeichnung>
+      <bemerkungen>null</bemerkungen>
+    </standorte>
+    <bemerkungen_zum_standort index="0">Aktueller Standort Galerie Handschriftenabteilung (A 40.3), geplanter Zwischenstandort 06.5, definitiver Standort zu sp&#228;terem Zeitpunkt 06.6</bemerkungen_zum_standort>
+    <umfaenge index="0">
+      <wert>14.77</wert>
+      <masseinheit>Laufmeter</masseinheit>
+    </umfaenge>
+    <registereintraege index="0">
+      <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
+      <register_gnd-id>11721227X</register_gnd-id>
+      <register_rolle label="contributor" term="bestandsbildner">Bestandsbildner (Contributor)</register_rolle>
+      <register_datum dateFrom="1913-10-17" dateTo="2002-05-10">17.10.1913 - 10.05.2002</register_datum>
+      <register_id>22078</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Geburtsname: Schl&#246;sser, Anneliese / Link zur GND: &lt;a href=http://d-nb.info/gnd/11721227X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="1">
+      <register_bezeichnung>Itten, Johannes</register_bezeichnung>
+      <register_gnd-id>118710990</register_gnd-id>
+      <register_rolle label="contributor" term="bestandsbildner">Bestandsbildner (Contributor)</register_rolle>
+      <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
+      <register_id>21160</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <dateien index="0">
+      <titel>Vertrag &#252;ber die &#220;bertragung von Nutzungsrechten_Itten Johannes</titel>
+      <art>Vertrag</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>113840</filesize>
+      <file_extension>.pdf</file_extension>
+      <file_id>65431</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
+    <dateien index="1">
+      <titel>Aufnahmen_Leihgaben_KM_Bern</titel>
+      <art>Beschreibung</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>24094193</filesize>
+      <file_extension>.pdf</file_extension>
+      <file_id>28003</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
+    <dateien index="2">
+      <titel>2019 &#220;bergabeprotokoll Kunstmuseum Bern</titel>
+      <art>Beschreibung</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>19802</filesize>
+      <file_extension>.pdf</file_extension>
+      <file_id>27233</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
+    <dateien index="3">
+      <titel>2019 Kunstmuseum Bern Leihgesuch</titel>
+      <art>Gesuch</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>null</filesize>
+      <file_extension>null</file_extension>
+      <file_id>25586</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
+    <dateien index="4">
+      <titel>2020 Kunstforum Hermann Stenner Bielefeld Leihgesuch</titel>
+      <art>Gesuch</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>null</filesize>
+      <file_extension>null</file_extension>
+      <file_id>25585</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
+    <dateien index="5">
+      <titel>2019 Kunstmuseum Bern Leihvertrag</titel>
+      <art>Vertrag</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>null</filesize>
+      <file_extension>null</file_extension>
+      <file_id>25583</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
+    <dateien index="6">
+      <titel>2019 Kunstmuseum Bern Klimastreifen</titel>
+      <art>Bericht</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>125949</filesize>
+      <file_extension>.pdf</file_extension>
+      <file_id>25582</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
+    <dateien index="7">
+      <titel>2019 Kunstmuseum Bern Facility Report</titel>
+      <art>Bericht</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>682886</filesize>
+      <file_extension>.pdf</file_extension>
+      <file_id>25581</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
+    <dateien index="8">
+      <titel>2019 Kunstmuseum Bern Versicherungsnachweis</titel>
+      <art>Juristisches Dokument</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>499060</filesize>
+      <file_extension>.pdf</file_extension>
+      <file_id>25580</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
+    <dateien index="9">
+      <titel>Vertrag Privatbibliothek Itten</titel>
+      <art>Vertrag</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>107337</filesize>
+      <file_extension>.pdf</file_extension>
+      <file_id>22369</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
+    <dateien index="10">
+      <titel>Vertrag Itten-Archiv</titel>
+      <art>Vertrag</art>
+      <publikation>Keine Publikation</publikation>
+      <filesize>104539</filesize>
+      <file_extension>.pdf</file_extension>
+      <file_id>22368</file_id>
+      <pid>null</pid>
+      <bemerkungen>null</bemerkungen>
+    </dateien>
   </record>
 
 </collection>
