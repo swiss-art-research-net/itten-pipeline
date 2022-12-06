@@ -412,6 +412,16 @@ def convertRecordsToXML(records, *, removeEmptyNodes=True, flattenLists=False):
         if removeEmptyNodes:
             for empty in xml.xpath('//*[not(node())]'):
                 empty.getparent().remove(empty)
+        
+        # Add indices to nodes. We use this to create unique URIs for repeating nodes.
+        prevTag = None
+        index = 0
+        for node in xml.getchildren():
+            if node.tag != prevTag:
+                index = 0
+            node.set('index', str(index))
+            index += 1
+            prevTag = node.tag
 
         return xml
 
