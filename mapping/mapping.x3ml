@@ -1405,6 +1405,9 @@
                             <if>
                                 <equals value="scr">register_rolle/@code</equals>
                             </if>
+                            <if>
+                                <equals value="ann">register_rolle/@code</equals>
+                            </if>
                         </or>
                     </if>
                     <entity variable="collection_production">
