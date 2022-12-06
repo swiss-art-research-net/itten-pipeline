@@ -607,7 +607,7 @@
                                 <arg name="type" type="constant">collection</arg>
                                 <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
                                 <arg name="subtype" type="constant">production</arg>
-                                <arg name="position" type="xpath">concat("rem-", position())</arg>
+                                <arg name="position" type="xpath">concat("rem-", ../@index)</arg>
                             </instance_generator>
                             <additional>
                                 <relationship>crm:P2_has_type</relationship>
@@ -1389,7 +1389,20 @@
                 <source_node>/collection/record/registereintraege</source_node>
                 <target_node>
                     <if>
-                        <equals value="aut">register_rolle/@code</equals>
+                        <or>
+                            <if>
+                                <equals value="aut">register_rolle/@code</equals>
+                            </if>
+                            <if>
+                                <equals value="art">register_rolle/@code</equals>
+                            </if>
+                            <if>
+                                <equals value="pht">register_rolle/@code</equals>
+                            </if>
+                            <if>
+                                <equals value="edt">register_rolle/@code</equals>
+                            </if>
+                        </or>
                     </if>
                     <entity variable="collection_production">
                         <type>crm:E12_Production</type>
@@ -1414,7 +1427,7 @@
                                 <arg name="type" type="constant">collection</arg>
                                 <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
                                 <arg name="subtype" type="constant">production</arg>
-                                <arg name="position" type="xpath">concat("reg-", position())</arg>
+                                <arg name="position" type="xpath">concat("reg-", ../@index, "-", ../register_rolle/@code)</arg>
                             </instance_generator>
                             <additional>
                                 <relationship>crm:P2_has_type</relationship>
@@ -1424,7 +1437,7 @@
                                         <constant/>
                                     </instance_info>
                                     <instance_generator name="URIwithLocId">
-                                        <arg name="id" type="constant">aut</arg>
+                                        <arg name="id" type="xpath">../register_rolle/@code</arg>
                                     </instance_generator>
                                 </entity>
                             </additional>
@@ -1435,10 +1448,7 @@
                 <range>
                     <source_node>register_id</source_node>
                     <target_node>
-                        <if>
-                            <equals value="aut">../register_rolle/@code</equals>
-                        </if>
-                        <entity variable="object_author">
+                        <entity variable="">
                             <type>crm:E39_Actor</type>
                             <instance_generator name="URIwithTypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
