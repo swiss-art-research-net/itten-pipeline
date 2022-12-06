@@ -26,7 +26,14 @@ tasks:
       - task: ingest-data-main
       - task: ingest-data-additional
       - task: ingest-ontologies
+      - task: add-relations
       - echo "Pipeline finished!"
+
+  add-relations:
+    desc: Materialise triples defined through the queries/addRelations.sparql query in the Blazegraph instance
+    cmds:
+      - task: _run-query-from-file
+        vars: {FILE: "queries/addRelations.sparql"}
 
   cache-iiif-manifests:
     desc: Cache the IIIF manifests linked in the OAI XML records
@@ -163,3 +170,10 @@ tasks:
       - /data/xml/oai/*.xml
     cmds:
       - python retrieveDataFromEManuscripta.py --endpoint {{.OAI_ENDPOINT}} --inputFolder /data/source/ --outputFolder /data/xml/oai/
+
+  _run-query-from-file:
+    vars:
+      QUERY:
+        sh: cat {{.FILE}}
+    cmds:
+      - curl -X POST {{.BLAZEGRAPH_ENDPOINT}} --data-urlencode "update={{.QUERY}}" 
