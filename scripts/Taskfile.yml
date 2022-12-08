@@ -171,4 +171,4 @@ tasks:
       QUERY:
         sh: cat {{.FILE}}
     cmds:
-      - curl -X POST {{.BLAZEGRAPH_ENDPOINT}} --data-urlencode "update={{.QUERY}}" 
+      - curl -X POST {{.BLAZEGRAPH_ENDPOINT}} --data-urlencode "update={{.QUERY}}" > /dev/null
