@@ -7,6 +7,7 @@ data/ttl
 data/source
 data/xml
 !/data/xml/oai/.gitkeep
+localScripts
 scripts/.task
 scripts/*.log
 
