@@ -44,7 +44,6 @@ tasks:
     cmds:
       - python /scripts/cacheIiifManifests.py --oaiXMLFolder /data/xml/oai --outputFolder /data/manifests {{.CLI_ARGS}}
 
-
   generate-example-record:
     desc: Generates an example record for developing the mapping in the X3ML editor
     cmds:
