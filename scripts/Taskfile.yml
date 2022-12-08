@@ -166,6 +166,7 @@ tasks:
       - python retrieveDataFromEManuscripta.py --endpoint {{.OAI_ENDPOINT}} --inputFolder /data/source/ --outputFolder /data/xml/oai/
 
   _run-query-from-file:
+    silent: true
     vars:
       QUERY:
         sh: cat {{.FILE}}
