@@ -32,6 +32,7 @@ tasks:
   add-relations:
     desc: Materialise triples defined through the queries/addRelations.sparql query in the Blazegraph instance
     cmds:
+      - echo: "Add relations"
       - task: _run-query-from-file
         vars: {FILE: "queries/addRelations.sparql"}
 
