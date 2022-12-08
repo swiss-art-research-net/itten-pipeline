@@ -2051,9 +2051,9 @@
                         <relationship>crm:P4_has_time-span</relationship>
                         <entity>
                             <type>crm:E52_Time-Span</type>
-                            <instance_generator name="URIwithTypeSubtypeIdAnd1Level_hashed">
+                            <instance_generator name="URIwithTypeSuptypeLevel1AndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
                                 <arg name="subtype" type="constant">birth</arg>
                                 <arg name="level1" type="constant">date</arg>
                             </instance_generator>
@@ -2101,9 +2101,9 @@
                         <relationship>crm:P4_has_time-span</relationship>
                         <entity>
                             <type>crm:E52_Time-Span</type>
-                            <instance_generator name="URIwithTypeSubtypeIdAnd1Level_hashed">
+                            <instance_generator name="URIwithTypeSuptypeLevel1AndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
                                 <arg name="subtype" type="constant">death</arg>
                                 <arg name="level1" type="constant">date</arg>
                             </instance_generator>

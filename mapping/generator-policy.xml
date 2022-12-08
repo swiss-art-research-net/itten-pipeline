@@ -88,6 +88,15 @@
         </custom>
     </generator>
 
+	<generator name="URIwithTypeSuptypeLevel1AndId_hashed" prefix="sari">
+        <custom generatorClass="gr.forth.MultiHashingGenerator">
+            <set-arg name="type"/>
+			<set-arg name="id_HASHED_CONTENTS"/>
+			<set-arg name="subtype"/>
+			<set-arg name="level1"/>
+        </custom>
+    </generator>
+
 	<generator name="URIwithTwoLevelIdHashed" prefix="sari">
         <custom generatorClass="gr.forth.MultiHashingGenerator">
             <set-arg name="type"/>
