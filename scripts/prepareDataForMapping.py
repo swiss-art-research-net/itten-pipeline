@@ -73,6 +73,9 @@ def prepareData(options):
     # Convert to XML
     recordsXML = convertRecordsToXML(records, flattenLists=True)
 
+    # Remove null values
+    recordsXML = removeNullValues(recordsXML)
+
     # Add data from OAI XML files
     recordsXML = addOaiXMLData(recordsXML, oaiXmlData)
 
@@ -519,6 +522,17 @@ def removeIttenArchiveNode(records):
         for node in record.findall(".//oai/metadata/mets/dmdSec"):
             if node.find('mdWrap/xmlData/mods/recordInfo/recordIdentifier').text == '43a2ab3eb18841db9ec1af3669b74f39':
                 node.getparent().remove(node)
+    return records
+
+def removeNullValues(records):
+    """
+    The JSON export coming from CMI encodes null values as strings "null". This function removes these values.
+    After converting to XML, these appear as XML nodes with the text "null". This function removes the text of these nodes.
+    Note: This is a workaround that should no longer be necessary when the JSON export from CMI is fixed. Otherwise it might produce side effects in cases where the string "null" is actually intended.
+    """
+    for record in records:
+        for node in record.xpath(".//*[text()='null']"):
+            node.text = None
     return records
 
 def retrieveOaiXMLData(*, records, oaiXMLFolder, vlidMapFile):
