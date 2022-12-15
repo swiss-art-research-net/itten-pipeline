@@ -289,9 +289,9 @@
     <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
     <registereintraege index="0">
       <register_bezeichnung>Sandberg</register_bezeichnung>
-      <register_gnd-id>null</register_gnd-id>
+      <register_gnd-id/>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>null</register_datum>
+      <register_datum/>
       <register_id>60768</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Beziehungen zu Personen: Ehefrau von Sandberg, Willem Jacob Henri Berend #GND118751158 (Ehemann)</register_bemerkungen>
@@ -760,7 +760,7 @@
       <gnd>4113292-0</gnd>
     </sprachen>
     <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokumente</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 72; Dossier 218 (Ms. "Impressive Farblehre", S. 1-19; S. 22-23) / Entit&#228;t: Schwedischer Industrieller Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Person in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Fd 13); Entit&#228;t: G&#228;ste eines schwedischen Industriellen Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Fd 13); Entit&#228;t: S&#252;dfranz&#246;sische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Fd 13); Entit&#228;t: Schottische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Fd 13); Entit&#228;t: Mongolischer Grosselternteil Nataschas Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus der Mongolei stammende Grossmutter oder Grossvater Nataschas, einer Sch&#252;lerin aus Ittens #GND118710990 Klasse (Quelle: Fd 13); Entit&#228;t: Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Sch&#252;lerin Ittens #GND118710990, in Moskau #GND4074987-3 geboren, hat einen mongolischen Grossvater oder eine mongolische Grossmutter, vermutlich identisch mit Natascha D. s. HS NL 11: Fd 11 (Quelle: Fd 13)</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 72; Dossier 218 (Ms. "Impressive Farblehre", S. 1-19; S. 22-23) / Entit&#228;t: Schwedischer Industrieller Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Person in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Hs NL 11: Fd 13); Entit&#228;t: G&#228;ste eines schwedischen Industriellen Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Hs NL 11: Fd 13); Entit&#228;t: S&#252;dfranz&#246;sische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Schottische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Mongolischer Grosselternteil Nataschas Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus der Mongolei stammende Grossmutter oder Grossvater Nataschas, einer Sch&#252;lerin aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Sch&#252;lerin Ittens #GND118710990, in Moskau #GND4074987-3 geboren, hat einen mongolischen Grossvater oder eine mongolische Grossmutter, vermutlich identisch mit Natascha D. s. HS NL 11: Fd 11 (Quelle: Hs NL 11: Fd 13)</allgemeine_interne_anmerkungen>
     <allgemeine_anmerkungen index="0">Beilagen und Druckschrift nicht digitalisiert</allgemeine_anmerkungen>
     <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
     <zustandskategorie index="0">BE-Restaurierungsbedarf</zustandskategorie>
@@ -777,18 +777,18 @@
     </registereintraege>
     <registereintraege index="1">
       <register_bezeichnung>Brard, Pierre</register_bezeichnung>
-      <register_gnd-id>null</register_gnd-id>
+      <register_gnd-id/>
       <register_rolle label="contributor" term="beteiligt">Beteiligt (Contributor)</register_rolle>
       <register_datum dateFrom="19XX">20. Jh.</register_datum>
       <register_id>65870</register_id>
       <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>null</register_bemerkungen>
+      <register_bemerkungen/>
     </registereintraege>
     <registereintraege index="2">
       <register_bezeichnung>Jesus Christus</register_bezeichnung>
       <register_gnd-id>118557513</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>null</register_datum>
+      <register_datum/>
       <register_id>29863</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118557513 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -869,7 +869,7 @@
       <register_bezeichnung>Xipe Totec, Gott</register_bezeichnung>
       <register_gnd-id>1152347241</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>null</register_datum>
+      <register_datum/>
       <register_id>64868</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/1152347241 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Xipe T&#243;tec, Gott</register_bemerkungen>
@@ -881,7 +881,7 @@
       <register_datum dateFrom="1606" dateTo="1669">1606 - 1669</register_datum>
       <register_id>35417</register_id>
       <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>null</register_bemerkungen>
+      <register_bemerkungen/>
     </registereintraege>
     <registereintraege index="13">
       <register_bezeichnung>C&#233;zanne, Paul</register_bezeichnung>
@@ -1115,7 +1115,7 @@
       <register_datum dateFrom="1749" dateTo="1832">1749 - 1832</register_datum>
       <register_id>334</register_id>
       <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>null</register_bemerkungen>
+      <register_bemerkungen/>
     </registereintraege>
     <registereintraege index="39">
       <register_bezeichnung>Ostwald, Wilhelm</register_bezeichnung>
@@ -1256,7 +1256,7 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Sch&#252;lerin Ittens, in Moskau geboren, hat einen mongolischen Grossvater oder eine mongolische Grossmutter, vermutlich identisch mit Natascha D. s. HS NL 11: Fd 11 (Quelle: Fd 13)</value>
+        <value>Sch&#252;lerin Ittens, in Moskau geboren, hat einen mongolischen Grossvater oder eine mongolische Grossmutter, vermutlich identisch mit Natascha D. s. HS NL 11: Fd 11 (Quelle: Hs NL 11: Fd 13)</value>
         <identifiers>
           <position>28</position>
           <source>GND</source>
@@ -1281,7 +1281,7 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Aus der Mongolei stammende Grossmutter oder Grossvater Nataschas, einer Sch&#252;lerin aus Ittens Klasse (Quelle: Fd 13)</value>
+        <value>Aus der Mongolei stammende Grossmutter oder Grossvater Nataschas, einer Sch&#252;lerin aus Ittens Klasse (Quelle: Hs NL 11: Fd 13)</value>
         <identifiers>
           <position>93</position>
           <source>GND</source>
@@ -1301,7 +1301,7 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens Klasse (Quelle: Fd 13)</value>
+        <value>Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens Klasse (Quelle: Hs NL 11: Fd 13)</value>
         <identifiers>
           <position>84</position>
           <source>GND</source>
@@ -1321,7 +1321,7 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens Klasse (Quelle: Fd 13)</value>
+        <value>Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens Klasse (Quelle: Hs NL 11: Fd 13)</value>
         <identifiers>
           <position>87</position>
           <source>GND</source>
@@ -1341,7 +1341,7 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Personen in einer von Donald Brinkmann berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Fd 13)</value>
+        <value>Personen in einer von Donald Brinkmann berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Hs NL 11: Fd 13)</value>
         <identifiers>
           <position>39</position>
           <source>GND</source>
@@ -1361,7 +1361,7 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Person in einer von Donald Brinkmann berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Fd 13)</value>
+        <value>Person in einer von Donald Brinkmann berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Hs NL 11: Fd 13)</value>
         <identifiers>
           <position>37</position>
           <source>GND</source>
@@ -2992,7 +2992,7 @@
     <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
     <ablauf_verwertungsrecht index="0">01.01.2009</ablauf_verwertungsrecht>
     <physische_beschaffenheit_und_technische_anforderungen index="0">Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 92 / Entit&#228;t: Monteur am Velum im Stedelijk Museum Amsterdam 1938 Typ: Person Rolle: Abgebildet (dpc) (Empty) Bemerkungen: Beziehungen zu Werken: Gesamtkomposition des Velum (Stedelijk Museum Amsterdam) #GND1218719192. Bezeihungen zu Organisationen: Stedelijk Museum Amsterdam #GND1030247-5. Anzahl: 2 (Quelle: Vorlage Ch 3.1.41); Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 92 / Entit&#228;t: Monteur am Velum im Stedelijk Museum Amsterdam 1938 Typ: Person Rolle: Abgebildet (dpc) (Empty) Bemerkungen: Beziehungen zu Werken: Gesamtkomposition des Velum (Stedelijk Museum Amsterdam) #GND1218719192. Bezeihungen zu Organisationen: Stedelijk Museum Amsterdam #GND1030247-5. Anzahl: 2 (Quelle: Vorlage Hs NL 11: Ch 3.1.41); Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
     <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
     <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-126364</doi>
@@ -3038,7 +3038,7 @@
       </bemerkungen>
       <anzahl>
         <value>2</value>
-        <qualifier>Quelle: Vorlage Ch 3.1.41</qualifier>
+        <qualifier>Quelle: Vorlage Hs NL 11: Ch 3.1.41</qualifier>
       </anzahl>
     </parsed_internal_remarks>
     <oai>
@@ -3208,16 +3208,16 @@
       <gnd>4113292-0</gnd>
     </sprachen>
     <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 35 / Entit&#228;t: Unterzeichner einer Erlaubnisurkunde des Provinzial-Schulkollegiums Berlin Typ: Person Rolle: Beteiligt (Contributor) Bemerkungen: Name unleserlich, m&#246;glicherweise Pretzel (Quelle: Vorlage Cf 1). Beziehungen zu Organisationen: Berlin. Provinzial-Schulkollegium #GND1082551279; Entit&#228;t: Berlin-Lichterfelde #GND4087328-6 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 35 / Entit&#228;t: Unterzeichner einer Erlaubnisurkunde des Provinzial-Schulkollegiums Berlin Typ: Person Rolle: Beteiligt (Contributor) Bemerkungen: Name unleserlich, m&#246;glicherweise Pretzel (Quelle: Vorlage Hs NL 11: Cf 1). Beziehungen zu Organisationen: Berlin. Provinzial-Schulkollegium #GND1082551279; Entit&#228;t: Berlin-Lichterfelde #GND4087328-6 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
     <allgemeine_anmerkungen index="0">Beilage nicht digitalisiert</allgemeine_anmerkungen>
     <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
     <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
     <bemerkungen_zum_standort index="0">&#220;bergr&#246;sse in separater Mappe</bemerkungen_zum_standort>
     <registereintraege index="0">
       <register_bezeichnung>Engel</register_bezeichnung>
-      <register_gnd-id>null</register_gnd-id>
+      <register_gnd-id/>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>null</register_datum>
+      <register_datum/>
       <register_id>65298</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>GND-Recherchen unergiebig (lutz, 03/2022) / T&#228;tigkeit: Schulrat in Berlin (Quelle: Vorlage Hs NL 11: Cf 1) / GND-Recherchen unergiebig (lutz, 03/2022)</register_bemerkungen>
@@ -3260,9 +3260,9 @@
         <qualifier>Contributor</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Name unleserlich, m&#246;glicherweise Pretzel (Quelle: Vorlage Cf 1). Beziehungen zu Organisationen: Berlin. Provinzial-Schulkollegium</value>
+        <value>Name unleserlich, m&#246;glicherweise Pretzel (Quelle: Vorlage Hs NL 11: Cf 1). Beziehungen zu Organisationen: Berlin. Provinzial-Schulkollegium</value>
         <identifiers>
-          <position>130</position>
+          <position>140</position>
           <source>GND</source>
           <value>1082551279</value>
         </identifiers>
@@ -3475,7 +3475,7 @@
       <gnd>4113292-0</gnd>
     </sprachen>
     <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 206 / Entit&#228;t: Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung" Typ: Person Rolle: Adressat (rcp) (Contributor) Bemerkungen: Damen und Herren (Name in Vorlageform, Quelle: Vorlage Fb 2.20.3); Entit&#228;t: Direktor der Chirurgischen Klinik Z&#252;rich Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Direktor der Chirurgischen Klinik Z&#252;rich #GND1086229142 im Jahr 1961. Vermutlich identisch mit Brunner, Alfred #GND13133056X (Quelle: Vorlage Fb 2.20.3); Entit&#228;t: Klaus Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: (Quelle: Vorlage Fb 2.20.3)</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 206 / Entit&#228;t: Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung" Typ: Person Rolle: Adressat (rcp) (Contributor) Bemerkungen: Damen und Herren (Name in Vorlageform, Quelle: Vorlage Hs NL 11: Fb 2.20.3); Entit&#228;t: Direktor der Chirurgischen Klinik Z&#252;rich Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Direktor der Chirurgischen Klinik Z&#252;rich #GND1086229142 im Jahr 1961. Vermutlich identisch mit Brunner, Alfred #GND13133056X (Quelle: Vorlage Hs NL 11: Fb 2.20.3); Entit&#228;t: Klaus Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: (Quelle: Vorlage Hs NL 11: Fb 2.20.3)</allgemeine_interne_anmerkungen>
     <allgemeine_anmerkungen index="0">Ort nicht ermittelt</allgemeine_anmerkungen>
     <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
     <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
@@ -3546,7 +3546,7 @@
       <register_bezeichnung>Plato</register_bezeichnung>
       <register_gnd-id>118594893</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
-      <register_datum>null</register_datum>
+      <register_datum/>
       <register_id>60394</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Lebensdaten: ca. 427-347 v. Chr. / Link zur GND: &lt;a href=http://d-nb.info/gnd/118594893 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
@@ -3609,7 +3609,7 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>(Quelle: Vorlage Fb 2.20.3)</value>
+        <value>(Quelle: Vorlage Hs NL 11: Fb 2.20.3)</value>
       </bemerkungen>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="1">
@@ -3624,7 +3624,7 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Direktor der Chirurgischen Klinik Z&#252;rich im Jahr 1961. Vermutlich identisch mit Brunner, Alfred (Quelle: Vorlage Fb 2.20.3)</value>
+        <value>Direktor der Chirurgischen Klinik Z&#252;rich im Jahr 1961. Vermutlich identisch mit Brunner, Alfred (Quelle: Vorlage Hs NL 11: Fb 2.20.3)</value>
         <identifiers>
           <position>96</position>
           <source>GND</source>
@@ -3649,7 +3649,7 @@
         <qualifier>rcp) (Contributor</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Damen und Herren (Name in Vorlageform, Quelle: Vorlage Fb 2.20.3)</value>
+        <value>Damen und Herren (Name in Vorlageform, Quelle: Vorlage Hs NL 11: Fb 2.20.3)</value>
       </bemerkungen>
     </parsed_internal_remarks>
     <oai>
@@ -3999,7 +3999,7 @@
     </ueberlieferungsformen>
     <bewertung_und_kassation index="0">Es wurden keine Kassationen vorgenommen.</bewertung_und_kassation>
     <ordnung_und_klassifikation index="0">Der Nachlass wurde gr&#246;sstenteils neu geordnet und in 8 Hauptserien gegliedert. Bei Dossiers, die stark von Anneliese Itten strukturiert und bearbeitet wurden, wie die Dossiers zu Johannes Ittens Wirken, die Korrespondenz und die Verwaltung des Nachlasses durch Anneliese Itten, wurde die urspr&#252;ngliche Ordnung weitestgehend beibehalten. &#196;hnliche Dokumente k&#246;nnen daher an verschiedenen Orten abgelegt worden sein.</ordnung_und_klassifikation>
-    <zugangsbestimmungen index="0">Sofern personenrechtlich relevante Dokumente vorhanden sind, gelten in Anlehnung an das kantonale Z&#252;rcher Archivrecht Schutzfristen von 30, 80 und 120 Jahren (abh&#228;ngig von der personenrechtlichen Relevanz). In einem Fall muss die Einsichtnahme in Originale von der Abteilungsleitung bewilligt werden. Gebrauchskopien k&#246;nnen in jedem Fall genutzt werden. / Die Nutzung von urheberrechtlich gesch&#252;tzten Dokumenten aus dem Itten-Archiv f&#252;r Ausstellungen, Publikationen u.a. ist genehmigungspflichtig. F&#252;r Dokumente von Johannes Itten liegen die Urheberrechte bei den Erben Ittens und k&#246;nnen &#252;ber die Handschriftenabteilung der Zentralbibliothek Z&#252;rich eingeholt werden.</zugangsbestimmungen>
+    <zugangsbestimmungen index="0">Sofern personenrechtlich relevante Dokumente vorhanden sind, gelten in Anlehnung an das kantonale Z&#252;rcher Archivrecht Schutzfristen von 30, 80 und 120 Jahren (abh&#228;ngig von der personenrechtlichen Relevanz). In einem Fall ist die Einsichtnahme in das Original aus konservatorischen Gr&#252;nden gesuchspflichtig. Eine Gebrauchskopie kann in jedem Fall genutzt werden. / Die Nutzung von urheberrechtlich gesch&#252;tzten Dokumenten aus dem Itten-Archiv f&#252;r Ausstellungen, Publikationen u.a. ist genehmigungspflichtig. F&#252;r Dokumente von Johannes Itten liegen die Urheberrechte bei den Erben Ittens und k&#246;nnen &#252;ber die Handschriftenabteilung der Zentralbibliothek Z&#252;rich eingeholt werden.</zugangsbestimmungen>
     <basisdatum_schutzfrist index="0">30.06.2021</basisdatum_schutzfrist>
     <publikation index="0">Sofort</publikation>
     <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (Informationen zur Bestellbarkeit bei der jeweiligen Bestelleinheit)</verfuegbarkeit>
@@ -4011,7 +4011,7 @@
     <benutzbarkeit index="0">Teile davon gesuchspflichtig</benutzbarkeit>
     <ablauf_verwertungsrecht index="0">01.01.2075</ablauf_verwertungsrecht>
     <sprachen index="0">
-      <kuerzel>null</kuerzel>
+      <kuerzel/>
       <bezeichnung>Niederl&#228;ndisch</bezeichnung>
       <gnd>4122614-8</gnd>
     </sprachen>
@@ -4038,9 +4038,9 @@
     <verzeichnungsgrundsaetze index="0">Erschlossen auf Basis der RNAB und den Richtlinien zur Erschliessung von Nachl&#228;ssen und Archiven in der Zentralbibliothek Z&#252;rich / Basiserschliessung</verzeichnungsgrundsaetze>
     <standorte index="0">
       <kuerzel>06.5.</kuerzel>
-      <auslastung>null</auslastung>
+      <auslastung/>
       <bezeichnung>Magazin 06.5.</bezeichnung>
-      <bemerkungen>null</bemerkungen>
+      <bemerkungen/>
     </standorte>
     <bemerkungen_zum_standort index="0">Aktueller Standort Galerie Handschriftenabteilung (A 40.3), geplanter Zwischenstandort 06.5, definitiver Standort zu sp&#228;terem Zeitpunkt 06.6</bemerkungen_zum_standort>
     <umfaenge index="0">
@@ -4072,8 +4072,8 @@
       <filesize>113840</filesize>
       <file_extension>.pdf</file_extension>
       <file_id>65431</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
     <dateien index="1">
       <titel>Aufnahmen_Leihgaben_KM_Bern</titel>
@@ -4082,8 +4082,8 @@
       <filesize>24094193</filesize>
       <file_extension>.pdf</file_extension>
       <file_id>28003</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
     <dateien index="2">
       <titel>2019 &#220;bergabeprotokoll Kunstmuseum Bern</titel>
@@ -4092,38 +4092,38 @@
       <filesize>19802</filesize>
       <file_extension>.pdf</file_extension>
       <file_id>27233</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
     <dateien index="3">
       <titel>2019 Kunstmuseum Bern Leihgesuch</titel>
       <art>Gesuch</art>
       <publikation>Keine Publikation</publikation>
-      <filesize>null</filesize>
-      <file_extension>null</file_extension>
+      <filesize/>
+      <file_extension/>
       <file_id>25586</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
     <dateien index="4">
       <titel>2020 Kunstforum Hermann Stenner Bielefeld Leihgesuch</titel>
       <art>Gesuch</art>
       <publikation>Keine Publikation</publikation>
-      <filesize>null</filesize>
-      <file_extension>null</file_extension>
+      <filesize/>
+      <file_extension/>
       <file_id>25585</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
     <dateien index="5">
       <titel>2019 Kunstmuseum Bern Leihvertrag</titel>
       <art>Vertrag</art>
       <publikation>Keine Publikation</publikation>
-      <filesize>null</filesize>
-      <file_extension>null</file_extension>
+      <filesize/>
+      <file_extension/>
       <file_id>25583</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
     <dateien index="6">
       <titel>2019 Kunstmuseum Bern Klimastreifen</titel>
@@ -4132,8 +4132,8 @@
       <filesize>125949</filesize>
       <file_extension>.pdf</file_extension>
       <file_id>25582</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
     <dateien index="7">
       <titel>2019 Kunstmuseum Bern Facility Report</titel>
@@ -4142,8 +4142,8 @@
       <filesize>682886</filesize>
       <file_extension>.pdf</file_extension>
       <file_id>25581</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
     <dateien index="8">
       <titel>2019 Kunstmuseum Bern Versicherungsnachweis</titel>
@@ -4152,8 +4152,8 @@
       <filesize>499060</filesize>
       <file_extension>.pdf</file_extension>
       <file_id>25580</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
     <dateien index="9">
       <titel>Vertrag Privatbibliothek Itten</titel>
@@ -4162,8 +4162,8 @@
       <filesize>107337</filesize>
       <file_extension>.pdf</file_extension>
       <file_id>22369</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
     <dateien index="10">
       <titel>Vertrag Itten-Archiv</titel>
@@ -4172,8 +4172,8 @@
       <filesize>104539</filesize>
       <file_extension>.pdf</file_extension>
       <file_id>22368</file_id>
-      <pid>null</pid>
-      <bemerkungen>null</bemerkungen>
+      <pid/>
+      <bemerkungen/>
     </dateien>
   </record>
 
