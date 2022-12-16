@@ -73,6 +73,9 @@ def prepareData(options):
     # Convert to XML
     recordsXML = convertRecordsToXML(records, flattenLists=True)
 
+    # Parse identifiers in text fields
+    recordsXML = parseIdentifiers(recordsXML)
+
     # Remove null values
     recordsXML = removeNullValues(recordsXML)
 
@@ -492,6 +495,57 @@ def parseDates(records):
                         tagWithDate.set("dateFrom", dates[0])    
                         if len(dates) == 2:
                             tagWithDate.set("dateTo", dates[1])
+    return records
+
+def parseIdentifiers(records):
+    """
+    Parse identifiers that have been added in the text using the fornat #<Source><Identifier> and add them as XML nodes. 
+    The identifier itself will be removed from the text.
+
+    For example: 
+    ```xml
+        <register_bemerkungen>Möglicherweise identisch mit Abegg, Werner #GND118646567 (Quelle: Vorlage Hs NL 11: Bd 2)</register_bemerkungen>
+    ```
+
+    Should be transformed into:
+    ```
+        <register_bemerkungen>Möglicherweise identisch mit Abegg, Werner (Quelle: Vorlage Hs NL 11: Bd 2)</register_bemerkungen>
+        <register_bemerkungen_identifiers>
+            <identifier>
+                <position>43</position>
+                <source>GND</source>
+                <value>118646567</value>
+            </identifier>
+        </register_bemerkungen_identifiers>
+    ```
+    :param records: list of XML records
+    :return: list of XML records with added identifiers
+    """
+    identifierRegex = re.compile(r"#([A-Z]+)([0-9]+)")
+    tags = ['register_bemerkungen']
+    for record in records:
+        for tag in tags:
+            for tagWithIdentifiers in record.findall(".//%s" % tag):
+                if tagWithIdentifiers.text is not None:
+                    identifiers = identifierRegex.findall(tagWithIdentifiers.text)
+                    if identifiers:
+                        identifiersNode = etree.Element("%s_identifiers" % tag)
+                        for identifier in identifiers:
+                            identifierNode = etree.Element("identifier")
+                            positionNode = etree.Element("position")
+                            sourceNode = etree.Element("source")
+                            valueNode = etree.Element("value")
+
+                            positionNode.text = str(identifierRegex.search(tagWithIdentifiers.text).start())
+                            sourceNode.text = identifier[0]
+                            valueNode.text = identifier[1]
+
+                            identifierNode.append(positionNode)
+                            identifierNode.append(sourceNode)
+                            identifierNode.append(valueNode)
+                            identifiersNode.append(identifierNode)
+                        tagWithIdentifiers.addnext(identifiersNode)
+                        tagWithIdentifiers.text = identifierRegex.sub("", tagWithIdentifiers.text)
     return records
 
 def parseInternalRemarks(records):
