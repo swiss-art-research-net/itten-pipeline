@@ -294,7 +294,14 @@
       <register_datum/>
       <register_id>60768</register_id>
       <registertyp>Personenregister</registertyp>
-      <register_bemerkungen>Beziehungen zu Personen: Ehefrau von Sandberg, Willem Jacob Henri Berend #GND118751158 (Ehemann)</register_bemerkungen>
+      <register_bemerkungen>Beziehungen zu Personen: Ehefrau von Sandberg, Willem Jacob Henri Berend  (Ehemann)</register_bemerkungen>
+      <register_bemerkungen_identifiers>
+        <identifier>
+          <position>73</position>
+          <source>GND</source>
+          <value>118751158</value>
+        </identifier>
+      </register_bemerkungen_identifiers>
     </registereintraege>
     <registereintraege index="1">
       <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
