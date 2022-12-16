@@ -1952,7 +1952,7 @@
                         <type>crm:E21_Person</type>
                         <instance_generator name="URIwithTypeAndId_hashed">
                             <arg name="type" type="constant">actor</arg>
-                            <arg name="id_HASHED_CONTENTS" type="xpath">if (register_gnd-id/text()) then (register_gnd-id/text()) else (register_bezeichnung/text())</arg>
+                            <arg name="id_HASHED_CONTENTS" type="xpath">if (register_gnd-id/text()) then (register_gnd-id/text()) else (register_id/text())</arg>
                         </instance_generator>
                         <label_generator name="Literal">
                             <arg name="text" type="xpath">register_bezeichnung/text()</arg>
@@ -1972,7 +1972,7 @@
                             <type>crm:E42_Identifier</type>
                             <instance_generator name="URIwithTypeSuptypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../register_gnd-id/text()) then (../register_gnd-id/text()) else (../register_bezeichnung/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../register_gnd-id/text()) then (../register_gnd-id/text()) else (../register_id/text())</arg>
                                 <arg name="subtype" type="constant">register-id</arg>
                             </instance_generator>
                         </entity>
@@ -2048,7 +2048,7 @@
                             <type>crm:E67_Birth</type>
                             <instance_generator name="URIwithTypeSuptypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_id/text())</arg>
                                 <arg name="subtype" type="constant">birth</arg>
                             </instance_generator>
                         </entity>
@@ -2057,7 +2057,7 @@
                             <type>crm:E52_Time-Span</type>
                             <instance_generator name="URIwithTypeSuptypeLevel1AndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_id/text())</arg>
                                 <arg name="subtype" type="constant">birth</arg>
                                 <arg name="level1" type="constant">date</arg>
                             </instance_generator>
@@ -2098,7 +2098,7 @@
                             <type>crm:E69_Death</type>
                             <instance_generator name="URIwithTypeSuptypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_id/text())</arg>
                                 <arg name="subtype" type="constant">death</arg>
                             </instance_generator>
                         </entity>
@@ -2107,7 +2107,7 @@
                             <type>crm:E52_Time-Span</type>
                             <instance_generator name="URIwithTypeSuptypeLevel1AndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_id/text())</arg>
                                 <arg name="subtype" type="constant">death</arg>
                                 <arg name="level1" type="constant">date</arg>
                             </instance_generator>
@@ -2148,7 +2148,7 @@
                             <type>crm:E67_Birth</type>
                             <instance_generator name="URIwithTypeSuptypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_id/text())</arg>
                                 <arg name="subtype" type="constant">birth</arg>
                             </instance_generator>
                         </entity>
@@ -2157,7 +2157,7 @@
                             <type>crm:E52_Time-Span</type>
                             <instance_generator name="URIwithTypeSubtypeIdAnd1Level_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="id" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_id/text())</arg>
                                 <arg name="subtype" type="constant">birth</arg>
                                 <arg name="level1" type="constant">date</arg>
                             </instance_generator>
@@ -2198,7 +2198,7 @@
                             <type>crm:E69_Death</type>
                             <instance_generator name="URIwithTypeSuptypeAndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_id/text())</arg>
                                 <arg name="subtype" type="constant">death</arg>
                             </instance_generator>
                         </entity>
@@ -2207,7 +2207,7 @@
                             <type>crm:E52_Time-Span</type>
                             <instance_generator name="URIwithTypeSubtypeIdAnd1Level_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg name="id" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_bezeichnung/text())</arg>
+                                <arg name="id" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_id/text())</arg>
                                 <arg name="subtype" type="constant">death</arg>
                                 <arg name="level1" type="constant">date</arg>
                             </instance_generator>
