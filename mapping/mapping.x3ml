@@ -2234,11 +2234,7 @@
                     </source_relation>
                     <target_relation>
                         <if>
-                            <not>
-                                <if>
-                                    <equals value="null">text()</equals>
-                                </if>
-                            </not>
+                            <exists>text()</exists>
                         </if>
                         <relationship>crm:P3_has_note</relationship>
                     </target_relation>
