@@ -373,8 +373,12 @@
                             <type>crm:E56_Language</type>
                             <instance_generator name="URIwithTypeAndId">
                                 <arg name="type" type="constant">language</arg>
-                                <arg name="id" type="xpath">kuerzel/text()</arg>
+                                <arg name="id" type="xpath">lower-case(bezeichnung/text())</arg>
                             </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">bezeichnung/text()</arg>
+                                <arg name="language" type="constant">de</arg>
+                            </label_generator>
                             <additional>
                                 <relationship>crmdig:L54_is_same-as</relationship>
                                 <entity>
