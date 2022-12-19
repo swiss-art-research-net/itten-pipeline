@@ -2236,7 +2236,16 @@
                         <if>
                             <exists>text()</exists>
                         </if>
-                        <relationship>crm:P3_has_note</relationship>
+                        <relationship>crm:P129i_is_subject_of</relationship>
+                        <entity>
+                            <type>crm:E33_Linguistic_Object</type>
+                            <instance_generator name="URIwithTypeSuptypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../register_gnd-id/text()) then (../register_gnd-id/text()) else (../register_id/text())</arg>
+                                <arg name="subtype" type="constant">comment</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>rdfs:label</relationship>
                     </target_relation>
                 </path>
                 <range>
@@ -2247,6 +2256,48 @@
                             <instance_generator name="Literal">
                                 <arg name="text" type="xpath">text()</arg>
                                 <arg name="language" type="constant"/>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/registereintraege/register_bemerkungen_identifiers</source_node>
+                <target_node>
+                    <if>
+                        <equals value="Personenregister">../registertyp/text()</equals>
+                    </if>
+                    <entity>
+                        <type>crm:E33_Linguistic_Object</type>
+                        <instance_generator name="URIwithTypeSuptypeAndId_hashed">
+                            <arg name="type" type="constant">actor</arg>
+                            <arg name="id_HASHED_CONTENTS" type="xpath">if (../register_gnd-id/text()) then (../register_gnd-id/text()) else (../register_id/text())</arg>
+                            <arg name="subtype" type="constant">comment</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>identifier/value</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <equals value="GND">../source/text()</equals>
+                        </if>
+                        <relationship>crm:P67_refers_to</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>identifier/value</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithGndId">
+                                <arg name="id" type="xpath">text()</arg>
                             </instance_generator>
                         </entity>
                     </target_node>
