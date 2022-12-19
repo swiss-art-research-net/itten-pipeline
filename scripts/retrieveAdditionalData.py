@@ -101,7 +101,7 @@ def extractIdentifiers(folder, sources):
         g.parse(file)
         
     for source in sources:
-        query = PREFIXES + "SELECT DISTINCT ?identifier WHERE { { ?s ?p ?identifier . } UNION { ?identifier ?p ?o .} FILTER(STRSTARTS(STR(?identifier), '" + identifierNamespaces[source] + "')) }"
+        query = PREFIXES + "SELECT DISTINCT ?identifier WHERE { { ?s ?p ?identifier . } UNION { ?identifier ?p ?o .} FILTER(isIRI(?identifier) && STRSTARTS(STR(?identifier), '" + identifierNamespaces[source] + "')) }"
         queryResults = g.query(query)
         for row in queryResults:
             identifiers[source].append(str(row[0]))
