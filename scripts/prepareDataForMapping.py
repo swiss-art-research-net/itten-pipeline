@@ -521,14 +521,15 @@ def parseIdentifiers(records):
     :param records: list of XML records
     :return: list of XML records with added identifiers
     """
-    identifierRegex = re.compile(r"#([A-Z]+)([0-9]+)")
+    #identifierRegex = re.compile(r"#([A-Z]+)([0-9]+)")
     tags = ['register_bemerkungen']
+    p = Parser()
     for record in records:
         for tag in tags:
             for tagWithIdentifiers in record.findall(".//%s" % tag):
                 if tagWithIdentifiers.text is not None:
-                    identifiers = identifierRegex.findall(tagWithIdentifiers.text)
-                    if identifiers:
+                    text, identifiers = p.processIdentifiers(tagWithIdentifiers.text)
+                    if len(identifiers):
                         identifiersNode = etree.Element("%s_identifiers" % tag)
                         for identifier in identifiers:
                             identifierNode = etree.Element("identifier")
@@ -536,16 +537,16 @@ def parseIdentifiers(records):
                             sourceNode = etree.Element("source")
                             valueNode = etree.Element("value")
 
-                            positionNode.text = str(identifierRegex.search(tagWithIdentifiers.text).start())
-                            sourceNode.text = identifier[0]
-                            valueNode.text = identifier[1]
+                            positionNode.text = str(identifier['position'])
+                            sourceNode.text = identifier['source']
+                            valueNode.text = identifier['value']
 
                             identifierNode.append(positionNode)
                             identifierNode.append(sourceNode)
                             identifierNode.append(valueNode)
                             identifiersNode.append(identifierNode)
                         tagWithIdentifiers.addnext(identifiersNode)
-                        tagWithIdentifiers.text = identifierRegex.sub("", tagWithIdentifiers.text)
+                        tagWithIdentifiers.text = text
     return records
 
 def parseInternalRemarks(records):
