@@ -92,27 +92,6 @@ class Parser:
             else:
                     record = self._updateRecord(record, key=key, value=raw)
         return record
-
-    def _processIdentifiers(self, value):
-        """
-        If an identifier is set in the value (e.g. #GND4127793-4) extract them.
-        The extracted identifier is then removed from the value.
-        The function returns the changed value and a list of extracted identifiers
-        """
-        sources = ['GND']
-        extractedIdentifiers = re.findall(r'#([\w\d\-]+)', value)
-        if len(extractedIdentifiers):
-            identifiers = []
-            for extractedIdentifier in extractedIdentifiers:
-                position = value.find("#%s" % extractedIdentifier)
-                value = value.replace(f' #{extractedIdentifier}', '').strip()
-                identifierObject = {'position': position}
-                for source in sources:
-                    if extractedIdentifier.startswith(source):
-                        identifierObject['source'] = source
-                        identifierObject['value'] = extractedIdentifier.replace(source, '')
-                identifiers.append(identifierObject)
-        return value, identifiers
         
     def _updateRecord(self, record, *, key, value, qualifier=False):
         """
@@ -129,7 +108,7 @@ class Parser:
         """
         obj = { 'value': value }
         if "#" in value:
-            value, identifiers = self._processIdentifiers(value)
+            value, identifiers = self.processIdentifiers(value)
             obj['value'] = value
             obj['identifiers'] = identifiers
             
@@ -185,6 +164,46 @@ class Parser:
                 records.append(parsedBlock)
         return records
 
+    def processIdentifiers(self, value):
+        """
+        If an identifier is set in the value (e.g. #GND4127793-4) extract them.
+        The extracted identifier is then removed from the value.
+        The function returns the changed value and a list of extracted identifiers
+
+        >>> p = Parser()
+        >>> text, identifiers = p.processIdentifiers("Eine Person namens Elfriede wurde erwähnt. Möglicherweise Elfriede Röllich #GND1091599890 die in dieser Zeit am Institut gearbeitet hat")
+        >>> print(identifiers)
+        [{'position': 75, 'source': 'GND', 'value': '1091599890'}]
+
+        >>> text, identifiers = p.processIdentifiers("Stammt ursprünglich aus Krefeld #GND4032952-5")
+        >>> print(identifiers)
+        [{'position': 32, 'source': 'GND', 'value': '4032952-5'}]
+
+        >>> text, identifiers = p.processIdentifiers("Rudolf, möglicherweise Rudolf Braun #GND120094478X, alternativ Rudolf Brun #GND1196571228")
+        >>> print(identifiers)
+        [{'position': 36, 'source': 'GND', 'value': '120094478X'}, {'position': 60, 'source': 'GND', 'value': '1196571228'}]
+
+        >>> text, identifiers = p.processIdentifiers("Möglicherweise Lilly von Andrese #WDQ115482867")
+        >>> print(identifiers)
+        [{'position': 33, 'source': 'WD', 'value': 'Q115482867'}]
+        """
+        sources = ['GND', 'WD']
+        extractedIdentifiers = re.findall(r'#([\w\d\-]+)', value)
+        identifiers = []
+        if len(extractedIdentifiers):
+            for extractedIdentifier in extractedIdentifiers:
+                position = value.find("#%s" % extractedIdentifier)
+                value = value.replace(f' #{extractedIdentifier}', '').strip()
+                identifierObject = {'position': position}
+                for source in sources:
+                    if extractedIdentifier.startswith(source):
+                        identifierObject['source'] = source
+                        identifierObject['value'] = extractedIdentifier.replace(source, '')
+                if 'source' in identifierObject:
+                    identifiers.append(identifierObject)
+        return value, identifiers
+
 if __name__ == '__main__':
     import doctest
+    print("Running doctests...")
     doctest.testmod()
