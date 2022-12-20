@@ -116,7 +116,7 @@ class Parser:
         >>> print(identifiers)
         [{'position': 33, 'source': 'WD', 'value': 'Q115482867'}]
         """
-        sources = ['GND']
+        sources = ['GND', 'WD']
         extractedIdentifiers = re.findall(r'#([\w\d\-]+)', value)
         if len(extractedIdentifiers):
             identifiers = []
@@ -128,7 +128,8 @@ class Parser:
                     if extractedIdentifier.startswith(source):
                         identifierObject['source'] = source
                         identifierObject['value'] = extractedIdentifier.replace(source, '')
-                identifiers.append(identifierObject)
+                if 'source' in identifierObject:
+                    identifiers.append(identifierObject)
         return value, identifiers
         
     def _updateRecord(self, record, *, key, value, qualifier=False):
