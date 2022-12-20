@@ -98,6 +98,23 @@ class Parser:
         If an identifier is set in the value (e.g. #GND4127793-4) extract them.
         The extracted identifier is then removed from the value.
         The function returns the changed value and a list of extracted identifiers
+
+        >>> p = Parser()
+        >>> text, identifiers = p._processIdentifiers("Eine Person namens Elfriede wurde erwähnt. Möglicherweise Elfriede Röllich #GND1091599890 die in dieser Zeit am Institut gearbeitet hat")
+        >>> print(identifiers)
+        [{'position': 75, 'source': 'GND', 'value': '1091599890'}]
+
+        >>> text, identifiers = p._processIdentifiers("Stammt ursprünglich aus Krefeld #GND4032952-5")
+        >>> print(identifiers)
+        [{'position': 32, 'source': 'GND', 'value': '4032952-5'}]
+
+        >>> text, identifiers = p._processIdentifiers("Rudolf, möglicherweise Rudolf Braun #GND120094478X, alternativ Rudolf Brun #GND1196571228")
+        >>> print(identifiers)
+        [{'position': 36, 'source': 'GND', 'value': '120094478X'}, {'position': 60, 'source': 'GND', 'value': '1196571228'}]
+
+        >>> text, identifiers = p._processIdentifiers("Möglicherweise Lilly von Andrese #WDQ115482867")
+        >>> print(identifiers)
+        [{'position': 33, 'source': 'WD', 'value': 'Q115482867'}]
         """
         sources = ['GND']
         extractedIdentifiers = re.findall(r'#([\w\d\-]+)', value)
@@ -187,4 +204,5 @@ class Parser:
 
 if __name__ == '__main__':
     import doctest
+    print("Running doctests...")
     doctest.testmod()
