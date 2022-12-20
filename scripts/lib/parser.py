@@ -189,8 +189,8 @@ class Parser:
         """
         sources = ['GND', 'WD']
         extractedIdentifiers = re.findall(r'#([\w\d\-]+)', value)
+        identifiers = []
         if len(extractedIdentifiers):
-            identifiers = []
             for extractedIdentifier in extractedIdentifiers:
                 position = value.find("#%s" % extractedIdentifier)
                 value = value.replace(f' #{extractedIdentifier}', '').strip()
