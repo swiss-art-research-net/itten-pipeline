@@ -2961,7 +2961,7 @@
                         <entity>
                             <type>crm:E55_Type</type>
                             <instance_generator name="URIwithCidocCrmId">
-                                <arg name="id" type="constant">P107_has_current_or_former_member</arg>
+                                <arg name="id" type="constant">P107i_is_current_or_former_member_of</arg>
                             </instance_generator>
                         </entity>
                     </target_node>
