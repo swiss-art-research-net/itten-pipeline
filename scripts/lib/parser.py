@@ -35,6 +35,11 @@ class Parser:
             }
         },
         "Bemerkungen": {},
+        "Beziehungen": {
+            "options": {
+                "qualifier": True
+            }
+        },
         "Entität": {
             "options": {
                 "qualifier": True
