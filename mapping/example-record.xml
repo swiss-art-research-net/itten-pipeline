@@ -4318,4 +4318,398 @@
     </registereintraege>
   </record>
 
+
+  <record>
+    <signatur index="0">Hs NL 11: Cj 1.9</signatur>
+    <verzeichnungsstufe index="0">
+      <value>Einzelst&#252;ck</value>
+      <gnd>7556778-7</gnd>
+      <aat>300404024</aat>
+    </verzeichnungsstufe>
+    <id index="0">48323</id>
+    <guid index="0">13ff406d0e7946fc90449c4061917c31</guid>
+    <archivalienarten index="0">
+      <bezeichnung>Typoskript</bezeichnung>
+      <gnd>4186519-4</gnd>
+    </archivalienarten>
+    <titel index="0">Johannes Itten: Bericht &#252;ber die erste Biennale der ICOM 1948</titel>
+    <entstehungszeitraum index="0">13.07.1948</entstehungszeitraum>
+    <entstehungsort index="0">Z&#252;rich</entstehungsort>
+    <bemerkungen_zum_umfang index="0">3 Bl&#228;tter</bemerkungen_zum_umfang>
+    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-124354" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-124354&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Cj 1 - Kunstgewerbeschule und Kunstgewerbemuseum Z&#252;rich - 1919 - 1950 er</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">61251adf7d364790938d6e3ea435a23a</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Z&#252;rich/Kunstgewerbeschule und Kunstgewerbemuseum Z&#252;rich</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/807406554bf6456186ed99f1257b2756/61251adf7d364790938d6e3ea435a23a</pfad_bestand_nur_guid_von_jeder_ebene>
+    <form_und_inhalt index="0">Bericht von Johannes Itten an den Schulvorstand, zu Handen des Stadtrates, &#252;ber die Biennale der ICOM (International Council of Museums) Paris 1948</form_und_inhalt>
+    <ueberlieferungsformen index="0">
+      <bezeichnung>analog ()</bezeichnung>
+    </ueberlieferungsformen>
+    <zugangsbestimmungen index="0">Schutzfrist bis 01.08.1978</zugangsbestimmungen>
+    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist index="0">
+      <bezeichnung>Jahre</bezeichnung>
+      <frist>30</frist>
+    </schutzfrist>
+    <ablauf_schutzfrist index="0">14.07.1978</ablauf_schutzfrist>
+    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
+    <ablauf_verwertungsrecht index="0">01.01.2038</ablauf_verwertungsrecht>
+    <lizenz index="0">
+      <bezeichnung>CC BY-NC-SA 4.0</bezeichnung>
+      <link>https://creativecommons.org/licenses/by-nc-sa/4.0/</link>
+    </lizenz>
+    <urheber_bekannt index="0">Ja</urheber_bekannt>
+    <urheber index="0">Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
+    <todesdatum_urheber index="0">1967</todesdatum_urheber>
+    <sprachen index="0">
+      <kuerzel>ger</kuerzel>
+      <bezeichnung>Deutsch</bezeichnung>
+      <gnd>4113292-0</gnd>
+    </sprachen>
+    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 109 / Entit&#228;t: Mitglieder des Internationalen Museumsrats Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Mitglieder aus 51 Nationen im Jahr 1948 (Quelle: Vorlage Hs NL 11: Cj 1.9). Beziehungen: Internationaler Museumsrat #GND4513241-0 (Mitglied); Entit&#228;t: Teilnehmer der Biennale des ICOM 1948 in Paris Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Anzahl 299 (Quelle: Vorlage Hs NL 11: Cj 1.9); Entit&#228;t: Mitglieder des Stadtrates von Z&#252;rich 1948 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Quelle: Vorlage Hs NL 11: Cj 1.9 Beziehungen: Z&#252;rich. Stadtrat #GND1079478566 (Mitglied); Entit&#228;t: Z&#252;rich #GND4068038-1 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen index="0">Vollst&#228;ndiger Titel: Bericht &#252;ber die Teilnahme des Unterzeichneten an der ersten Biennale der ICOM (International Council of Museums) in Paris vom 28. Juni bis 3. Juli 1948</allgemeine_anmerkungen>
+    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <registereintraege index="0">
+      <register_bezeichnung>Heydt, Eduard von der</register_bezeichnung>
+      <register_gnd-id>118704486</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1882" dateTo="1964">1882 - 1964</register_datum>
+      <register_id>49679</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118704486 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="1">
+      <register_bezeichnung>Wettergren, Erik</register_bezeichnung>
+      <register_gnd-id>117328057</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1883" dateTo="1961">1883 - 1961</register_datum>
+      <register_id>59351</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/117328057 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="2">
+      <register_bezeichnung>Ashton, Leigh</register_bezeichnung>
+      <register_gnd-id>171961099</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1897" dateTo="1983">1897 - 1983</register_datum>
+      <register_id>59350</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/171961099 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="3">
+      <register_bezeichnung>Sandberg, Willem Jacob Henri Berend</register_bezeichnung>
+      <register_gnd-id>118751158</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1897" dateTo="1984">1897 - 1984</register_datum>
+      <register_id>50721</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118751158 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="4">
+      <register_bezeichnung>Argan, Giulio Carlo</register_bezeichnung>
+      <register_gnd-id>119270323</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1909" dateTo="1992">1909 - 1992</register_datum>
+      <register_id>59349</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/119270323 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="5">
+      <register_bezeichnung>Rivi&#232;re, Georges Henri</register_bezeichnung>
+      <register_gnd-id>124177115</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1897" dateTo="1985">1897 - 1985</register_datum>
+      <register_id>59348</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/124177115 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="6">
+      <register_bezeichnung>Milliken, William Mathewson</register_bezeichnung>
+      <register_gnd-id>133312305</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1889" dateTo="1978">1889 - 1978</register_datum>
+      <register_id>59347</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/133312305 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="7">
+      <register_bezeichnung>D'Harnoncourt, Ren&#233;</register_bezeichnung>
+      <register_gnd-id>14405325X</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1901" dateTo="1968">1901 - 1968</register_datum>
+      <register_id>59346</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/14405325X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="8">
+      <register_bezeichnung>Gysin, Fritz</register_bezeichnung>
+      <register_gnd-id>107413590</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1895" dateTo="1984">1895 - 1984</register_datum>
+      <register_id>59345</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/107413590 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="9">
+      <register_bezeichnung>Hamlin, Chauncey Jerome</register_bezeichnung>
+      <register_gnd-id>125096007X</register_gnd-id>
+      <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
+      <register_datum dateFrom="1881" dateTo="1963">1881 - 1963</register_datum>
+      <register_id>59344</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/125096007X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="10">
+      <register_bezeichnung>Landolt, Emil</register_bezeichnung>
+      <register_gnd-id>1089939051</register_gnd-id>
+      <register_rolle code="rcp" label="contributor" term="adressat">Adressat (rcp) (Contributor)</register_rolle>
+      <register_datum dateFrom="1895" dateTo="1995">1895 - 1995</register_datum>
+      <register_id>38066</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/1089939051 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <registereintraege index="11">
+      <register_bezeichnung>Itten, Johannes</register_bezeichnung>
+      <register_gnd-id>118710990</register_gnd-id>
+      <register_rolle code="aut" label="creator" term="verfasser">Verfasser (aut) (Creator)</register_rolle>
+      <register_datum dateFrom="1888-11-11" dateTo="1967-03-25">11.11.1888 - 25.03.1967</register_datum>
+      <register_id>21160</register_id>
+      <registertyp>Personenregister</registertyp>
+      <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+    </registereintraege>
+    <doi index="0">https://doi.org/10.7891/e-manuscripta-124354</doi>
+    <parsed_internal_remarks index="0">
+      <entitaet>
+        <value>Z&#252;rich</value>
+        <identifiers>
+          <position>7</position>
+          <source>GND</source>
+          <value>4068038-1</value>
+        </identifiers>
+      </entitaet>
+      <typ>
+        <value>Geografikum</value>
+      </typ>
+      <rolle>
+        <value>Entstehungsort</value>
+      </rolle>
+    </parsed_internal_remarks>
+    <parsed_internal_remarks index="1">
+      <entitaet>
+        <value>Mitglieder des Stadtrates von Z&#252;rich 1948</value>
+      </entitaet>
+      <typ>
+        <value>Person</value>
+      </typ>
+      <rolle>
+        <value>Erw&#228;hnt</value>
+        <qualifier>Empty</qualifier>
+      </rolle>
+      <bemerkungen>
+        <value>Quelle: Vorlage Hs NL 11: Cj 1.9</value>
+      </bemerkungen>
+      <beziehungen>
+        <value>Z&#252;rich. Stadtrat</value>
+        <identifiers>
+          <position>17</position>
+          <source>GND</source>
+          <value>1079478566</value>
+        </identifiers>
+        <qualifier>Mitglied</qualifier>
+      </beziehungen>
+    </parsed_internal_remarks>
+    <parsed_internal_remarks index="2">
+      <entitaet>
+        <value>Teilnehmer der Biennale des ICOM 1948 in Paris</value>
+      </entitaet>
+      <typ>
+        <value>Person</value>
+      </typ>
+      <rolle>
+        <value>Erw&#228;hnt</value>
+        <qualifier>Empty</qualifier>
+      </rolle>
+      <bemerkungen>
+        <value>Anzahl 299 (Quelle: Vorlage Hs NL 11: Cj 1.9)</value>
+      </bemerkungen>
+    </parsed_internal_remarks>
+    <parsed_internal_remarks index="3">
+      <entitaet>
+        <value>Mitglieder des Internationalen Museumsrats</value>
+      </entitaet>
+      <typ>
+        <value>Person</value>
+      </typ>
+      <rolle>
+        <value>Erw&#228;hnt</value>
+        <qualifier>Empty</qualifier>
+      </rolle>
+      <bemerkungen>
+        <value>Mitglieder aus 51 Nationen im Jahr 1948 (Quelle: Vorlage Hs NL 11: Cj 1.9).</value>
+      </bemerkungen>
+      <beziehungen>
+        <value>Internationaler Museumsrat</value>
+        <identifiers>
+          <position>27</position>
+          <source>GND</source>
+          <value>4513241-0</value>
+        </identifiers>
+        <qualifier>Mitglied</qualifier>
+      </beziehungen>
+    </parsed_internal_remarks>
+    <oai>
+      <header>
+        <identifier>oai:www.e-manuscripta.ch/zuzcmi:3419803</identifier>
+        <datestamp>2022-01-06T09:20:50Z</datestamp>
+        <setSpec>emanuszuzcmi</setSpec>
+        <setSpec>document</setSpec>
+      </header>
+      <metadata>
+        <mets xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:mets="http://www.loc.gov/METS/"
+          xmlns:mods="http://www.loc.gov/mods/v3"
+          xmlns:vl="http://visuallibrary.net/vl"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd" OBJID="12" LABEL="Zentralbibliothek Z&#252;rich - CMI">
+          <dmdSec ID="md3419803">
+            <mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+              <xmlData>
+                <mods version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+                  <titleInfo>
+                    <title>Johannes Itten: Bericht &#252;ber die erste Biennale der ICOM 1948</title>
+                  </titleInfo>
+                  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/118710990">
+                    <displayForm>Itten, Johannes</displayForm>
+                    <role>
+                      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                      <roleTerm type="text">Verfasser</roleTerm>
+                    </role>
+                  </name>
+                  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/1089939051">
+                    <displayForm>Landolt, Emil</displayForm>
+                    <role>
+                      <roleTerm type="code" authority="marcrelator">rcp</roleTerm>
+                      <roleTerm type="text">Adressat</roleTerm>
+                    </role>
+                  </name>
+                  <typeOfResource>text</typeOfResource>
+                  <originInfo>
+                    <place>
+                      <placeTerm type="text">Z&#252;rich</placeTerm>
+                    </place>
+                    <dateCreated>13.07.1948</dateCreated>
+                    <dateCreated point="start" encoding="w3cdtf" keyDate="yes">1948-07-13</dateCreated>
+                    <dateCreated point="end" encoding="w3cdtf">1948-07-14</dateCreated>
+                  </originInfo>
+                  <language>
+                    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+                  </language>
+                  <physicalDescription>
+                    <extent>3 Bl&#228;tter</extent>
+                  </physicalDescription>
+                  <abstract>Bericht von Johannes Itten an den Schulvorstand, zu Handen des Stadtrates, &#252;ber die Biennale der ICOM (International Council of Museums) Paris 1948</abstract>
+                  <identifier type="doi">10.7891/e-manuscripta-124354</identifier>
+                  <location>
+                    <shelfLocator>Hs NL 11: Cj 1.9</shelfLocator>
+                  </location>
+                  <accessCondition type="use and reproduction" xlink:href="http://rightsstatements.org/vocab/InC/1.0/" displayLabel="Nutzungsrechte eingeschr&#228;nkt">reserved</accessCondition>
+                  <extension>
+                    <relatedItem type="inventory">
+                      <titleInfo>
+                        <title>Itten, Johannes (1888-1967)</title>
+                      </titleInfo>
+                      <note type="content">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Z&#252;rich/Kunstgewerbeschule und Kunstgewerbemuseum Z&#252;rich</note>
+                      <recordInfo>
+                        <recordIdentifier>43a2ab3eb18841db9ec1af3669b74f39</recordIdentifier>
+                      </recordInfo>
+                    </relatedItem>
+                    <originInfo displayLabel="dc">
+                      <dateCreated encoding="w3cdtf" point="start">1948-07-13</dateCreated>
+                      <dateCreated encoding="w3cdtf" point="end">1948-07-14</dateCreated>
+                    </originInfo>
+                    <info xmlns:vlz="http://visuallibrary.net/vlz/1.0/" version="2"/>
+                  </extension>
+                  <recordInfo>
+                    <recordIdentifier source="emanuszuzcmi">13ff406d0e7946fc90449c4061917c31</recordIdentifier>
+                  </recordInfo>
+                </mods>
+              </xmlData>
+            </mdWrap>
+          </dmdSec>
+          <amdSec ID="amd3419803">
+            <rightsMD ID="rights3419803">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>reserved</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3419803">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/13ff406d0e7946fc90449c4061917c31</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3419803</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419803/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3419803</sru>
+                    <images>
+                      <image id="3419805">
+                        <height>4775</height>
+                        <width>3420</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419805</url>
+                      </image>
+                      <image id="3419806">
+                        <height>4775</height>
+                        <width>3420</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419806</url>
+                      </image>
+                      <image id="3419807">
+                        <height>4775</height>
+                        <width>3420</width>
+                        <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419807</url>
+                      </image>
+                    </images>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+          <amdSec ID="amd3212613">
+            <rightsMD ID="rights3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <xmlData>
+                  <rights xmlns:dv="http://dfg-viewer.de/">
+                    <ownerLogo>https://www.e-manuscripta.ch/zuzcmi//domainresource/static/graphics/connectors/emanusIco.gif</ownerLogo>
+                    <owner>Zentralbibliothek Z&#252;rich</owner>
+                    <ownerSiteURL>http://www.zb.uzh.ch</ownerSiteURL>
+                    <license>pdm</license>
+                  </rights>
+                </xmlData>
+              </mdWrap>
+            </rightsMD>
+            <digiprovMD ID="digiprov3212613">
+              <mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <xmlData>
+                  <links xmlns:dv="http://dfg-viewer.de/">
+                    <reference>https://zbcollections.ch/home/#/content/43a2ab3eb18841db9ec1af3669b74f39</reference>
+                    <presentation>https://www.e-manuscripta.ch/zuzcmi/id/3212613</presentation>
+                    <iiif>https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3212613/manifest</iiif>
+                    <sru>https://www.e-manuscripta.ch/zuzcmi/proto_ftsearch/3212613</sru>
+                  </links>
+                </xmlData>
+              </mdWrap>
+            </digiprovMD>
+          </amdSec>
+        </mets>
+      </metadata>
+    </oai>
+  </record>
+
 </collection>
