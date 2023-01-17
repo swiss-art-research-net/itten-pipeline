@@ -92,4 +92,20 @@ INSERT {
 } WHERE {
   ?subject a crm:E22_Human-Made_Object .
   FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
+};
+
+# Add CIDOC-CRM types for external entities
+INSERT {
+  GRAPH sari:relations {
+    ?subject a crm:E53_Place .
+  }
+} WHERE {
+  ?person a gndo:Person ;
+    ?placeRelation ?subject .
+  VALUES (?placeRelation) {
+    (gndo:placeOfActivity)
+    (gndo:placeOfBirth)
+    (gndo:placeOfDeath)
+    (gndo:geographicAreaCode)
+  }
 }
