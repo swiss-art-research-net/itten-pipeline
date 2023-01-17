@@ -37,6 +37,12 @@ from lib.utils import readRecords, RetrieveVLIDfromDOI
 from lib.parser import Parser
 from sariDateParser.dateParser import parse
 
+FIELDS_TO_ALIGN = {
+    "archivalienarten": ["Archivalienarten", "Bezeichnung"],
+    "sprachen": ["Sprachen", "Bezeichnung"],
+    "verzeichnungsstufe": ["Verzeichnungsstufe"]
+}
+
 def prepareData(options):
     sourceFolder = options['sourceFolder']
     oaiXMLFolder = options['oaiXMLFolder']
@@ -65,7 +71,7 @@ def prepareData(options):
     oaiXmlData = retrieveOaiXMLData(records=records, oaiXMLFolder=oaiXMLFolder, vlidMapFile=vlidMapFile)
 
     # Add alignment data
-    records = addAlignmentData(records, sourceFolder=sourceFolder, alignmentDataPrefix=alignmentDataPrefix)
+    records = addAlignmentData(records, sourceFolder=sourceFolder, alignmentDataPrefix=alignmentDataPrefix, fieldsToAlign=FIELDS_TO_ALIGN)
     
     # Parse internal remarks
     records = parseInternalRemarks(records)
@@ -97,7 +103,7 @@ def prepareData(options):
     # Write to files
     writeXMLRecordsToFiles(recordsXML, outputFolder)
 
-def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix):
+def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix, fieldsToAlign):
     """
     Adds the data from alignment files to the records.
     The alignment files are expected to be in the source folder and identiferd by the alignmentDataPrefix.
@@ -181,12 +187,6 @@ def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix):
                 record[path[0]][index][path[1]] = value
             else:
                 record[path[0]][path[1]][path[2]] = value
-       
-    fieldsToAlign = {
-        "archivalienarten": ["Archivalienarten", "Bezeichnung"],
-        "sprachen": ["Sprachen", "Bezeichnung"],
-        "verzeichnungsstufe": ["Verzeichnungsstufe"]
-    }
 
     alignmentData = readAlignmentFiles(fieldsToAlign, sourceFolder=sourceFolder, alignmentDataPrefix=alignmentDataPrefix)
     
