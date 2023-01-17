@@ -40,7 +40,6 @@ from sariDateParser.dateParser import parse
 FIELDS_TO_ALIGN = {
     "archivalienarten": ["Archivalienarten", "Bezeichnung"],
     "sprachen": ["Sprachen", "Bezeichnung"],
-    "verzeichnungsstufe": ["Verzeichnungsstufe"]
     "verzeichnungsstufe": ["Verzeichnungsstufe"],
     "registereintraege": ["Registereinträge", "Register ID"],
 }
@@ -204,7 +203,7 @@ def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix, fieldsToAlig
                             try:
                                 alignmentValues = data['content'][data['lookup'][customHash(value[key])]]
                             except:
-                                print("Could not find alignment value for: " + str(value))
+                                print("Could not find alignment value for " + str(value) + " using " + key)
                                 sys.exit(1)
                             for alignmentKey, alignmentValue in alignmentValues.items():
                                 if alignmentKey not in ['key', 'path', 'value', None]:
@@ -217,7 +216,7 @@ def addAlignmentData(records, *, sourceFolder, alignmentDataPrefix, fieldsToAlig
                     try:
                         alignmentValue = data['content'][data['lookup'][customHash(value)]]
                     except:
-                        print("Could not find alignment value for: " + str(value))
+                        print("Could not find alignment value for " + str(value) + " using " + key)
                         sys.exit(1)
                     newValue = {'value': value}
                     for alignmentKey, alignmentValue in alignmentValue.items():
