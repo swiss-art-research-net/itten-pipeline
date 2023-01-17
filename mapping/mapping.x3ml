@@ -881,6 +881,65 @@
         </mapping>
         <mapping>
             <domain>
+                <source_node>/collection/record/registereintraege</source_node>
+                <target_node>
+                    <if>
+                        <and>
+                            <if>
+                                <equals value="erwaehnt">register_rolle/@term</equals>
+                            </if>
+                            <if>
+                                <equals value="Körperschaftsregister">registertyp/text()</equals>
+                            </if>
+                        </and>
+                    </if>
+                    <entity variable="collection">
+                        <type>crm:E78_Curated_Holding</type>
+                        <instance_generator name="URIwithTypeAndId">
+                            <arg name="type" type="constant">collection</arg>
+                            <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>register_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P128_carries</relationship>
+                        <entity variable="collection_expression">
+                            <type>frbroo:F2_Expression</type>
+                            <instance_generator name="URIwithTypeSubtypeAndId">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../../guid/text())</arg>
+                                <arg name="subtype" type="constant">expression</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P67_refers_to</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>register_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E39_Actor</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../register_gnd-id/text()) then (../register_gnd-id/text()) else (text())</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">../register_bezeichnung/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
                 <source_node>/collection/record/parsed_internal_remarks</source_node>
                 <target_node>
                     <if>
@@ -2207,7 +2266,7 @@
                             <type>crm:E52_Time-Span</type>
                             <instance_generator name="URIwithTypeSuptypeLevel1AndId_hashed">
                                 <arg name="type" type="constant">actor</arg>
-                                <arg type="xpath" name="id_HASHED_CONTENTS">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_id/text())</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../register_gnd-id/text()) then (../../register_gnd-id/text()) else (../../register_id/text())</arg>
                                 <arg name="subtype" type="constant">death</arg>
                                 <arg name="level1" type="constant">date</arg>
                             </instance_generator>
