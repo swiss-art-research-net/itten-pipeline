@@ -11,6 +11,9 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX gn: <http://www.geonames.org/ontology#>
 PREFIX schema: <http://schema.org/>
 
+# Clear graph
+DROP GRAPH sari:relations;
+
 # Add basic ontology for Search relations
 INSERT DATA {
   GRAPH sari:relations {
@@ -107,6 +110,18 @@ INSERT {
     (gndo:placeOfBirth)
     (gndo:placeOfDeath)
     (gndo:geographicAreaCode)
+  }
+};
+
+INSERT {
+  GRAPH sari:relations {
+    ?subject a crm:E21_Person .
+  }
+} WHERE {
+  ?person a gndo:Person ;
+    ?personRelation ?subject .
+  VALUES (?placeRelation) {
+    (gndo:familialRelationship)
   }
 };
 
