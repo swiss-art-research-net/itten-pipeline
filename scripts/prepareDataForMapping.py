@@ -77,6 +77,12 @@ def prepareData(options):
     # Parse internal remarks
     records = parseInternalRemarks(records)
 
+    # Parse register remarks
+
+    # So far none of the register remarks contain structured data.
+    # If this changes, the following line should be uncommented. 
+    #records = parseRegisterRemarks(records)
+
     # Convert to XML
     recordsXML = convertRecordsToXML(records, flattenLists=True)
 
@@ -564,6 +570,23 @@ def parseInternalRemarks(records):
         if remarks:
             record["parsed internal remarks"] = p.parse(remarks)
 
+    return records
+
+def parseRegisterRemarks(records):
+    """
+    Parse the semi-structured information specified as part of the register remarks node ("Register Bemerkungen")
+
+    :param records: list of CMI records in source format
+    :return: list of CMI records in source format with parsed register remarks
+    """
+    p = Parser()
+    for record in records:
+        registerEntries = record["Registereinträge"]
+        if registerEntries and len(registerEntries):
+            for registerEntry in registerEntries:
+                remarks = registerEntry["Register Bemerkungen"]
+                if remarks:
+                    registerEntry["parsed remarks"] = p.parse(remarks)
     return records
 
 def removeIttenArchiveNode(records):
