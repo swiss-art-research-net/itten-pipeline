@@ -191,6 +191,10 @@
 	<generator name="URIwithLocId" prefix="loc">
 		<pattern>{id}</pattern>
 	</generator>
+		
+	<generator name="URIwithSikartId" prefix="sikart">
+		<pattern>{id}</pattern>
+	</generator>
 
 	<generator name="URIwithUlanId" prefix="ulan">
 		<pattern>{id}</pattern>
