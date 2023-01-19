@@ -41,7 +41,7 @@ FIELDS_TO_ALIGN = {
     "archivalienarten": ["Archivalienarten", "Bezeichnung"],
     "sprachen": ["Sprachen", "Bezeichnung"],
     "verzeichnungsstufe": ["Verzeichnungsstufe"],
-    "registereintraege": ["Registereinträge", "Register ID"],
+    "register_id": ["Registereinträge", "Register ID"],
 }
 
 def prepareData(options):
