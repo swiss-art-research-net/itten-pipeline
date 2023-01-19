@@ -64,6 +64,8 @@
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>4023401</sikart_id>
+      <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <registereintraege index="1">
       <register_bezeichnung>Reidemeister, Leopold</register_bezeichnung>
@@ -73,6 +75,7 @@
       <register_id>44504</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/119335603 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q1819801</wikidata_id>
     </registereintraege>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-132167</doi>
     <parsed_internal_remarks index="0">
@@ -311,6 +314,7 @@
       <register_id>22078</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Geburtsname: Schl&#246;sser, Anneliese / Link zur GND: &lt;a href=http://d-nb.info/gnd/11721227X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q95702267</wikidata_id>
     </registereintraege>
     <registereintraege index="2">
       <register_bezeichnung>Curjel, Hans</register_bezeichnung>
@@ -320,6 +324,7 @@
       <register_id>50896</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/116766107 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q17249803</wikidata_id>
     </registereintraege>
     <registereintraege index="3">
       <register_bezeichnung>Schreyer, Lothar</register_bezeichnung>
@@ -329,6 +334,7 @@
       <register_id>45046</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118980351 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q255662</wikidata_id>
     </registereintraege>
     <registereintraege index="4">
       <register_bezeichnung>Grote, Ludwig</register_bezeichnung>
@@ -338,6 +344,7 @@
       <register_id>46081</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118698222 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q1874460</wikidata_id>
     </registereintraege>
     <registereintraege index="5">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
@@ -347,6 +354,8 @@
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>4023401</sikart_id>
+      <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <registereintraege index="6">
       <register_bezeichnung>Sandberg, Willem Jacob Henri Berend</register_bezeichnung>
@@ -356,6 +365,7 @@
       <register_id>50721</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118751158 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q480473</wikidata_id>
     </registereintraege>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-128188</doi>
     <parsed_internal_remarks index="0">
@@ -781,6 +791,7 @@
       <register_id>22078</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Geburtsname: Schl&#246;sser, Anneliese / Link zur GND: &lt;a href=http://d-nb.info/gnd/11721227X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q95702267</wikidata_id>
     </registereintraege>
     <registereintraege index="1">
       <register_bezeichnung>Brard, Pierre</register_bezeichnung>
@@ -799,6 +810,7 @@
       <register_id>29863</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118557513 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q302</wikidata_id>
     </registereintraege>
     <registereintraege index="3">
       <register_bezeichnung>Gasquet, Joachim</register_bezeichnung>
@@ -808,6 +820,7 @@
       <register_id>65119</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118904523 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q1690095</wikidata_id>
     </registereintraege>
     <registereintraege index="4">
       <register_bezeichnung>H&#246;lzel, Adolf</register_bezeichnung>
@@ -817,6 +830,8 @@
       <register_id>39785</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552058 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: H&#246;lzel, Adolf Richard; Hoelzel, Adolf</register_bemerkungen>
+      <sikart_id>13045693</sikart_id>
+      <wikidata_id>Q362498</wikidata_id>
     </registereintraege>
     <registereintraege index="5">
       <register_bezeichnung>Matisse, Henri</register_bezeichnung>
@@ -826,6 +841,7 @@
       <register_id>60572</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118578847 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q5589</wikidata_id>
     </registereintraege>
     <registereintraege index="6">
       <register_bezeichnung>Thomas, von Kempen</register_bezeichnung>
@@ -835,6 +851,7 @@
       <register_id>65441</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118642766 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Thomas, a Kempis; Thomas, van Kempen; Hermerken a Kempis, Thomas; Hemerken a Kempis, Thomas; H&#228;mmerken, Toma; Harmelein, Toma; Hamerkens Kempenes, Toms; Champs, Thomas des; DesChamps, Thomas; Kempen, Thomas van; Kempen, Tomas de; Kempen-Sailer, Thomas v.; Kempis, Thoma a; Kempes, Thomas a; Kempis, Thomas &#226;; Kempis, Tomas de; Kempis, Thomas Hermerken a; Kempenac, Toma; Kempenski, Toma; Kempten, Thomas von / Wirklicher Name: Hemerken, Thomas</register_bemerkungen>
+      <wikidata_id>Q220976</wikidata_id>
     </registereintraege>
     <registereintraege index="7">
       <register_bezeichnung>Tintoretto</register_bezeichnung>
@@ -844,6 +861,7 @@
       <register_id>65333</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118622854 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Robusti, Jacopo (Wirklicher Name); Robusti, Iacopo; Tintoretto, Jacopo R.; Tintoret; Le Tintoret; Tintoret, Le; Tintoretto, Jacopo Robusti; Tintoretto, Jacomo (Vornamensform in Buchtitel); Tintoret, Jacopo; Il Tintoretto; Tintoretto, Il; Tintoretto; Tintoretto, Giacomo; Robusti, Giacopo; Tintoretto, Jacobo; Tentor, Jacomo; RobustiTintoretto, Jacopo; Tintoretto, Jacopo; Tinctorettus, Iacobus; Comin, Jacopo</register_bemerkungen>
+      <wikidata_id>Q9319</wikidata_id>
     </registereintraege>
     <registereintraege index="8">
       <register_bezeichnung>Piero, della Francesca</register_bezeichnung>
@@ -853,6 +871,7 @@
       <register_id>65134</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118524577 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q5822</wikidata_id>
     </registereintraege>
     <registereintraege index="9">
       <register_bezeichnung>Thomas, von Aquin, Heiliger</register_bezeichnung>
@@ -862,6 +881,7 @@
       <register_id>65438</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118622110 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q9438</wikidata_id>
     </registereintraege>
     <registereintraege index="10">
       <register_bezeichnung>Vecellio, Tiziano</register_bezeichnung>
@@ -871,6 +891,7 @@
       <register_id>55947</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118622994 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q47551</wikidata_id>
     </registereintraege>
     <registereintraege index="11">
       <register_bezeichnung>Xipe Totec, Gott</register_bezeichnung>
@@ -889,6 +910,7 @@
       <register_id>35417</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen/>
+      <wikidata_id>Q5598</wikidata_id>
     </registereintraege>
     <registereintraege index="13">
       <register_bezeichnung>C&#233;zanne, Paul</register_bezeichnung>
@@ -898,6 +920,7 @@
       <register_id>60374</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118519964 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q35548</wikidata_id>
     </registereintraege>
     <registereintraege index="14">
       <register_bezeichnung>Bruegel, Pieter, de Oudere</register_bezeichnung>
@@ -907,6 +930,7 @@
       <register_id>65322</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118674013 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Bruegel, Pieter, der &#196;ltere (B 1986, Winkler Prins); Bruegel, Pieter, d. &#196;.; Bruegel, Pieter, the Elder; Bruegel, Pieter; Bruegel, Pieter, il Vecchio; Bruegel, Pieter, el Viejo; Bruegel, Peter, de Oudere; Bruegel, Peter, der &#196;ltere; Bruegel, Peter; Bruegel, Peeter; Bruegel, Pierre, l'Ancien; Bruegel, Pierre, der &#196;ltere; Bruegel, Pierre, le Vieux; Bruegel; Bruegel, der &#196;ltere; Brueghel, Pieter, de Oudere; Brueghel, Pieter van; Brueghel, Pieter; Brueghel, Peter, de Oudere; Brueghel, Peter, der &#196;ltere; Brueghel, Peter; Brueghel, de Oudere; Breugel, Pierre, l'Ancien; Breugel, Pieter, der &#196;ltere; Breugel, Peter, der &#196;ltere; Breugel, Peter; Breugel, Petrus; Breughel, Pieter, der &#196;ltere (M); Breughel, Pieter, de Oudere; Breughel, Pieter; Breughel, Peter, der &#196;ltere; Breughel, Peter; Bauern-Bruegel; Bauernbruegel; Bauern-Breughel; Boere-Brueghel; Peer, den Drol; Brejgel', Piter</register_bemerkungen>
+      <wikidata_id>Q43270</wikidata_id>
     </registereintraege>
     <registereintraege index="15">
       <register_bezeichnung>Ganz, Paul Leonhard</register_bezeichnung>
@@ -916,6 +940,7 @@
       <register_id>20019</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/137933096 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q94924201</wikidata_id>
     </registereintraege>
     <registereintraege index="16">
       <register_bezeichnung>Mu?ammad</register_bezeichnung>
@@ -925,6 +950,7 @@
       <register_id>65302</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118583158 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Mu?ammad, Prophet; Muhammad, der Prophet; Mu?ammad an-Nabi; Mu?ammad, Nabi; Mu?ammad Ibn-?Abdallah Ibn-?Abd-al-Mu??alib; Mu?ammad Ibn-?Abdallah, Prophet; Mu?ammad,; Rasul Allah; Muhhamad, Prophet; Muhammad; Muhamed; Muhammed; Muhammed, der Sohn Abdall; Mu?ammad Ibn-?Abdallah; Muhhammed, Prophet; Muhammedanus; Macometto; Maometto, Profeta; Machomet; Mahmed; Mahomed; Mahomed, Prophet; Mahommed; Mahomet, Prophet; Machomet, Prophet; Mahoma; Mahomet; Mahumed; Machumet; Mahumetus; Magomet; Me?met; Me?med; Mehemmed; Mohamad; Mohamed; Mohamed, Prophet; Mo?ammad; Mohammed, Prophet; Mohammed Ibn Abdallah; Mohammed, Abdallah, Sohn; Mohammed Filius Abdallae; Mohammed; Mohamet; Mohamet, Prophet; Mouhamed</register_bemerkungen>
+      <wikidata_id>Q9458</wikidata_id>
     </registereintraege>
     <registereintraege index="17">
       <register_bezeichnung>Eyck, Jan van</register_bezeichnung>
@@ -934,6 +960,7 @@
       <register_id>65129</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118531557 target="_blank"&gt;GND&lt;/a&gt; / Eyck, Jean van; Eyck, Joh. van; Eyck, Ioannes ab; Eijck, Jan van; Jan, van Eyck; Eyck, Johan van; Eyck, Johann von; Eyck, Johannes van; Eyck, John van; Van Eyck, Jan; Eik, Ian van; Van Eyck, Johann; Eyck, Johann van</register_bemerkungen>
+      <wikidata_id>Q102272</wikidata_id>
     </registereintraege>
     <registereintraege index="18">
       <register_bezeichnung>G&#233;ricault, Th&#233;odore</register_bezeichnung>
@@ -943,6 +970,7 @@
       <register_id>65318</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118538675 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: G&#233;ricault, Jean L.; G&#233;ricault, Jean Louis Andr&#233; Th&#233;odore</register_bemerkungen>
+      <wikidata_id>Q184212</wikidata_id>
     </registereintraege>
     <registereintraege index="19">
       <register_bezeichnung>Spinoza, Benedictus de</register_bezeichnung>
@@ -952,6 +980,7 @@
       <register_id>36065</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118616242 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q35802</wikidata_id>
     </registereintraege>
     <registereintraege index="20">
       <register_bezeichnung>Einstein, Albert</register_bezeichnung>
@@ -961,6 +990,7 @@
       <register_id>15239</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118529579 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q937</wikidata_id>
     </registereintraege>
     <registereintraege index="21">
       <register_bezeichnung>Brinkmann, Donald</register_bezeichnung>
@@ -970,6 +1000,7 @@
       <register_id>36572</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118674161 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q17194410</wikidata_id>
     </registereintraege>
     <registereintraege index="22">
       <register_bezeichnung>Zurbar&#225;n, Francisco de</register_bezeichnung>
@@ -979,6 +1010,7 @@
       <register_id>65334</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118808672 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q209615</wikidata_id>
     </registereintraege>
     <registereintraege index="23">
       <register_bezeichnung>Chardin, Jean Baptiste Sim&#233;on</register_bezeichnung>
@@ -988,6 +1020,7 @@
       <register_id>59609</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118520121 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q207447</wikidata_id>
     </registereintraege>
     <registereintraege index="24">
       <register_bezeichnung>Gogh, Theo van</register_bezeichnung>
@@ -997,6 +1030,7 @@
       <register_id>65423</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118953974 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q317188</wikidata_id>
     </registereintraege>
     <registereintraege index="25">
       <register_bezeichnung>Gogh, Vincent van</register_bezeichnung>
@@ -1006,6 +1040,7 @@
       <register_id>60511</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118540416 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Gogh, Vincent-Willem van; Gogh, Vincent Willem van; VanGogh, Vincent</register_bemerkungen>
+      <wikidata_id>Q5582</wikidata_id>
     </registereintraege>
     <registereintraege index="26">
       <register_bezeichnung>Libiszewski, Serge</register_bezeichnung>
@@ -1015,6 +1050,8 @@
       <register_id>55197</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/1011337037 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Libis, Sergio; Sibiszewsky, Serge</register_bemerkungen>
+      <sikart_id>11982935</sikart_id>
+      <wikidata_id>Q85099546</wikidata_id>
     </registereintraege>
     <registereintraege index="27">
       <register_bezeichnung>Finsler, Hans</register_bezeichnung>
@@ -1024,6 +1061,8 @@
       <register_id>37888</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11900013X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>11654302</sikart_id>
+      <wikidata_id>Q686188</wikidata_id>
     </registereintraege>
     <registereintraege index="28">
       <register_bezeichnung>Delacroix, Eug&#232;ne</register_bezeichnung>
@@ -1033,6 +1072,7 @@
       <register_id>64841</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118524461 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q33477</wikidata_id>
     </registereintraege>
     <registereintraege index="29">
       <register_bezeichnung>Leibl, Wilhelm</register_bezeichnung>
@@ -1042,6 +1082,7 @@
       <register_id>64874</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118571222 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q704661</wikidata_id>
     </registereintraege>
     <registereintraege index="30">
       <register_bezeichnung>Monet, Claude</register_bezeichnung>
@@ -1051,6 +1092,7 @@
       <register_id>60514</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11858345X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q296</wikidata_id>
     </registereintraege>
     <registereintraege index="31">
       <register_bezeichnung>Renoir, Auguste</register_bezeichnung>
@@ -1060,6 +1102,7 @@
       <register_id>65123</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118599755 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q39931</wikidata_id>
     </registereintraege>
     <registereintraege index="32">
       <register_bezeichnung>Pissarro, Camille</register_bezeichnung>
@@ -1069,6 +1112,7 @@
       <register_id>65124</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118594672 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Pissarro, C.; Pissarro, ...; Pissarro, Camille Jacob; Pissarro, Jacob-Abraham-Camille; Pissarro, Jacob Abraham Camille; Pissaro, Camille; Pisaro, ?ami</register_bemerkungen>
+      <wikidata_id>Q134741</wikidata_id>
     </registereintraege>
     <registereintraege index="33">
       <register_bezeichnung>Witz, Konrad</register_bezeichnung>
@@ -1078,6 +1122,8 @@
       <register_id>60772</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118769677 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>4024238</sikart_id>
+      <wikidata_id>Q313183</wikidata_id>
     </registereintraege>
     <registereintraege index="34">
       <register_bezeichnung>David, Jacques Louis</register_bezeichnung>
@@ -1087,6 +1133,7 @@
       <register_id>64870</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118523945 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q83155</wikidata_id>
     </registereintraege>
     <registereintraege index="35">
       <register_bezeichnung>Holbein, Hans</register_bezeichnung>
@@ -1096,6 +1143,8 @@
       <register_id>29481</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552953 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Holbein, Hans der J&#252;ngere</register_bemerkungen>
+      <sikart_id>4022819</sikart_id>
+      <wikidata_id>Q48319</wikidata_id>
     </registereintraege>
     <registereintraege index="36">
       <register_bezeichnung>Saint-Exup&#233;ry, Antoine de</register_bezeichnung>
@@ -1105,6 +1154,7 @@
       <register_id>60406</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118604902 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q2908</wikidata_id>
     </registereintraege>
     <registereintraege index="37">
       <register_bezeichnung>Runge, Philipp Otto</register_bezeichnung>
@@ -1114,6 +1164,7 @@
       <register_id>43920</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118604155 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q166585</wikidata_id>
     </registereintraege>
     <registereintraege index="38">
       <register_bezeichnung>Goethe, Johann Wolfgang von</register_bezeichnung>
@@ -1123,6 +1174,7 @@
       <register_id>334</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen/>
+      <wikidata_id>Q5879</wikidata_id>
     </registereintraege>
     <registereintraege index="39">
       <register_bezeichnung>Ostwald, Wilhelm</register_bezeichnung>
@@ -1132,6 +1184,7 @@
       <register_id>60614</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11859057X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q12658</wikidata_id>
     </registereintraege>
     <registereintraege index="40">
       <register_bezeichnung>Mussolini, Benito</register_bezeichnung>
@@ -1141,6 +1194,7 @@
       <register_id>65420</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118585967 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q23559</wikidata_id>
     </registereintraege>
     <registereintraege index="41">
       <register_bezeichnung>Le Corbusier</register_bezeichnung>
@@ -1150,6 +1204,8 @@
       <register_id>65419</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118676873 target="_blank"&gt;GND&lt;/a&gt; / Wirklicher Name: Jeanneret-Gris, Charles &#201;douard</register_bemerkungen>
+      <sikart_id>4000293</sikart_id>
+      <wikidata_id>Q4724</wikidata_id>
     </registereintraege>
     <registereintraege index="42">
       <register_bezeichnung>L&#233;ger, Fernand</register_bezeichnung>
@@ -1159,6 +1215,8 @@
       <register_id>65329</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118570994 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>9990254</sikart_id>
+      <wikidata_id>Q157183</wikidata_id>
     </registereintraege>
     <registereintraege index="43">
       <register_bezeichnung>Braque, Georges</register_bezeichnung>
@@ -1168,6 +1226,7 @@
       <register_id>60573</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118514504 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q153793</wikidata_id>
     </registereintraege>
     <registereintraege index="44">
       <register_bezeichnung>Picasso, Pablo</register_bezeichnung>
@@ -1177,6 +1236,8 @@
       <register_id>59513</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118594206 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>9744984</sikart_id>
+      <wikidata_id>Q5593</wikidata_id>
     </registereintraege>
     <registereintraege index="45">
       <register_bezeichnung>Mondrian, Piet</register_bezeichnung>
@@ -1186,6 +1247,7 @@
       <register_id>60592</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118583441 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q151803</wikidata_id>
     </registereintraege>
     <registereintraege index="46">
       <register_bezeichnung>Br&#226;ncusi, Constantin</register_bezeichnung>
@@ -1195,6 +1257,7 @@
       <register_id>65418</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118673076 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Brancusi; Br&#238;ncusi, Constantin; Br&#226;ncusi, C.</register_bemerkungen>
+      <wikidata_id>Q153048</wikidata_id>
     </registereintraege>
     <registereintraege index="47">
       <register_bezeichnung>Arp, Hans</register_bezeichnung>
@@ -1204,6 +1267,8 @@
       <register_id>14896</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118504398 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>4023372</sikart_id>
+      <wikidata_id>Q153739</wikidata_id>
     </registereintraege>
     <registereintraege index="48">
       <register_bezeichnung>Gr&#252;newald, Matthias</register_bezeichnung>
@@ -1213,6 +1278,7 @@
       <register_id>60773</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118542907 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q154338</wikidata_id>
     </registereintraege>
     <registereintraege index="49">
       <register_bezeichnung>El Greco</register_bezeichnung>
@@ -1222,6 +1288,7 @@
       <register_id>60404</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118722778 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q301</wikidata_id>
     </registereintraege>
     <registereintraege index="50">
       <register_bezeichnung>Veronese, Paolo</register_bezeichnung>
@@ -1231,6 +1298,7 @@
       <register_id>65417</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118626647 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q9440</wikidata_id>
     </registereintraege>
     <registereintraege index="51">
       <register_bezeichnung>Giotto, di Bondone</register_bezeichnung>
@@ -1240,6 +1308,7 @@
       <register_id>65327</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118539477 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q7814</wikidata_id>
     </registereintraege>
     <registereintraege index="52">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
@@ -1249,6 +1318,8 @@
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>4023401</sikart_id>
+      <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-135316</doi>
     <parsed_internal_remarks index="0">
@@ -3237,6 +3308,8 @@
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>4023401</sikart_id>
+      <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-124359</doi>
     <parsed_internal_remarks index="0">
@@ -3494,6 +3567,7 @@
       <register_id>65970</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118598988 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q57139</wikidata_id>
     </registereintraege>
     <registereintraege index="1">
       <register_bezeichnung>Bosch, Hieronymus</register_bezeichnung>
@@ -3503,6 +3577,7 @@
       <register_id>65321</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11851380X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q130531</wikidata_id>
     </registereintraege>
     <registereintraege index="2">
       <register_bezeichnung>Edison, Thomas A.</register_bezeichnung>
@@ -3512,6 +3587,7 @@
       <register_id>64861</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118528912 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Edison, Thomas; Edison, Thomas Alva; Alva Edison, Thomas</register_bemerkungen>
+      <wikidata_id>Q8743</wikidata_id>
     </registereintraege>
     <registereintraege index="3">
       <register_bezeichnung>Angelico, Fra</register_bezeichnung>
@@ -3521,6 +3597,7 @@
       <register_id>60771</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118503081 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q5664</wikidata_id>
     </registereintraege>
     <registereintraege index="4">
       <register_bezeichnung>Saint-Exup&#233;ry, Antoine de</register_bezeichnung>
@@ -3530,6 +3607,7 @@
       <register_id>60406</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118604902 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q2908</wikidata_id>
     </registereintraege>
     <registereintraege index="5">
       <register_bezeichnung>Weinstock, Heinrich</register_bezeichnung>
@@ -3539,6 +3617,7 @@
       <register_id>60382</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/117275824 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q1599195</wikidata_id>
     </registereintraege>
     <registereintraege index="6">
       <register_bezeichnung>Einstein, Albert</register_bezeichnung>
@@ -3548,6 +3627,7 @@
       <register_id>15239</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118529579 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q937</wikidata_id>
     </registereintraege>
     <registereintraege index="7">
       <register_bezeichnung>Plato</register_bezeichnung>
@@ -3557,6 +3637,7 @@
       <register_id>60394</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Lebensdaten: ca. 427-347 v. Chr. / Link zur GND: &lt;a href=http://d-nb.info/gnd/118594893 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q859</wikidata_id>
     </registereintraege>
     <registereintraege index="8">
       <register_bezeichnung>Holbein, Hans</register_bezeichnung>
@@ -3566,6 +3647,8 @@
       <register_id>29481</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552953 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Holbein, Hans der J&#252;ngere</register_bemerkungen>
+      <sikart_id>4022819</sikart_id>
+      <wikidata_id>Q48319</wikidata_id>
     </registereintraege>
     <registereintraege index="9">
       <register_bezeichnung>Ford, Henry</register_bezeichnung>
@@ -3575,6 +3658,7 @@
       <register_id>60405</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118534300 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q8768</wikidata_id>
     </registereintraege>
     <registereintraege index="10">
       <register_bezeichnung>El Greco</register_bezeichnung>
@@ -3584,6 +3668,7 @@
       <register_id>60404</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118722778 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q301</wikidata_id>
     </registereintraege>
     <registereintraege index="11">
       <register_bezeichnung>Kant, Immanuel</register_bezeichnung>
@@ -3593,6 +3678,7 @@
       <register_id>60403</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118559796 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q9312</wikidata_id>
     </registereintraege>
     <registereintraege index="12">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
@@ -3602,6 +3688,8 @@
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>4023401</sikart_id>
+      <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-126762</doi>
     <parsed_internal_remarks index="0">
@@ -4062,6 +4150,7 @@
       <register_id>22078</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Geburtsname: Schl&#246;sser, Anneliese / Link zur GND: &lt;a href=http://d-nb.info/gnd/11721227X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q95702267</wikidata_id>
     </registereintraege>
     <registereintraege index="1">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
@@ -4071,6 +4160,8 @@
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>4023401</sikart_id>
+      <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <dateien index="0">
       <titel>Vertrag &#252;ber die &#220;bertragung von Nutzungsrechten_Itten Johannes</titel>
@@ -4243,6 +4334,7 @@
       <register_id>31380</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118561480 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q1656517</wikidata_id>
     </registereintraege>
     <registereintraege index="1">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
@@ -4252,6 +4344,8 @@
       <register_id>21160</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>4023401</sikart_id>
+      <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <registereintraege index="2">
       <register_bezeichnung>Biema, Carry van</register_bezeichnung>
@@ -4261,6 +4355,7 @@
       <register_id>61493</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/116165421 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q94749915</wikidata_id>
     </registereintraege>
     <registereintraege index="3">
       <register_bezeichnung>Pellegrini, Alfred Heinrich</register_bezeichnung>
@@ -4270,6 +4365,8 @@
       <register_id>59371</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11859253X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <sikart_id>4000006</sikart_id>
+      <wikidata_id>Q2645138</wikidata_id>
     </registereintraege>
     <registereintraege index="4">
       <register_bezeichnung>St&#228;rk, Bruno</register_bezeichnung>
@@ -4279,6 +4376,7 @@
       <register_id>65351</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=https://d-nb.info/gnd/118752537 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q95005082</wikidata_id>
     </registereintraege>
     <registereintraege index="5">
       <register_bezeichnung>Mueller, Albert</register_bezeichnung>
@@ -4288,6 +4386,7 @@
       <register_id>59370</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/119069849 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q20852756</wikidata_id>
     </registereintraege>
     <registereintraege index="6">
       <register_bezeichnung>Graf, Gottfried</register_bezeichnung>
@@ -4297,6 +4396,7 @@
       <register_id>65350</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=https://d-nb.info/gnd/118541323 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q1539187</wikidata_id>
     </registereintraege>
     <registereintraege index="7">
       <register_bezeichnung>Baumeister, Willi</register_bezeichnung>
@@ -4306,6 +4406,7 @@
       <register_id>36309</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118507559 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q707911</wikidata_id>
     </registereintraege>
     <registereintraege index="8">
       <register_bezeichnung>Kerkovius, Ida</register_bezeichnung>
@@ -4315,6 +4416,7 @@
       <register_id>31380</register_id>
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118561480 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
+      <wikidata_id>Q1656517</wikidata_id>
     </registereintraege>
   </record>
 
