@@ -20,6 +20,7 @@
         <namespace prefix="mods" uri="http://www.loc.gov/mods/v3"/>
         <namespace prefix="oai" uri="http://www.openarchives.org/OAI/2.0/"/>
         <namespace prefix="loc" uri="http://id.loc.gov/vocabulary/relators/"/>
+        <namespace prefix="sikart" uri="https://www.sikart.ch/kuenstlerinnen.aspx?id="/>
     </namespaces>
     <mappings>
         <mapping>
@@ -2207,6 +2208,76 @@
             <link>
                 <path>
                     <source_relation>
+                        <relation>sikart_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>text()</exists>
+                                </if>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <equals value="null">text()</equals>
+                                        </if>
+                                    </not>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>sikart_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithSikartId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>wikidata_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>text()</exists>
+                                </if>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <equals value="null">text()</equals>
+                                        </if>
+                                    </not>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>wikidata_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithWikidataId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node> 
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
                         <relation>register_datum/@dateFrom</relation>
                     </source_relation>
                     <target_relation>
@@ -2528,6 +2599,76 @@
             <link>
                 <path>
                     <source_relation>
+                        <relation>sikart_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>text()</exists>
+                                </if>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <equals value="null">text()</equals>
+                                        </if>
+                                    </not>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>sikart_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E39_Actor</type>
+                            <instance_generator name="URIwithSikartId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>wikidata_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>text()</exists>
+                                </if>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <equals value="null">text()</equals>
+                                        </if>
+                                    </not>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>wikidata_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E39_Actor</type>
+                            <instance_generator name="URIwithWikidataId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node> 
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
                         <relation>register_bemerkungen</relation>
                     </source_relation>
                     <target_relation>
@@ -2649,6 +2790,76 @@
             <link>
                 <path>
                     <source_relation>
+                        <relation>sikart_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>text()</exists>
+                                </if>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <equals value="null">text()</equals>
+                                        </if>
+                                    </not>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>sikart_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E53_Place</type>
+                            <instance_generator name="URIwithSikartId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>wikidata_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>text()</exists>
+                                </if>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <equals value="null">text()</equals>
+                                        </if>
+                                    </not>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>wikidata_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E53_Place</type>
+                            <instance_generator name="URIwithWikidataId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node> 
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
                         <relation>register_bemerkungen</relation>
                     </source_relation>
                     <target_relation>
@@ -2765,6 +2976,76 @@
                             </instance_generator>
                         </entity>
                     </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>sikart_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>text()</exists>
+                                </if>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <equals value="null">text()</equals>
+                                        </if>
+                                    </not>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>sikart_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E5_Event</type>
+                            <instance_generator name="URIwithSikartId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>wikidata_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>text()</exists>
+                                </if>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <equals value="null">text()</equals>
+                                        </if>
+                                    </not>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>wikidata_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E5_Event</type>
+                            <instance_generator name="URIwithWikidataId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node> 
                 </range>
             </link>
             <link>
