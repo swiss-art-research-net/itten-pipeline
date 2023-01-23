@@ -54,46 +54,18 @@ INSERT DATA {
 # Add Search entity types to respective resources
 INSERT {
   GRAPH sari:relations {
-      ?subject a search:Person .
+      ?subject a ?searchType .
   }
 } WHERE {
-  ?subject a crm:E21_Person .
-  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
-};
-
-INSERT {
-  GRAPH sari:relations {
-    ?subject a search:Type .
+  ?subject a ?crmType .
+  VALUES(?crmType ?searchType) {
+    (crm:E21_Person search:Person)
+    (crm:E55_Type search:Type)
+    (crm:E53_Place search:Place)
+    (crm:E78_Curated_Holding search:Collection)
+    (crm:E22_Human-Made_Object search:Object)
+    (crm:E5_Event search:Event)
   }
-} WHERE {
-  ?subject a crm:E55_Type
-  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
-};
-
-INSERT {
-  GRAPH sari:relations {
-    ?subject a search:Place .
-  }
-} WHERE {
-  ?subject a crm:E53_Place
-  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
-};
-
-INSERT {
-  GRAPH sari:relations {
-      ?subject a search:Collection .
-  }
-} WHERE {
-  ?subject a crm:E78_Curated_Holding .
-  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
-};
-
-INSERT {
-  GRAPH sari:relations {
-      ?subject a search:Object .
-  }
-} WHERE {
-  ?subject a crm:E22_Human-Made_Object .
   FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
 };
 
