@@ -31,7 +31,11 @@ INSERT DATA {
     search:Person rdfs:label 'Person' ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
-      rdfs:equivalentClass crm:E39_Actor, rds:Person .
+      rdfs:equivalentClass crm:E21_Person, rds:Person .
+    search:Person rdfs:label 'Actor/Legal Entity' ;
+      a rdfs:Class ;
+      rdfs:subClassOf search:Entity ;
+      rdfs:equivalentClass crm:E39_Actor  .
     search:Place rdfs:label 'Place'  ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
@@ -60,6 +64,7 @@ INSERT {
   ?subject a ?crmType .
   VALUES(?crmType ?searchType) {
     (crm:E21_Person search:Person)
+    (crm:E39_Actor search:Actor)
     (crm:E55_Type search:Type)
     (crm:E53_Place search:Place)
     (crm:E78_Curated_Holding search:Collection)
