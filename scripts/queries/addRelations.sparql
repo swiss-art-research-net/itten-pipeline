@@ -32,7 +32,7 @@ INSERT DATA {
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass crm:E21_Person, rds:Person .
-    search:Person rdfs:label 'Actor/Legal Entity'@en, 'Körperschaft'@de, 'Entité juridique'@fr, 'Entità giuridica'@it ;
+    search:Actor rdfs:label 'Actor/Legal Entity'@en, 'Körperschaft'@de, 'Entité juridique'@fr, 'Entità giuridica'@it ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass crm:E39_Actor  .
