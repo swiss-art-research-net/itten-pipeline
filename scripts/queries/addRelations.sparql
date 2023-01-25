@@ -19,36 +19,36 @@ INSERT DATA {
   GRAPH sari:relations {
     search:Entity a rdfs:Class ;
       rdfs:equivalentClass crm:E1_CRM_Entity ;
-      rdfs:label 'Search Entity' .
-    search:Object rdfs:label 'Collection' ;
+      rdfs:label 'Entity'@en, 'Entität'@de, 'Entité'@fr, 'Entità'@it .
+    search:Collection rdfs:label 'Collection'@en, 'Sammlung'@de, 'Collection'@fr, 'Collezione'@it ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass crm:E78_Curated_Holding .
-    search:Object rdfs:label 'Object' ;
+    search:Object rdfs:label 'Object'@en, 'Objekt'@de, 'Objet'@fr, 'Oggetto'@it ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass crm:E22_Human-Made_Object .
-    search:Person rdfs:label 'Person' ;
+    search:Person rdfs:label 'Person'@en, 'Person'@de, 'Personne'@fr, 'Persona'@it ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass crm:E21_Person, rds:Person .
-    search:Person rdfs:label 'Actor/Legal Entity' ;
+    search:Person rdfs:label 'Actor/Legal Entity'@en, 'Körperschaft'@de, 'Entité juridique'@fr, 'Entità giuridica'@it ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass crm:E39_Actor  .
-    search:Place rdfs:label 'Place'  ;
+    search:Place rdfs:label 'Place'@en, 'Ort'@de, 'Lieu'@fr, 'Luogo'@it  ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass crm:E53_Place, rds:Place  .
-    search:Type rdfs:label 'Type' ;
+    search:Type rdfs:label 'Type'@en, 'Typ'@de, 'Type'@fr, 'Tipo'@it ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass crm:E55_Type, rds:Type .
-    search:Event rdfs:label 'Event' ;
+    search:Event rdfs:label 'Event'@en, 'Ereignis'@de, 'Événement'@fr, 'Evento'@it ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass crm:E5_Event, rds:Event .
-    search:BibliographicItem rdfs:label 'Bibliographic Item' ;
+    search:BibliographicItem rdfs:label 'Bibliographic Item'@en, 'Bibliographischer Eintrag'@de, 'Entrée bibliographique'@fr, 'Voce bibliografica'@it ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass frbroo:F24_Publication_Expression, rds:BibliographicItem .
