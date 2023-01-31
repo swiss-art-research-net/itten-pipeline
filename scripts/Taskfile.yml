@@ -51,6 +51,10 @@ tasks:
 
   cache-wikidata-thumbnails:
     desc: Cache thumbnails of Wikidata entities
+    sources:
+      - /data/ttl/additional/wd.ttl
+    generates:
+      - /apps/static/assets/no_auth/thumbnail-*.jpg
     cmds:
       - task: cache-thumbnails
         vars:
