@@ -129,8 +129,10 @@ for imageUri, data in imageData.items():
     
     if 'LicenseUrl' in data:
         license = data['LicenseUrl']['value']
-    else:
+    elif 'LicenseShortName' in data':
         license = 'https://resource.swissartresearch.net/license/' + data['LicenseShortName']['value'].replace(" ", "%20")
+    else:
+        license = 'https://resource.swissartresearch.net/license/unknown'
         
     imageTtlOutput += imageTtlTemplate.substitute(
         image=imageUri,
