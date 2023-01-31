@@ -25,6 +25,8 @@ tasks:
       - task: retrieve-additional-data
       - task: ingest-data-main
       - task: ingest-data-additional
+      - task: cache-wikidata-thumbnails
+      - task: retrieve-wikimedia-image-rights
       - task: ingest-ontologies
       - task: add-relations
       - echo "Pipeline finished!"
@@ -44,7 +46,28 @@ tasks:
       - /data/manifests/*.json
     cmds:
       - python /scripts/cacheIiifManifests.py --oaiXMLFolder /data/xml/oai --outputFolder /data/manifests {{.CLI_ARGS}}
+  
+  cache-thumbnails:
+    silent: false
+    cmds:
+      - python /scripts/cacheThumbnails.py --endpoint {{.ENDPOINT}} {{if .FILTER_CONDITION}}--filterCondition {{.FILTER_CONDITION}}{{end}} --propsFile {{.PROPS_FILE}} --outputDir {{.OUTPUT_DIR}} --namedGraph {{.NAMED_GRAPH}} --thumbnailLocation $HOST_LOCATION{{.HOST_PATH}}
 
+  cache-wikidata-thumbnails:
+    desc: Cache thumbnails of Wikidata entities
+    sources:
+      - /data/ttl/additional/wd.ttl
+    generates:
+      - /apps/static/assets/no_auth/thumbnail-*.jpg
+    cmds:
+      - task: cache-thumbnails
+        vars:
+          ENDPOINT: http://blazegraph:8080/blazegraph/sparql
+          FILTER_CONDITION: wdt:P18
+          HOST_PATH: /assets/no_auth
+          OUTPUT_DIR: /apps/static/assets/no_auth
+          NAMED_GRAPH: https://resource.swissartresearch.net/graph/thumbnails
+          PROPS_FILE: /apps/jila/config/ui.prop
+  
   generate-example-record:
     desc: Generates an example record for developing the mapping in the X3ML editor
     cmds:
@@ -165,6 +188,16 @@ tasks:
       - /data/xml/oai/*.xml
     cmds:
       - python retrieveDataFromEManuscripta.py --endpoint {{.OAI_ENDPOINT}} --inputFolder /data/source/ --outputFolder /data/xml/oai/
+
+  retrieve-wikimedia-image-rights:
+    desc: Retrieve the image rights metadata for the extracted images from Wikimedia Commons
+    sources:
+      - /scripts/extractWikimediaImageRights.py
+      - /data/ttl/additional/wd.ttl
+    generates:
+      - /data/ttl/additional/wdRights.ttl
+    cmds:
+      - python /scripts/extractWikimediaImageRights.py
 
   _run-query-from-file:
     silent: true
