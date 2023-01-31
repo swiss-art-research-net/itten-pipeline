@@ -187,6 +187,16 @@ tasks:
     cmds:
       - python retrieveDataFromEManuscripta.py --endpoint {{.OAI_ENDPOINT}} --inputFolder /data/source/ --outputFolder /data/xml/oai/
 
+  retrieve-wikimedia-image-rights:
+    desc: Retrieve the image rights metadata for the extracted images from Wikimedia Commons
+    sources:
+      - /scripts/extractWikimediaImageRights.py
+      - /data/ttl/additional/wd.ttl
+    generates:
+      - /data/ttl/additional/wdRights.ttl
+    cmds:
+      - python /scripts/extractWikimediaImageRights.py
+
   _run-query-from-file:
     silent: true
     vars:
