@@ -27,7 +27,7 @@ services:
       - ./scripts:/scripts
 
   platform:
-    image: swissartresearx/researchspace:4.0.1
+    image: swissartresearx/researchspace:4.0.2-beta
     container_name: ${PROJECT_NAME}_platform
     restart: unless-stopped
     depends_on:
