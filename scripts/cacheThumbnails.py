@@ -47,6 +47,9 @@ def performCaching(options):
     
     queries = getThumbnailQueries(propsFile, filterCondition=filterCondition)
     thumbnails = queryThumbnails(endpoint=endpoint, queries=queries)
+
+    print("Processing %d thumbnails" % len(thumbnails))
+    
     downloadAll(data=thumbnails,
                 prefix=thumbnailPrefix,
                 directory=outputDir)
