@@ -44,7 +44,23 @@ tasks:
       - /data/manifests/*.json
     cmds:
       - python /scripts/cacheIiifManifests.py --oaiXMLFolder /data/xml/oai --outputFolder /data/manifests {{.CLI_ARGS}}
+  
+  cache-thumbnails:
+    cmds:
+      - python /scripts/cacheThumbnails.py --endpoint {{.ENDPOINT}} {{if .FILTER_CONDITION}}--filterCondition {{.FILTER_CONDITION}}{{end}} --propsFile {{.PROPS_FILE}} --outputDir {{.OUTPUT_DIR}} --namedGraph {{.NAMED_GRAPH}} --thumbnailLocation $HOST_LOCATION{{.HOST_PATH}}
 
+  cache-wikidata-thumbnails:
+    desc: Cache thumbnails of Wikidata entities
+    cmds:
+      - task: cache-thumbnails
+        vars:
+          ENDPOINT: http://blazegraph:8080/blazegraph/sparql
+          FILTER_CONDITION: wdt:P18
+          HOST_PATH: /assets/no_auth
+          OUTPUT_DIR: /apps/static/assets/no_auth
+          NAMED_GRAPH: https://resource.swissartresearch.net/graph/thumbnails
+          PROPS_FILE: /apps/jila/config/ui.prop
+  
   generate-example-record:
     desc: Generates an example record for developing the mapping in the X3ML editor
     cmds:
