@@ -129,8 +129,13 @@ for imageUri, data in imageData.items():
     
     if 'LicenseUrl' in data:
         license = data['LicenseUrl']['value']
-    else:
+        licenseKey = 'LicenseUrl'
+    elif 'LicenseShortName' in data:
         license = 'https://resource.swissartresearch.net/license/' + data['LicenseShortName']['value'].replace(" ", "%20")
+        licenseKey = 'LicenseShortName'
+    elif 'Permission' in data:
+        license ='https://resource.swissartresearch.net/license/' + data['Permission']['value']
+        licenseKey = 'Permission'
         
     imageTtlOutput += imageTtlTemplate.substitute(
         image=imageUri,
@@ -138,8 +143,8 @@ for imageUri, data in imageData.items():
         rightsHolder=artist,
         rightsHolderLabel=artistLabel,
         license=license,
-        licenseName=data['LicenseShortName']['value'],
-        usageTerms=data['UsageTerms']['value'] if 'UsageTerms' in data else data['LicenseShortName']['value']
+        licenseName=data[licenseKey]['value'],
+        usageTerms=data['UsageTerms']['value'] if 'UsageTerms' in data else data[licenseKey]['value']
     )
 
 # Write output
