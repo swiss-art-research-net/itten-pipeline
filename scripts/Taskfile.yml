@@ -25,6 +25,8 @@ tasks:
       - task: retrieve-additional-data
       - task: ingest-data-main
       - task: ingest-data-additional
+      - task: cache-wikidata-thumbnails
+      - task: retrieve-wikimedia-image-rights
       - task: ingest-ontologies
       - task: add-relations
       - echo "Pipeline finished!"
