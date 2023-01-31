@@ -6,6 +6,7 @@ data/manifests
 data/ttl
 data/source
 data/xml
+data/tmp
 !/data/xml/oai/.gitkeep
 localScripts
 scripts/.task
