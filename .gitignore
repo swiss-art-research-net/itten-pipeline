@@ -6,9 +6,11 @@ data/manifests
 data/ttl
 data/source
 data/xml
+data/tmp
 !/data/xml/oai/.gitkeep
 localScripts
 scripts/.task
 scripts/*.log
+services/platform/apps/static/assets/no_auth/*.jpg
 
 docker-compose.override.yml
