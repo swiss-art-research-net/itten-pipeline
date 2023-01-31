@@ -10,5 +10,6 @@ data/xml
 localScripts
 scripts/.task
 scripts/*.log
+services/platform/apps/static/assets/no_auth/*.jpg
 
 docker-compose.override.yml
