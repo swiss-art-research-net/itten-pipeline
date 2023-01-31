@@ -138,7 +138,7 @@ for imageUri, data in imageData.items():
         rightsHolder=artist,
         rightsHolderLabel=artistLabel,
         license=license,
-        licenseName=data['LicenseShortName']['value'],
+        licenseName=data['LicenseShortName']['value'] if 'LicenseShortName' in data else 'unknown',
         usageTerms=data['UsageTerms']['value'] if 'UsageTerms' in data else data['LicenseShortName']['value']
     )
 
