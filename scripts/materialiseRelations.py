@@ -33,6 +33,8 @@ def performMaterialisation(options):
     else:
         print(f"Successfully materialised definitions from {definitionsFile} to {endpoint}")
 
+    print(updateQuery)
+
 def generateUpdateQuery(model, namedGraph=None):
     output = ''
 
@@ -49,8 +51,8 @@ def generateUpdateQuery(model, namedGraph=None):
                     ?object a $range .
                 }
             } WHERE {
-                ?subject a $domain .
-                ?object a $range .
+                ?subject a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* $domain .
+                ?object a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* $range .
                 $queryPattern
             };
         """)
@@ -61,8 +63,8 @@ def generateUpdateQuery(model, namedGraph=None):
                 ?subject a $domain .
                 ?object a $range .
             } WHERE {
-                ?subject a $domain .
-                ?object a $range .
+                ?subject a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* $domain .
+                ?object a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* $range .
                 $queryPattern
             };
         """)
