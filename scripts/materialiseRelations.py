@@ -33,8 +33,6 @@ def performMaterialisation(options):
     else:
         print(f"Successfully materialised definitions from {definitionsFile} to {endpoint}")
 
-    print(updateQuery)
-
 def generateUpdateQuery(model, namedGraph=None):
     output = ''
 
@@ -43,31 +41,40 @@ def generateUpdateQuery(model, namedGraph=None):
 
     if namedGraph:
         output += "DROP GRAPH <%s> ;" % namedGraph
-        template = Template("""
-            INSERT {
-                GRAPH <$graph> {
-                    ?subject ?predicate ?object .
-                    ?subject a $domain .
-                    ?object a $range .
-                }
-            } WHERE {
-                ?subject a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* $domain .
-                ?object a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* $range .
-                $queryPattern
-            };
-        """)
-    else:
-        template = Template("""
-            INSERT {
-                ?subject ?predicate ?object .
-                ?subject a $domain .
-                ?object a $range .
-            } WHERE {
-                ?subject a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* $domain .
-                ?object a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* $range .
-                $queryPattern
-            };
-        """)
+    
+    insertClause = """
+        ?subject ?predicate ?object .
+    """
+
+    whereClause = """
+        ?subject a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* $domain .
+        ?object a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* $range .
+    """
+
+    if 'types' in model and len(model['types']) > 0:
+        insertClause += """
+            ?subject a ?subjectType .
+            ?object a ?objectType .
+        """
+        whereClause += """
+            ?subject a ?subjectType .
+            ?object a ?objectType .
+            VALUES(?subjectType) {""" + " ".join([f"({d})" for d in model['types']]) + """}
+            VALUES(?objectType) {""" + " ".join([f"({d})" for d in model['types']]) + """}
+        """
+
+    templateString = "INSERT {"
+    if namedGraph:
+        templateString += "GRAPH <$graph> {"
+    templateString += insertClause
+    if namedGraph:
+        templateString += "}"
+    templateString += "} WHERE {"
+    templateString += whereClause
+    templateString += "\n$queryPattern\n"
+    templateString += "};"
+
+    template = Template(templateString)
 
     for relation in model['relations']:
         # Raise an error if not all required fields are present
