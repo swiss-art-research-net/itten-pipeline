@@ -10,6 +10,13 @@ namespaces:
   search: https://platform.swissartresearch.net/search/
   gndo: https://d-nb.info/standards/elementset/gnd#
 
+types: 
+ - search:Person
+ - search:Actor
+ - search:Collection
+ - search:Event
+ - search:Place
+
 relations:
 
     - id: actor_created_collection
