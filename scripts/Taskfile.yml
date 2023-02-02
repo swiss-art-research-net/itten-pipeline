@@ -28,6 +28,7 @@ tasks:
       - task: cache-wikidata-thumbnails
       - task: retrieve-wikimedia-image-rights
       - task: ingest-ontologies
+      - task: materialise-network
       - task: add-relations
       - echo "Pipeline finished!"
 
@@ -140,6 +141,18 @@ tasks:
           FILE: /mapping/schemas/CRMdig_v3.2.1.rdfs
           TYPE: application/rdf+xml
           GRAPH: http://www.ics.forth.gr/isl/CRMdig/
+
+  materialise-network:
+    desc: Materialises the relations used for the network visualisations
+    sources:
+      - /scripts/materialiseRelations.py
+      - /scripts/definitions/network.yml
+      - /data/ttl/main/*.ttl
+      - /data/ttl/additional/gnd.ttl
+    vars:
+      GRAPH: https://resource.swissartresearch.net/graph/network
+    cmds:
+      - python /scripts/materialiseRelations.py --endpoint {{.BLAZEGRAPH_ENDPOINT}} --graph {{.GRAPH}} --definitions /scripts/definitions/network.yml
 
   perform-mapping:
     desc: Map the input XML data to CIDOC/RDF
