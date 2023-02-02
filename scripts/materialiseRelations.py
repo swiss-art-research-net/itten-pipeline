@@ -1,3 +1,69 @@
+"""
+This script inserts relations defined in a YAML file by executing
+CONSTRUCT queries to a SPARQL endpoint. It is used to materialise
+relations in the Knowledge Graph that cannot be defined through
+field definitions.
+
+The YAML file must contain the following fields:
+- namespaces: a dictionary of namespaces used in the queries
+- relations: a list of relations to be materialised
+- (optional) types: a list of types that should be materialised
+
+A relation is defined as follows:
+- id: a unique identifier for the relation
+- domain: the domain of the relation defined as an RDF type
+- range: the range of the relation defined as an RDF type
+- queryPattern: a query pattern that defines the relation
+    The relation will be written as:
+        ?subject ?predicate ?object .
+    The ?subject variable will be injected into the query pattern.
+    ?predicate and ?object must be bound in the query pattern.
+
+If specific types should be materialised in the graph for the
+?subject and ?object variables then the list of types can be
+provided in the types field. The types field must be a list of
+RDF types.
+
+Example of a YAML file:
+
+namespaces:
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+    skos: http://www.w3.org/2004/02/skos/core#
+    schema: http://schema.org/
+    dcterms: http://purl.org/dc/terms/
+    foaf: http://xmlns.com/foaf/0.1/
+    owl: http://www.w3.org/2002/07/owl#
+
+types:
+    - schema:Person
+    - schema:Organization
+
+relations:
+    - id: hasParent
+      domain: schema:Person
+      range: schema:Person
+      queryPattern: '{
+            ?subject schema:parent ?object .
+        }'
+    
+    - id: hasChild
+      domain: schema:Person
+      range: schema:Person
+      queryPattern: '{
+        ?object schema:parent ?subject .
+        }'
+
+Arguments:
+
+--definitions: path to the YAML file containing the definitions
+--endpoint: the SPARQL endpoint to which the queries should be sent
+--graph: the named graph to which the relations should be inserted (optional)
+
+Usage:
+
+python materialiseRelations.py --definitions <path to YAML file> --endpoint <SPARQL endpoint> --graph <named graph>    
+"""
+
 import re
 import sys
 import yaml
