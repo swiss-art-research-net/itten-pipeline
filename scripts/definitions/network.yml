@@ -1,0 +1,54 @@
+namespaces:
+  aat: http://vocab.getty.edu/aat/
+  crm: http://www.cidoc-crm.org/cidoc-crm/
+  crmdig: http://www.ics.forth.gr/isl/CRMdig/
+  crminf: http://www.ics.forth.gr/isl/CRMinf/
+  frbroo: http://iflastandards.info/ns/fr/frbr/frbroo/
+  la: http://www.linkedart.org/schema/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  prov: http://www.w3.org/ns/prov#
+  search: https://platform.swissartresearch.net/search/
+  gndo: https://d-nb.info/standards/elementset/gnd#
+
+relations:
+
+    - id: actor_created_collection
+      domain: crm:E39_Actor
+      range: crm:E78_Curated_Holding
+      queryPattern: '{
+        ?object crm:P108i_was_produced_by/crm:P9_consists_of ?event .
+        ?event crm:P2_has_type ?predicate ;
+          crm:P14_carried_out_by $subject .
+      }'
+
+    - id: collection_created_by_actor
+      domain: crm:E78_Curated_Holding
+      range: crm:E39_Actor
+      queryPattern: '{
+        $subject crm:P108i_was_produced_by/crm:P9_consists_of ?event .
+        ?event crm:P2_has_type ?predicate ;
+          crm:P14_carried_out_by ?object .
+      }'
+
+    - id: entity_referred_to_by_collection
+      domain: crm:E1_CRM_Entity
+      range: crm:E78_Curated_Holding
+      queryPattern: '{
+        ?object crm:P128_carries/crm:P67_refers_to $subject .
+        BIND(crm:P67i_is_referred_to_by as ?predicate)
+      }'
+
+    - id: actor_with_familial_relationship_to_actor
+      domain: crm:E39_Actor
+      range: crm:E39_Actor
+      queryPattern: '
+      {
+        $subject crmdig:L54_is_same-as/gndo:familialRelationship/^crmdig:L54_is_same-as? ?object .
+        BIND(gndo:familialRelationship as ?predicate)
+      } UNION {
+        ?object crmdig:L54_is_same-as/gndo:familialRelationship/^crmdig:L54_is_same-as? $subject .
+        BIND(gndo:familialRelationship as ?predicate)
+      }'
+      
+      
+      
