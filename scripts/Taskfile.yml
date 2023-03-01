@@ -212,6 +212,11 @@ tasks:
     cmds:
       - python /scripts/extractWikimediaImageRights.py
 
+  test-remarks-parser:
+    desc: Parse remarks from a string and print the result
+    cmds:
+      - python /scripts/testParser.py --input {{.CLI_ARGS}}
+
   _run-query-from-file:
     silent: true
     vars:
