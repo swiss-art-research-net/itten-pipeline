@@ -27,10 +27,18 @@ relations:
       range: crm:E39_Actor
       queryPattern: '
       {
-        $subject crmdig:L54_is_same-as/gndo:familialRelationship/^crmdig:L54_is_same-as? ?object .
+        $subject crmdig:L54_is_same-as/gndo:familialRelationship ?nonJilaObject .
+        OPTIONAL {
+          ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
+        }
+        BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
         BIND(gndo:familialRelationship as ?predicate)
       } UNION {
-        ?object crmdig:L54_is_same-as/gndo:familialRelationship/^crmdig:L54_is_same-as? $subject .
+        ?nonJilaObject gndo:familialRelationship/^crmdig:L54_is_same-as $subject .
+        OPTIONAL {
+          ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
+        }
+        BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
         BIND(gndo:familialRelationship as ?predicate)
       }'
 
@@ -65,17 +73,21 @@ relations:
       queryPattern: '{
         ?attributeAssignment crm:P141_assigned $subject .
         {
-          ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?nonCrmObject .
-          FILTER NOT EXISTS {
-            ?nonCrmObject a/rdfs:subClassOf* crm:E1_CRM_Entity .
+          ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?nonJilaObject .
+          GRAPH <https://resource.swissartresearch.net/graph/external> {
+            ?nonJilaObject a ?type .
           }
           OPTIONAL {
-            ?crmObject crmdig:L54_is_same-as ?nonCrmObject .
+            ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
           }
         } UNION {
-          ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?crmObject .
-          ?crmObject a/rdfs:subClassOf* crm:E1_CRM_Entity .
+          ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?jilaObject .
+          FILTER NOT EXISTS {
+            GRAPH <https://resource.swissartresearch.net/graph/external> {
+              ?jilaObject a ?type .
+            }
+          }
         }
-        BIND(COALESCE(?crmObject, ?nonCrmObject) as ?object)
+        BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
         BIND(jila:is_related_to as ?predicate)
       }'
