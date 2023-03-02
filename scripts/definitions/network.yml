@@ -63,7 +63,19 @@ relations:
       domain: crm:E1_CRM_Entity
       range: crm:E1_CRM_Entity
       queryPattern: '{
-        ?attributeAssignment crm:P141_assigned $subject ;
-          crm:P129i_is_subject_of/crm:P67_refers_to/crmdig:L54_is_same-as? ?object .
+        ?attributeAssignment crm:P141_assigned $subject .
+        {
+          ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?nonCrmObject .
+          FILTER NOT EXISTS {
+            ?nonCrmObject a/rdfs:subClassOf* crm:E1_CRM_Entity .
+          }
+          OPTIONAL {
+            ?crmObject crmdig:L54_is_same-as ?nonCrmObject .
+          }
+        } UNION {
+          ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?crmObject .
+          ?crmObject a/rdfs:subClassOf* crm:E1_CRM_Entity .
+        }
+        BIND(COALESCE(?crmObject, ?nonCrmObject) as ?object)
         BIND(jila:is_related_to as ?predicate)
       }'
