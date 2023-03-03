@@ -10,6 +10,7 @@ namespaces:
   search: https://platform.swissartresearch.net/search/
   gndo: https://d-nb.info/standards/elementset/gnd#
   jila: https://jila.swissartresearch.net/ontology/
+  loc: http://id.loc.gov/vocabulary/relators/
 
 relations:
 
@@ -20,6 +21,14 @@ relations:
         ?object crm:P108i_was_produced_by/crm:P9_consists_of ?event .
         ?event crm:P2_has_type ?predicate ;
           crm:P14_carried_out_by $subject .
+      }'
+
+    - id: actor_receive_collection
+      domain: crm:E39_Actor
+      range: crm:E78_Curated_Holding
+      queryPattern: '{
+          ?object crm:P30i_custody_transferred_through/crm:P29_custody_received_by $subject .
+          BIND(loc:rcp as ?predicate)
       }'
 
     - id: actor_with_familial_relationship_to_actor
@@ -49,6 +58,14 @@ relations:
         $subject crm:P108i_was_produced_by/crm:P9_consists_of ?event .
         ?event crm:P2_has_type ?predicate ;
           crm:P14_carried_out_by ?object .
+      }'
+
+    - id: collection_received_by_actor
+      domain: crm:E78_Curated_Holding
+      range: crm:E39_Actor
+      queryPattern: '{
+          $subject crm:P30i_custody_transferred_through/crm:P29_custody_received_by ?object .
+          BIND(loc:rcp as ?predicate)
       }'
 
     - id: collection_refers_to_entity
