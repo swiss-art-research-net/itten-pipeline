@@ -60,12 +60,28 @@ relations:
           crm:P14_carried_out_by ?object .
       }'
 
+    - id: collection_depicts_entity
+      domain: crm:E78_Curated_Holding
+      range: crm:E1_CRM_Entity
+      queryPattern: '{
+        $subject crm:P62_depicts ?object .
+        BIND(crm:P62_depicts as ?predicate)
+      }'
+
     - id: collection_received_by_actor
       domain: crm:E78_Curated_Holding
       range: crm:E39_Actor
       queryPattern: '{
           $subject crm:P30i_custody_transferred_through/crm:P29_custody_received_by ?object .
           BIND(loc:rcp as ?predicate)
+      }'
+
+    - id: entity_is_depicted_by_collection
+      domain: crm:E1_CRM_Entity
+      range: crm:E78_Curated_Holding
+      queryPattern: '{
+        ?object crm:P62_depicts $subject .
+        BIND(crm:P62i_is_depicted_by as ?predicate)
       }'
 
     - id: collection_refers_to_entity
