@@ -49,6 +49,20 @@ relations:
         }
         BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
         BIND(gndo:familialRelationship as ?predicate)
+      } UNION {
+        ?nonJilaObject crmdig:L54_is_same-as/gndo:familialRelationship $subject .
+        OPTIONAL {
+          ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
+        }
+        BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
+        BIND(gndo:familialRelationship as ?predicate)
+      } UNION {
+        $subject gndo:familialRelationship/^crmdig:L54_is_same-as ?nonJilaObject .
+        OPTIONAL {
+          ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
+        }
+        BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
+        BIND(gndo:familialRelationship as ?predicate)
       }'
 
     - id: collection_created_by_actor
