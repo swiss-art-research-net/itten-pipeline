@@ -15,3 +15,4 @@ download "data/csv/archivalienarten.csv" "data/source/alignment-archivalienarten
 download "data/csv/register_id.csv" "data/source/alignment-register_id.csv"
 download "data/csv/sprachen.csv" "data/source/alignment-sprachen.csv"
 download "data/csv/verzeichnungsstufe.csv" "data/source/alignment-verzeichnungsstufe.csv"
+download "data/rdf/networkLabels.trig" "data/ttl/additional/networkLabels.trig"
