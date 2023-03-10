@@ -68,6 +68,12 @@ tasks:
           OUTPUT_DIR: /apps/static/assets/no_auth
           NAMED_GRAPH: https://resource.swissartresearch.net/graph/thumbnails
           PROPS_FILE: /apps/jila/config/ui.prop
+
+  drop-graph:
+    decs: Drops a named graph from the Blazegraph instance
+    cmds:
+      - curl --silent -X POST {{.BLAZEGRAPH_ENDPOINT}} --data-urlencode "update=DROP GRAPH <{{.GRAPH}}>" > /dev/null
+
   
   generate-example-record:
     desc: Generates an example record for developing the mapping in the X3ML editor
@@ -107,6 +113,10 @@ tasks:
       - /data/ttl/additional/*.trig
     cmds:
       - echo "Ingest additional data"
+      - task: drop-graph
+        desc: Graphs that need to be overwritten are dropped
+        vars:
+          GRAPH: https://resource.swissartresearch.net/graph/network/vocab
       - task: ingest-data-from-folder
         vars: 
           FOLDER: /data/ttl/additional
