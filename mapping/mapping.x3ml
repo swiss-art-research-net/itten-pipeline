@@ -1206,20 +1206,6 @@
                         </if>
                         <relationship>crm:P62_depicts</relationship>
                     </target_relation>
-                    <comments>
-                        <comment type="">
-                            <rationale>especially for the case where no digitised image exists we map the person as P62 depicted by the curated holding</rationale>
-                            <alternatives/>
-                            <typical_mistakes/>
-                            <local_habits/>
-                            <link_to_cook_book/>
-                            <example>
-                                <example_source/>
-                                <example_target/>
-                            </example>
-                            <comments_last_update date="" person=""/>
-                        </comment>
-                    </comments>
                 </path>
                 <range>
                     <source_node>entitaet</source_node>
