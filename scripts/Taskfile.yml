@@ -159,6 +159,7 @@ tasks:
       - /scripts/definitions/network.yml
       - /data/ttl/main/*.ttl
       - /data/ttl/additional/gnd.ttl
+      - /data/ttl/additional/networkLabels.trig
     vars:
       GRAPH: https://resource.swissartresearch.net/graph/network
     cmds:
