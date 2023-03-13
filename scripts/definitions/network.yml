@@ -11,6 +11,7 @@ namespaces:
   gndo: https://d-nb.info/standards/elementset/gnd#
   jila: https://jila.swissartresearch.net/ontology/
   loc: http://id.loc.gov/vocabulary/relators/
+  owl: http://www.w3.org/2002/07/owl#
 
 relations:
 
@@ -19,8 +20,9 @@ relations:
       range: crm:E78_Curated_Holding
       queryPattern: '{
         ?object crm:P108i_was_produced_by/crm:P9_consists_of ?event .
-        ?event crm:P2_has_type ?predicate ;
+        ?event crm:P2_has_type ?inverse ;
           crm:P14_carried_out_by $subject .
+        ?predicate owl:inverseOf ?inverse .
       }'
 
     - id: actor_participated_in_creation_of_collection
@@ -28,8 +30,9 @@ relations:
       range: crm:E78_Curated_Holding
       queryPattern: '{
         ?object crm:P108i_was_produced_by/crm:P9_consists_of ?event .
-        ?event crm:P2_has_type ?predicate ;
+        ?event crm:P2_has_type ?inverse ;
           crm:P11_had_participant $subject .
+        ?predicate owl:inverseOf ?inverse .
       }'
 
     - id: actor_receive_collection
@@ -37,7 +40,7 @@ relations:
       range: crm:E78_Curated_Holding
       queryPattern: '{
           ?object crm:P30i_custody_transferred_through/crm:P29_custody_received_by $subject .
-          BIND(loc:rcp as ?predicate)
+          loc:rcp owl:inverseOf ?predicate .
       }'
 
     - id: actor_with_familial_relationship_to_actor
