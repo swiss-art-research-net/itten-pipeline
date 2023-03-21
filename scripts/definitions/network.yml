@@ -157,24 +157,5 @@ relations:
             }
           }
           BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
-        } UNION {
-          ?attributeAssignment crm:P141_assigned ?object .
-          {
-            ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?nonJilaSubject .
-            GRAPH <https://resource.swissartresearch.net/graph/external> {
-              ?nonJilaSubject a ?type .
-            }
-            OPTIONAL {
-              ?jilaSubject crmdig:L54_is_same-as ?nonJilaSubject .
-            }
-          } UNION {
-            ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?jilaSubject .
-            FILTER NOT EXISTS {
-              GRAPH <https://resource.swissartresearch.net/graph/external> {
-                ?jilaSubject a ?type .
-              }
-            }
-          }
-          BIND(COALESCE(?jilaSubject, ?nonJilaSubject) as ?subject)
-        }
-        BIND(jila:is_related_to as ?predicate)'
+          BIND(jila:is_related_to as ?predicate)
+        }'
