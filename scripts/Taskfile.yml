@@ -34,6 +34,9 @@ tasks:
 
   add-relations:
     desc: Materialise triples defined through the queries/addRelations.sparql query in the Blazegraph instance
+    sources:
+      - /data/ttl/main/*.ttl
+      - /data/ttl/additional/*.ttl
     cmds:
       - echo: "Add relations"
       - task: _run-query-from-file
