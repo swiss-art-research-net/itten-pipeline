@@ -37,6 +37,7 @@ tasks:
     sources:
       - /data/ttl/main/*.ttl
       - /data/ttl/additional/*.ttl
+      - /scripts/queries/addRelations.sparql
     cmds:
       - echo: "Add relations"
       - task: _run-query-from-file

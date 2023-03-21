@@ -115,4 +115,16 @@ INSERT {
   FILTER NOT EXISTS {
     ?subject ?property ?object
   }
+};
+
+# Add inverse relations
+INSERT {
+  GRAPH <https://resource.swissartresearch.net/graph/network> {
+    ?object ?inversePredicate ?subject .
+  }
+} WHERE {
+  GRAPH <https://resource.swissartresearch.net/graph/network> {
+    ?subject ?predicate ?object .
+  }
+  ?inversePredicate owl:inverseOf ?predicate .
 }
