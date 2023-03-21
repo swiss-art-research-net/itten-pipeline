@@ -139,23 +139,42 @@ relations:
       domain: crm:E1_CRM_Entity
       range: crm:E1_CRM_Entity
       queryPattern: '{
-        ?attributeAssignment crm:P141_assigned $subject .
-        {
-          ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?nonJilaObject .
-          GRAPH <https://resource.swissartresearch.net/graph/external> {
-            ?nonJilaObject a ?type .
-          }
-          OPTIONAL {
-            ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
-          }
-        } UNION {
-          ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?jilaObject .
-          FILTER NOT EXISTS {
+          ?attributeAssignment crm:P141_assigned $subject .
+          {
+            ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?nonJilaObject .
             GRAPH <https://resource.swissartresearch.net/graph/external> {
-              ?jilaObject a ?type .
+              ?nonJilaObject a ?type .
+            }
+            OPTIONAL {
+              ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
+            }
+          } UNION {
+            ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?jilaObject .
+            FILTER NOT EXISTS {
+              GRAPH <https://resource.swissartresearch.net/graph/external> {
+                ?jilaObject a ?type .
+              }
             }
           }
+          BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
+        } UNION {
+          ?attributeAssignment crm:P141_assigned ?object .
+          {
+            ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?nonJilaSubject .
+            GRAPH <https://resource.swissartresearch.net/graph/external> {
+              ?nonJilaSubject a ?type .
+            }
+            OPTIONAL {
+              ?jilaSubject crmdig:L54_is_same-as ?nonJilaSubject .
+            }
+          } UNION {
+            ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?jilaSubject .
+            FILTER NOT EXISTS {
+              GRAPH <https://resource.swissartresearch.net/graph/external> {
+                ?jilaSubject a ?type .
+              }
+            }
+          }
+          BIND(COALESCE(?jilaSubject, ?nonJilaSubject) as ?subject)
         }
-        BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
-        BIND(jila:is_related_to as ?predicate)
-      }'
+        BIND(jila:is_related_to as ?predicate)'
