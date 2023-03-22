@@ -93,7 +93,16 @@ def performMaterialisation(options):
     if result.response.status != 200:
         print("Error: %s" % result.response.read())
         sys.exit(1)
+
+    reverseQuery = generateReverseQuery(namedGraph=namedGraph)
+    sparql.setQuery(reverseQuery)
+    sparql.setMethod('POST')
     
+    result = sparql.query()
+    if result.response.status != 200:
+        print("Error: %s" % result.response.read())
+        sys.exit(1)
+
     if namedGraph:
         print(f"Successfully materialised definitions from {definitionsFile} to {endpoint} in graph {namedGraph}")
     else:
@@ -159,6 +168,31 @@ def generateUpdateQuery(model, namedGraph=None):
         output += query
 
     return output
+
+def generateReverseQuery(namedGraph=None): 
+    if not namedGraph:
+        return """
+            INSERT {
+                ?object ?inversePredicate ?subject .
+            } WHERE {
+                ?subject ?predicate ?object .
+                ?inversePredicate owl:inverseOf ?predicate .
+            }
+        """
+    else:
+        queryTemplate = Template("""
+            INSERT {
+                GRAPH <$graph> {
+                    ?object ?inversePredicate ?subject .
+                }
+            } WHERE {
+                GRAPH <$graph> {
+                    ?subject ?predicate ?object .
+                }
+                ?inversePredicate owl:inverseOf ?predicate .
+            }
+        """)
+        return queryTemplate.substitute(graph=namedGraph)
 
 if __name__ == '__main__':
     options = {}
