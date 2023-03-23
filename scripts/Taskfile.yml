@@ -192,6 +192,7 @@ tasks:
       - /scripts/lib/utils.py
       - /scripts/lib/parser.py
       - /data/source/*.json
+      - /data/source/*.csv
       - /data/xml/oai/*.xml
     generates:
       - /data/xml/merged/*.xml
