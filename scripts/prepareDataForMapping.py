@@ -76,6 +76,7 @@ def prepareData(options):
     
     # Parse internal remarks
     records = parseInternalRemarks(records)
+    records = preprocessInternalRemarks(records)
 
     # Parse register remarks
 
@@ -587,6 +588,20 @@ def parseRegisterRemarks(records):
                 remarks = registerEntry["Register Bemerkungen"]
                 if remarks:
                     registerEntry["parsed remarks"] = p.parse(remarks)
+    return records
+
+def preprocessInternalRemarks(records):
+    """
+    Preprocess data extracted from internal remarks
+
+    :param records: list of CMI records in source format with parsed internal remarks
+    :return: list of CMI records in source format with preprocessed internal remarks
+    """
+    for record in [d for d in records if 'parsed internal remarks' in d]:
+        for remark in record['parsed internal remarks']:
+            # If entity type is a person and the number specifier is not 1 then we change the entity type to "group"
+            if 'Anzahl' in remark and remark['Typ']['value'] == 'Person' and remark['Anzahl'] != '1':
+                remark['Typ']['value'] = 'Gruppe'
     return records
 
 def removeIttenArchiveNode(records):
