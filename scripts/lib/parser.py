@@ -192,7 +192,7 @@ class Parser:
         >>> print(identifiers)
         [{'position': 33, 'source': 'WD', 'value': 'Q115482867'}]
         """
-        sources = ['GND', 'WD']
+        sources = ['AAT', 'GND', 'WD']
         extractedIdentifiers = re.findall(r'#([\w\d\-]+)', value)
         identifiers = []
         if len(extractedIdentifiers):
