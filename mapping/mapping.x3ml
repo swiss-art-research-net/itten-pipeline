@@ -3696,5 +3696,98 @@
                 </range>
             </link>
         </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/parsed_internal_remarks</source_node>
+                <target_node>
+                    <if>
+                        <equals value="Gruppe">typ/value/text()</equals>
+                    </if>
+                    <entity variable="internal_remarks_group">
+                        <type>crm:E74_Group</type>
+                        <instance_generator name="URIwithTypeAndId_hashed">
+                            <arg name="type" type="constant">actor</arg>
+                            <arg name="id_HASHED_CONTENTS" type="xpath">if (entitaet/identifiers/source/text() = 'GND') then (entitaet/identifiers/value/text()) else (entitaet/value/text())</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>anzahl</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P1_is_identified_by</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>anzahl</source_node>
+                    <target_node>
+                        <entity variable="internal_remarks_group_count">
+                            <type>crm:E42_Identifier</type>
+                            <instance_generator name="URIwithTypeSuptypeAndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../entitaet/identifiers/source/text() = 'GND') then (../entitaet/identifiers/value/text()) else (../entitaet/value/text())</arg>
+                                <arg name="subtype" type="constant">count</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                            <additional>
+                                <relationship>crm:P2_has_type</relationship>
+                                <entity>
+                                    <type>crm:E55_Type</type>
+                                    <instance_info>
+                                        <constant/>
+                                    </instance_info>
+                                    <instance_generator name="URIwithAatId">
+                                        <arg name="id" type="constant">300404433</arg>
+                                    </instance_generator>
+                                    <label_generator name="Literal">
+                                        <arg name="text" type="constant">Anzahl</arg>
+                                        <arg name="language" type="constant">de</arg>
+                                    </label_generator>
+                                </entity>
+                            </additional>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>anzahl/qualifier</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P1_is_identified_by</relationship>
+                        <entity variable="internal_remarks_group_count">
+                            <type>crm:E42_Identifier</type>
+                            <instance_generator name="UUID"/>
+                        </entity>
+                        <relationship>crm:P70i_is_documented_in</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>anzahl/qualifier</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E31_Document</type>
+                            <instance_generator name="URIwithTypeSuptypeLevel1AndId_hashed">
+                                <arg name="type" type="constant">actor</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">if (../../entitaet/identifiers/source/text() = 'GND') then (../../entitaet/identifiers/value/text()) else (../../entitaet/value/text())</arg>
+                                <arg name="subtype" type="constant">count</arg>
+                                <arg name="level1" type="constant">source</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
     </mappings>
 </x3ml>
