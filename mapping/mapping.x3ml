@@ -3502,6 +3502,10 @@
                             <arg name="type" type="constant">relation</arg>
                             <arg name="id_HASHED_CONTENTS" type="xpath">concat(../entitaet/value/text(), value/text())</arg>
                         </instance_generator>
+                        <label_generator name="Literal">
+                            <arg name="text" type="constant">relation</arg>
+                            <arg name="language" type="constant"/>
+                        </label_generator>
                     </entity>
                 </target_node>
             </domain>
@@ -3618,6 +3622,75 @@
                             <instance_generator name="URIwithCidocCrmId">
                                 <arg name="id" type="constant">P107i_is_current_or_former_member_of</arg>
                             </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>qualifier</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P177_assigned_property_of_type</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>qualifier</source_node>
+                    <target_node>
+                        <if>
+                            <and>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <equals value="Mitglied">text()</equals>
+                                        </if>
+                                    </not>
+                                </if>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <exists>../qualifier_identifiers/identifier/value/text()</exists>
+                                        </if>
+                                    </not>
+                                </if>
+                            </and>
+                        </if>
+                        <entity>
+                            <type>crm:E55_Type</type>
+                            <instance_generator name="URIwithTypeAndId_hashed">
+                                <arg name="type" type="constant">type</arg>
+                                <arg name="id_HASHED_CONTENTS" type="xpath">text()</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>qualifier_identifiers/identifier</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P177_assigned_property_of_type</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>qualifier_identifiers/identifier</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E55_Type</type>
+                            <instance_generator name="URIwithAatId">
+                                <arg name="id" type="xpath">value/text()</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">../../qualifier/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
                         </entity>
                     </target_node>
                 </range>
