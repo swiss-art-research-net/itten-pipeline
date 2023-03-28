@@ -101,19 +101,4 @@ INSERT {
   VALUES (?placeRelation) {
     (gndo:familialRelationship)
   }
-};
-
-# Materialise triples defined through E13 Attribute Assignments that are not present yet in the graph
-INSERT {
-  GRAPH sari:relations {
-    ?subject ?property ?object .
-    }
-} WHERE {
-  ?assignment a crm:E13_Attribute_Assignment ;
-              crm:P140_assigned_attribute_to ?subject ;
-              crm:P141_assigned ?object ;
-              crm:P177_assigned_property_of_type ?property .
-  FILTER NOT EXISTS {
-    ?subject ?property ?object
-  }
 }
