@@ -98,7 +98,20 @@ INSERT {
 } WHERE {
   ?person a gndo:Person ;
     ?personRelation ?subject .
-  VALUES (?placeRelation) {
+  VALUES (?personRelation) {
     (gndo:familialRelationship)
   }
+};
+
+# In the mapping we sometimes map to E1_CRM_Entity where the
+# mapping is the same for several types and the type is more
+# specifically defined elsewhere. Here we remove the E1_CRM_Entity
+# type in instances where there is a more specific CRM type.
+DELETE {
+  ?subject a crm:E1_CRM_Entity .
+} WHERE {
+  ?subject a crm:E1_CRM_Entity ;
+    a ?type .
+  ?type rdfs:subClassOf* crm:E1_CRM_Entity .
+  FILTER(?type != crm:E1_CRM_Entity)
 }
