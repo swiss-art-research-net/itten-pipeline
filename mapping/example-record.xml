@@ -1386,7 +1386,14 @@
       </beziehungen>
       <beziehungen>
         <value>Natascha</value>
-        <qualifier>grandaughter #AAT300386749</qualifier>
+        <qualifier>grandaughter</qualifier>
+        <qualifier_identifiers>
+          <identifier>
+            <position>13</position>
+            <source>AAT</source>
+            <value>300386749</value>
+          </identifier>
+        </qualifier_identifiers>
       </beziehungen>
       <bemerkungen>
         <value>Quelle: Hs NL 11: Fd 13</value>
@@ -1409,7 +1416,14 @@
       </beziehungen>
       <beziehungen>
         <value>Mongolischer Grosselternteil von Natascha</value>
-        <qualifier>grandparent #AAT300386751</qualifier>
+        <qualifier>grandparent</qualifier>
+        <qualifier_identifiers>
+          <identifier>
+            <position>12</position>
+            <source>AAT</source>
+            <value>300386751</value>
+          </identifier>
+        </qualifier_identifiers>
       </beziehungen>
       <beziehungen>
         <value>Itten</value>
@@ -1418,7 +1432,14 @@
           <source>GND</source>
           <value>118710990</value>
         </identifiers>
-        <qualifier>teacher #AAT300025529</qualifier>
+        <qualifier>teacher</qualifier>
+        <qualifier_identifiers>
+          <identifier>
+            <position>8</position>
+            <source>AAT</source>
+            <value>300025529</value>
+          </identifier>
+        </qualifier_identifiers>
       </beziehungen>
       <bemerkungen>
         <value>in Moskau geboren (Quelle: Hs NL 11: Fd 13)</value>
@@ -4706,7 +4727,14 @@
           <source>GND</source>
           <value>1079478566</value>
         </identifiers>
-        <qualifier>member #AAT300263077</qualifier>
+        <qualifier>member</qualifier>
+        <qualifier_identifiers>
+          <identifier>
+            <position>7</position>
+            <source>AAT</source>
+            <value>300263077</value>
+          </identifier>
+        </qualifier_identifiers>
       </beziehungen>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="2">
@@ -6603,7 +6631,14 @@
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
-        <qualifier>Empty) Beziehungen zu Organisationen: Consiglio superiore per le antichit&#224; e belle arti #GND1206953268 (member-organization</qualifier>
+        <qualifier>Empty) Beziehungen zu Organisationen: Consiglio superiore per le antichit&#224; e belle arti (member-organization</qualifier>
+        <qualifier_identifiers>
+          <identifier>
+            <position>88</position>
+            <source>GND</source>
+            <value>1206953268</value>
+          </identifier>
+        </qualifier_identifiers>
       </rolle>
       <bemerkungen>
         <value>Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2)</value>
@@ -6780,7 +6815,14 @@
       </rolle>
       <beziehungen>
         <value>Sch&#246;ne B&#252;rgerin</value>
-        <qualifier>wife #AAT300154343</qualifier>
+        <qualifier>wife</qualifier>
+        <qualifier_identifiers>
+          <identifier>
+            <position>5</position>
+            <source>AAT</source>
+            <value>300154343</value>
+          </identifier>
+        </qualifier_identifiers>
       </beziehungen>
       <bemerkungen>
         <value>Befindet sich mit seiner Frau am 29. Oktober 1950 im Zug auf der Strecke von Taormina nach Tarent (Quelle: Vorlage Hs NL 11: Bd 2)</value>
@@ -6809,7 +6851,14 @@
       </rolle>
       <beziehungen>
         <value>Sch&#246;ne B&#252;rgerin</value>
-        <qualifier>mother #AAT300025932</qualifier>
+        <qualifier>mother</qualifier>
+        <qualifier_identifiers>
+          <identifier>
+            <position>7</position>
+            <source>AAT</source>
+            <value>300025932</value>
+          </identifier>
+        </qualifier_identifiers>
       </beziehungen>
       <bemerkungen>
         <value>Befinden sich mit ihrer Mutter am 29. Oktober 1950 im Zug auf der Strecke von Taormina nach Tarent Tarent. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2)</value>
