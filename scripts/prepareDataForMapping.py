@@ -530,7 +530,7 @@ def parseIdentifiers(records):
     :return: list of XML records with added identifiers
     """
     #identifierRegex = re.compile(r"#([A-Z]+)([0-9]+)")
-    tags = ['register_bemerkungen']
+    tags = ['register_bemerkungen', 'qualifier']
     p = Parser()
     for record in records:
         for tag in tags:
