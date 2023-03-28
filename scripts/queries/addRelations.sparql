@@ -65,6 +65,7 @@ INSERT {
   VALUES(?crmType ?searchType) {
     (crm:E21_Person search:Person)
     (crm:E39_Actor search:Actor)
+    (crm:E74_Group search:Group)
     (crm:E55_Type search:Type)
     (crm:E53_Place search:Place)
     (crm:E78_Curated_Holding search:Collection)
@@ -115,4 +116,4 @@ INSERT {
   FILTER NOT EXISTS {
     ?subject ?property ?object
   }
-};
+}
