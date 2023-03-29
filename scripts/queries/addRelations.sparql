@@ -1,3 +1,5 @@
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX jila: <https://jila.swissartresearch.net/ontology/>
 PREFIX sari: <https://platform.swissartresearch.net/>
 PREFIX search: <https://platform.swissartresearch.net/search/>
 PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
@@ -100,6 +102,44 @@ INSERT {
     ?personRelation ?subject .
   VALUES (?personRelation) {
     (gndo:familialRelationship)
+  }
+};
+
+# Add CIDOC-CRM types for entities that lack a specific type,
+# but where the type can be inferred from relations.
+# This can originate from entities created through parsing of
+# internal remarks, such as relationships between observed
+# entities and other entities that lack a GND.
+INSERT {
+  GRAPH sari:relations {
+    ?subject a ?type .
+  }
+} WHERE {
+  ?subject a crm:E1_CRM_Entity .
+  ?subject ?relation ?object .
+  VALUES (?relation ?label ?type) {
+    (aat:300025529 'teacher' crm:E21_Person)
+    (aat:300025931 'father' crm:E21_Person)
+    (aat:300025932 'mother' crm:E21_Person)
+    (aat:300154341 'husband' crm:E21_Person)
+    (aat:300154343 'wife' crm:E21_Person)
+    (aat:300154348 'daughter' crm:E21_Person)
+    (aat:300188723 'brother' crm:E21_Person)
+    (aat:300255718 'ancestor' crm:E21_Person)
+    (aat:300266305 'descendant' crm:E21_Person)
+    (aat:300386749 'grand-daughter' crm:E21_Person)
+    (aat:300386751 'grand-parents' crm:E21_Person)
+    (jila:teacher_of 'teacher of' crm:E21_Person)
+    (jila:father_of 'father of' crm:E21_Person)
+    (jila:mother_of 'mother of' crm:E21_Person)
+    (jila:husband_of 'husband of' crm:E21_Person)
+    (jila:wife_of 'wife of' crm:E21_Person)
+    (jila:daughter_of 'daughter of' crm:E21_Person)
+    (jila:brother_of 'brother of' crm:E21_Person)
+    (jila:ancestor_of 'ancestor of' crm:E21_Person)
+    (jila:descendant_of 'descendant of' crm:E21_Person)
+    (jila:grand-daughter_of 'grand-daughter of' crm:E21_Person)
+    (jila:grand-parents_of 'grand-parents of' crm:E21_Person)
   }
 };
 
