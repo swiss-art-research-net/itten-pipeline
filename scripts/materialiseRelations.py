@@ -94,6 +94,15 @@ def performMaterialisation(options):
         print("Error: %s" % result.response.read())
         sys.exit(1)
 
+    rerouteQuery = generateRerouteQuery(namedGraph=namedGraph)
+    sparql.setQuery(rerouteQuery)
+    sparql.setMethod('POST')
+    
+    result = sparql.query()
+    if result.response.status != 200:
+        print("Error: %s" % result.response.read())
+        sys.exit(1)
+
     reverseQuery = generateReverseQuery(namedGraph=namedGraph)
     sparql.setQuery(reverseQuery)
     sparql.setMethod('POST')
@@ -168,6 +177,41 @@ def generateUpdateQuery(model, namedGraph=None):
         output += query
 
     return output
+
+def generateRerouteQuery(namedGraph=None):
+    """
+    If we have a entity that is present in the JILA graph, we want 
+    to reroute the relations from e.g. GND entities to the JILA entity.
+    """
+    if not namedGraph:
+        return """PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+        DELETE {
+            ?subject ?relation ?object .
+        } INSERT {
+            ?subject ?relation ?jilaObject .
+        } WHERE {
+            ?subject ?relation ?object .
+            ?jilaObject crmdig:L54_is_same-as ?object .
+        }"""
+    else:
+        queryTemplate = Template("""
+            PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+            DELETE {
+                GRAPH <$graph> {
+                    ?subject ?relation ?object .
+                }
+                } INSERT {
+                GRAPH <$graph> {
+                    ?subject ?relation ?jilaObject .
+                }
+                } WHERE {
+                GRAPH <$graph> {
+                    ?subject ?relation ?object .
+                }
+                ?jilaObject crmdig:L54_is_same-as ?object .
+            }
+            """)
+        return queryTemplate.substitute(graph=namedGraph)
 
 def generateReverseQuery(namedGraph=None): 
     if not namedGraph:
