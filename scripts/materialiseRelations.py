@@ -76,6 +76,9 @@ def performMaterialisation(options):
     endpoint = options['endpoint']
     namedGraph = options['graph']
 
+    """
+    Perform the materialisation of the relations defined in the YAML file
+    """
     with open(definitionsFile, "r") as f:
         model = yaml.safe_load(f)
 
@@ -93,9 +96,13 @@ def performMaterialisation(options):
     if result.response.status != 200:
         print("Error: %s" % result.response.read())
         sys.exit(1)
-
-    rerouteQuery = generateRerouteQuery(namedGraph=namedGraph)
-    sparql.setQuery(rerouteQuery)
+    
+    """
+    Relink relations that relate to GND or other external entities,
+    for which an internal entity exists
+    """
+    relinkQuery = generateRelinkQuery(namedGraph=namedGraph)
+    sparql.setQuery(relinkQuery)
     sparql.setMethod('POST')
     
     result = sparql.query()
@@ -103,6 +110,9 @@ def performMaterialisation(options):
         print("Error: %s" % result.response.read())
         sys.exit(1)
 
+    """
+    Materialise reverse relations
+    """
     reverseQuery = generateReverseQuery(namedGraph=namedGraph)
     sparql.setQuery(reverseQuery)
     sparql.setMethod('POST')
@@ -178,10 +188,10 @@ def generateUpdateQuery(model, namedGraph=None):
 
     return output
 
-def generateRerouteQuery(namedGraph=None):
+def generateRelinkQuery(namedGraph=None):
     """
     If we have a entity that is present in the JILA graph, we want 
-    to reroute the relations from e.g. GND entities to the JILA entity.
+    to relink the relations from e.g. GND entities to the JILA entity.
     """
     if not namedGraph:
         return """PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
@@ -192,7 +202,16 @@ def generateRerouteQuery(namedGraph=None):
         } WHERE {
             ?subject ?relation ?object .
             ?jilaObject crmdig:L54_is_same-as ?object .
-        }"""
+        };
+        DELETE {
+            ?subject ?relation ?object .
+        } INSERT {
+            ?jilaSubject ?relation ?object .
+        } WHERE {
+            ?subject ?relation ?object .
+            ?jilaSubject crmdig:L54_is_same-as ?subject .
+        }
+        """
     else:
         queryTemplate = Template("""
             PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
@@ -200,15 +219,30 @@ def generateRerouteQuery(namedGraph=None):
                 GRAPH <$graph> {
                     ?subject ?relation ?object .
                 }
-                } INSERT {
+            } INSERT {
                 GRAPH <$graph> {
                     ?subject ?relation ?jilaObject .
                 }
-                } WHERE {
+            } WHERE {
                 GRAPH <$graph> {
                     ?subject ?relation ?object .
                 }
                 ?jilaObject crmdig:L54_is_same-as ?object .
+            };
+            PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+            DELETE {
+                GRAPH <$graph> {
+                    ?subject ?relation ?object .
+                }
+            } INSERT {
+                GRAPH <$graph> {
+                    ?jilaSubject ?relation ?object .
+                }
+            } WHERE {
+                GRAPH <$graph> {
+                    ?subject ?relation ?object .
+                }
+                ?jilaSubject crmdig:L54_is_same-as ?subject .
             }
             """)
         return queryTemplate.substitute(graph=namedGraph)
