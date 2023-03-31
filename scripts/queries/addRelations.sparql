@@ -80,6 +80,22 @@ INSERT {
 # Add CIDOC-CRM types for external entities
 INSERT {
   GRAPH sari:relations {
+    ?subject a crm:E21_Person .
+  }
+} WHERE {
+  ?subject a gndo:Person .
+};
+
+INSERT {
+  GRAPH sari:relations {
+    ?subject a crm:E74_Group .
+  }
+} WHERE {
+  ?subject a gndo:CorporateBody .
+};
+
+INSERT {
+  GRAPH sari:relations {
     ?subject a crm:E53_Place .
   }
 } WHERE {
