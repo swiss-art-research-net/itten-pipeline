@@ -120,6 +120,9 @@ tasks:
       - task: drop-graph
         desc: Graphs that need to be overwritten are dropped
         vars:
+          GRAPH: https://resource.swissartresearch.net/graph/network/labels
+      - task: drop-graph
+        vars:
           GRAPH: https://resource.swissartresearch.net/graph/network/vocab
       - task: ingest-data-from-folder
         vars: 
