@@ -775,7 +775,7 @@
       <gnd>4113292-0</gnd>
     </sprachen>
     <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokumente</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 72; Dossier 218 (Ms. "Impressive Farblehre", S. 1-19; S. 22-23) / Entit&#228;t: Schwedischer Industrieller Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Person in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Hs NL 11: Fd 13); Entit&#228;t: G&#228;ste eines schwedischen Industriellen Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Hs NL 11: Fd 13) Anzahl &gt;1; Entit&#228;t: S&#252;dfranz&#246;sische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Schottische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Itten #GND118710990 (teacher #AAT300025529) Beziehungen: Mongolischer Grosselternteil von Natascha (grandparent #AAT300386751) Beziehungen: Natascha D. (possible match) Bemerkungen: in Moskau #GND4074987-3 geboren (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Mongolischer Grosselternteil von Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Natascha (grandaughter #AAT300386749) Beziehungen: Mongolische Vorfahren von Natascha D. (possible match) Bemerkungen: Quelle: Hs NL 11: Fd 13</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 72; Dossier 218 (Ms. "Impressive Farblehre", S. 1-19; S. 22-23) / Entit&#228;t: Schwedischer Industrieller Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Person in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Hs NL 11: Fd 13); Entit&#228;t: G&#228;ste eines schwedischen Industriellen Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Hs NL 11: Fd 13) Anzahl: &gt;1; Entit&#228;t: S&#252;dfranz&#246;sische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Schottische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Itten #GND118710990 (teacher #AAT300025529) Beziehungen: Mongolischer Grosselternteil von Natascha (grandparent #AAT300386751) Beziehungen: Natascha D. (possible match) Bemerkungen: in Moskau #GND4074987-3 geboren (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Mongolischer Grosselternteil von Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Natascha (grandaughter #AAT300386749) Beziehungen: Mongolische Vorfahren von Natascha D. (possible match)</allgemeine_interne_anmerkungen>
     <allgemeine_anmerkungen index="0">Beilagen und Druckschrift nicht digitalisiert</allgemeine_anmerkungen>
     <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
     <zustandskategorie index="0">
@@ -1395,9 +1395,6 @@
           </identifier>
         </qualifier_identifiers>
       </beziehungen>
-      <bemerkungen>
-        <value>Quelle: Hs NL 11: Fd 13</value>
-      </bemerkungen>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="1">
       <entitaet>
@@ -1495,20 +1492,23 @@
         <value>G&#228;ste eines schwedischen Industriellen</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Personen in einer von Donald Brinkmann berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Hs NL 11: Fd 13) Anzahl &gt;1</value>
+        <value>Personen in einer von Donald Brinkmann berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Hs NL 11: Fd 13)</value>
         <identifiers>
           <position>39</position>
           <source>GND</source>
           <value>118674161</value>
         </identifiers>
       </bemerkungen>
+      <anzahl>
+        <value>&gt;1</value>
+      </anzahl>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="5">
       <entitaet>
@@ -3153,7 +3153,7 @@
     <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
     <verwertungsrecht index="0">Gemeinfrei</verwertungsrecht>
     <physische_beschaffenheit_und_technische_anforderungen index="0">Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 92 / Entit&#228;t: Monteure am Velum im Stedelijk Museum Amsterdam 1938 Typ: Person Rolle: Abgebildet (dpc) (Empty) Bemerkungen: T&#228;tig im Umfeld der Gesamtkomposition des Velum #GND1218719192 am Stedelijk Museum Amsterdam #GND1218719192. Anzahl 2 (Quelle: Vorlage Hs NL 11: Ch 3.1.41); Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 92 / Entit&#228;t: Monteure am Velum im Stedelijk Museum Amsterdam 1938 Typ: Person Rolle: Abgebildet (dpc) (Empty) Bemerkungen: T&#228;tig im Umfeld der Gesamtkomposition des Velum #GND1218719192 am Stedelijk Museum Amsterdam #GND1030247-5. (Quelle: Vorlage Hs NL 11: Ch 3.1.41) Anzahl: 2; Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
     <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
     <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-126364</doi>
@@ -3178,18 +3178,18 @@
         <value>Monteure am Velum im Stedelijk Museum Amsterdam 1938</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Abgebildet</value>
         <qualifier>dpc) (Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>T&#228;tig im Umfeld der Gesamtkomposition des Velum am Stedelijk Museum Amsterdam. Anzahl 2 (Quelle: Vorlage Hs NL 11: Ch 3.1.41)</value>
+        <value>T&#228;tig im Umfeld der Gesamtkomposition des Velum am Stedelijk Museum Amsterdam. (Quelle: Vorlage Hs NL 11: Ch 3.1.41)</value>
         <identifiers>
-          <position>-1</position>
+          <position>78</position>
           <source>GND</source>
-          <value>1218719192</value>
+          <value>1030247-5</value>
         </identifiers>
         <identifiers>
           <position>48</position>
@@ -3197,6 +3197,9 @@
           <value>1218719192</value>
         </identifiers>
       </bemerkungen>
+      <anzahl>
+        <value>2</value>
+      </anzahl>
     </parsed_internal_remarks>
     <oai>
       <header>
@@ -3643,7 +3646,7 @@
       <gnd>4113292-0</gnd>
     </sprachen>
     <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 206 / Entit&#228;t: Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung" Typ: Person Rolle: Adressat (rcp) (Contributor) Bemerkungen: Damen und Herren (Name in Vorlageform, Quelle: Vorlage Hs NL 11: Fb 2.20.3); Entit&#228;t: Direktor der Chirurgischen Klinik Z&#252;rich im Jahr 1961 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Chirurgische Klinik Z&#252;rich #GND1086229142 (employer) Beziehungen: Brunner, Alfred #GND13133056X (possible match) Bemerkungen: Quelle: Vorlage Hs NL 11: Fb 2.20.3; Entit&#228;t: Klaus Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Quelle: Vorlage Hs NL 11: Fb 2.20.3</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 206 / Entit&#228;t: Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung" Typ: Person Rolle: Adressat (rcp) (Contributor) Bemerkungen: Damen und Herren (Name in Vorlageform, Quelle: Vorlage Hs NL 11: Fb 2.20.3); Entit&#228;t: Direktor der Chirurgischen Klinik Z&#252;rich im Jahr 1961 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Chirurgische Klinik Z&#252;rich #GND1086229142 (employer) Beziehungen: Brunner, Alfred #GND13133056X (possible match); Entit&#228;t: Klaus Typ: Person Rolle: Erw&#228;hnt (Empty)</allgemeine_interne_anmerkungen>
     <allgemeine_anmerkungen index="0">Ort nicht ermittelt</allgemeine_anmerkungen>
     <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
     <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
@@ -3803,9 +3806,6 @@
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
-      <bemerkungen>
-        <value>Quelle: Vorlage Hs NL 11: Fb 2.20.3</value>
-      </bemerkungen>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="1">
       <entitaet>
@@ -3836,9 +3836,6 @@
         </identifiers>
         <qualifier>employer</qualifier>
       </beziehungen>
-      <bemerkungen>
-        <value>Quelle: Vorlage Hs NL 11: Fb 2.20.3</value>
-      </bemerkungen>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="2">
       <entitaet>
@@ -4553,7 +4550,7 @@
       <gnd>4113292-0</gnd>
     </sprachen>
     <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 109 / Entit&#228;t: Mitglieder des Internationalen Museumsrats 1948 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Stammen aus 51 Nationen im Jahr 1948. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Cj 1.9). Beziehungen: Internationaler Museumsrat #GND4513241-0 (member-organization); Entit&#228;t: Teilnehmer der Biennale des ICOM 1948 in Paris Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Anzahl 299 (Quelle: Vorlage Hs NL 11: Cj 1.9); Entit&#228;t: Mitglieder des Stadtrates von Z&#252;rich 1948 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Cj 1.9) Beziehungen: Z&#252;rich. Stadtrat #GND1079478566 (member #AAT300263077); Entit&#228;t: Z&#252;rich #GND4068038-1 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 109 / Entit&#228;t: Mitglieder des Internationalen Museumsrats 1948 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Stammen aus 51 Nationen im Jahr 1948. (Quelle: Vorlage Hs NL 11: Cj 1.9). Beziehungen: Internationaler Museumsrat #GND4513241-0 (member-organization) Anzahl: &gt;1; Entit&#228;t: Teilnehmer der Biennale des ICOM 1948 in Paris Typ: Person Rolle: Erw&#228;hnt (Empty) Anzahl: 299 (Quelle: Vorlage Hs NL 11: Cj 1.9); Entit&#228;t: Mitglieder des Stadtrates von Z&#252;rich 1948 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Z&#252;rich. Stadtrat #GND1079478566 (member #AAT300263077) Anzahl: &gt;1 (Quelle: Vorlage Hs NL 11: Cj 1.9); Entit&#228;t: Z&#252;rich #GND4068038-1 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
     <allgemeine_anmerkungen index="0">Vollst&#228;ndiger Titel: Bericht &#252;ber die Teilnahme des Unterzeichneten an der ersten Biennale der ICOM (International Council of Museums) in Paris vom 28. Juni bis 3. Juli 1948</allgemeine_anmerkungen>
     <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
     <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
@@ -4711,15 +4708,12 @@
         <value>Mitglieder des Stadtrates von Z&#252;rich 1948</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
-      <bemerkungen>
-        <value>Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Cj 1.9)</value>
-      </bemerkungen>
       <beziehungen>
         <value>Z&#252;rich. Stadtrat</value>
         <identifiers>
@@ -4736,35 +4730,40 @@
           </identifier>
         </qualifier_identifiers>
       </beziehungen>
+      <anzahl>
+        <value>&gt;1</value>
+        <qualifier>Quelle: Vorlage Hs NL 11: Cj 1.9</qualifier>
+      </anzahl>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="2">
       <entitaet>
         <value>Teilnehmer der Biennale des ICOM 1948 in Paris</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
-      <bemerkungen>
-        <value>Anzahl 299 (Quelle: Vorlage Hs NL 11: Cj 1.9)</value>
-      </bemerkungen>
+      <anzahl>
+        <value>299</value>
+        <qualifier>Quelle: Vorlage Hs NL 11: Cj 1.9</qualifier>
+      </anzahl>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="3">
       <entitaet>
         <value>Mitglieder des Internationalen Museumsrats 1948</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Stammen aus 51 Nationen im Jahr 1948. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Cj 1.9).</value>
+        <value>Stammen aus 51 Nationen im Jahr 1948. (Quelle: Vorlage Hs NL 11: Cj 1.9).</value>
       </bemerkungen>
       <beziehungen>
         <value>Internationaler Museumsrat</value>
@@ -4775,6 +4774,9 @@
         </identifiers>
         <qualifier>member-organization</qualifier>
       </beziehungen>
+      <anzahl>
+        <value>&gt;1</value>
+      </anzahl>
     </parsed_internal_remarks>
     <oai>
       <header>
@@ -4974,7 +4976,7 @@
       <gnd>4113292-0</gnd>
     </sprachen>
     <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 169 / Entit&#228;t: Sch&#246;ne B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Rolle: Abgebildet (dpc) (Empty) Bemerkungen: Johannes Itten #GND118710990 beobachtet die Sch&#246;ne B&#252;rgerin mit schwarzen Haaren, blauen Augen und einem symmetrischen Gesicht am 29. Oktober 1950 im Zug auf der Strecke zwischen Taormina #GND4059040-9 und Tarent #GND4078155-0 und skizziert sie (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Kinder der sch&#246;nen B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Sch&#246;ne B&#252;rgerin (mother #AAT300025932) Bemerkungen: Befinden sich mit ihrer Mutter am 29. Oktober 1950 im Zug auf der Strecke von Taormina #GND4059040-9 nach Tarent Tarent #GND4078155-0. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Mann der sch&#246;nen B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Sch&#246;ne B&#252;rgerin (wife #AAT300154343) Bemerkungen: Befindet sich mit seiner Frau am 29. Oktober 1950 im Zug auf der Strecke von Taormina #GND4059040-9 nach Tarent #GND4078155-0 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Menschen vor dem Eingang der Musei Vaticani am 4. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Wartende Menschen vor dem Eingang der Musei Vaticani #GND235092-0 Anzahl &gt;1000 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Angestellter der Musei Vaticani Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Musei Vaticani #GND235092-0 (employer) Bemerkungen: Name in Vorlageform: Dirigierender. Weist Itten #GND118710990 am 4. November 1950 vor den Musei Vaticani an den Wartenden vorbei zur Generaldirektion Abteilung Etrusker (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: W&#228;rter der Musei Vaticani Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Musei Vaticani #GND235092-0 (employer) Bemerkungen: Schliesst Itten #GND118710990 am 4. November 1950 die T&#252;r zur etruskischen Abteilung in den Musei Vaticani auf und wartet w&#228;hrend 1.25 Stunden bis Itten mit der Besichtigung fertig ist (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Besucherstrom in den Musei Vaticani am 4. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Name in Vorlageform: Breiter Strom. Besucher und Besucherinnen, welche die Sixtinische Kapelle #GND4104970-6 in den Musei Vaticani #GND235092-0 besuchen. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Sekret&#228;r oder Sekret&#228;rin von Renato Bartoccini Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Name in Vorlageform: Sekr. Johannes Itten #GND118710990 besucht am 5. November 1950 in Begleitung von Renato Bartoccini #GND125999607 und dieser Person das Museo Nazionale Etrusco di Villa Giulia #GND4135619-6 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Sekret&#228;r von Guglielmo De Angelis d'Ossat Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Telefoniert am 6. November 1950 mit Itten #GND118710990 (Quelle: Vorlage Hs NL 11: Bd 2). Bezeihungen zu Personen: De Angelis d'Ossat, Guglielmo #GND118887548; Entit&#228;t: Mitglieder des Consiglio superiore per le antichit&#224; e belle arti am 6. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen zu Organisationen: Consiglio superiore per le antichit&#224; e belle arti #GND1206953268 (member-organization) Bemerkungen: Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Slovakischer Augenoperateur Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Wird zusammen mit Prof. Patzek erw&#228;hnt (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Gesandtschaft Indien Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Indiens #GND4026722-2, die Itten #GND118710990 einladen will. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Gesandtschaft China Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Chinas #GND4009937-4, die Itten #GND118710990 einladen will. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Gesandtschaft Japan Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Japans #GND4028495-5, die Itten #GND118710990 einladen will. Anzahl: &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Abegg Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Werner Abegg #GND118646567 (possible match); Entit&#228;t: Costantini Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Trifft Dr. Gr&#252;nwald am Morgen des 6. November 1950 in Rom (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Frl. Dahl Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Sekret&#228;rin von Gr&#252;nwald (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Dr. Gr&#252;nwald Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Reisebegleiter von Johannes Itten #GND118710990 in Italien im Herbst 1950 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Prof. Patzek Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Quelle: Vorlage Hs NL 11: Bd 2; Entit&#228;t: F&#252;rst Schwarzenberg Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Johannes Schwarzenberg #GND1023890828 (possible match) Bemerkungen: Quelle: Hs NL 11: Bd 2</allgemeine_interne_anmerkungen>
+    <allgemeine_interne_anmerkungen index="0">Dossier 169 / Entit&#228;t: Sch&#246;ne B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Rolle: Abgebildet (dpc) (Empty) Bemerkungen: Johannes Itten #GND118710990 beobachtet die Sch&#246;ne B&#252;rgerin mit schwarzen Haaren, blauen Augen und einem symmetrischen Gesicht am 29. Oktober 1950 im Zug auf der Strecke zwischen Taormina #GND4059040-9 und Tarent #GND4078155-0 und skizziert sie (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Kinder der sch&#246;nen B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Sch&#246;ne B&#252;rgerin (mother #AAT300025932) Bemerkungen: Befinden sich mit ihrer Mutter am 29. Oktober 1950 im Zug auf der Strecke von Taormina #GND4059040-9 nach Tarent #GND4078155-0. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Mann der sch&#246;nen B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Sch&#246;ne B&#252;rgerin (wife #AAT300154343) Bemerkungen: Befindet sich mit seiner Frau am 29. Oktober 1950 im Zug auf der Strecke von Taormina #GND4059040-9 nach Tarent #GND4078155-0 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Menschen vor dem Eingang der Musei Vaticani am 4. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Wartende Menschen vor dem Eingang der Musei Vaticani #GND235092-0 (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1000; Entit&#228;t: Angestellter der Musei Vaticani Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Musei Vaticani #GND235092-0 (employer) Bemerkungen: Name in Vorlageform: Dirigierender. Weist Itten #GND118710990 am 4. November 1950 vor den Musei Vaticani an den Wartenden vorbei zur Generaldirektion Abteilung Etrusker (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: W&#228;rter der Musei Vaticani Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Musei Vaticani #GND235092-0 (employer) Bemerkungen: Schliesst Itten #GND118710990 am 4. November 1950 die T&#252;r zur etruskischen Abteilung in den Musei Vaticani auf und wartet w&#228;hrend 1.25 Stunden bis Itten mit der Besichtigung fertig ist (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Besucherstrom in den Musei Vaticani am 4. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Name in Vorlageform: Breiter Strom. Besucher und Besucherinnen, welche die Sixtinische Kapelle #GND4104970-6 in den Musei Vaticani #GND235092-0 besuchen. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Sekret&#228;r oder Sekret&#228;rin von Renato Bartoccini Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Name in Vorlageform: Sekr. Johannes Itten #GND118710990 besucht am 5. November 1950 in Begleitung von Renato Bartoccini #GND125999607 und dieser Person das Museo Nazionale Etrusco di Villa Giulia #GND4135619-6 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Sekret&#228;r von Guglielmo De Angelis d'Ossat Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Telefoniert am 6. November 1950 mit Itten #GND118710990 (Quelle: Vorlage Hs NL 11: Bd 2). Beziehungen zu Personen: De Angelis d'Ossat, Guglielmo #GND118887548; Entit&#228;t: Mitglieder des Consiglio superiore per le antichit&#224; e belle arti am 6. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen zu Organisationen: Consiglio superiore per le antichit&#224; e belle arti #GND1206953268 (member-organization) Anzahl: &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Slovakischer Augenoperateur Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Wird zusammen mit Prof. Patzek erw&#228;hnt (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Gesandtschaft Indien Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Indiens #GND4026722-2, die Itten #GND118710990 einladen will. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Gesandtschaft China Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Chinas #GND4009937-4, die Itten #GND118710990 einladen will. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Gesandtschaft Japan Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Japans #GND4028495-5, die Itten #GND118710990 einladen will. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Abegg Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Abegg, Werner #GND118646567 (possible match); Entit&#228;t: Costantini Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Trifft Dr. Gr&#252;nwald am Morgen des 6. November 1950 in Rom (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Frl. Dahl Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Sekret&#228;rin von Gr&#252;nwald (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Dr. Gr&#252;nwald Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Reisebegleiter von Johannes Itten #GND118710990 in Italien im Herbst 1950 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Prof. Patzek Typ: Person Rolle: Erw&#228;hnt (Empty); Entit&#228;t: F&#252;rst Schwarzenberg Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Johannes Schwarzenberg #GND1023890828 (possible match)</allgemeine_interne_anmerkungen>
     <allgemeine_anmerkungen index="0">Ort nicht ermittelt</allgemeine_anmerkungen>
     <verzeichnungsstatus index="0">In Pr&#252;fung</verzeichnungsstatus>
     <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
@@ -6438,9 +6440,6 @@
         </identifiers>
         <qualifier>possible match</qualifier>
       </beziehungen>
-      <bemerkungen>
-        <value>Quelle: Hs NL 11: Bd 2</value>
-      </bemerkungen>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="1">
       <entitaet>
@@ -6453,9 +6452,6 @@
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
-      <bemerkungen>
-        <value>Quelle: Vorlage Hs NL 11: Bd 2</value>
-      </bemerkungen>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="2">
       <entitaet>
@@ -6519,9 +6515,9 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <beziehungen>
-        <value>Werner Abegg</value>
+        <value>Abegg, Werner</value>
         <identifiers>
-          <position>13</position>
+          <position>14</position>
           <source>GND</source>
           <value>118646567</value>
         </identifiers>
@@ -6540,7 +6536,7 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Personen einer diplomatischen Gesandtschaft Japans, die Itten einladen will.</value>
+        <value>Personen einer diplomatischen Gesandtschaft Japans, die Itten einladen will. (Quelle: Vorlage Hs NL 11: Bd 2)</value>
         <identifiers>
           <position>62</position>
           <source>GND</source>
@@ -6554,7 +6550,6 @@
       </bemerkungen>
       <anzahl>
         <value>&gt;1</value>
-        <qualifier>Quelle: Vorlage Hs NL 11: Bd 2</qualifier>
       </anzahl>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="7">
@@ -6562,14 +6557,14 @@
         <value>Gesandtschaft China</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Personen einer diplomatischen Gesandtschaft Chinas, die Itten einladen will. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2)</value>
+        <value>Personen einer diplomatischen Gesandtschaft Chinas, die Itten einladen will. (Quelle: Vorlage Hs NL 11: Bd 2)</value>
         <identifiers>
           <position>62</position>
           <source>GND</source>
@@ -6581,20 +6576,23 @@
           <value>4009937-4</value>
         </identifiers>
       </bemerkungen>
+      <anzahl>
+        <value>&gt;1</value>
+      </anzahl>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="8">
       <entitaet>
         <value>Gesandtschaft Indien</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Personen einer diplomatischen Gesandtschaft Indiens, die Itten einladen will. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2)</value>
+        <value>Personen einer diplomatischen Gesandtschaft Indiens, die Itten einladen will. (Quelle: Vorlage Hs NL 11: Bd 2)</value>
         <identifiers>
           <position>63</position>
           <source>GND</source>
@@ -6606,6 +6604,9 @@
           <value>4026722-2</value>
         </identifiers>
       </bemerkungen>
+      <anzahl>
+        <value>&gt;1</value>
+      </anzahl>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="9">
       <entitaet>
@@ -6627,7 +6628,7 @@
         <value>Mitglieder des Consiglio superiore per le antichit&#224; e belle arti am 6. November 1950</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
@@ -6640,9 +6641,10 @@
           </identifier>
         </qualifier_identifiers>
       </rolle>
-      <bemerkungen>
-        <value>Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2)</value>
-      </bemerkungen>
+      <anzahl>
+        <value>&gt;1</value>
+        <qualifier>Quelle: Vorlage Hs NL 11: Bd 2</qualifier>
+      </anzahl>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="11">
       <entitaet>
@@ -6656,7 +6658,7 @@
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Telefoniert am 6. November 1950 mit Itten (Quelle: Vorlage Hs NL 11: Bd 2). Bezeihungen zu Personen: De Angelis d'Ossat, Guglielmo</value>
+        <value>Telefoniert am 6. November 1950 mit Itten (Quelle: Vorlage Hs NL 11: Bd 2). Beziehungen zu Personen: De Angelis d'Ossat, Guglielmo</value>
         <identifiers>
           <position>131</position>
           <source>GND</source>
@@ -6704,14 +6706,14 @@
         <value>Besucherstrom in den Musei Vaticani am 4. November 1950</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Name in Vorlageform: Breiter Strom. Besucher und Besucherinnen, welche die Sixtinische Kapelle in den Musei Vaticani besuchen. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2)</value>
+        <value>Name in Vorlageform: Breiter Strom. Besucher und Besucherinnen, welche die Sixtinische Kapelle in den Musei Vaticani besuchen. (Quelle: Vorlage Hs NL 11: Bd 2)</value>
         <identifiers>
           <position>117</position>
           <source>GND</source>
@@ -6723,6 +6725,9 @@
           <value>4104970-6</value>
         </identifiers>
       </bemerkungen>
+      <anzahl>
+        <value>&gt;1</value>
+      </anzahl>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="14">
       <entitaet>
@@ -6787,20 +6792,23 @@
         <value>Menschen vor dem Eingang der Musei Vaticani am 4. November 1950</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
-        <value>Wartende Menschen vor dem Eingang der Musei Vaticani Anzahl &gt;1000 (Quelle: Vorlage Hs NL 11: Bd 2)</value>
+        <value>Wartende Menschen vor dem Eingang der Musei Vaticani (Quelle: Vorlage Hs NL 11: Bd 2)</value>
         <identifiers>
           <position>53</position>
           <source>GND</source>
           <value>235092-0</value>
         </identifiers>
       </bemerkungen>
+      <anzahl>
+        <value>&gt;1000</value>
+      </anzahl>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="17">
       <entitaet>
@@ -6843,7 +6851,7 @@
         <value>Kinder der sch&#246;nen B&#252;rgerin</value>
       </entitaet>
       <typ>
-        <value>Person</value>
+        <value>Gruppe</value>
       </typ>
       <rolle>
         <value>Erw&#228;hnt</value>
@@ -6861,9 +6869,9 @@
         </qualifier_identifiers>
       </beziehungen>
       <bemerkungen>
-        <value>Befinden sich mit ihrer Mutter am 29. Oktober 1950 im Zug auf der Strecke von Taormina nach Tarent Tarent. Anzahl &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2)</value>
+        <value>Befinden sich mit ihrer Mutter am 29. Oktober 1950 im Zug auf der Strecke von Taormina nach Tarent. (Quelle: Vorlage Hs NL 11: Bd 2)</value>
         <identifiers>
-          <position>106</position>
+          <position>99</position>
           <source>GND</source>
           <value>4078155-0</value>
         </identifiers>
@@ -6873,6 +6881,9 @@
           <value>4059040-9</value>
         </identifiers>
       </bemerkungen>
+      <anzahl>
+        <value>&gt;1</value>
+      </anzahl>
     </parsed_internal_remarks>
     <parsed_internal_remarks index="19">
       <entitaet>
