@@ -3719,11 +3719,6 @@
                     </source_relation>
                     <target_relation>
                         <relationship>crm:P1_is_identified_by</relationship>
-                    </target_relation>
-                </path>
-                <range>
-                    <source_node>anzahl</source_node>
-                    <target_node>
                         <entity variable="internal_remarks_group_count">
                             <type>crm:E42_Identifier</type>
                             <instance_generator name="URIwithTypeSuptypeAndId_hashed">
@@ -3731,10 +3726,6 @@
                                 <arg name="id_HASHED_CONTENTS" type="xpath">if (../entitaet/identifiers/source/text() = 'GND') then (../entitaet/identifiers/value/text()) else (../entitaet/value/text())</arg>
                                 <arg name="subtype" type="constant">count</arg>
                             </instance_generator>
-                            <label_generator name="Literal">
-                                <arg name="text" type="xpath">value/text()</arg>
-                                <arg name="language" type="constant"/>
-                            </label_generator>
                             <additional>
                                 <relationship>crm:P2_has_type</relationship>
                                 <entity>
@@ -3751,6 +3742,19 @@
                                     </label_generator>
                                 </entity>
                             </additional>
+                        </entity>
+                        <relationship>crm:P190_has_symbolic_content</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>anzahl</source_node>
+                    <target_node>
+                        <entity>
+                            <type>rdfs:Literal</type>
+                            <instance_generator name="Literal">
+                                <arg name="text" type="xpath">value/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </instance_generator>
                         </entity>
                     </target_node>
                 </range>
