@@ -30,7 +30,7 @@ services:
       - ./services/platform/apps:/apps
 
   platform:
-    image: swissartresearx/researchspace:4.0.2-beta
+    image: swissartresearx/researchspace:develop
     container_name: ${PROJECT_NAME}_platform
     restart: unless-stopped
     depends_on:
