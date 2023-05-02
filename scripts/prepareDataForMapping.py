@@ -541,12 +541,12 @@ def parseDates(records):
                         tagWithDate.set("dateFrom", dates[0])
                         daterangeFrom = convertEDTFdate(dates[0])
                         tagWithDate.set("dateFromLower", daterangeFrom['lower'])
-                        tagWithDate.set("dateFromUpper", daterangeFrom['lower'])
+                        tagWithDate.set("dateFromUpper", daterangeFrom['upper'])
                         if len(dates) == 2:
                             tagWithDate.set("dateTo", dates[1])
                             daterangeTo = convertEDTFdate(dates[1])
                             tagWithDate.set("dateToLower", daterangeTo['lower'])
-                            tagWithDate.set("dateToUpper", daterangeTo['lower'])
+                            tagWithDate.set("dateToUpper", daterangeTo['upper'])
     return records
 
 def parseIdentifiers(records):
