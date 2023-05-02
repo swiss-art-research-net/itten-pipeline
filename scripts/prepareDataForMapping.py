@@ -544,7 +544,7 @@ def parseDates(records):
                         tagWithDate.set("dateFromUpper", daterangeFrom['lower'])
                         if len(dates) == 2:
                             tagWithDate.set("dateTo", dates[1])
-                            daterangeTo = convertEDTFdate(dates[0])
+                            daterangeTo = convertEDTFdate(dates[1])
                             tagWithDate.set("dateToLower", daterangeTo['lower'])
                             tagWithDate.set("dateToUpper", daterangeTo['lower'])
     return records
