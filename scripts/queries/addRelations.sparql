@@ -160,6 +160,42 @@ INSERT {
   }
 };
 
+# Try to convert dates from external entities to xsd:date
+# TODO: does not work yet
+# INSERT {
+#   GRAPH sari:relations {
+#     ?subject crm:P98i_was_born ?birth .
+#     ?birth a crm:E67_Birth ;
+#       crm:P4_has_time-span ?birthTimeSpan .
+#     ?birthTimeSpan a crm:E52_Time-Span ;
+#       crm:P82a_begin_of_the_begin ?earliestDate ;
+#       crm:P82b_end_of_the_end ?latestDate .
+#   }
+# } WHERE {
+#   ?subject gndo:dateOfBirth ?date .
+#   BIND(IF(STRLEN(?date) = 10, xsd:date(?date), (IF(STRLEN(?date) = 4, xsd:date(CONCAT(?date, '-01-01')), (IF(STRSTARTS(?date, '-') && STRLEN(?date) = 5, xsd:date(CONCAT(?date, '-01-01')), ?date))))) as ?earliestDate)
+#   BIND(IF(STRLEN(?date) = 10, xsd:date(?date), (IF(STRLEN(?date) = 4, xsd:date(CONCAT(?date, '-12-31')), (IF(STRSTARTS(?date, '-') && STRLEN(?date) = 5, xsd:date(CONCAT(?date, '-12-31')), ?date))))) as ?latestDate)
+#   BIND(URI(CONCAT(STR(?subject), '/birth')) as ?birth)
+#   BIND(URI(CONCAT(STR(?subject), '/birth/date')) as ?birthTimeSpan)
+# };
+
+# INSERT {
+#   GRAPH sari:relations {
+#     ?subject crm:P100i_died_in ?death .
+#     ?birth a crm:E69_Death ;
+#       crm:P4_has_time-span ?deathTimeSpan .
+#     ?birthTimeSpan a crm:E52_Time-Span ;
+#       crm:P82a_begin_of_the_begin ?earliestDate ;
+#       crm:P82b_end_of_the_end ?latestDate .
+#   }
+# } WHERE {
+#   ?subject gndo:dateOfDeath ?date .
+#   BIND(IF(STRLEN(?date) = 10, xsd:date(?date), (IF(STRLEN(?date) = 4, xsd:date(CONCAT(?date, '-01-01')), (IF(STRSTARTS(?date, '-') && STRLEN(?date) = 5, xsd:date(CONCAT(?date, '-01-01')), ?date))))) as ?earliestDate)
+#   BIND(IF(STRLEN(?date) = 10, xsd:date(?date), (IF(STRLEN(?date) = 4, xsd:date(CONCAT(?date, '-12-31')), (IF(STRSTARTS(?date, '-') && STRLEN(?date) = 5, xsd:date(CONCAT(?date, '-12-31')), ?date))))) as ?latestDate)
+#   BIND(URI(CONCAT(STR(?subject), '/death')) as ?death)
+#   BIND(URI(CONCAT(STR(?subject), '/death/date')) as ?deathTimeSpan)
+# };
+
 # In the mapping we sometimes map to E1_CRM_Entity where the
 # mapping is the same for several types and the type is more
 # specifically defined elsewhere. Here we remove the E1_CRM_Entity
