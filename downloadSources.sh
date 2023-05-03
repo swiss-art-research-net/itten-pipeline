@@ -17,3 +17,5 @@ download "data/csv/sprachen.csv" "data/source/alignment-sprachen.csv"
 download "data/csv/verzeichnungsstufe.csv" "data/source/alignment-verzeichnungsstufe.csv"
 download "data/rdf/conceptLabels.trig" "data/ttl/additional/conceptLabels.trig"
 download "data/rdf/networkLabels.trig" "data/ttl/additional/networkLabels.trig"
+
+download "external/heidelberg/2023-05-03_wvitten03.nq" "data/external/heidelberg.nq"
