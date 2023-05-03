@@ -4,6 +4,7 @@ version: '3'
 
 vars:
   BLAZEGRAPH_ENDPOINT: http://blazegraph:8080/blazegraph/sparql
+  BLAZEGRAPH_ENDPOINT_SECONDARY: http://blazegraph-secondary:8080/blazegraph/sparql
   OAI_ENDPOINT: https://www.e-manuscripta.ch/zuzcmi/oai
   GENERATOR_POLICY: /mapping/generator-policy.xml
   MAPPING_BATCH_SIZE: 10
@@ -30,6 +31,7 @@ tasks:
       - task: ingest-ontologies
       - task: materialise-network
       - task: add-relations
+      - task: ingest-data-external
       - echo "Pipeline finished!"
 
   add-relations:
@@ -128,7 +130,26 @@ tasks:
         vars: 
           FOLDER: /data/ttl/additional
           GRAPH: https://resource.swissartresearch.net/graph/external
-          
+
+  ingest-data-external:
+    desc: Ingest data from external sources
+    sources:
+      - /data/external/*.*
+    cmds:
+      - echo "Ingest external data"
+      - task: ingest-data-from-heidelberg
+    
+  ingest-data-from-heidelberg:
+    sources:
+      - /data/external/heidelberg.nq
+    cmds:
+      - task: ingest-data-from-file
+        vars:
+          BLAZEGRAPH_ENDPOINT: '{{.BLAZEGRAPH_ENDPOINT_SECONDARY}}'
+          NAME: Heidelberg Werkverzeichnis
+          FILE: /data/external/heidelberg.nq
+          TYPE: application/n-quads
+
   ingest-data-main:
     desc: Ingest the TTL files located  in /data/ttl to the Blazegraph instance
     sources:
