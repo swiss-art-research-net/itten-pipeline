@@ -25,6 +25,7 @@ import json
 import logging
 import re
 import sys
+import time
 import unicodedata
 import urllib
 from dicttoxml import dicttoxml
@@ -473,7 +474,44 @@ def parseDates(records):
     :param records: list of XML records
     :return: list of XML records with added dates
     """
-
+    def convertEDTFdate(date):
+        try:
+            d = parse_edtf(downgradeEDTF(date))
+        except:
+            raise ValueError('Invalid date', date)
+        
+        if 'Interval' in str(type(d)):
+            if type(d.lower) is list:
+                lower = d.lower[0].lower_strict()
+            else:
+                lower = d.lower.lower_strict()
+            if type(d.upper) is list:
+                upper = d.upper[0].upper_strict()
+            else:
+                upper = d.upper.upper_strict()
+        else:
+            if type(d) is list:
+                lower = d[0].lower_strict()
+                upper = d[0].upper_strict()
+            else:
+                lower = d.lower_strict()
+                upper = d.upper_strict()
+        return {
+            'lower': time.strftime("%Y-%m-%d", lower),
+            'upper': time.strftime("%Y-%m-%d", upper)
+        }
+    
+    def downgradeEDTF(date):
+        """
+        Convert a edtf date string to the previous version supported by the python edtf package
+        """
+        edtfDate = date.replace('X','u')
+        if edtfDate[-1:] == '/':
+            edtfDate += 'uuuu-uu'
+        if edtfDate[0] == '/':
+            edtfDate = 'uuuu-uu' + edtfDate
+        return edtfDate
+    
     def parseDate(dateString):
         """
         Parse a date string and return a list containing one or two dates (date range).
@@ -500,9 +538,15 @@ def parseDates(records):
                 if tagWithDate.text is not None and tagWithDate.text != "null":
                     dates = parseDate(tagWithDate.text)
                     if dates is not None:
-                        tagWithDate.set("dateFrom", dates[0])    
+                        tagWithDate.set("dateFrom", dates[0])
+                        daterangeFrom = convertEDTFdate(dates[0])
+                        tagWithDate.set("dateFromLower", daterangeFrom['lower'])
+                        tagWithDate.set("dateFromUpper", daterangeFrom['upper'])
                         if len(dates) == 2:
                             tagWithDate.set("dateTo", dates[1])
+                            daterangeTo = convertEDTFdate(dates[1])
+                            tagWithDate.set("dateToLower", daterangeTo['lower'])
+                            tagWithDate.set("dateToUpper", daterangeTo['upper'])
     return records
 
 def parseIdentifiers(records):
