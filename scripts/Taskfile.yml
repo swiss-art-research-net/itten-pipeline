@@ -110,7 +110,7 @@ tasks:
   ingest-data-from-file:
     cmds:
       - echo "Ingest {{.NAME}}"
-      - curl -X POST -H 'Content-Type:{{.TYPE}}' --data-binary '@{{.FILE}}' {{.BLAZEGRAPH_ENDPOINT}}?context-uri={{.GRAPH}}
+      - curl -X POST -H 'Content-Type:{{.TYPE}}' --data-binary '@{{.FILE}}' {{.BLAZEGRAPH_ENDPOINT}}{{if .GRAPH}}?context-uri={{.GRAPH}}{{end}}
 
   ingest-data-additional:
     desc: Ingest the TTL and Trig files located in the data/ttl/additional folder to the Blazegraph instance. 
