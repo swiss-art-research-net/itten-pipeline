@@ -16,6 +16,21 @@ services:
       - blazegraph-data:/blazegraph-data
       - ./data:/data
 
+  blazegraph-secondary:
+    image: robcast/researchspace-blazegraph:2.2.0-20160908
+    container_name: ${PROJECT_NAME}_blazegraph_secondary
+    restart: unless-stopped
+    environment:
+      - JAVA_OPTS=-Xmx1g
+    logging:
+      driver: json-file
+      options:
+        max-size: "200k"
+        max-file: "10"
+    volumes:
+      - blazegraph-data-secondary:/blazegraph-data
+      - ./data:/data
+
   jobs:
     build: ./services/jobs
     container_name: ${PROJECT_NAME}_jobs
@@ -48,5 +63,6 @@ services:
         
 volumes:
   blazegraph-data:
+  blazegraph-data-secondary:
   platform-data:
   
