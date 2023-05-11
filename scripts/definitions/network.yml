@@ -119,6 +119,22 @@ relations:
         BIND(crm:P62i_is_depicted_by as ?predicate)
       }'
 
+    - id: entity_has_part_entity
+      domain: crm:E1_CRM_Entity
+      range: crm:E1_CRM_Entity
+      queryPattern: '{
+        $object crm:P46i_forms_part_of ?subject .
+        BIND(crm:P46_is_composed_of as ?predicate)
+      }'
+
+    - id: entity_is_part_of_entity
+      domain: crm:E1_CRM_Entity
+      range: crm:E1_CRM_Entity
+      queryPattern: '{
+        $subject crm:P46i_forms_part_of ?object .
+        BIND(crm:P46i_forms_part_of as ?predicate)
+      }'
+
     - id: collection_refers_to_entity
       domain: crm:E78_Curated_Holding
       range: crm:E1_CRM_Entity
