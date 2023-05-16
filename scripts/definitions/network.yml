@@ -48,33 +48,41 @@ relations:
       range: crm:E39_Actor
       queryPattern: '
       {
-        $subject crmdig:L54_is_same-as/gndo:familialRelationship ?nonJilaObject .
-        OPTIONAL {
-          ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
+        {
+          $subject crmdig:L54_is_same-as/gndo:familialRelationship ?nonJilaObject .
+          OPTIONAL {
+            ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
+          }
+          BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
+          BIND(gndo:familialRelationship as ?predicate)
+        } UNION {
+          ?nonJilaObject gndo:familialRelationship/^crmdig:L54_is_same-as $subject .
+          OPTIONAL {
+            ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
+          }
+          BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
+          BIND(gndo:familialRelationship as ?predicate)
+        } UNION {
+          ?nonJilaObject crmdig:L54_is_same-as/gndo:familialRelationship $subject .
+          OPTIONAL {
+            ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
+          }
+          BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
+          BIND(gndo:familialRelationship as ?predicate)
+        } UNION {
+          $subject gndo:familialRelationship/^crmdig:L54_is_same-as ?nonJilaObject .
+          OPTIONAL {
+            ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
+          }
+          BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
+          BIND(gndo:familialRelationship as ?predicate)
         }
-        BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
-        BIND(gndo:familialRelationship as ?predicate)
-      } UNION {
-        ?nonJilaObject gndo:familialRelationship/^crmdig:L54_is_same-as $subject .
-        OPTIONAL {
-          ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
-        }
-        BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
-        BIND(gndo:familialRelationship as ?predicate)
-      } UNION {
-        ?nonJilaObject crmdig:L54_is_same-as/gndo:familialRelationship $subject .
-        OPTIONAL {
-          ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
-        }
-        BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
-        BIND(gndo:familialRelationship as ?predicate)
-      } UNION {
-        $subject gndo:familialRelationship/^crmdig:L54_is_same-as ?nonJilaObject .
-        OPTIONAL {
-          ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
-        }
-        BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
-        BIND(gndo:familialRelationship as ?predicate)
+        ?subject a ?type .
+        ?object a ?type .
+        VALUES (?type) {
+          (search:Person)
+          (gndo:Person)
+  	    }
       }'
 
     - id: collection_created_by_actor
