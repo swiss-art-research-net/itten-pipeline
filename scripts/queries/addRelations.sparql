@@ -1,5 +1,5 @@
 PREFIX aat: <http://vocab.getty.edu/aat/>
-PREFIX jila: <https://jila.swissartresearch.net/ontology/>
+PREFIX jila: <https://jila.zb.uzh.ch/ontology/>
 PREFIX sari: <https://platform.jila.zb.uzh.ch/>
 PREFIX search: <https://platform.jila.zb.uzh.ch/search/>
 PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
