@@ -72,7 +72,7 @@ tasks:
           FILTER_CONDITION: wdt:P18
           HOST_PATH: /assets/no_auth
           OUTPUT_DIR: /apps/static/assets/no_auth
-          NAMED_GRAPH: https://resource.swissartresearch.net/graph/thumbnails
+          NAMED_GRAPH: https://resource.jila.zb.uzh.ch/graph/thumbnails
           PROPS_FILE: /apps/jila/config/ui.prop
 
   drop-graph:
@@ -122,14 +122,14 @@ tasks:
       - task: drop-graph
         desc: Graphs that need to be overwritten are dropped
         vars:
-          GRAPH: https://resource.swissartresearch.net/graph/network/labels
+          GRAPH: https://resource.jila.zb.uzh.ch/graph/network/labels
       - task: drop-graph
         vars:
-          GRAPH: https://resource.swissartresearch.net/graph/network/vocab
+          GRAPH: https://resource.jila.zb.uzh.ch/graph/network/vocab
       - task: ingest-data-from-folder
         vars: 
           FOLDER: /data/ttl/additional
-          GRAPH: https://resource.swissartresearch.net/graph/external
+          GRAPH: https://resource.jila.zb.uzh.ch/graph/external
 
   ingest-data-external:
     desc: Ingest data from external sources
@@ -159,7 +159,7 @@ tasks:
       - task: ingest-data-from-folder
         vars:
           FOLDER: /data/ttl/main
-          GRAPH: https://resource.swissartresearch.net/graph/main
+          GRAPH: https://resource.jila.zb.uzh.ch/graph/main
   
   ingest-ontologies:
     desc: Ingests the ontologies into individual named Graphs
@@ -189,7 +189,7 @@ tasks:
       - /data/ttl/additional/gnd.ttl
       - /data/ttl/additional/networkLabels.trig
     vars:
-      GRAPH: https://resource.swissartresearch.net/graph/network
+      GRAPH: https://resource.jila.zb.uzh.ch/graph/network
     cmds:
       - python /scripts/materialiseRelations.py --endpoint {{.BLAZEGRAPH_ENDPOINT}} --graph {{.GRAPH}} --definitions /scripts/definitions/network.yml
 

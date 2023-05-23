@@ -217,7 +217,7 @@ def queryThumbnails(*,endpoint, queries, limit=None):
         PREFIX wdt: <http://www.wikidata.org/prop/direct/>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX rso: <http://www.researchspace.org/ontology/>
-        PREFIX search: <https://platform.swissartresearch.net/search/>
+        PREFIX search: <https://platform.jila.zb.uzh.ch/search/>
         SELECT $select WHERE {
             $queryParts
         }

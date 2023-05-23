@@ -131,10 +131,10 @@ for imageUri, data in imageData.items():
         license = data['LicenseUrl']['value']
         licenseKey = 'LicenseUrl'
     elif 'LicenseShortName' in data:
-        license = 'https://resource.swissartresearch.net/license/' + data['LicenseShortName']['value'].replace(" ", "%20")
+        license = 'https://resource.jila.zb.uzh.ch/license/' + data['LicenseShortName']['value'].replace(" ", "%20")
         licenseKey = 'LicenseShortName'
     elif 'Permission' in data:
-        license ='https://resource.swissartresearch.net/license/' + data['Permission']['value']
+        license ='https://resource.jila.zb.uzh.ch/license/' + data['Permission']['value']
         licenseKey = 'Permission'
         
     imageTtlOutput += imageTtlTemplate.substitute(
