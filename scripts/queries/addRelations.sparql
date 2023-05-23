@@ -74,7 +74,7 @@ INSERT {
     (crm:E22_Human-Made_Object search:Object)
     (crm:E5_Event search:Event)
   }
-  FILTER(REGEX(STR(?subject), 'swissartresearch.net'))
+  FILTER(REGEX(STR(?subject), 'jila.zb.uzh.ch'))
 };
 
 # Add CIDOC-CRM types for external entities
