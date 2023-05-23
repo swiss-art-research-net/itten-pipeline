@@ -7,7 +7,7 @@ namespaces:
   la: http://www.linkedart.org/schema/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   prov: http://www.w3.org/ns/prov#
-  search: https://platform.swissartresearch.net/search/
+  search: https://platform.jila.zb.uzh.ch/search/
   gndo: https://d-nb.info/standards/elementset/gnd#
   jila: https://jila.swissartresearch.net/ontology/
   loc: http://id.loc.gov/vocabulary/relators/
