@@ -217,4 +217,21 @@ DELETE {
     a ?type .
   ?type rdfs:subClassOf* crm:E1_CRM_Entity .
   FILTER(?type != crm:E1_CRM_Entity)
+};
+
+# Correct labels
+DELETE {
+  GRAPH ?g {
+    ?s rdfs:label ?label .
+  }
+} INSERT {
+  GRAPH ?g {
+    ?s rdfs:label ?label_corrected .
+  }
+} WHERE {
+  GRAPH ?g {
+    ?s rdfs:label ?label .
+  }
+  FILTER(CONTAINS(?label, 'Morde?ay'))
+  BIND(REPLACE(?label,'Morde.ay', 'Mordeḵay') as ?label_corrected)
 }
