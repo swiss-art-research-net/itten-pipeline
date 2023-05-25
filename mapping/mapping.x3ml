@@ -2091,6 +2091,10 @@
                             <arg name="type" type="constant">image</arg>
                             <arg name="id" type="xpath">concat("jila-", @id)</arg>
                         </instance_generator>
+                        <label_generator name="Literal">
+                            <arg name="text" type="xpath">label/text()</arg>
+                            <arg name="language" type="constant"/>
+                        </label_generator>
                     </entity>
                 </target_node>
             </domain>
