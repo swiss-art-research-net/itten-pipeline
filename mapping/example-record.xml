@@ -64,7 +64,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">19</key>
-      <sikart_id>4023401.0</sikart_id>
+      <sikart_id>4023401</sikart_id>
       <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <registereintraege index="1">
@@ -197,11 +197,13 @@
                       <image id="3602896">
                         <height>4789</height>
                         <width>3443</width>
+                        <label>[1]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602896</url>
                       </image>
                       <image id="3602898">
                         <height>4797</height>
                         <width>3443</width>
+                        <label>[2]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602898</url>
                       </image>
                     </images>
@@ -354,7 +356,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">19</key>
-      <sikart_id>4023401.0</sikart_id>
+      <sikart_id>4023401</sikart_id>
       <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <registereintraege index="6">
@@ -487,11 +489,13 @@
                       <image id="3510529">
                         <height>3200</height>
                         <width>3380</width>
+                        <label>[1]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510529</url>
                       </image>
                       <image id="3510530">
                         <height>3200</height>
                         <width>3380</width>
+                        <label>[2]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3510530</url>
                       </image>
                     </images>
@@ -673,6 +677,7 @@
                       <image id="3472581">
                         <height>3347</height>
                         <width>3888</width>
+                        <label>[1]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3472581</url>
                       </image>
                     </images>
@@ -832,7 +837,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552058 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: H&#246;lzel, Adolf Richard; Hoelzel, Adolf</register_bemerkungen>
       <key name="">187</key>
-      <sikart_id>13045693.0</sikart_id>
+      <sikart_id>13045693</sikart_id>
       <wikidata_id>Q362498</wikidata_id>
     </registereintraege>
     <registereintraege index="5">
@@ -954,7 +959,7 @@
       <wikidata_id>Q94924201</wikidata_id>
     </registereintraege>
     <registereintraege index="16">
-      <register_bezeichnung>Mu?ammad</register_bezeichnung>
+      <register_bezeichnung>Mu&#7717;ammad</register_bezeichnung>
       <register_gnd-id>118583158</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="0570" dateFromLower="570-01-01" dateFromUpper="570-12-31" dateTo="0632" dateToLower="632-01-01" dateToUpper="632-12-31">0570 - 0632</register_datum>
@@ -1072,7 +1077,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/1011337037 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Libis, Sergio; Sibiszewsky, Serge</register_bemerkungen>
       <key name="">276</key>
-      <sikart_id>11982935.0</sikart_id>
+      <sikart_id>11982935</sikart_id>
       <wikidata_id>Q85099546</wikidata_id>
     </registereintraege>
     <registereintraege index="27">
@@ -1084,7 +1089,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11900013X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">177</key>
-      <sikart_id>11654302.0</sikart_id>
+      <sikart_id>11654302</sikart_id>
       <wikidata_id>Q686188</wikidata_id>
     </registereintraege>
     <registereintraege index="28">
@@ -1151,7 +1156,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118769677 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">438</key>
-      <sikart_id>4024238.0</sikart_id>
+      <sikart_id>4024238</sikart_id>
       <wikidata_id>Q313183</wikidata_id>
     </registereintraege>
     <registereintraege index="34">
@@ -1174,7 +1179,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552953 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Holbein, Hans der J&#252;ngere</register_bemerkungen>
       <key name="">24</key>
-      <sikart_id>4022819.0</sikart_id>
+      <sikart_id>4022819</sikart_id>
       <wikidata_id>Q48319</wikidata_id>
     </registereintraege>
     <registereintraege index="36">
@@ -1240,7 +1245,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118676873 target="_blank"&gt;GND&lt;/a&gt; / Wirklicher Name: Jeanneret-Gris, Charles &#201;douard</register_bemerkungen>
       <key name="">793</key>
-      <sikart_id>4000293.0</sikart_id>
+      <sikart_id>4000293</sikart_id>
       <wikidata_id>Q4724</wikidata_id>
     </registereintraege>
     <registereintraege index="42">
@@ -1252,7 +1257,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118570994 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">766</key>
-      <sikart_id>9990254.0</sikart_id>
+      <sikart_id>9990254</sikart_id>
       <wikidata_id>Q157183</wikidata_id>
     </registereintraege>
     <registereintraege index="43">
@@ -1275,7 +1280,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118594206 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">334</key>
-      <sikart_id>9744984.0</sikart_id>
+      <sikart_id>9744984</sikart_id>
       <wikidata_id>Q5593</wikidata_id>
     </registereintraege>
     <registereintraege index="45">
@@ -1290,7 +1295,7 @@
       <wikidata_id>Q151803</wikidata_id>
     </registereintraege>
     <registereintraege index="46">
-      <register_bezeichnung>Br&#226;ncusi, Constantin</register_bezeichnung>
+      <register_bezeichnung>Br&#226;ncu&#351;i, Constantin</register_bezeichnung>
       <register_gnd-id>118673076</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1876" dateFromLower="1876-01-01" dateFromUpper="1876-12-31" dateTo="1957" dateToLower="1957-01-01" dateToUpper="1957-12-31">1876 - 1957</register_datum>
@@ -1309,7 +1314,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118504398 target=&#8220;_blank&#8220;&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">3</key>
-      <sikart_id>4023372.0</sikart_id>
+      <sikart_id>4023372</sikart_id>
       <wikidata_id>Q153739</wikidata_id>
     </registereintraege>
     <registereintraege index="48">
@@ -1365,7 +1370,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">19</key>
-      <sikart_id>4023401.0</sikart_id>
+      <sikart_id>4023401</sikart_id>
       <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-135316</doi>
@@ -1623,1486 +1628,1783 @@
                       <image id="3672574">
                         <height>8653</height>
                         <width>1346</width>
+                        <label>[1]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672574</url>
                       </image>
                       <image id="3672575">
                         <height>8653</height>
                         <width>1346</width>
+                        <label>[2]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672575</url>
                       </image>
                       <image id="3672576">
                         <height>1038</height>
                         <width>2934</width>
+                        <label>[3]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672576</url>
                       </image>
                       <image id="3672577">
                         <height>1038</height>
                         <width>2934</width>
+                        <label>[4]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672577</url>
                       </image>
                       <image id="3672578">
                         <height>8606</height>
                         <width>1375</width>
+                        <label>[5]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672578</url>
                       </image>
                       <image id="3672579">
                         <height>8606</height>
                         <width>1375</width>
+                        <label>[6]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672579</url>
                       </image>
                       <image id="3672580">
                         <height>4792</height>
                         <width>3423</width>
+                        <label>[7]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672580</url>
                       </image>
                       <image id="3672581">
                         <height>4792</height>
                         <width>3423</width>
+                        <label>[8]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672581</url>
                       </image>
                       <image id="3672582">
                         <height>2233</height>
                         <width>1550</width>
+                        <label>[9]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672582</url>
                       </image>
                       <image id="3672583">
                         <height>2233</height>
                         <width>1550</width>
+                        <label>[10]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672583</url>
                       </image>
                       <image id="3672584">
                         <height>1346</height>
                         <width>1745</width>
+                        <label>[11]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672584</url>
                       </image>
                       <image id="3672585">
                         <height>1346</height>
                         <width>1745</width>
+                        <label>[12]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672585</url>
                       </image>
                       <image id="3672586">
                         <height>5816</height>
                         <width>4070</width>
+                        <label>[13]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672586</url>
                       </image>
                       <image id="3672587">
                         <height>5816</height>
                         <width>4070</width>
+                        <label>[14]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672587</url>
                       </image>
                       <image id="3672590">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>1r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672590</url>
                       </image>
                       <image id="3672591">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>1v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672591</url>
                       </image>
                       <image id="3672592">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>2r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672592</url>
                       </image>
                       <image id="3672593">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>2v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672593</url>
                       </image>
                       <image id="3672594">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>3r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672594</url>
                       </image>
                       <image id="3672595">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>3v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672595</url>
                       </image>
                       <image id="3672596">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>4r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672596</url>
                       </image>
                       <image id="3672597">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>4v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672597</url>
                       </image>
                       <image id="3672598">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>5r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672598</url>
                       </image>
                       <image id="3672599">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>5v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672599</url>
                       </image>
                       <image id="3672600">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>6r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672600</url>
                       </image>
                       <image id="3672601">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>6v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672601</url>
                       </image>
                       <image id="3672602">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>7r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672602</url>
                       </image>
                       <image id="3672603">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>7v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672603</url>
                       </image>
                       <image id="3672604">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>8r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672604</url>
                       </image>
                       <image id="3672605">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>8v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672605</url>
                       </image>
                       <image id="3672606">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>9r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672606</url>
                       </image>
                       <image id="3672607">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>9v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672607</url>
                       </image>
                       <image id="3672608">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>10r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672608</url>
                       </image>
                       <image id="3672609">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>10v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672609</url>
                       </image>
                       <image id="3672610">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>11r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672610</url>
                       </image>
                       <image id="3672611">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>11v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672611</url>
                       </image>
                       <image id="3672612">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>12r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672612</url>
                       </image>
                       <image id="3672613">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>12v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672613</url>
                       </image>
                       <image id="3672614">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>13r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672614</url>
                       </image>
                       <image id="3672615">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>13v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672615</url>
                       </image>
                       <image id="3672616">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>14r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672616</url>
                       </image>
                       <image id="3672617">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>14v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672617</url>
                       </image>
                       <image id="3672618">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>15r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672618</url>
                       </image>
                       <image id="3672619">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>15v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672619</url>
                       </image>
                       <image id="3672620">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>16r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672620</url>
                       </image>
                       <image id="3672621">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>16v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672621</url>
                       </image>
                       <image id="3672622">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>17r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672622</url>
                       </image>
                       <image id="3672623">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>17v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672623</url>
                       </image>
                       <image id="3672624">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>18r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672624</url>
                       </image>
                       <image id="3672625">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>18v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672625</url>
                       </image>
                       <image id="3672626">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>19r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672626</url>
                       </image>
                       <image id="3672627">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>19v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672627</url>
                       </image>
                       <image id="3672628">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>22r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672628</url>
                       </image>
                       <image id="3672629">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>22v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672629</url>
                       </image>
                       <image id="3672630">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>23r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672630</url>
                       </image>
                       <image id="3672631">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>23v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672631</url>
                       </image>
                       <image id="3672632">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>20r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672632</url>
                       </image>
                       <image id="3672633">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>20v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672633</url>
                       </image>
                       <image id="3672634">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>21r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672634</url>
                       </image>
                       <image id="3672635">
                         <height>4792</height>
                         <width>3408</width>
+                        <label>21v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672635</url>
                       </image>
                       <image id="3672636">
                         <height>5800</height>
                         <width>4040</width>
+                        <label>[61]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672636</url>
                       </image>
                       <image id="3672637">
                         <height>5800</height>
                         <width>4040</width>
+                        <label>[62]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672637</url>
                       </image>
                       <image id="3672638">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>1r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672638</url>
                       </image>
                       <image id="3672639">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>1v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672639</url>
                       </image>
                       <image id="3672640">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>2r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672640</url>
                       </image>
                       <image id="3672641">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>2v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672641</url>
                       </image>
                       <image id="3672642">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>3r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672642</url>
                       </image>
                       <image id="3672643">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>3v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672643</url>
                       </image>
                       <image id="3672644">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>4r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672644</url>
                       </image>
                       <image id="3672645">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>4v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672645</url>
                       </image>
                       <image id="3672646">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>5r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672646</url>
                       </image>
                       <image id="3672647">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>5v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672647</url>
                       </image>
                       <image id="3672648">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>4r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672648</url>
                       </image>
                       <image id="3672649">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>4v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672649</url>
                       </image>
                       <image id="3672650">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>5r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672650</url>
                       </image>
                       <image id="3672651">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>5v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672651</url>
                       </image>
                       <image id="3672652">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>6r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672652</url>
                       </image>
                       <image id="3672653">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>6v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672653</url>
                       </image>
                       <image id="3672654">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>7r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672654</url>
                       </image>
                       <image id="3672655">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>7v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672655</url>
                       </image>
                       <image id="3672656">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>8r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672656</url>
                       </image>
                       <image id="3672657">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>8v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672657</url>
                       </image>
                       <image id="3672658">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>9r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672658</url>
                       </image>
                       <image id="3672659">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>9v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672659</url>
                       </image>
                       <image id="3672660">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>10r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672660</url>
                       </image>
                       <image id="3672661">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>10v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672661</url>
                       </image>
                       <image id="3672662">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>11r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672662</url>
                       </image>
                       <image id="3672663">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>11v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672663</url>
                       </image>
                       <image id="3672664">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>12r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672664</url>
                       </image>
                       <image id="3672665">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>12v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672665</url>
                       </image>
                       <image id="3672666">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>13r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672666</url>
                       </image>
                       <image id="3672667">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>13v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672667</url>
                       </image>
                       <image id="3672668">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>14r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672668</url>
                       </image>
                       <image id="3672669">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>14v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672669</url>
                       </image>
                       <image id="3672670">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>15r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672670</url>
                       </image>
                       <image id="3672671">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>15v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672671</url>
                       </image>
                       <image id="3672672">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>16r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672672</url>
                       </image>
                       <image id="3672673">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>16v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672673</url>
                       </image>
                       <image id="3672674">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>17r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672674</url>
                       </image>
                       <image id="3672675">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>17v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672675</url>
                       </image>
                       <image id="3672676">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>18r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672676</url>
                       </image>
                       <image id="3672677">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>18v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672677</url>
                       </image>
                       <image id="3672678">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>19r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672678</url>
                       </image>
                       <image id="3672679">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>19v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672679</url>
                       </image>
                       <image id="3672680">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>20r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672680</url>
                       </image>
                       <image id="3672681">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>20v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672681</url>
                       </image>
                       <image id="3672682">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>21r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672682</url>
                       </image>
                       <image id="3672683">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>21v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672683</url>
                       </image>
                       <image id="3672684">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>22r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672684</url>
                       </image>
                       <image id="3672685">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>22v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672685</url>
                       </image>
                       <image id="3672686">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>23r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672686</url>
                       </image>
                       <image id="3672687">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>23v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672687</url>
                       </image>
                       <image id="3672688">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>24r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672688</url>
                       </image>
                       <image id="3672689">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>24v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672689</url>
                       </image>
                       <image id="3672690">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>25r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672690</url>
                       </image>
                       <image id="3672691">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>25v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672691</url>
                       </image>
                       <image id="3672692">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>26r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672692</url>
                       </image>
                       <image id="3672693">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>26v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672693</url>
                       </image>
                       <image id="3672694">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>27r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672694</url>
                       </image>
                       <image id="3672695">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>27v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672695</url>
                       </image>
                       <image id="3672696">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>28v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672696</url>
                       </image>
                       <image id="3672697">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>28r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672697</url>
                       </image>
                       <image id="3672698">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>29r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672698</url>
                       </image>
                       <image id="3672699">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>29v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672699</url>
                       </image>
                       <image id="3672700">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>30r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672700</url>
                       </image>
                       <image id="3672701">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>30v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672701</url>
                       </image>
                       <image id="3672702">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>31r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672702</url>
                       </image>
                       <image id="3672703">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>31v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672703</url>
                       </image>
                       <image id="3672704">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>32r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672704</url>
                       </image>
                       <image id="3672705">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>32v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672705</url>
                       </image>
                       <image id="3672706">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>33r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672706</url>
                       </image>
                       <image id="3672707">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>33v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672707</url>
                       </image>
                       <image id="3672708">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>34r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672708</url>
                       </image>
                       <image id="3672709">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>34v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672709</url>
                       </image>
                       <image id="3672710">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>35r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672710</url>
                       </image>
                       <image id="3672711">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>35v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672711</url>
                       </image>
                       <image id="3672712">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>36r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672712</url>
                       </image>
                       <image id="3672713">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>36v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672713</url>
                       </image>
                       <image id="3672714">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>37r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672714</url>
                       </image>
                       <image id="3672715">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>37v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672715</url>
                       </image>
                       <image id="3672716">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>38r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672716</url>
                       </image>
                       <image id="3672717">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>38v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672717</url>
                       </image>
                       <image id="3672718">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>39r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672718</url>
                       </image>
                       <image id="3672719">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>39v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672719</url>
                       </image>
                       <image id="3672720">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>40r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672720</url>
                       </image>
                       <image id="3672721">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>40v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672721</url>
                       </image>
                       <image id="3672722">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>41r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672722</url>
                       </image>
                       <image id="3672723">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>41v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672723</url>
                       </image>
                       <image id="3672724">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>42r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672724</url>
                       </image>
                       <image id="3672725">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>42v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672725</url>
                       </image>
                       <image id="3672726">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>43r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672726</url>
                       </image>
                       <image id="3672727">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>43v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672727</url>
                       </image>
                       <image id="3672728">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>44r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672728</url>
                       </image>
                       <image id="3672729">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>44v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672729</url>
                       </image>
                       <image id="3672730">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>45r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672730</url>
                       </image>
                       <image id="3672731">
                         <height>4785</height>
                         <width>3401</width>
+                        <label>45v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672731</url>
                       </image>
                       <image id="3672732">
                         <height>5830</height>
                         <width>4062</width>
+                        <label>[157]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672732</url>
                       </image>
                       <image id="3672733">
                         <height>5830</height>
                         <width>4062</width>
+                        <label>[158]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672733</url>
                       </image>
                       <image id="3672734">
                         <height>5830</height>
                         <width>4062</width>
+                        <label>[159]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672734</url>
                       </image>
                       <image id="3672735">
                         <height>5830</height>
                         <width>4062</width>
+                        <label>[160]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672735</url>
                       </image>
                       <image id="3672736">
                         <height>5830</height>
                         <width>4062</width>
+                        <label>[161]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672736</url>
                       </image>
                       <image id="3672737">
                         <height>5830</height>
                         <width>4062</width>
+                        <label>[162]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672737</url>
                       </image>
                       <image id="3672738">
                         <height>5830</height>
                         <width>4062</width>
+                        <label>[163]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672738</url>
                       </image>
                       <image id="3672739">
                         <height>5830</height>
                         <width>4062</width>
+                        <label>[164]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672739</url>
                       </image>
                       <image id="3672782">
                         <height>4808</height>
                         <width>3393</width>
+                        <label>[165]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672782</url>
                       </image>
                       <image id="3672783">
                         <height>4808</height>
                         <width>3393</width>
+                        <label>[166]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672783</url>
                       </image>
                       <image id="3672784">
                         <height>4808</height>
                         <width>3393</width>
+                        <label>[167]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672784</url>
                       </image>
                       <image id="3672785">
                         <height>4808</height>
                         <width>3393</width>
+                        <label>[168]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672785</url>
                       </image>
                       <image id="3672786">
                         <height>2436</height>
                         <width>2445</width>
+                        <label>[169]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672786</url>
                       </image>
                       <image id="3672787">
                         <height>2436</height>
                         <width>2445</width>
+                        <label>[170]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672787</url>
                       </image>
                       <image id="3672788">
                         <height>2016</height>
                         <width>2445</width>
+                        <label>[171]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672788</url>
                       </image>
                       <image id="3672789">
                         <height>2016</height>
                         <width>2445</width>
+                        <label>[172]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672789</url>
                       </image>
                       <image id="3672790">
                         <height>8606</height>
                         <width>1346</width>
+                        <label>[173]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672790</url>
                       </image>
                       <image id="3672791">
                         <height>8606</height>
                         <width>1346</width>
+                        <label>[174]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672791</url>
                       </image>
                       <image id="3672792">
                         <height>2242</height>
                         <width>3445</width>
+                        <label>[175]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672792</url>
                       </image>
                       <image id="3672793">
                         <height>2242</height>
                         <width>3445</width>
+                        <label>[176]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672793</url>
                       </image>
                       <image id="3672794">
                         <height>707</height>
                         <width>1850</width>
+                        <label>[177]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672794</url>
                       </image>
                       <image id="3672795">
                         <height>707</height>
                         <width>1850</width>
+                        <label>[178]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672795</url>
                       </image>
                       <image id="3672796">
                         <height>2791</height>
                         <width>2468</width>
+                        <label>[179]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672796</url>
                       </image>
                       <image id="3672797">
                         <height>2791</height>
                         <width>2468</width>
+                        <label>[180]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672797</url>
                       </image>
                       <image id="3672798">
                         <height>2791</height>
                         <width>3378</width>
+                        <label>[181]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672798</url>
                       </image>
                       <image id="3672799">
                         <height>2791</height>
                         <width>3378</width>
+                        <label>[182]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672799</url>
                       </image>
                       <image id="3672800">
                         <height>4799</height>
                         <width>3430</width>
+                        <label>[183]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672800</url>
                       </image>
                       <image id="3672801">
                         <height>4799</height>
                         <width>3430</width>
+                        <label>[184]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672801</url>
                       </image>
                       <image id="3672802">
                         <height>4197</height>
                         <width>3348</width>
+                        <label>[185]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672802</url>
                       </image>
                       <image id="3672803">
                         <height>4197</height>
                         <width>3348</width>
+                        <label>[186]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672803</url>
                       </image>
                       <image id="3672804">
                         <height>4822</height>
                         <width>3430</width>
+                        <label>[187]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672804</url>
                       </image>
                       <image id="3672805">
                         <height>4822</height>
                         <width>3430</width>
+                        <label>[188]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672805</url>
                       </image>
                       <image id="3672806">
                         <height>5808</height>
                         <width>3656</width>
+                        <label>[189]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672806</url>
                       </image>
                       <image id="3672807">
                         <height>5808</height>
                         <width>3656</width>
+                        <label>[190]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672807</url>
                       </image>
                       <image id="3672808">
                         <height>6884</height>
                         <width>1195</width>
+                        <label>[191]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672808</url>
                       </image>
                       <image id="3672809">
                         <height>6884</height>
                         <width>1195</width>
+                        <label>[192]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672809</url>
                       </image>
                       <image id="3672814">
                         <height>1850</height>
                         <width>3768</width>
+                        <label>[193]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672814</url>
                       </image>
                       <image id="3672815">
                         <height>1850</height>
                         <width>3768</width>
+                        <label>[194]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672815</url>
                       </image>
                       <image id="3672816">
                         <height>2436</height>
                         <width>1977</width>
+                        <label>[195]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672816</url>
                       </image>
                       <image id="3672817">
                         <height>2436</height>
                         <width>1977</width>
+                        <label>[196]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672817</url>
                       </image>
                       <image id="3672826">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>[197]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672826</url>
                       </image>
                       <image id="3672827">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>[198]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672827</url>
                       </image>
                       <image id="3672828">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>[199]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672828</url>
                       </image>
                       <image id="3672829">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>[200]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672829</url>
                       </image>
                       <image id="3672831">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>[201]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672831</url>
                       </image>
                       <image id="3672830">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>[202]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672830</url>
                       </image>
                       <image id="3672832">
                         <height>1880</height>
                         <width>3423</width>
+                        <label>[203]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672832</url>
                       </image>
                       <image id="3672833">
                         <height>1880</height>
                         <width>3423</width>
+                        <label>[204]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672833</url>
                       </image>
                       <image id="3672834">
                         <height>1610</height>
                         <width>2451</width>
+                        <label>[205]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672834</url>
                       </image>
                       <image id="3672835">
                         <height>1610</height>
                         <width>2451</width>
+                        <label>[206]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672835</url>
                       </image>
                       <image id="3672836">
                         <height>1074</height>
                         <width>2934</width>
+                        <label>[207]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672836</url>
                       </image>
                       <image id="3672837">
                         <height>1074</height>
                         <width>2934</width>
+                        <label>[208]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672837</url>
                       </image>
                       <image id="3672838">
                         <height>7365</height>
                         <width>1323</width>
+                        <label>[209]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672838</url>
                       </image>
                       <image id="3672839">
                         <height>7365</height>
                         <width>1323</width>
+                        <label>[210]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672839</url>
                       </image>
                       <image id="3672840">
                         <height>6613</height>
                         <width>1375</width>
+                        <label>[211]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672840</url>
                       </image>
                       <image id="3672841">
                         <height>6613</height>
                         <width>1375</width>
+                        <label>[212]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672841</url>
                       </image>
                       <image id="3672842">
                         <height>8599</height>
                         <width>1331</width>
+                        <label>[213]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672842</url>
                       </image>
                       <image id="3672843">
                         <height>8599</height>
                         <width>1331</width>
+                        <label>[214]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672843</url>
                       </image>
                       <image id="3672740">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>1r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672740</url>
                       </image>
                       <image id="3672741">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>1v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672741</url>
                       </image>
                       <image id="3672742">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>3r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672742</url>
                       </image>
                       <image id="3672743">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>3v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672743</url>
                       </image>
                       <image id="3672744">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>4r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672744</url>
                       </image>
                       <image id="3672745">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>4v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672745</url>
                       </image>
                       <image id="3672746">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>5r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672746</url>
                       </image>
                       <image id="3672747">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>5v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672747</url>
                       </image>
                       <image id="3672748">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>6r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672748</url>
                       </image>
                       <image id="3672749">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>6v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672749</url>
                       </image>
                       <image id="3672750">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>7r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672750</url>
                       </image>
                       <image id="3672751">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>7v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672751</url>
                       </image>
                       <image id="3672752">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>8r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672752</url>
                       </image>
                       <image id="3672753">
                         <height>4213</height>
                         <width>3378</width>
+                        <label>8v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672753</url>
                       </image>
                       <image id="3672754">
                         <height>5786</height>
                         <width>3656</width>
+                        <label>1</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672754</url>
                       </image>
                       <image id="3672755">
                         <height>5786</height>
                         <width>3656</width>
+                        <label>2</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672755</url>
                       </image>
                       <image id="3672756">
                         <height>5786</height>
                         <width>3656</width>
+                        <label>3</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672756</url>
                       </image>
                       <image id="3672757">
                         <height>5786</height>
                         <width>3656</width>
+                        <label>4</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672757</url>
                       </image>
                       <image id="3672758">
                         <height>5786</height>
                         <width>3656</width>
+                        <label>5</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672758</url>
                       </image>
                       <image id="3672759">
                         <height>5786</height>
                         <width>3656</width>
+                        <label>6</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672759</url>
                       </image>
                       <image id="3672760">
                         <height>5786</height>
                         <width>3656</width>
+                        <label>7</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672760</url>
                       </image>
                       <image id="3672761">
                         <height>5786</height>
                         <width>3656</width>
+                        <label>8</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672761</url>
                       </image>
                       <image id="3672762">
                         <height>5786</height>
                         <width>3656</width>
+                        <label>9</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672762</url>
                       </image>
                       <image id="3672763">
                         <height>5786</height>
                         <width>3656</width>
+                        <label>10</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672763</url>
                       </image>
                       <image id="3672764">
                         <height>5786</height>
                         <width>3716</width>
+                        <label>11</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672764</url>
                       </image>
                       <image id="3672765">
                         <height>5786</height>
                         <width>3716</width>
+                        <label>12</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672765</url>
                       </image>
                       <image id="3672766">
                         <height>5786</height>
                         <width>3716</width>
+                        <label>13</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672766</url>
                       </image>
                       <image id="3672767">
                         <height>5786</height>
                         <width>3716</width>
+                        <label>14</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672767</url>
                       </image>
                       <image id="3672768">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>1</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672768</url>
                       </image>
                       <image id="3672769">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>2</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672769</url>
                       </image>
                       <image id="3672770">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>3</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672770</url>
                       </image>
                       <image id="3672771">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>4</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672771</url>
                       </image>
                       <image id="3672772">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>5</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672772</url>
                       </image>
                       <image id="3672773">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>6</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672773</url>
                       </image>
                       <image id="3672774">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>7</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672774</url>
                       </image>
                       <image id="3672775">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>8</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672775</url>
                       </image>
                       <image id="3672776">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>9</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672776</url>
                       </image>
                       <image id="3672777">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>10</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672777</url>
                       </image>
                       <image id="3672778">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>11</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672778</url>
                       </image>
                       <image id="3672779">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>12</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672779</url>
                       </image>
                       <image id="3672780">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>13</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672780</url>
                       </image>
                       <image id="3672781">
                         <height>5792</height>
                         <width>3686</width>
+                        <label>14</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672781</url>
                       </image>
                       <image id="3672810">
                         <height>4799</height>
                         <width>3445</width>
+                        <label>15r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672810</url>
                       </image>
                       <image id="3672811">
                         <height>4799</height>
                         <width>3445</width>
+                        <label>15v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672811</url>
                       </image>
                       <image id="3672812">
                         <height>4799</height>
                         <width>3445</width>
+                        <label>16r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672812</url>
                       </image>
                       <image id="3672813">
                         <height>4799</height>
                         <width>3445</width>
+                        <label>16v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672813</url>
                       </image>
                       <image id="3672818">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>1r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672818</url>
                       </image>
                       <image id="3672819">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>1v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672819</url>
                       </image>
                       <image id="3672820">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>2r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672820</url>
                       </image>
                       <image id="3672821">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>2v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672821</url>
                       </image>
                       <image id="3672822">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>3r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672822</url>
                       </image>
                       <image id="3672823">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>3v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672823</url>
                       </image>
                       <image id="3672824">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>4r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672824</url>
                       </image>
                       <image id="3672825">
                         <height>4799</height>
                         <width>3423</width>
+                        <label>4v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672825</url>
                       </image>
                       <image id="3672844">
                         <height>4792</height>
                         <width>3445</width>
+                        <label>[269]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672844</url>
                       </image>
                       <image id="3672845">
                         <height>4792</height>
                         <width>3445</width>
+                        <label>[270]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672845</url>
                       </image>
                       <image id="3672846">
                         <height>4792</height>
                         <width>3445</width>
+                        <label>[271]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672846</url>
                       </image>
                       <image id="3672847">
                         <height>4792</height>
                         <width>3445</width>
+                        <label>[272]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672847</url>
                       </image>
                       <image id="3672848">
                         <height>4792</height>
                         <width>3445</width>
+                        <label>[273]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672848</url>
                       </image>
                       <image id="3672849">
                         <height>4792</height>
                         <width>3445</width>
+                        <label>[274]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672849</url>
                       </image>
                       <image id="3672850">
                         <height>5846</height>
                         <width>4054</width>
+                        <label>[275]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672850</url>
                       </image>
                       <image id="3672851">
                         <height>5792</height>
                         <width>4054</width>
+                        <label>[276]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672851</url>
                       </image>
                       <image id="3672852">
                         <height>4808</height>
                         <width>3453</width>
+                        <label>[277]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672852</url>
                       </image>
                       <image id="3672854">
                         <height>5830</height>
                         <width>4032</width>
+                        <label>[278]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672854</url>
                       </image>
                       <image id="3672855">
                         <height>5830</height>
                         <width>4032</width>
+                        <label>[279]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672855</url>
                       </image>
                       <image id="3672856">
                         <height>4588</height>
                         <width>3550</width>
+                        <label>[280]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672856</url>
                       </image>
                       <image id="3672857">
                         <height>4588</height>
                         <width>3550</width>
+                        <label>[281]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672857</url>
                       </image>
                       <image id="3672858">
                         <height>1926</height>
                         <width>1000</width>
+                        <label>[282]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672858</url>
                       </image>
                       <image id="3672859">
                         <height>1926</height>
                         <width>1000</width>
+                        <label>[283]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672859</url>
                       </image>
                       <image id="3672860">
                         <height>1074</height>
                         <width>2942</width>
+                        <label>[284]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672860</url>
                       </image>
                       <image id="3672861">
                         <height>1074</height>
                         <width>2942</width>
+                        <label>[285]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672861</url>
                       </image>
                       <image id="3672862">
                         <height>6515</height>
                         <width>1323</width>
+                        <label>[286]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672862</url>
                       </image>
                       <image id="3672863">
                         <height>6515</height>
                         <width>1323</width>
+                        <label>[287]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672863</url>
                       </image>
                       <image id="3672864">
                         <height>5838</height>
                         <width>4062</width>
+                        <label>[288]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672864</url>
                       </image>
                       <image id="3672865">
                         <height>5838</height>
                         <width>4062</width>
+                        <label>[289]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672865</url>
                       </image>
                       <image id="3672866">
                         <height>5838</height>
                         <width>4062</width>
+                        <label>[290]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672866</url>
                       </image>
                       <image id="3672867">
                         <height>5838</height>
                         <width>4062</width>
+                        <label>[291]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672867</url>
                       </image>
                       <image id="3672868">
                         <height>5838</height>
                         <width>4062</width>
+                        <label>[292]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672868</url>
                       </image>
                       <image id="3672869">
                         <height>5838</height>
                         <width>4062</width>
+                        <label>[293]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672869</url>
                       </image>
                       <image id="3672870">
                         <height>3649</height>
                         <width>1338</width>
+                        <label>[294]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672870</url>
                       </image>
                       <image id="3672871">
                         <height>3649</height>
                         <width>1338</width>
+                        <label>[295]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672871</url>
                       </image>
                       <image id="3672872">
                         <height>2054</height>
                         <width>3423</width>
+                        <label>[296]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672872</url>
                       </image>
                       <image id="3672873">
                         <height>2054</height>
                         <width>3423</width>
+                        <label>[297]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/i3f/v20/3672873</url>
                       </image>
                     </images>
@@ -3286,6 +3588,7 @@
                       <image id="3472572">
                         <height>3905</height>
                         <width>3358</width>
+                        <label>[1]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3472572</url>
                       </image>
                     </images>
@@ -3382,7 +3685,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">19</key>
-      <sikart_id>4023401.0</sikart_id>
+      <sikart_id>4023401</sikart_id>
       <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-124359</doi>
@@ -3538,21 +3841,25 @@
                       <image id="3419856">
                         <height>5380</height>
                         <width>3560</width>
+                        <label>[1]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419856</url>
                       </image>
                       <image id="3419857">
                         <height>5380</height>
                         <width>3530</width>
+                        <label>[2]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419857</url>
                       </image>
                       <image id="3419858">
                         <height>5380</height>
                         <width>3530</width>
+                        <label>[3]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419858</url>
                       </image>
                       <image id="3419859">
                         <height>5380</height>
                         <width>3560</width>
+                        <label>[4]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419859</url>
                       </image>
                     </images>
@@ -3746,7 +4053,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118552953 target="_blank"&gt;GND&lt;/a&gt; / Andere Namen: Holbein, Hans der J&#252;ngere</register_bemerkungen>
       <key name="">24</key>
-      <sikart_id>4022819.0</sikart_id>
+      <sikart_id>4022819</sikart_id>
       <wikidata_id>Q48319</wikidata_id>
     </registereintraege>
     <registereintraege index="9">
@@ -3791,7 +4098,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">19</key>
-      <sikart_id>4023401.0</sikart_id>
+      <sikart_id>4023401</sikart_id>
       <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-126762</doi>
@@ -3944,141 +4251,169 @@
                       <image id="3484903">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>1r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484903</url>
                       </image>
                       <image id="3484904">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>1v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484904</url>
                       </image>
                       <image id="3484905">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>2r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484905</url>
                       </image>
                       <image id="3484906">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>2v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484906</url>
                       </image>
                       <image id="3484907">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>3r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484907</url>
                       </image>
                       <image id="3484908">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>3v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484908</url>
                       </image>
                       <image id="3484909">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>4r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484909</url>
                       </image>
                       <image id="3484910">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>4v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484910</url>
                       </image>
                       <image id="3484911">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>5r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484911</url>
                       </image>
                       <image id="3484912">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>5v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484912</url>
                       </image>
                       <image id="3484913">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>6r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484913</url>
                       </image>
                       <image id="3484914">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>6v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484914</url>
                       </image>
                       <image id="3484915">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>7r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484915</url>
                       </image>
                       <image id="3484916">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>7v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484916</url>
                       </image>
                       <image id="3484917">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>8r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484917</url>
                       </image>
                       <image id="3484918">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>8v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484918</url>
                       </image>
                       <image id="3484919">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>9r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484919</url>
                       </image>
                       <image id="3484920">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>9v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484920</url>
                       </image>
                       <image id="3484921">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>10r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484921</url>
                       </image>
                       <image id="3484922">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>10v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484922</url>
                       </image>
                       <image id="3484923">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>11r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484923</url>
                       </image>
                       <image id="3484924">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>11v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484924</url>
                       </image>
                       <image id="3484925">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>12r</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484925</url>
                       </image>
                       <image id="3484926">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>12v</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484926</url>
                       </image>
                       <image id="3484927">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>11r (!)</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484927</url>
                       </image>
                       <image id="3484928">
                         <height>4856</height>
                         <width>3512</width>
+                        <label>11v (!)</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484928</url>
                       </image>
                       <image id="3484929">
                         <height>5216</height>
                         <width>3512</width>
+                        <label>12r (!)</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484929</url>
                       </image>
                       <image id="3484930">
                         <height>5192</height>
                         <width>3512</width>
+                        <label>12v (!)</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3484930</url>
                       </image>
                     </images>
@@ -4263,7 +4598,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">19</key>
-      <sikart_id>4023401.0</sikart_id>
+      <sikart_id>4023401</sikart_id>
       <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <dateien index="0">
@@ -4420,7 +4755,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">19</key>
-      <sikart_id>4023401.0</sikart_id>
+      <sikart_id>4023401</sikart_id>
       <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <registereintraege index="2">
@@ -4443,7 +4778,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11859253X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">317</key>
-      <sikart_id>4000006.0</sikart_id>
+      <sikart_id>4000006</sikart_id>
       <wikidata_id>Q2645138</wikidata_id>
     </registereintraege>
     <registereintraege index="4">
@@ -4632,7 +4967,7 @@
       <wikidata_id>Q18935232</wikidata_id>
     </registereintraege>
     <registereintraege index="7">
-      <register_bezeichnung>D'Harnoncourt, Ren&#233;</register_bezeichnung>
+      <register_bezeichnung>D'Harnoncourt, Rene</register_bezeichnung>
       <register_gnd-id>14405325X</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1901" dateFromLower="1901-01-01" dateFromUpper="1901-12-31" dateTo="1968" dateToLower="1968-01-01" dateToUpper="1968-12-31">1901 - 1968</register_datum>
@@ -4683,7 +5018,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">19</key>
-      <sikart_id>4023401.0</sikart_id>
+      <sikart_id>4023401</sikart_id>
       <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-124354</doi>
@@ -4881,16 +5216,19 @@
                       <image id="3419805">
                         <height>4775</height>
                         <width>3420</width>
+                        <label>1</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419805</url>
                       </image>
                       <image id="3419806">
                         <height>4775</height>
                         <width>3420</width>
+                        <label>2</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419806</url>
                       </image>
                       <image id="3419807">
                         <height>4775</height>
                         <width>3420</width>
+                        <label>3</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3419807</url>
                       </image>
                     </images>
@@ -5273,7 +5611,7 @@
       <wikidata_id>Q774940</wikidata_id>
     </registereintraege>
     <registereintraege index="30">
-      <register_bezeichnung>Michelangelo, Buonarroti / Sixtinische Decke</register_bezeichnung>
+      <register_bezeichnung>Sixtinische Decke</register_bezeichnung>
       <register_gnd-id>1116027879</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_id>73184</register_id>
@@ -5282,7 +5620,7 @@
       <key name="">1104</key>
     </registereintraege>
     <registereintraege index="31">
-      <register_bezeichnung>Michelangelo, Buonarroti / Das J&#252;ngste Gericht</register_bezeichnung>
+      <register_bezeichnung>Das J&#252;ngste Gericht</register_bezeichnung>
       <register_gnd-id>4128871-3</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_id>73183</register_id>
@@ -5814,7 +6152,7 @@
       <key name="">1048</key>
     </registereintraege>
     <registereintraege index="87">
-      <register_bezeichnung>Mantegna, Andrea / Pala di San Zeno</register_bezeichnung>
+      <register_bezeichnung>Pala di San Zeno</register_bezeichnung>
       <register_gnd-id>7546543-7</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_id>70527</register_id>
@@ -5973,7 +6311,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/1038081807 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">902</key>
-      <sikart_id>4022680.0</sikart_id>
+      <sikart_id>4022680</sikart_id>
       <wikidata_id>Q85092075</wikidata_id>
     </registereintraege>
     <registereintraege index="103">
@@ -5985,7 +6323,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>https://d-nb.info/gnd/118527681 / Andere Namen: Forget, Louis-L&#233;on (Pseudonym); Dubuffet, Jean-Philippe-Arthur</register_bemerkungen>
       <key name="">613</key>
-      <sikart_id>12954914.0</sikart_id>
+      <sikart_id>12954914</sikart_id>
       <wikidata_id>Q170076</wikidata_id>
     </registereintraege>
     <registereintraege index="104">
@@ -6078,7 +6416,7 @@
       <wikidata_id>Q5592</wikidata_id>
     </registereintraege>
     <registereintraege index="111">
-      <register_bezeichnung>Raffael(M)</register_bezeichnung>
+      <register_bezeichnung>Raffael</register_bezeichnung>
       <register_gnd-id>118597787</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1483" dateFromLower="1483-01-01" dateFromUpper="1483-12-31" dateTo="1520" dateToLower="1520-01-01" dateToUpper="1520-12-31">1483 - 1520</register_datum>
@@ -6108,7 +6446,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118531298 target="_blank"&gt;GND&lt;/a&gt; / Anderer Namen: Etter, Philippe; Etter, Phil.</register_bemerkungen>
       <key name="">162</key>
-      <sikart_id>14809230.0</sikart_id>
+      <sikart_id>14809230</sikart_id>
       <wikidata_id>Q532343</wikidata_id>
     </registereintraege>
     <registereintraege index="114">
@@ -6243,7 +6581,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118769677 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">438</key>
-      <sikart_id>4024238.0</sikart_id>
+      <sikart_id>4024238</sikart_id>
       <wikidata_id>Q313183</wikidata_id>
     </registereintraege>
     <registereintraege index="126">
@@ -6352,7 +6690,7 @@
       <wikidata_id>Q3894011</wikidata_id>
     </registereintraege>
     <registereintraege index="135">
-      <register_bezeichnung>Mansuelli, Guido</register_bezeichnung>
+      <register_bezeichnung>Mansuelli, Guido A.</register_bezeichnung>
       <register_gnd-id>120201887</register_gnd-id>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
       <register_datum dateFrom="1916" dateFromLower="1916-01-01" dateFromUpper="1916-12-31" dateTo="2001" dateToLower="2001-01-01" dateToUpper="2001-12-31">1916 - 2001</register_datum>
@@ -6370,7 +6708,7 @@
       <register_id>29289</register_id>
       <registertyp>Personenregister</registertyp>
       <key name="">23</key>
-      <sikart_id>12860909.0</sikart_id>
+      <sikart_id>12860909</sikart_id>
       <wikidata_id>Q5599</wikidata_id>
     </registereintraege>
     <registereintraege index="137">
@@ -6382,7 +6720,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/11859253X target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">317</key>
-      <sikart_id>4000006.0</sikart_id>
+      <sikart_id>4000006</sikart_id>
       <wikidata_id>Q2645138</wikidata_id>
     </registereintraege>
     <registereintraege index="138">
@@ -6416,7 +6754,7 @@
       <registertyp>Personenregister</registertyp>
       <register_bemerkungen>Link zur GND: &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</register_bemerkungen>
       <key name="">19</key>
-      <sikart_id>4023401.0</sikart_id>
+      <sikart_id>4023401</sikart_id>
       <wikidata_id>Q123138</wikidata_id>
     </registereintraege>
     <doi index="0">https://doi.org/10.7891/e-manuscripta-132170</doi>
@@ -7012,111 +7350,133 @@
                       <image id="3602940">
                         <height>3395</height>
                         <width>2859</width>
+                        <label>[1]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602940</url>
                       </image>
                       <image id="3602941">
                         <height>3395</height>
                         <width>2843</width>
+                        <label>[2]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602941</url>
                       </image>
                       <image id="3602942">
                         <height>3395</height>
                         <width>2843</width>
+                        <label>[3]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602942</url>
                       </image>
                       <image id="3602943">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[4]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602943</url>
                       </image>
                       <image id="3602944">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[5]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602944</url>
                       </image>
                       <image id="3602945">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[6]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602945</url>
                       </image>
                       <image id="3602946">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[7]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602946</url>
                       </image>
                       <image id="3602947">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[8]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602947</url>
                       </image>
                       <image id="3602948">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[9]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602948</url>
                       </image>
                       <image id="3602949">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[10]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602949</url>
                       </image>
                       <image id="3602950">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[11]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602950</url>
                       </image>
                       <image id="3602951">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[12]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602951</url>
                       </image>
                       <image id="3602952">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[13]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602952</url>
                       </image>
                       <image id="3602953">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[14]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602953</url>
                       </image>
                       <image id="3602954">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[15]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602954</url>
                       </image>
                       <image id="3602955">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[16]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602955</url>
                       </image>
                       <image id="3602956">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[17]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602956</url>
                       </image>
                       <image id="3602957">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[18]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602957</url>
                       </image>
                       <image id="3602958">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[19]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602958</url>
                       </image>
                       <image id="3602959">
                         <height>3395</height>
                         <width>2834</width>
+                        <label>[20]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602959</url>
                       </image>
                       <image id="3602937">
                         <height>641</height>
                         <width>1193</width>
+                        <label>[21]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602937</url>
                       </image>
                       <image id="3602938">
                         <height>640</height>
                         <width>1137</width>
+                        <label>[22]</label>
                         <url type="iiif">https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602938</url>
                       </image>
                     </images>
