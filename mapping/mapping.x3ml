@@ -2091,6 +2091,10 @@
                             <arg name="type" type="constant">image</arg>
                             <arg name="id" type="xpath">concat("jila-", @id)</arg>
                         </instance_generator>
+                        <label_generator name="Literal">
+                            <arg name="text" type="xpath">label/text()</arg>
+                            <arg name="language" type="constant"/>
+                        </label_generator>
                     </entity>
                 </target_node>
             </domain>
@@ -2158,6 +2162,42 @@
                             <type>rso:EX_Digital_Image</type>
                             <instance_generator name="URIorUUID">
                                 <arg name="text" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/url</source_node>
+                <target_node>
+                    <entity>
+                        <type>crmdig:D1_Digital_Object</type>
+                        <type>rso:EX_Digital_Image</type>
+                        <instance_generator name="URIorUUID">
+                            <arg name="text" type="xpath">text()</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>../label</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>rdfs:label</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>../label</source_node>
+                    <target_node>
+                        <entity>
+                            <type>rdfs:Literal</type>
+                            <instance_generator name="Literal">
+                                <arg name="text" type="xpath">text()</arg>
+                                <arg name="language" type="constant"/>
                             </instance_generator>
                         </entity>
                     </target_node>
