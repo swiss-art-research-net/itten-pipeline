@@ -7,9 +7,9 @@ namespaces:
   la: http://www.linkedart.org/schema/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   prov: http://www.w3.org/ns/prov#
-  search: https://platform.swissartresearch.net/search/
+  search: https://platform.jila.zb.uzh.ch/search/
   gndo: https://d-nb.info/standards/elementset/gnd#
-  jila: https://jila.swissartresearch.net/ontology/
+  jila: https://jila.zb.uzh.ch/ontology/
   loc: http://id.loc.gov/vocabulary/relators/
   owl: http://www.w3.org/2002/07/owl#
 
@@ -166,7 +166,7 @@ relations:
           ?attributeAssignment crm:P141_assigned $subject .
           {
             ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?nonJilaObject .
-            GRAPH <https://resource.swissartresearch.net/graph/external> {
+            GRAPH <https://resource.jila.zb.uzh.ch/graph/external> {
               ?nonJilaObject a ?type .
             }
             OPTIONAL {
@@ -175,7 +175,7 @@ relations:
           } UNION {
             ?attributeAssignment crm:P129i_is_subject_of/crm:P67_refers_to ?jilaObject .
             FILTER NOT EXISTS {
-              GRAPH <https://resource.swissartresearch.net/graph/external> {
+              GRAPH <https://resource.jila.zb.uzh.ch/graph/external> {
                 ?jilaObject a ?type .
               }
             }

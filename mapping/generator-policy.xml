@@ -11,51 +11,51 @@
 		<pattern>POINT({lat} {long})</pattern>
 	</generator>
 		
-	<generator name="URIwithType" prefix="sari">
+	<generator name="URIwithType" prefix="jila">
 		<pattern>{type}</pattern>
 	</generator>
 
-	<generator name="URIwithTypeAndId" prefix="sari">
+	<generator name="URIwithTypeAndId" prefix="jila">
 		<pattern>{type}/{id}</pattern>
 	</generator>
 
-	<generator name="URIwith2TypesAndId" prefix="sari">
+	<generator name="URIwith2TypesAndId" prefix="jila">
 		<pattern>{type1}/{type2}/{id}</pattern>
 	</generator>
 
-	<generator name="URIwith2TypesAndId_hashed" prefix="sari" shorten="true">
+	<generator name="URIwith2TypesAndId_hashed" prefix="jila" shorten="true">
 		<pattern>{type1}/{type2}/{id}</pattern>
 	</generator>
 
-	<generator name="URIwithTypeSubtypeAndId" prefix="sari">
+	<generator name="URIwithTypeSubtypeAndId" prefix="jila">
 		<pattern>{type}/{id}/{subtype}</pattern>
 	</generator>
 
-	<generator name="URIwithTypeSubtypeIdAndCounter" prefix="sari">
+	<generator name="URIwithTypeSubtypeIdAndCounter" prefix="jila">
 		<pattern>{type}/{id}/{subtype}/{position}</pattern>
 	</generator>
 
-	<generator name="URIwithTypeSubtypeIdAnd1Level" prefix="sari">
+	<generator name="URIwithTypeSubtypeIdAnd1Level" prefix="jila">
 		<pattern>{type}/{id}/{subtype}/{level1}</pattern>
 	</generator>
 
-	<generator name="URIwithTypeSubtypeIdAnd1Level_hashed" prefix="sari" shorten="true">
+	<generator name="URIwithTypeSubtypeIdAnd1Level_hashed" prefix="jila" shorten="true">
 		<pattern>{type}/{id}/{subtype}/{level1}</pattern>
 	</generator>
 
-	<generator name="URIwithTypeSubtypeIdAnd2Levels" prefix="sari">
+	<generator name="URIwithTypeSubtypeIdAnd2Levels" prefix="jila">
 		<pattern>{type}/{id}/{subtype}/{level1}/{level2}</pattern>
 	</generator>
 
-	<generator name="URIwithTypeSubtypeIdAnd3Levels" prefix="sari">
+	<generator name="URIwithTypeSubtypeIdAnd3Levels" prefix="jila">
 		<pattern>{type}/{id}/{subtype}/{level1}/{level2}/{level3}</pattern>
 	</generator>
 
-	<generator name="URIwithTypeSubtypeIdCounterAndSuffix" prefix="sari">
+	<generator name="URIwithTypeSubtypeIdCounterAndSuffix" prefix="jila">
 		<pattern>{type}/{id}/{subtype}/{position}/{suffix}</pattern>
 	</generator>
 
-	<generator name="URIwithOneLevelIdHashed" prefix="sari">
+	<generator name="URIwithOneLevelIdHashed" prefix="jila">
         <custom generatorClass="gr.forth.MultiHashingGenerator">
             <set-arg name="type"/>
 			<set-arg name="id"/>
@@ -63,7 +63,7 @@
 			<set-arg name="subId_HASHED_CONTENTS"/>
         </custom>
     </generator>
-	<generator name="URIwithOneLevelIdAndSuffixHashed" prefix="sari">
+	<generator name="URIwithOneLevelIdAndSuffixHashed" prefix="jila">
         <custom generatorClass="gr.forth.MultiHashingGenerator">
             <set-arg name="type"/>
 			<set-arg name="id"/>
@@ -73,14 +73,14 @@
         </custom>
     </generator>
 
-	<generator name="URIwithTypeAndId_hashed" prefix="sari">
+	<generator name="URIwithTypeAndId_hashed" prefix="jila">
         <custom generatorClass="gr.forth.MultiHashingGenerator">
             <set-arg name="type"/>
 			<set-arg name="id_HASHED_CONTENTS"/>
         </custom>
     </generator>
 
-	<generator name="URIwithTypeSuptypeAndId_hashed" prefix="sari">
+	<generator name="URIwithTypeSuptypeAndId_hashed" prefix="jila">
         <custom generatorClass="gr.forth.MultiHashingGenerator">
             <set-arg name="type"/>
 			<set-arg name="id_HASHED_CONTENTS"/>
@@ -88,7 +88,7 @@
         </custom>
     </generator>
 
-	<generator name="URIwithTypeSuptypeLevel1AndId_hashed" prefix="sari">
+	<generator name="URIwithTypeSuptypeLevel1AndId_hashed" prefix="jila">
         <custom generatorClass="gr.forth.MultiHashingGenerator">
             <set-arg name="type"/>
 			<set-arg name="id_HASHED_CONTENTS"/>
@@ -97,7 +97,7 @@
         </custom>
     </generator>
 
-	<generator name="URIwithTwoLevelIdHashed" prefix="sari">
+	<generator name="URIwithTwoLevelIdHashed" prefix="jila">
         <custom generatorClass="gr.forth.MultiHashingGenerator">
             <set-arg name="type"/>
 			<set-arg name="id_HASHED_CONTENTS"/>
@@ -106,7 +106,7 @@
         </custom>
     </generator>
 
-	<generator name="URIwithTwoLevelIdHashedAndLevel1" prefix="sari">
+	<generator name="URIwithTwoLevelIdHashedAndLevel1" prefix="jila">
         <custom generatorClass="gr.forth.MultiHashingGenerator">
             <set-arg name="type"/>
 			<set-arg name="id_HASHED_CONTENTS"/>
@@ -116,63 +116,63 @@
         </custom>
     </generator>
 		
-	<generator name="placeAppellationUri" prefix="sari" shorten="true">
+	<generator name="placeAppellationUri" prefix="jila" shorten="true">
 		<pattern>place/{place_id}/appellation/{appellation_id}</pattern>
 	</generator>
 		
-	<generator name="placeIdentifierUri" prefix="sari">
+	<generator name="placeIdentifierUri" prefix="jila">
 		<pattern>place/{place_id}/{identifier_type}/{identifier}</pattern>
 	</generator>
 		
-	<generator name="personAppellationUri" prefix="sari" shorten="true">
+	<generator name="personAppellationUri" prefix="jila" shorten="true">
 		<pattern>person/{person_id}/appellation/{appellation_id}</pattern>
 	</generator>
 		
-	<generator name="personIdentifierUri" prefix="sari">
+	<generator name="personIdentifierUri" prefix="jila">
 		<pattern>person/{person_id}/{identifier_type}/{identifier}</pattern>
 	</generator>
 		
-	<generator name="personBirth" prefix="sari">
+	<generator name="personBirth" prefix="jila">
 		<pattern>person/{person_id}/birth</pattern>
 	</generator>
 		
-	<generator name="personDeath" prefix="sari">
+	<generator name="personDeath" prefix="jila">
 		<pattern>person/{person_id}/death</pattern>
 	</generator>
 
-	<generator name="personBiographyInfo" prefix="sari" uuid="true">
+	<generator name="personBiographyInfo" prefix="jila" uuid="true">
 		<pattern>person/{person_id}/biography_information/{lang}/</pattern>
 	</generator>
 		
 		
-	<generator name="personBiography" prefix="sari" uuid="true">
+	<generator name="personBiography" prefix="jila" uuid="true">
 		<pattern>person/{person_id}/biography/{lang}/</pattern>
 	</generator>
 
-	<generator name="groupIdentifierUri" prefix="sari">
+	<generator name="groupIdentifierUri" prefix="jila">
 		<pattern>group/{group_id}/{identifier_type}/{identifier}</pattern>
 	</generator>
 
-	<generator name="groupAppellationUri" prefix="sari" shorten="true">
+	<generator name="groupAppellationUri" prefix="jila" shorten="true">
 		<pattern>group/{group_id}/appellation/{appellation_id}</pattern>
 	</generator>
 
-	<generator name="groupDissolution" prefix="sari">
+	<generator name="groupDissolution" prefix="jila">
 		<pattern>group/{group_id}/dissolution</pattern>
 	</generator>
-	<generator name="groupDissolutionTimespan" prefix="sari">
+	<generator name="groupDissolutionTimespan" prefix="jila">
 		<pattern>group/{group_id}/dissolution/timespan</pattern>
 	</generator>
 
-	<generator name="groupFormation" prefix="sari">
+	<generator name="groupFormation" prefix="jila">
 		<pattern>group/{group_id}/formation</pattern>
 	</generator>
 
-	<generator name="groupFormationTimespan" prefix="sari">
+	<generator name="groupFormationTimespan" prefix="jila">
 		<pattern>group/{group_id}/formation/timespan</pattern>
 	</generator>
 
-	<generator name="groupBiography" prefix="sari" uuid="true">
+	<generator name="groupBiography" prefix="jila" uuid="true">
 		<pattern>group/{group_id}/biography/{lang}/</pattern>
 	</generator>
 
@@ -204,7 +204,7 @@
 		<pattern>{id}</pattern>
 	</generator>
 		
-	<generator name="URIwithOneType" prefix="sari" uuid="true">
+	<generator name="URIwithOneType" prefix="jila" uuid="true">
 		<pattern>{type}/</pattern>
 	</generator>
 		

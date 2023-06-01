@@ -1,6 +1,6 @@
 <x3ml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source_type="xpath" version="1.0" xsi:noNamespaceSchemaLocation="x3ml_v1.4.xsd" editor="3MEditor v3.3">
     <namespaces>
-        <namespace prefix="sari" uri="https://resource.swissartresearch.net/"/>
+        <namespace prefix="jila" uri="https://resource.jila.zb.uzh.ch/"/>
         <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
         <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
         <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
@@ -2162,6 +2162,42 @@
                             <type>rso:EX_Digital_Image</type>
                             <instance_generator name="URIorUUID">
                                 <arg name="text" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+        </mapping>
+        <mapping>
+            <domain>
+                <source_node>/collection/record/oai/metadata/mets/amdSec/digiprovMD/mdWrap/xmlData/links/images/image/url</source_node>
+                <target_node>
+                    <entity>
+                        <type>crmdig:D1_Digital_Object</type>
+                        <type>rso:EX_Digital_Image</type>
+                        <instance_generator name="URIorUUID">
+                            <arg name="text" type="xpath">text()</arg>
+                        </instance_generator>
+                    </entity>
+                </target_node>
+            </domain>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>../label</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>rdfs:label</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>../label</source_node>
+                    <target_node>
+                        <entity>
+                            <type>rdfs:Literal</type>
+                            <instance_generator name="Literal">
+                                <arg name="text" type="xpath">text()</arg>
+                                <arg name="language" type="constant"/>
                             </instance_generator>
                         </entity>
                     </target_node>
