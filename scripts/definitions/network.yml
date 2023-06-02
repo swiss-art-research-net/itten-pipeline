@@ -77,9 +77,13 @@ relations:
           BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
           BIND(gndo:familialRelationship as ?predicate)
         }
-        ?subject a ?type .
-        ?object a ?type .
-        VALUES (?type) {
+        ?subject a ?subjectType .
+        ?object a ?objectType .
+        VALUES (?subjectType) {
+          (search:Person)
+          (gndo:Person)
+  	    }
+        VALUES (?objectType) {
           (search:Person)
           (gndo:Person)
   	    }
