@@ -160,6 +160,19 @@ INSERT {
   }
 };
 
+# Add GND types for entities for which we did not retrieve additoinal data
+INSERT {
+  GRAPH sari:relations {
+    ?person a gndo:Person .
+  }
+} WHERE {
+  ?person a crm:E21_Person .
+  FILTER(STRSTARTS(STR(?person), 'https://d-nb.info/gnd/'))
+  FILTER NOT EXISTS {
+    ?person a gndo:Person .
+  }
+};
+
 # Try to convert dates from external entities to xsd:date
 # TODO: does not work yet
 INSERT {
