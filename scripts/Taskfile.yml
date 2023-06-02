@@ -30,8 +30,8 @@ tasks:
       - task: retrieve-wikimedia-image-rights
       - task: ingest-ontologies
       - task: materialise-network
-      - task: add-relations
       - task: ingest-data-external
+      - task: add-relations
       - echo "Pipeline finished!"
 
   add-relations:
