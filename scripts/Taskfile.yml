@@ -25,13 +25,14 @@ tasks:
       - echo "Waiting for mapping to be finished" && sleep 5s
       - task: retrieve-additional-data
       - task: ingest-data-main
+      - task: ingest-data-external
+      - task: extract-relevant-heidelberg-data
       - task: ingest-data-additional
+      - task: ingest-ontologies
       - task: cache-wikidata-thumbnails
       - task: retrieve-wikimedia-image-rights
-      - task: ingest-ontologies
-      - task: materialise-network
-      - task: ingest-data-external
       - task: add-relations
+      - task: materialise-network
       - echo "Pipeline finished!"
 
   add-relations:
@@ -76,10 +77,21 @@ tasks:
           PROPS_FILE: /apps/jila/config/ui.prop
 
   drop-graph:
-    decs: Drops a named graph from the Blazegraph instance
+    desc: Drops a named graph from the Blazegraph instance
     cmds:
       - curl --silent -X POST {{.BLAZEGRAPH_ENDPOINT}} --data-urlencode "update=DROP GRAPH <{{.GRAPH}}>" > /dev/null
 
+  extract-relevant-heidelberg-data:
+    desc: Extracts data relevant for the network visualisation from the Heidelberg Werkverzeichnis
+    sources:
+      - /data/external/heidelberg.nq
+      - /scripts/queries/extractHeidelbergData.sparql
+    vars:
+      QUERY:
+        sh: cat "queries/extractHeidelbergData.sparql"
+      OUTPUT_FILE: /data/ttl/additional/heidelbergExtract.ttl
+    cmds:
+      - 'curl -X POST {{.BLAZEGRAPH_ENDPOINT_SECONDARY}} --data-urlencode "query={{.QUERY}}" -H "Accept: application/x-turtle" -o {{.OUTPUT_FILE}}'
   
   generate-example-record:
     desc: Generates an example record for developing the mapping in the X3ML editor

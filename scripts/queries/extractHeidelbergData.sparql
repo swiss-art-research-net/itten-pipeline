@@ -1,0 +1,29 @@
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX ecrm: <http://erlangen-crm.org/200717/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+    ?relation a crm:E5_Event ;
+        crm:P2_has_type ?relationType ;
+        crm:P11_had_participant ?gndEntity ;
+        crm:P12_occurred_in_the_presence_of ?relatedGndEntity .
+    ?relationType a crm:E55_Type ;
+        rdfs:label ?relationLabel .
+    ?attributeAssignment a crm:E13_Attribute_Assignment ;
+        crm:P140_assigned_attribute_to ?gndEntity, ?relatedGndEntity;
+        crm:P141_assigned ?relation ;
+        crm:P14_carried_out_by <http://lod.ub.uni-heidelberg.de> .
+} WHERE {
+    ?entity owl:sameAs ?gndEntity .
+    ?entity ecrm:P11i_participated_in ?relation .
+    ?relation ecrm:P2_has_type ?relationType ;
+        ecrm:P12_occurred_in_the_presence_of ?relatedEntity .
+    ?relationType ecrm:P1_is_identified_by ?relationTypeId .
+    ?relationTypeId ecrm:P3_has_note ?relationLabel .
+    ?relatedEntity owl:sameAs ?relatedGndEntity .
+    BIND(URI(CONCAT(STR(?relation), '/assignment')) as ?attributeAssignment)
+    FILTER(STRSTARTS(STR(?relatedGndEntity), 'https://d-nb.info/gnd/'))
+    FILTER(STRSTARTS(STR(?gndEntity), 'https://d-nb.info/gnd/'))
+}

@@ -201,3 +201,20 @@ relations:
           ?subject ?predicate ?object
         }
       }'
+
+    - id: werkverzeichnis_relation
+      description: Add relations defined in the Werkverzeichnis
+      domain: crm:E1_CRM_Entity
+      range: crm:E1_CRM_Entity
+      queryPattern: '{ 
+        ?relation crm:P11_had_participant ?gndSubject ;
+                  crm:P12_occurred_in_the_presence_of ?gndObject ;
+                  crm:P2_has_type ?predicate .
+        ?attributeAssignment crm:P141_assigned ?relation ;
+          crm:P14_carried_out_by <http://lod.ub.uni-heidelberg.de> .
+        ?subject crmdig:L54_is_same-as ?gndSubject .
+        OPTIONAL {
+          ?jilaObject crmdig:L54_is_same-as ?gndObject .
+       }
+        BIND(COALESCE(?jilaObject, ?gndObject) as ?object)
+      }'
