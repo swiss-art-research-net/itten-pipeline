@@ -3,14 +3,15 @@ PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
 PREFIX ecrm: <http://erlangen-crm.org/200717/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
 
 CONSTRUCT {
     ?relation a crm:E5_Event ;
-        crm:P2_has_type ?relationType ;
+        crm:P2_has_type ?typeMapped ;
         crm:P11_had_participant ?gndEntity ;
         crm:P12_occurred_in_the_presence_of ?relatedGndEntity .
-    ?relationType a crm:E55_Type ;
-        rdfs:label ?relationLabel .
+    ?typeMapped a crm:E55_Type ;
+        rdfs:label ?typeLabel .
     ?attributeAssignment a crm:E13_Attribute_Assignment ;
         crm:P140_assigned_attribute_to ?gndEntity, ?relatedGndEntity;
         crm:P141_assigned ?relation ;
@@ -26,4 +27,22 @@ CONSTRUCT {
     BIND(URI(CONCAT(STR(?relation), '/assignment')) as ?attributeAssignment)
     FILTER(STRSTARTS(STR(?relatedGndEntity), 'https://d-nb.info/gnd/'))
     FILTER(STRSTARTS(STR(?gndEntity), 'https://d-nb.info/gnd/'))
+
+
+    VALUES (?relationType ?labelHeidelberg ?typeLabel ?typeMapped ) {
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/6435138aded6e> 'Ehemann (Beziehung familiär)' 'has husband' aat:300154341)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/6435138b1f2c1> 'Sohn (Beziehung familiär)' 'has descendant' aat:300266305)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/6435138b4312c> 'Schwester (Beziehung familiär)' 'has sister' aat:300188720)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/64352066e6982> 'Tochter (Beziehung familiär)' 'has descendant' aat:300266305)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/643520d0ced72> 'Cousin (Beziehung familiär)' 'has cousin' aat:300386747)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/6435198435cf4> 'Schüler Bauhaus' 'has teacher' aat:300025529)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/64351c2b4830a> 'Schüler Itten-Schule Berlin' 'has teacher' aat:300025529)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/64351f3757a1b> 'Schüler Kunstschule Wien' 'has teacher' aat:300025529)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/64352d6523253> 'Schüler Stuttgart,Schüler Stuttgart' 'has teacher' aat:300025529)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/64351a801557e> 'Lehrer Bauhaus' 'has colleague' <https://resource.jila.zb.uzh.ch/type/2799D446-95D2-31AC-BB39-B8A3A384309E>)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/64351b05b5e46> 'Lehrer Kunstgewerbeschule Zürich' 'has colleague' <https://resource.jila.zb.uzh.ch/type/2799D446-95D2-31AC-BB39-B8A3A384309E>)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/64351fdc6718e> 'Lehrer Stuttgart' 'has colleague' <https://resource.jila.zb.uzh.ch/type/2799D446-95D2-31AC-BB39-B8A3A384309E>)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/643530774d4a3> 'Lehrer Itten-Schule Berlin,Lehrer Itten-Schule Berlin'  'has colleague' <https://resource.jila.zb.uzh.ch/type/2799D446-95D2-31AC-BB39-B8A3A384309E>)
+        ( <http://lod.ub.uni-heidelberg.de/data/wvitten/6435396e382fd> 'Mitarbeiter Kunstgewerbemuseum Zürich,Mitarbeiter Kunstgewerbemuseum Zürich' 'has colleague' <https://resource.jila.zb.uzh.ch/type/2799D446-95D2-31AC-BB39-B8A3A384309E>)
+    }
 }
