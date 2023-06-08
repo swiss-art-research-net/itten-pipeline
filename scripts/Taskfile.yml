@@ -86,6 +86,8 @@ tasks:
     sources:
       - /data/external/heidelberg.nq
       - /scripts/queries/extractHeidelbergData.sparql
+    generates:
+      - /data/ttl/additional/heidelbergExtract.ttl
     vars:
       QUERY:
         sh: cat "queries/extractHeidelbergData.sparql"
@@ -200,6 +202,7 @@ tasks:
       - /data/ttl/main/*.ttl
       - /data/ttl/additional/gnd.ttl
       - /data/ttl/additional/networkLabels.trig
+      - /data/ttl/additional/heidelbergExtract.ttl
     vars:
       GRAPH: https://resource.jila.zb.uzh.ch/graph/network
     cmds:
