@@ -161,7 +161,7 @@
                                         <constant/>
                                     </instance_info>
                                     <instance_generator name="URIorUUID">
-                                        <arg name="text" type="constant">https://doi.org/</arg>
+                                        <arg name="text" type="constant">https://doi.org</arg>
                                     </instance_generator>
                                     <label_generator name="Literal">
                                         <arg name="text" type="constant">DOI</arg>
