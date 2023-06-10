@@ -12,6 +12,7 @@ PREFIX rds: <http://schema.swissartresearch.net/ontology/rds#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX gn: <http://www.geonames.org/ontology#>
 PREFIX schema: <http://schema.org/>
+PREFIX rso: <http://www.researchspace.org/ontology/>
 
 # Clear graph
 DROP GRAPH sari:relations;
@@ -22,7 +23,7 @@ INSERT DATA {
     search:Entity a rdfs:Class ;
       rdfs:equivalentClass crm:E1_CRM_Entity ;
       rdfs:label 'Entity'@en, 'Entität'@de, 'Entité'@fr, 'Entità'@it .
-    search:Collection rdfs:label 'Collection'@en, 'Sammlung'@de, 'Collection'@fr, 'Collezione'@it ;
+    search:Collection rdfs:label 'Documents'@en, 'Dokumente'@de, 'Documents'@fr, 'Documenti'@it ;
       a rdfs:Class ;
       rdfs:subClassOf search:Entity ;
       rdfs:equivalentClass crm:E78_Curated_Holding .
@@ -247,6 +248,12 @@ DELETE {
   }
   FILTER(CONTAINS(?label, 'Morde?ay'))
   BIND(REPLACE(?label,'Morde.ay', 'Mordeḵay') as ?label_corrected)
+};
+
+INSERT DATA {
+  GRAPH sari:relations {
+    crm:E78_Curated_Holding rso:displayLabel 'Documents'@en, 'Dokumente'@de, 'Documents'@fr, 'Documenti'@it .
+  }
 };
 
 # Add additional thumbnails
