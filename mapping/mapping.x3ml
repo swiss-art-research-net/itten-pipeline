@@ -139,6 +139,43 @@
             <link>
                 <path>
                     <source_relation>
+                        <relation>doi</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P1_is_identified_by</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>doi</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E42_Identifier</type>
+                            <instance_generator name="URIorUUID">
+                                <arg name="text" type="xpath">text()</arg>
+                            </instance_generator>
+                            <additional>
+                                <relationship>crm:P2_has_type</relationship>
+                                <entity>
+                                    <type>crm:E55_Type</type>
+                                    <instance_info>
+                                        <constant/>
+                                    </instance_info>
+                                    <instance_generator name="URIorUUID">
+                                        <arg name="text" type="constant">https://doi.org/</arg>
+                                    </instance_generator>
+                                    <label_generator name="Literal">
+                                        <arg name="text" type="constant">DOI</arg>
+                                        <arg name="language" type="constant"/>
+                                    </label_generator>
+                                </entity>
+                            </additional>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
                         <relation>archivalienarten</relation>
                     </source_relation>
                     <target_relation>
