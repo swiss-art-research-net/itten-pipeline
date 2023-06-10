@@ -256,6 +256,6 @@ INSERT {
   }
 } WHERE {
   VALUES (?subject ?label ?thumbnail) {
-    ( <https://resource.jila.zb.uzh.ch/actor/06B281E1-D405-3017-9AF0-9D5B2F0993A1> 'Schöne Bürgerin' <https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602949/900,1700,1200,1600/400,/0/default.jpg>)
+    ( <https://resource.jila.zb.uzh.ch/actor/06B281E1-D405-3017-9AF0-9D5B2F0993A1> 'Schöne Bürgerin' <https://www.e-manuscripta.ch/zuzcmi/i3f/v20/3602949/800,500,1200,1600/400,/0/default.jpg>)
   }
 }
