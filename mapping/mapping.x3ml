@@ -3956,6 +3956,30 @@
             <link>
                 <path>
                     <source_relation>
+                        <relation>identifiers</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <equals value="WD">source/text()</equals>
+                        </if>
+                        <relationship>crm:P141_assigned</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>identifiers</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E1_CRM_Entity</type>
+                            <instance_generator name="URIwithWikidataId">
+                                <arg name="id" type="xpath">value/text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
                         <relation>value</relation>
                     </source_relation>
                     <target_relation>
