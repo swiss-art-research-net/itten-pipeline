@@ -582,6 +582,40 @@
                     </target_node>
                 </range>
             </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>lizenz</relation>
+                    </source_relation>
+                    <target_relation>
+                        <relationship>crm:P104_is_subject_to</relationship>
+                        <entity>
+                            <type>crm:E30_Right</type>
+                            <instance_generator name="URIwithTypeSubtypeAndId">
+                                <arg name="type" type="constant">collection</arg>
+                                <arg name="id" type="xpath">concat("jila-", ../guid/text())</arg>
+                                <arg name="subtype" type="constant">license</arg>
+                            </instance_generator>
+                        </entity>
+                        <relationship>crm:P2_has_type</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>lizenz</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E55_Type</type>
+                            <instance_generator name="URIorUUID">
+                                <arg name="text" type="xpath">link/text()</arg>
+                            </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">bezeichnung/text()</arg>
+                                <arg name="language" type="constant"/>
+                            </label_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
         </mapping>
         <mapping>
             <domain>
