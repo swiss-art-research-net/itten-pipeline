@@ -204,6 +204,10 @@
 		<pattern>{id}</pattern>
 	</generator>
 		
+	<generator name="URIwithViafId" prefix="viaf">
+		<pattern>{id}</pattern>
+	</generator>
+		
 	<generator name="URIwithOneType" prefix="jila" uuid="true">
 		<pattern>{type}/</pattern>
 	</generator>
