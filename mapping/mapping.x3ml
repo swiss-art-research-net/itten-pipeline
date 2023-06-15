@@ -21,6 +21,7 @@
         <namespace prefix="oai" uri="http://www.openarchives.org/OAI/2.0/"/>
         <namespace prefix="loc" uri="http://id.loc.gov/vocabulary/relators/"/>
         <namespace prefix="sikart" uri="https://www.sikart.ch/kuenstlerinnen.aspx?id="/>
+        <namespace prefix="viaf" uri="https://viaf.org/viaf/"/>
     </namespaces>
     <mappings>
         <mapping>
@@ -974,7 +975,7 @@
                                     <equals value="Person">../typ/value/text()</equals>
                                 </if>
                                 <if>
-                                    <equals value="Erwähnt">../rolle/value/text()</equals>
+                                   <exists>../rolle/value[text()="Erwähnt"]</exists>
                                 </if>
                             </and>
                         </if>
@@ -1019,7 +1020,7 @@
                                     <equals value="Gruppe">../typ/value/text()</equals>
                                 </if>
                                 <if>
-                                    <equals value="Erwähnt">../rolle/value/text()</equals>
+                                   <exists>../rolle/value[text()="Erwähnt"]</exists>
                                 </if>
                             </and>
                         </if>
@@ -1491,7 +1492,7 @@
                                     <equals value="Person">../typ/value/text()</equals>
                                 </if>
                                 <if>
-                                    <equals value="Abgebildet">../rolle/value/text()</equals>
+                                   <exists>../rolle/value[text()="Abgebildet"]</exists>
                                 </if>
                             </and>
                         </if>
@@ -1527,7 +1528,7 @@
                                     <equals value="Gruppe">../typ/value/text()</equals>
                                 </if>
                                 <if>
-                                    <equals value="Abgebildet">../rolle/value/text()</equals>
+                                   <exists>../rolle/value[text()="Abgebildet"]</exists>
                                 </if>
                             </and>
                         </if>
@@ -2767,6 +2768,41 @@
                         <entity>
                             <type>crm:E21_Person</type>
                             <instance_generator name="URIwithWikidataId">
+                                <arg name="id" type="xpath">text()</arg>
+                            </instance_generator>
+                        </entity>
+                    </target_node>
+                </range>
+            </link>
+            <link>
+                <path>
+                    <source_relation>
+                        <relation>viaf_id</relation>
+                    </source_relation>
+                    <target_relation>
+                        <if>
+                            <and>
+                                <if>
+                                    <exists>text()</exists>
+                                </if>
+                                <if>
+                                    <not>
+                                        <if>
+                                            <equals value="null">text()</equals>
+                                        </if>
+                                    </not>
+                                </if>
+                            </and>
+                        </if>
+                        <relationship>crmdig:L54_is_same-as</relationship>
+                    </target_relation>
+                </path>
+                <range>
+                    <source_node>viaf_id</source_node>
+                    <target_node>
+                        <entity>
+                            <type>crm:E21_Person</type>
+                            <instance_generator name="URIwithViafId">
                                 <arg name="id" type="xpath">text()</arg>
                             </instance_generator>
                         </entity>
