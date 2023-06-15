@@ -19,3 +19,4 @@ download "data/rdf/conceptLabels.trig" "data/ttl/additional/conceptLabels.trig"
 download "data/rdf/networkLabels.trig" "data/ttl/additional/networkLabels.trig"
 
 download "external/heidelberg/2023-05-03_wvitten03.nq" "data/external/heidelberg.nq"
+download "external/sikart/sikart.ttl" "data/ttl/additional/sikart.ttl"
