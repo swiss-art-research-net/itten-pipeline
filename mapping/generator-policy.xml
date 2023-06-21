@@ -195,6 +195,10 @@
 	<generator name="URIwithSikartId" prefix="sikart">
 		<pattern>{id}</pattern>
 	</generator>
+		
+	<generator name="URIwithSikartPersonId" prefix="sikart">
+		<pattern>person-{id}</pattern>
+	</generator>
 
 	<generator name="URIwithUlanId" prefix="ulan">
 		<pattern>{id}</pattern>
