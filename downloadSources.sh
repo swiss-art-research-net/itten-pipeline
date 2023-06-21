@@ -19,5 +19,5 @@ download "swiss-art-research-net/itten-data" "data/rdf/conceptLabels.trig" "data
 download "swiss-art-research-net/itten-data" "data/rdf/networkLabels.trig" "data/ttl/additional/networkLabels.trig"
 
 download "swiss-art-research-net/itten-data" "external/sikart/sikart.ttl" "data/ttl/additional/sikart.ttl"
+download "swiss-art-research-net/sikart-data" "data/ttl/all_extracted.ttl" "data/ttl/additional/sikart-extract.ttl"
 download "swiss-art-research-net/itten-data" "external/heidelberg/2023-05-03_wvitten03.nq" "data/external/heidelberg.nq"
-download "swiss-art-research-net/sikart-data" "data/ttl/all_extracted.ttl" "data/external/sikart-extract.ttl"
