@@ -388,6 +388,26 @@ def convertRecordsToXML(records, *, removeEmptyNodes=True, flattenLists=False):
         Convert a CMI record to XML.
         """
 
+        def addIndicesToNodes(xml):
+            prevTag = None
+            index = 0
+            for node in xml.getchildren():
+                if node.tag != prevTag:
+                    index = 0
+                node.set('index', str(index))
+                index += 1
+                prevTag = node.tag
+                if len(node) > 0:
+                    addIndicesToNodes(node)
+            for node in xml.getchildren():
+                # If the next node is a different tag and the index of this node is 0 we remove the index attribute
+                if node.getnext() is not None and node.getnext().tag != node.tag and node.get('index') == '0':
+                    node.attrib.pop('index')
+                # If the node is the last node of its parent and the index is 0 we remove the index attribute
+                elif node.getparent() is not None and node.getparent().getchildren()[-1] == node and node.get('index') == '0':
+                    node.attrib.pop('index')
+            return xml
+
         def cleanTag(tag):
             """
             Make sure that the tag is valid XML tag.
@@ -453,14 +473,7 @@ def convertRecordsToXML(records, *, removeEmptyNodes=True, flattenLists=False):
                 empty.getparent().remove(empty)
         
         # Add indices to nodes. We use this to create unique URIs for repeating nodes.
-        prevTag = None
-        index = 0
-        for node in xml.getchildren():
-            if node.tag != prevTag:
-                index = 0
-            node.set('index', str(index))
-            index += 1
-            prevTag = node.tag
+        addIndicesToNodes(xml)
 
         return xml
 

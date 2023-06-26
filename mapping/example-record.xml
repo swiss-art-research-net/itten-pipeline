@@ -1,14 +1,14 @@
 <collection>
 
   <record>
-    <signatur index="0">Hs NL 11: Ga 1.10.2</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11: Ga 1.10.2</signatur>
+    <verzeichnungsstufe>
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id index="0">61791</id>
-    <guid index="0">9b570bfd545247fab57346996242c9fd</guid>
+    <id>61791</id>
+    <guid>9b570bfd545247fab57346996242c9fd</guid>
     <archivalienarten index="0">
       <bezeichnung>Typoskript</bezeichnung>
       <gnd>4186519-4</gnd>
@@ -25,36 +25,36 @@
       <bezeichnung>Brief</bezeichnung>
       <gnd>4008240-4</gnd>
     </archivalienarten>
-    <titel index="0">Leopold Reidemeister an Johannes Itten</titel>
-    <entstehungszeitraum index="0">01.08.1961</entstehungszeitraum>
-    <entstehungsort index="0">Berlin</entstehungsort>
-    <bemerkungen_zum_umfang index="0">1 Blatt</bemerkungen_zum_umfang>
-    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-132167" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-132167&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Ga 1.10 - "Sturm-Ausstellung" Berlin 1961 - 1961</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">4e5f15f1e8fd48e0b265fd22ed041597</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/"Sturm-Ausstellung" Berlin 1961</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/4e5f15f1e8fd48e0b265fd22ed041597</pfad_bestand_nur_guid_von_jeder_ebene>
-    <ueberlieferungsformen index="0">
+    <titel>Leopold Reidemeister an Johannes Itten</titel>
+    <entstehungszeitraum>01.08.1961</entstehungszeitraum>
+    <entstehungsort>Berlin</entstehungsort>
+    <bemerkungen_zum_umfang>1 Blatt</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-132167" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-132167&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ga 1.10 - "Sturm-Ausstellung" Berlin 1961 - 1961</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>4e5f15f1e8fd48e0b265fd22ed041597</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/"Sturm-Ausstellung" Berlin 1961</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/4e5f15f1e8fd48e0b265fd22ed041597</pfad_bestand_nur_guid_von_jeder_ebene>
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen index="0">Schutzfrist bis 02.08.1991</zugangsbestimmungen>
-    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <zugangsbestimmungen>Schutzfrist bis 02.08.1991</zugangsbestimmungen>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">02.08.1991</ablauf_schutzfrist>
-    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
-    <sprachen index="0">
+    <ablauf_schutzfrist>02.08.1991</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <sprachen>
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 213 / Entit&#228;t: Berlin #GND4005728-8 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 213 / Entit&#228;t: Berlin #GND4005728-8 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
     <registereintraege index="0">
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
@@ -79,8 +79,8 @@
       <key name="">213</key>
       <wikidata_id>Q1819801</wikidata_id>
     </registereintraege>
-    <doi index="0">https://doi.org/10.7891/e-manuscripta-132167</doi>
-    <parsed_internal_remarks index="0">
+    <doi>https://doi.org/10.7891/e-manuscripta-132167</doi>
+    <parsed_internal_remarks>
       <entitaet>
         <value>Berlin</value>
         <identifiers>
@@ -246,14 +246,14 @@
 
 
   <record>
-    <signatur index="0">Hs NL 11: Ga 1.5.1</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11: Ga 1.5.1</signatur>
+    <verzeichnungsstufe>
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id index="0">59612</id>
-    <guid index="0">b587c12ecb8b4a5fb9c1b7e075b9f8c0</guid>
+    <id>59612</id>
+    <guid>b587c12ecb8b4a5fb9c1b7e075b9f8c0</guid>
     <archivalienarten index="0">
       <bezeichnung>Manuskript</bezeichnung>
       <gnd>4126273-6</gnd>
@@ -262,38 +262,38 @@
       <bezeichnung>Brief</bezeichnung>
       <gnd>4008240-4</gnd>
     </archivalienarten>
-    <titel index="0">Willem Sandberg an Johannes Itten</titel>
-    <entstehungszeitraum index="0">05.03.1957</entstehungszeitraum>
-    <entstehungsort index="0">Amsterdam</entstehungsort>
-    <bemerkungen_zum_umfang index="0">1 Blatt</bemerkungen_zum_umfang>
-    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-128188" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-128188&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Ga 1.5 - Ausstellung im Stedelijk Museum Amsterdam 1957 - 1957</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">f6f51c2dfa80449492bdcad9ddb843fb</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/Ausstellung im Stedelijk Museum Amsterdam 1957</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/f6f51c2dfa80449492bdcad9ddb843fb</pfad_bestand_nur_guid_von_jeder_ebene>
-    <ueberlieferungsformen index="0">
+    <titel>Willem Sandberg an Johannes Itten</titel>
+    <entstehungszeitraum>05.03.1957</entstehungszeitraum>
+    <entstehungsort>Amsterdam</entstehungsort>
+    <bemerkungen_zum_umfang>1 Blatt</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-128188" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-128188&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ga 1.5 - Ausstellung im Stedelijk Museum Amsterdam 1957 - 1957</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>f6f51c2dfa80449492bdcad9ddb843fb</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Ausstellungen/Ausstellungen von Werken Johannes Ittens/Ausstellungen 1919-1964/Ausstellung im Stedelijk Museum Amsterdam 1957</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/f7422bafbe1e4819b9904f5889a2c9f6/76a3630364974755b9c946348308fa2e/e91583b4b77f4961b80d337c27a3d0e2/f6f51c2dfa80449492bdcad9ddb843fb</pfad_bestand_nur_guid_von_jeder_ebene>
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen index="0">Schutzfrist bis 06.03.1987</zugangsbestimmungen>
-    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <zugangsbestimmungen>Schutzfrist bis 06.03.1987</zugangsbestimmungen>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">06.03.1987</ablauf_schutzfrist>
-    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
-    <verwertungsrecht index="0">Extern</verwertungsrecht>
-    <ablauf_verwertungsrecht index="0">06.03.2027</ablauf_verwertungsrecht>
-    <sprachen index="0">
+    <ablauf_schutzfrist>06.03.1987</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <verwertungsrecht>Extern</verwertungsrecht>
+    <ablauf_verwertungsrecht>06.03.2027</ablauf_verwertungsrecht>
+    <sprachen>
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 176 / Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 176 / Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
     <registereintraege index="0">
       <register_bezeichnung>Sandberg, Alida</register_bezeichnung>
       <register_gnd-id>1282706055</register_gnd-id>
@@ -372,8 +372,8 @@
       <key name="">268</key>
       <wikidata_id>Q480473</wikidata_id>
     </registereintraege>
-    <doi index="0">https://doi.org/10.7891/e-manuscripta-128188</doi>
-    <parsed_internal_remarks index="0">
+    <doi>https://doi.org/10.7891/e-manuscripta-128188</doi>
+    <parsed_internal_remarks>
       <entitaet>
         <value>Amsterdam</value>
         <identifiers>
@@ -539,46 +539,46 @@
 
 
   <record>
-    <signatur index="0">Hs NL 11: Ch 3.1.14</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11: Ch 3.1.14</signatur>
+    <verzeichnungsstufe>
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id index="0">59338</id>
-    <guid index="0">cdc330b211924b7dad51274f51831e18</guid>
-    <archivalienarten index="0">
+    <id>59338</id>
+    <guid>cdc330b211924b7dad51274f51831e18</guid>
+    <archivalienarten>
       <bezeichnung>Fotografie</bezeichnung>
       <gnd>4045895-7</gnd>
     </archivalienarten>
-    <titel index="0">Herstellung und Montage des Velums 14</titel>
-    <entstehungszeitraum index="0">1938</entstehungszeitraum>
-    <entstehungsort index="0">Amsterdam</entstehungsort>
-    <bemerkungen_zum_umfang index="0">1 Fotoabzug</bemerkungen_zum_umfang>
-    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-126366" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126366&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
-    <ueberlieferungsformen index="0">
+    <titel>Herstellung und Montage des Velums 14</titel>
+    <entstehungszeitraum>1938</entstehungszeitraum>
+    <entstehungsort>Amsterdam</entstehungsort>
+    <bemerkungen_zum_umfang>1 Fotoabzug</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-126366" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126366&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen index="0">Schutzfrist bis 01.01.1969</zugangsbestimmungen>
-    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <zugangsbestimmungen>Schutzfrist bis 01.01.1969</zugangsbestimmungen>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">01.01.1969</ablauf_schutzfrist>
-    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
-    <verwertungsrecht index="0">Gemeinfrei</verwertungsrecht>
-    <physische_beschaffenheit_und_technische_anforderungen index="0">Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 92 / Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
-    <doi index="0">https://doi.org/10.7891/e-manuscripta-126366</doi>
-    <parsed_internal_remarks index="0">
+    <ablauf_schutzfrist>01.01.1969</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <verwertungsrecht>Gemeinfrei</verwertungsrecht>
+    <physische_beschaffenheit_und_technische_anforderungen>Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 92 / Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <doi>https://doi.org/10.7891/e-manuscripta-126366</doi>
+    <parsed_internal_remarks>
       <entitaet>
         <value>Amsterdam</value>
         <identifiers>
@@ -721,14 +721,14 @@
 
 
   <record>
-    <signatur index="0">Hs NL 11: Fd 13</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11: Fd 13</signatur>
+    <verzeichnungsstufe>
       <value>Dossier</value>
       <gnd>4434863-0</gnd>
       <aat>300133146</aat>
     </verzeichnungsstufe>
-    <id index="0">27318</id>
-    <guid index="0">0c0583bb7ac742b08269229ac595be7b</guid>
+    <id>27318</id>
+    <guid>0c0583bb7ac742b08269229ac595be7b</guid>
     <archivalienarten index="0">
       <bezeichnung>Typoskript</bezeichnung>
       <gnd>4186519-4</gnd>
@@ -749,47 +749,47 @@
       <bezeichnung>Manuskript</bezeichnung>
       <gnd>4126273-6</gnd>
     </archivalienarten>
-    <titel index="0">Manuskripte zur Farbenlehre. Ordner IV</titel>
-    <entstehungszeitraum index="0">ca. 1950 er</entstehungszeitraum>
-    <bemerkungen_zum_umfang index="0">150 Bl&#228;tter, 1 Druckschrift; Beilage</bemerkungen_zum_umfang>
-    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-135316" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-135316&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Fd - Farbenlehre - 1908 - ca. 1960 er</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">ea0f6529babd41a0bd8d27606d031a88</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Werke und Manuskripte/Farbenlehre</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/95f5542c2ea84104b63179f64e19a826/ea0f6529babd41a0bd8d27606d031a88</pfad_bestand_nur_guid_von_jeder_ebene>
-    <form_und_inhalt index="0">Das Dossier enth&#228;lt haupts&#228;chlich handschriftliche Aufzeichnungen und Skizzen Johannes Ittens zur Farbenlehre. Einige Texte zeigen Vorstufen zu Kapiteln in "Kunst der Farbe". Die Dokumente befanden sich urspr&#252;nglich in einem unbeschrifteten Ordner und waren mit beschrifteten Registertrennbl&#228;ttern thematisch in folgende Bereiche geordnet: Impressiv, Expressiv, Malerei, Kunstwissenschaft, Architektur, Mode, Foto-Film, Reklame, Keramik, G&#228;rtner, Methodik. In den Bereichen Malerei, Kunstwissenschaft, Architektur, Keramik und G&#228;rtner sind keine Dokumente enthalten. Der Bereich Mode enth&#228;lt diverse einzelne Manuskriptbl&#228;tter sowie sechs zusammenh&#228;ngende Manuskripte mit folgenden Titeln: Aufsatz, Die Farbe in der Mode (zwei Manuskripte), Erziehung, P&#228;dagogik, Vom Kolorieren in der Textilindustrie. Der Bereich Foto-Film enth&#228;lt die Druckschrift "Le Cin&#233;ma en couleurs" von Pierre Brard, Juli 1946. Beilagen: Notizzettel von Anneliese Itten, Notizzettel von 2002</form_und_inhalt>
-    <ueberlieferungsformen index="0">
+    <titel>Manuskripte zur Farbenlehre. Ordner IV</titel>
+    <entstehungszeitraum>ca. 1950 er</entstehungszeitraum>
+    <bemerkungen_zum_umfang>150 Bl&#228;tter, 1 Druckschrift; Beilage</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-135316" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-135316&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Fd - Farbenlehre - 1908 - ca. 1960 er</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>ea0f6529babd41a0bd8d27606d031a88</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Werke und Manuskripte/Farbenlehre</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/95f5542c2ea84104b63179f64e19a826/ea0f6529babd41a0bd8d27606d031a88</pfad_bestand_nur_guid_von_jeder_ebene>
+    <form_und_inhalt>Das Dossier enth&#228;lt haupts&#228;chlich handschriftliche Aufzeichnungen und Skizzen Johannes Ittens zur Farbenlehre. Einige Texte zeigen Vorstufen zu Kapiteln in "Kunst der Farbe". Die Dokumente befanden sich urspr&#252;nglich in einem unbeschrifteten Ordner und waren mit beschrifteten Registertrennbl&#228;ttern thematisch in folgende Bereiche geordnet: Impressiv, Expressiv, Malerei, Kunstwissenschaft, Architektur, Mode, Foto-Film, Reklame, Keramik, G&#228;rtner, Methodik. In den Bereichen Malerei, Kunstwissenschaft, Architektur, Keramik und G&#228;rtner sind keine Dokumente enthalten. Der Bereich Mode enth&#228;lt diverse einzelne Manuskriptbl&#228;tter sowie sechs zusammenh&#228;ngende Manuskripte mit folgenden Titeln: Aufsatz, Die Farbe in der Mode (zwei Manuskripte), Erziehung, P&#228;dagogik, Vom Kolorieren in der Textilindustrie. Der Bereich Foto-Film enth&#228;lt die Druckschrift "Le Cin&#233;ma en couleurs" von Pierre Brard, Juli 1946. Beilagen: Notizzettel von Anneliese Itten, Notizzettel von 2002</form_und_inhalt>
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <ordnung_und_klassifikation index="0">Originalordnung wurde grunds&#228;tzlich beibehalten. Offensichtliche Fehleinordnungen wurden in einzelnen F&#228;llen korrigiert sowie Zusammenh&#228;nge von wenigen Manuskripten wieder hergestellt.</ordnung_und_klassifikation>
-    <zugangsbestimmungen index="0">Ohne rechtliche Einschr&#228;nkungen einsehbar</zugangsbestimmungen>
-    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <ordnung_und_klassifikation>Originalordnung wurde grunds&#228;tzlich beibehalten. Offensichtliche Fehleinordnungen wurden in einzelnen F&#228;llen korrigiert sowie Zusammenh&#228;nge von wenigen Manuskripten wieder hergestellt.</ordnung_und_klassifikation>
+    <zugangsbestimmungen>Ohne rechtliche Einschr&#228;nkungen einsehbar</zugangsbestimmungen>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Keine</bezeichnung>
       <frist>0</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">01.01.1960</ablauf_schutzfrist>
-    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
-    <lizenz index="0">
+    <ablauf_schutzfrist>01.01.1960</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <lizenz>
       <bezeichnung>CC BY-NC-SA 4.0</bezeichnung>
       <link>https://creativecommons.org/licenses/by-nc-sa/4.0/</link>
     </lizenz>
-    <urheber index="0">Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
-    <sprachen index="0">
+    <urheber>Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
+    <sprachen>
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokumente</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 72; Dossier 218 (Ms. "Impressive Farblehre", S. 1-19; S. 22-23) / Entit&#228;t: Schwedischer Industrieller Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Person in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Hs NL 11: Fd 13); Entit&#228;t: G&#228;ste eines schwedischen Industriellen Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Hs NL 11: Fd 13) Anzahl: &gt;1; Entit&#228;t: S&#252;dfranz&#246;sische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Schottische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Itten #GND118710990 (teacher #AAT300025529) Beziehungen: Mongolischer Grosselternteil von Natascha (grandparent #AAT300386751) Beziehungen: Natascha D. (possible match) Bemerkungen: in Moskau #GND4074987-3 geboren (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Mongolischer Grosselternteil von Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Natascha (grandaughter #AAT300386749) Beziehungen: Mongolische Vorfahren von Natascha D. (possible match)</allgemeine_interne_anmerkungen>
-    <allgemeine_anmerkungen index="0">Beilagen und Druckschrift nicht digitalisiert</allgemeine_anmerkungen>
-    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
-    <zustandskategorie index="0">
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokumente</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 72; Dossier 218 (Ms. "Impressive Farblehre", S. 1-19; S. 22-23) / Entit&#228;t: Schwedischer Industrieller Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Person in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Der schwedische Industrielle gibt ein Nachtessen und f&#252;hrt in einem Versuch die expressive Wirkung von Farbe auf das Gem&#252;t vor, indem er das Essen seiner G&#228;ste in unterschiedlichen Farben beleuchten l&#228;sst (Quelle: Hs NL 11: Fd 13); Entit&#228;t: G&#228;ste eines schwedischen Industriellen Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen in einer von Donald Brinkmann #GND118674161 berichteten Anekdote. Die G&#228;ste nehmen bei einem Nachtessen unfreiwillig an einem Versuch mit farbigem Licht zur Vorf&#252;hrung der expressiven Wirkung von Farbe auf das Gem&#252;t teil (Quelle: Hs NL 11: Fd 13) Anzahl: &gt;1; Entit&#228;t: S&#252;dfranz&#246;sische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus S&#252;dfrankreich stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Schottische Grossmutter Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Aus Schottland stammende Grossmutter einer Sch&#252;lerin oder eines Sch&#252;lers aus Ittens #GND118710990 Klasse (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Itten #GND118710990 (teacher #AAT300025529) Beziehungen: Mongolischer Grosselternteil von Natascha (grandparent #AAT300386751) Beziehungen: Natascha D. (possible match) Bemerkungen: in Moskau #GND4074987-3 geboren (Quelle: Hs NL 11: Fd 13); Entit&#228;t: Mongolischer Grosselternteil von Natascha Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Natascha (grandaughter #AAT300386749) Beziehungen: Mongolische Vorfahren von Natascha D. (possible match)</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen>Beilagen und Druckschrift nicht digitalisiert</allgemeine_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <zustandskategorie>
       <bezeichnung>BE-Restaurierungsbedarf</bezeichnung>
     </zustandskategorie>
-    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
-    <schadenserhebung index="0">beginnender Tintenfrass</schadenserhebung>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <schadenserhebung>beginnender Tintenfrass</schadenserhebung>
     <registereintraege index="0">
       <register_bezeichnung>Itten, Anneliese</register_bezeichnung>
       <register_gnd-id>11721227X</register_gnd-id>
@@ -1381,7 +1381,7 @@
       <wikidata_id>Q123138</wikidata_id>
       <viaf_id>71392512</viaf_id>
     </registereintraege>
-    <doi index="0">https://doi.org/10.7891/e-manuscripta-135316</doi>
+    <doi>https://doi.org/10.7891/e-manuscripta-135316</doi>
     <parsed_internal_remarks index="0">
       <entitaet>
         <value>Mongolischer Grosselternteil von Natascha</value>
@@ -1393,11 +1393,11 @@
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
-      <beziehungen>
+      <beziehungen index="0">
         <value>Mongolische Vorfahren von Natascha D.</value>
         <qualifier>possible match</qualifier>
       </beziehungen>
-      <beziehungen>
+      <beziehungen index="1">
         <value>Natascha</value>
         <qualifier>grandaughter</qualifier>
         <qualifier_identifiers>
@@ -1420,11 +1420,11 @@
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
-      <beziehungen>
+      <beziehungen index="0">
         <value>Natascha D.</value>
         <qualifier>possible match</qualifier>
       </beziehungen>
-      <beziehungen>
+      <beziehungen index="1">
         <value>Mongolischer Grosselternteil von Natascha</value>
         <qualifier>grandparent</qualifier>
         <qualifier_identifiers>
@@ -1435,7 +1435,7 @@
           </identifier>
         </qualifier_identifiers>
       </beziehungen>
-      <beziehungen>
+      <beziehungen index="2">
         <value>Itten</value>
         <identifiers>
           <position>6</position>
@@ -3428,45 +3428,45 @@
 
 
   <record>
-    <signatur index="0">Hs NL 11: Ch 3.1.41</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11: Ch 3.1.41</signatur>
+    <verzeichnungsstufe>
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id index="0">59342</id>
-    <guid index="0">712bf7c61f594314b146f81bf6a01add</guid>
-    <archivalienarten index="0">
+    <id>59342</id>
+    <guid>712bf7c61f594314b146f81bf6a01add</guid>
+    <archivalienarten>
       <bezeichnung>Fotografie</bezeichnung>
       <gnd>4045895-7</gnd>
     </archivalienarten>
-    <titel index="0">Herstellung und Montage des Velums 41</titel>
-    <entstehungszeitraum index="0">1938</entstehungszeitraum>
-    <entstehungsort index="0">Amsterdam</entstehungsort>
-    <bemerkungen_zum_umfang index="0">1 Fotoabzug</bemerkungen_zum_umfang>
-    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-126364" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126364&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
-    <ueberlieferungsformen index="0">
+    <titel>Herstellung und Montage des Velums 41</titel>
+    <entstehungszeitraum>1938</entstehungszeitraum>
+    <entstehungsort>Amsterdam</entstehungsort>
+    <bemerkungen_zum_umfang>1 Fotoabzug</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-126364" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126364&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Ch 3.1 - Fotografien - 1938 - 1939</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>5e369b00889f4fdb9d281d5e86b7ddf3</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Amsterdam/Dokumente zum Velum/Fotografien</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/f5b00f3b8e41449c880c8b59aad916e6/a239272581874cffbc5acf40da77bd5b/5e369b00889f4fdb9d281d5e86b7ddf3</pfad_bestand_nur_guid_von_jeder_ebene>
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen index="0">Schutzfrist bis 01.01.1969</zugangsbestimmungen>
-    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <zugangsbestimmungen>Schutzfrist bis 01.01.1969</zugangsbestimmungen>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">01.01.1969</ablauf_schutzfrist>
-    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
-    <verwertungsrecht index="0">Gemeinfrei</verwertungsrecht>
-    <physische_beschaffenheit_und_technische_anforderungen index="0">Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 92 / Entit&#228;t: Monteure am Velum im Stedelijk Museum Amsterdam 1938 Typ: Person Rolle: Abgebildet (dpc) (Empty) Bemerkungen: T&#228;tig im Umfeld der Gesamtkomposition des Velum #GND1218719192 am Stedelijk Museum Amsterdam #GND1030247-5. (Quelle: Vorlage Hs NL 11: Ch 3.1.41) Anzahl: 2; Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
-    <doi index="0">https://doi.org/10.7891/e-manuscripta-126364</doi>
+    <ablauf_schutzfrist>01.01.1969</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <verwertungsrecht>Gemeinfrei</verwertungsrecht>
+    <physische_beschaffenheit_und_technische_anforderungen>Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 92 / Entit&#228;t: Monteure am Velum im Stedelijk Museum Amsterdam 1938 Typ: Person Rolle: Abgebildet (dpc) (Empty) Bemerkungen: T&#228;tig im Umfeld der Gesamtkomposition des Velum #GND1218719192 am Stedelijk Museum Amsterdam #GND1030247-5. (Quelle: Vorlage Hs NL 11: Ch 3.1.41) Anzahl: 2; Entit&#228;t: Amsterdam #GND4001783-7 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <doi>https://doi.org/10.7891/e-manuscripta-126364</doi>
     <parsed_internal_remarks index="0">
       <entitaet>
         <value>Amsterdam</value>
@@ -3496,12 +3496,12 @@
       </rolle>
       <bemerkungen>
         <value>T&#228;tig im Umfeld der Gesamtkomposition des Velum am Stedelijk Museum Amsterdam. (Quelle: Vorlage Hs NL 11: Ch 3.1.41)</value>
-        <identifiers>
+        <identifiers index="0">
           <position>78</position>
           <source>GND</source>
           <value>1030247-5</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="1">
           <position>48</position>
           <source>GND</source>
           <value>1218719192</value>
@@ -3638,53 +3638,53 @@
 
 
   <record>
-    <signatur index="0">Hs NL 11: Cf 1</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11: Cf 1</signatur>
+    <verzeichnungsstufe>
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id index="0">42831</id>
-    <guid index="0">87f585a3871a4f459da1d77cf3d8b2d5</guid>
-    <archivalienarten index="0">
+    <id>42831</id>
+    <guid>87f585a3871a4f459da1d77cf3d8b2d5</guid>
+    <archivalienarten>
       <bezeichnung>Typoskript</bezeichnung>
       <gnd>4186519-4</gnd>
     </archivalienarten>
-    <titel index="0">Erlaubnisurkunde f&#252;r Johannes Itten zum Betrieb einer privaten Zeichen- und Malschule</titel>
-    <entstehungszeitraum index="0">25.10.1927</entstehungszeitraum>
-    <entstehungsort index="0">Berlin-Lichterfelde</entstehungsort>
-    <bemerkungen_zum_umfang index="0">1 Blatt</bemerkungen_zum_umfang>
-    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-124359" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-124359&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Cf - Berlin - 1916 - 1988</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">70a096002da9466f9385f4b41277c768</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Berlin</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/70a096002da9466f9385f4b41277c768</pfad_bestand_nur_guid_von_jeder_ebene>
-    <form_und_inhalt index="0">Erlaubnisurkunde zum Betrieb einer privaten Zeichen- und Malschule an der Potsdamer Strasse 75, Berlin, ausgestellt vom Preussischen Provinzial-Schulkollegium Berlin / Enth&#228;lt auch: 1 Fotokopie der Erlaubnisurkunde / Umfang: 1 Blatt gefalten, 3 Seiten beschrieben</form_und_inhalt>
-    <ueberlieferungsformen index="0">
+    <titel>Erlaubnisurkunde f&#252;r Johannes Itten zum Betrieb einer privaten Zeichen- und Malschule</titel>
+    <entstehungszeitraum>25.10.1927</entstehungszeitraum>
+    <entstehungsort>Berlin-Lichterfelde</entstehungsort>
+    <bemerkungen_zum_umfang>1 Blatt</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-124359" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-124359&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Cf - Berlin - 1916 - 1988</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>70a096002da9466f9385f4b41277c768</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Berlin</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/70a096002da9466f9385f4b41277c768</pfad_bestand_nur_guid_von_jeder_ebene>
+    <form_und_inhalt>Erlaubnisurkunde zum Betrieb einer privaten Zeichen- und Malschule an der Potsdamer Strasse 75, Berlin, ausgestellt vom Preussischen Provinzial-Schulkollegium Berlin / Enth&#228;lt auch: 1 Fotokopie der Erlaubnisurkunde / Umfang: 1 Blatt gefalten, 3 Seiten beschrieben</form_und_inhalt>
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen index="0">Schutzfrist bis 26.10.1957</zugangsbestimmungen>
-    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <zugangsbestimmungen>Schutzfrist bis 26.10.1957</zugangsbestimmungen>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">26.10.1957</ablauf_schutzfrist>
-    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
-    <verwertungsrecht index="0">Gemeinfrei</verwertungsrecht>
-    <sprachen index="0">
+    <ablauf_schutzfrist>26.10.1957</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <verwertungsrecht>Gemeinfrei</verwertungsrecht>
+    <sprachen>
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 35 / Entit&#228;t: Unterzeichner einer Erlaubnisurkunde des Provinzial-Schulkollegiums Berlin Typ: Person Rolle: Beteiligt (Contributor) Bemerkungen: Unterzeichnet f&#252;r das Provinzial-Schulkollegium Berlin #GND1082551279. Name unleserlich, m&#246;glicherweise Pretzel (Quelle: Vorlage Hs NL 11: Cf 1); Entit&#228;t: Schulrat Engel Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: T&#228;tig als Schulrat in Berlin #GND040057283 um 1927 (Quelle: Vorlage Hs NL 11: Cf 1); Entit&#228;t: Berlin-Lichterfelde #GND4087328-6 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <allgemeine_anmerkungen index="0">Beilage nicht digitalisiert</allgemeine_anmerkungen>
-    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
-    <bemerkungen_zum_standort index="0">&#220;bergr&#246;sse in separater Mappe</bemerkungen_zum_standort>
-    <registereintraege index="0">
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 35 / Entit&#228;t: Unterzeichner einer Erlaubnisurkunde des Provinzial-Schulkollegiums Berlin Typ: Person Rolle: Beteiligt (Contributor) Bemerkungen: Unterzeichnet f&#252;r das Provinzial-Schulkollegium Berlin #GND1082551279. Name unleserlich, m&#246;glicherweise Pretzel (Quelle: Vorlage Hs NL 11: Cf 1); Entit&#228;t: Schulrat Engel Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: T&#228;tig als Schulrat in Berlin #GND040057283 um 1927 (Quelle: Vorlage Hs NL 11: Cf 1); Entit&#228;t: Berlin-Lichterfelde #GND4087328-6 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen>Beilage nicht digitalisiert</allgemeine_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <bemerkungen_zum_standort>&#220;bergr&#246;sse in separater Mappe</bemerkungen_zum_standort>
+    <registereintraege>
       <register_bezeichnung>Itten, Johannes</register_bezeichnung>
       <register_gnd-id>118710990</register_gnd-id>
       <register_rolle code="rcp" label="contributor" term="adressat">Adressat (rcp) (Contributor)</register_rolle>
@@ -3697,7 +3697,7 @@
       <wikidata_id>Q123138</wikidata_id>
       <viaf_id>71392512</viaf_id>
     </registereintraege>
-    <doi index="0">https://doi.org/10.7891/e-manuscripta-124359</doi>
+    <doi>https://doi.org/10.7891/e-manuscripta-124359</doi>
     <parsed_internal_remarks index="0">
       <entitaet>
         <value>Berlin-Lichterfelde</value>
@@ -3910,14 +3910,14 @@
 
 
   <record>
-    <signatur index="0">Hs NL 11: Fb 2.20.3</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11: Fb 2.20.3</signatur>
+    <verzeichnungsstufe>
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id index="0">60399</id>
-    <guid index="0">7a96e18b43c44899a85b906109775066</guid>
+    <id>60399</id>
+    <guid>7a96e18b43c44899a85b906109775066</guid>
     <archivalienarten index="0">
       <bezeichnung>Typoskript</bezeichnung>
       <gnd>4186519-4</gnd>
@@ -3930,42 +3930,42 @@
       <bezeichnung>Autograf</bezeichnung>
       <gnd>4003942-0</gnd>
     </archivalienarten>
-    <titel index="0">Manuskript zum Vortrag "Allgemeine Erziehung und Kunsterziehung"</titel>
-    <entstehungszeitraum index="0">1961</entstehungszeitraum>
-    <bemerkungen_zum_umfang index="0">14 Bl&#228;tter</bemerkungen_zum_umfang>
-    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-126762" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126762&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Fb 2.20 - Vortrag "Allgemeine Erziehung und Kunsterziehung" - 1961</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">c49c163e9c764264bb83224abad1709e</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Werke und Manuskripte/Vortr&#228;ge und Aufs&#228;tze/Vortr&#228;ge und Aufs&#228;tze 1954-1967/Vortrag "Allgemeine Erziehung und Kunsterziehung"</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/95f5542c2ea84104b63179f64e19a826/12edee1922174655bcbbc5cd1a26089b/0c4cc1b8361741adaba10c05d0409875/c49c163e9c764264bb83224abad1709e</pfad_bestand_nur_guid_von_jeder_ebene>
-    <verwaltungsgeschichte_-_biografische_angaben index="0">Pablo Casals, andere Namen: Pau Casals; Paul Casals / John F. Kennedy, vollst&#228;ndiger Name: John Fitzgerald Kennedy</verwaltungsgeschichte_-_biografische_angaben>
-    <ueberlieferungsformen index="0">
+    <titel>Manuskript zum Vortrag "Allgemeine Erziehung und Kunsterziehung"</titel>
+    <entstehungszeitraum>1961</entstehungszeitraum>
+    <bemerkungen_zum_umfang>14 Bl&#228;tter</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-126762" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-126762&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Fb 2.20 - Vortrag "Allgemeine Erziehung und Kunsterziehung" - 1961</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>c49c163e9c764264bb83224abad1709e</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Werke und Manuskripte/Vortr&#228;ge und Aufs&#228;tze/Vortr&#228;ge und Aufs&#228;tze 1954-1967/Vortrag "Allgemeine Erziehung und Kunsterziehung"</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/95f5542c2ea84104b63179f64e19a826/12edee1922174655bcbbc5cd1a26089b/0c4cc1b8361741adaba10c05d0409875/c49c163e9c764264bb83224abad1709e</pfad_bestand_nur_guid_von_jeder_ebene>
+    <verwaltungsgeschichte_-_biografische_angaben>Pablo Casals, andere Namen: Pau Casals; Paul Casals / John F. Kennedy, vollst&#228;ndiger Name: John Fitzgerald Kennedy</verwaltungsgeschichte_-_biografische_angaben>
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen index="0">Ohne rechtliche Einschr&#228;nkungen einsehbar</zugangsbestimmungen>
-    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <zugangsbestimmungen>Ohne rechtliche Einschr&#228;nkungen einsehbar</zugangsbestimmungen>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Keine</bezeichnung>
       <frist>0</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">01.01.1962</ablauf_schutzfrist>
-    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
-    <lizenz index="0">
+    <ablauf_schutzfrist>01.01.1962</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <lizenz>
       <bezeichnung>CC BY-NC-SA 4.0</bezeichnung>
       <link>https://creativecommons.org/licenses/by-nc-sa/4.0/</link>
     </lizenz>
-    <urheber index="0">Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
-    <sprachen index="0">
+    <urheber>Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
+    <sprachen>
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 206 / Entit&#228;t: Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung" Typ: Person Rolle: Adressat (rcp) (Contributor) Bemerkungen: Damen und Herren (Name in Vorlageform, Quelle: Vorlage Hs NL 11: Fb 2.20.3); Entit&#228;t: Direktor der Chirurgischen Klinik Z&#252;rich im Jahr 1961 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Chirurgische Klinik Z&#252;rich #GND1086229142 (employer) Beziehungen: Brunner, Alfred #GND13133056X (possible match); Entit&#228;t: Klaus Typ: Person Rolle: Erw&#228;hnt (Empty)</allgemeine_interne_anmerkungen>
-    <allgemeine_anmerkungen index="0">Ort nicht ermittelt</allgemeine_anmerkungen>
-    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 206 / Entit&#228;t: Publikum des Vortrages "Allgemeine Erziehung und Kunsterziehung" Typ: Person Rolle: Adressat (rcp) (Contributor) Bemerkungen: Damen und Herren (Name in Vorlageform, Quelle: Vorlage Hs NL 11: Fb 2.20.3); Entit&#228;t: Direktor der Chirurgischen Klinik Z&#252;rich im Jahr 1961 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Chirurgische Klinik Z&#252;rich #GND1086229142 (employer) Beziehungen: Brunner, Alfred #GND13133056X (possible match); Entit&#228;t: Klaus Typ: Person Rolle: Erw&#228;hnt (Empty)</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen>Ort nicht ermittelt</allgemeine_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
     <registereintraege index="0">
       <register_bezeichnung>Reger, Max</register_bezeichnung>
       <register_gnd-id>118598988</register_gnd-id>
@@ -4112,7 +4112,7 @@
       <wikidata_id>Q123138</wikidata_id>
       <viaf_id>71392512</viaf_id>
     </registereintraege>
-    <doi index="0">https://doi.org/10.7891/e-manuscripta-126762</doi>
+    <doi>https://doi.org/10.7891/e-manuscripta-126762</doi>
     <parsed_internal_remarks index="0">
       <entitaet>
         <value>Klaus</value>
@@ -4136,7 +4136,7 @@
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
-      <beziehungen>
+      <beziehungen index="0">
         <value>Brunner, Alfred</value>
         <identifiers>
           <position>16</position>
@@ -4145,7 +4145,7 @@
         </identifiers>
         <qualifier>possible match</qualifier>
       </beziehungen>
-      <beziehungen>
+      <beziehungen index="1">
         <value>Chirurgische Klinik Z&#252;rich</value>
         <identifiers>
           <position>27</position>
@@ -4466,14 +4466,14 @@
 
 
   <record>
-    <signatur index="0">Hs NL 11</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11</signatur>
+    <verzeichnungsstufe>
       <value>Bestand</value>
       <gnd>4442471-1</gnd>
       <aat>300189759</aat>
     </verzeichnungsstufe>
-    <id index="0">22069</id>
-    <guid index="0">43a2ab3eb18841db9ec1af3669b74f39</guid>
+    <id>22069</id>
+    <guid>43a2ab3eb18841db9ec1af3669b74f39</guid>
     <archivalienarten index="0">
       <bezeichnung>Reproduktion</bezeichnung>
       <gnd>4115749-7</gnd>
@@ -4525,36 +4525,36 @@
       <bezeichnung>Bildmaterial</bezeichnung>
       <gnd>4435709-6</gnd>
     </archivalienarten>
-    <titel index="0">Itten, Johannes (1888-1967)</titel>
-    <untertitel index="0">Personenarchiv / Itten-Archiv</untertitel>
-    <entstehungszeitraum index="0">1794 - 2004</entstehungszeitraum>
-    <uebergeordnetes_objekt_in_der_tektonik index="0"> - I</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">859afc5815a047a58569cee9db123f30</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <verwaltungsgeschichte_-_biografische_angaben index="0">Itten, Johannes (1888-1967); bildender K&#252;nstler, Kunsttheoretiker, Kunstp&#228;dagoge Johannes Itten wurde 1888 in S&#252;deren-Linden im Berner Oberland geboren. Er liess sich am Lehrerseminar in Hofwil bei Bern zum Primarlehrer ausbilden, sp&#228;ter folge die Ausbildung zum Sekundarlehrer. Dazwischen und danach studiert er Kunst an der &#201;cole des Beaux-Arts in Genf. 1914 wurde Itten in Adolf H&#246;lzels Meisterklasse in Stuttgart aufgenommen. Zu dieser Zeit begann er selber auch Zeichenunterricht zu erteilen. Ab 1916 lebte Itten in Wien, wo er seine ungegenst&#228;ndliche Malerei sowie seinen privaten Kunstunterricht weiterf&#252;hrte. 1919 folgte Itten dem Ruf von Walter Gropius nach Weimar, wo er am staatlichen Bauhaus den Vorkurs einf&#252;hrte und als Formmeister verschiedene Werkst&#228;tten f&#252;hrte. 1923 kehrte Itten zur&#252;ck in die Schweiz und liess sich in der internationalen Mazdaznan-Tempel-Gemeinschaft in Herrliberg nieder. 1925 gr&#252;ndete Itten seine eigene private Kunstschule in Berlin, die Itten-Schule. Ab 1932 &#252;bernahm er zus&#228;tzlich zu seiner Arbeit in Berlin die Direktion der Preussischen Fachschule f&#252;r textile Fl&#228;chenkunst in Krefeld. Dort lernte er seine zweite Ehefrau Anneliese Schl&#246;sser kennen, eine ehemalige Sch&#252;lerin und sp&#228;tere Lehrerin der Musterweberei. Nach seiner Entlassung als Direktor der Fl&#228;chenkunstschule verliess Itten Deutschland und lebte in den Niederlanden, wo er das grosse textile Kunstwerk &#171;Velum&#187; f&#252;r das Stedelijk Museum in Amsterdam schuf. 1938 bewarb sich Itten erfolgreich f&#252;r die Direktorenstelle der Kunstgewerbeschule und des Kunstgewerbemuseums Z&#252;rich, sp&#228;ter &#252;bernahm er zus&#228;tzlich die Leitung der Textilfachschule Z&#252;rich und richtete das Museum Rietberg in Z&#252;rich ein, dessen Direktion er ebenfalls &#252;bernahm. Nach seiner Pensionierung 1956 arbeitete Itten an der Drucklegung seiner beiden erfolgreichen theoretischen Schriften &#171;Kunst der Farbe&#187; und &#171;Mein Vorkurs am Bauhaus&#187;, die in den 1960er Jahren ver&#246;ffentlicht wurden. 1964 fand eine Retrospektive im Kunsthaus Z&#252;rich statt und 1966 stellte er an der Biennale in Venedig aus, was ihm breite Anerkennung brachte. Itten starb 1967 in Z&#252;rich. (Vgl. Wagner, Christoph: Johannes Itten, Werkverzeichnis. M&#252;nchen 2018)</verwaltungsgeschichte_-_biografische_angaben>
-    <bestandesgeschichte index="0">Die Erben Johannes Ittens schenkten das Itten-Archiv 2015 der Zentralbibliothek Z&#252;rich. Vor &#220;bergabe befand sich der Bestand am Lehrstuhl f&#252;r Kunstgeschichte an der Universit&#228;t Regensburg und wurde dort zu Forschungszwecken vollst&#228;ndig digitalisiert. Die Digitalisate der Archivdokumente wurden von der Zentralbibliothek erworben. Einzelne Dokumente befinden sich physisch noch am Lehrstuhl f&#252;r Kunstgeschichte an der Universit&#228;t Regensburg und werden zu einem sp&#228;teren Zeitpunkt (voraussichtlich 2022) von der Zentralbibliothek in den Bestand integriert.</bestandesgeschichte>
-    <abgebende_stellen index="0">Erbengemeinschaft Johannes Itten  Prof. Dr. Klaus I. Itten Sunnhaldenstrasse 48c CH-8704 Herrliberg Email: klaus.itten@geo.uzh.ch  Prof. Dr. Marion Lichardus-Itten Max-Braun-Strasse 47 D-66123 Saarbr&#252;cken Email: lichardus@saarmail.de  Thomas Itten Bergstrasse 8 CH-5085 Sulz Email: thomas-itten@gmx.ch</abgebende_stellen>
-    <erwerbsarten index="0">
+    <titel>Itten, Johannes (1888-1967)</titel>
+    <untertitel>Personenarchiv / Itten-Archiv</untertitel>
+    <entstehungszeitraum>1794 - 2004</entstehungszeitraum>
+    <uebergeordnetes_objekt_in_der_tektonik> - I</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>859afc5815a047a58569cee9db123f30</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <verwaltungsgeschichte_-_biografische_angaben>Itten, Johannes (1888-1967); bildender K&#252;nstler, Kunsttheoretiker, Kunstp&#228;dagoge Johannes Itten wurde 1888 in S&#252;deren-Linden im Berner Oberland geboren. Er liess sich am Lehrerseminar in Hofwil bei Bern zum Primarlehrer ausbilden, sp&#228;ter folge die Ausbildung zum Sekundarlehrer. Dazwischen und danach studiert er Kunst an der &#201;cole des Beaux-Arts in Genf. 1914 wurde Itten in Adolf H&#246;lzels Meisterklasse in Stuttgart aufgenommen. Zu dieser Zeit begann er selber auch Zeichenunterricht zu erteilen. Ab 1916 lebte Itten in Wien, wo er seine ungegenst&#228;ndliche Malerei sowie seinen privaten Kunstunterricht weiterf&#252;hrte. 1919 folgte Itten dem Ruf von Walter Gropius nach Weimar, wo er am staatlichen Bauhaus den Vorkurs einf&#252;hrte und als Formmeister verschiedene Werkst&#228;tten f&#252;hrte. 1923 kehrte Itten zur&#252;ck in die Schweiz und liess sich in der internationalen Mazdaznan-Tempel-Gemeinschaft in Herrliberg nieder. 1925 gr&#252;ndete Itten seine eigene private Kunstschule in Berlin, die Itten-Schule. Ab 1932 &#252;bernahm er zus&#228;tzlich zu seiner Arbeit in Berlin die Direktion der Preussischen Fachschule f&#252;r textile Fl&#228;chenkunst in Krefeld. Dort lernte er seine zweite Ehefrau Anneliese Schl&#246;sser kennen, eine ehemalige Sch&#252;lerin und sp&#228;tere Lehrerin der Musterweberei. Nach seiner Entlassung als Direktor der Fl&#228;chenkunstschule verliess Itten Deutschland und lebte in den Niederlanden, wo er das grosse textile Kunstwerk &#171;Velum&#187; f&#252;r das Stedelijk Museum in Amsterdam schuf. 1938 bewarb sich Itten erfolgreich f&#252;r die Direktorenstelle der Kunstgewerbeschule und des Kunstgewerbemuseums Z&#252;rich, sp&#228;ter &#252;bernahm er zus&#228;tzlich die Leitung der Textilfachschule Z&#252;rich und richtete das Museum Rietberg in Z&#252;rich ein, dessen Direktion er ebenfalls &#252;bernahm. Nach seiner Pensionierung 1956 arbeitete Itten an der Drucklegung seiner beiden erfolgreichen theoretischen Schriften &#171;Kunst der Farbe&#187; und &#171;Mein Vorkurs am Bauhaus&#187;, die in den 1960er Jahren ver&#246;ffentlicht wurden. 1964 fand eine Retrospektive im Kunsthaus Z&#252;rich statt und 1966 stellte er an der Biennale in Venedig aus, was ihm breite Anerkennung brachte. Itten starb 1967 in Z&#252;rich. (Vgl. Wagner, Christoph: Johannes Itten, Werkverzeichnis. M&#252;nchen 2018)</verwaltungsgeschichte_-_biografische_angaben>
+    <bestandesgeschichte>Die Erben Johannes Ittens schenkten das Itten-Archiv 2015 der Zentralbibliothek Z&#252;rich. Vor &#220;bergabe befand sich der Bestand am Lehrstuhl f&#252;r Kunstgeschichte an der Universit&#228;t Regensburg und wurde dort zu Forschungszwecken vollst&#228;ndig digitalisiert. Die Digitalisate der Archivdokumente wurden von der Zentralbibliothek erworben. Einzelne Dokumente befinden sich physisch noch am Lehrstuhl f&#252;r Kunstgeschichte an der Universit&#228;t Regensburg und werden zu einem sp&#228;teren Zeitpunkt (voraussichtlich 2022) von der Zentralbibliothek in den Bestand integriert.</bestandesgeschichte>
+    <abgebende_stellen>Erbengemeinschaft Johannes Itten  Prof. Dr. Klaus I. Itten Sunnhaldenstrasse 48c CH-8704 Herrliberg Email: klaus.itten@geo.uzh.ch  Prof. Dr. Marion Lichardus-Itten Max-Braun-Strasse 47 D-66123 Saarbr&#252;cken Email: lichardus@saarmail.de  Thomas Itten Bergstrasse 8 CH-5085 Sulz Email: thomas-itten@gmx.ch</abgebende_stellen>
+    <erwerbsarten>
       <bezeichnung>Schenkung</bezeichnung>
     </erwerbsarten>
-    <form_und_inhalt index="0">Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</form_und_inhalt>
-    <themenliste index="0">
+    <form_und_inhalt>Das Itten-Archiv enth&#228;lt Lebensdokumente, Dokumente zu Johannes Ittens beruflichen Stationen, Korrespondenz, Textmanuskripte und -typoskripte, ver&#246;ffentlichte Texte, Notizen- und Skizzenb&#252;cher, Materialsammlungen, Dokumente zu Ausstellungsaktivit&#228;ten und zur Drucklegung der "Kunst der Farbe", Sammlungen von Ausstellungskatalogen, von Rezensionen, von Ver&#246;ffentlichungen &#252;ber Johannes Itten und von Widmungsexemplaren sowie Fotografien. Das Personenarchiv umfasst ausserdem verschiedene von der Ehefrau Anneliese Itten, geb. Schl&#246;sser (1913-2002) angelegte Dokumentationen zu Aspekten von Johannes Ittens Biographie, zu einzelnen seiner Werke, zu bestimmten Themen, zu Sch&#252;lerinnen und Sch&#252;lern Ittens. Ausserdem sind im Personenarchiv die Aktivit&#228;ten der Witwe dokumentiert, das k&#252;nstlerische und kunsttheoretische Werk Johannes Ittens zu verbreiten. So finden sich Unterlagen zu den zahlreichen von ihr begleiteten posthumen Ausstellungen mit Itten-Werken sowie der Entstehungsprozess verschiedener Publikationen, ihre Korrespondenz mit Wissenschaftlern und Anneliese Ittens eigenen inhaltlichen Recherchen.</form_und_inhalt>
+    <themenliste>
       <bezeichnung>Bildende Kunst</bezeichnung>
     </themenliste>
-    <ueberlieferungsformen index="0">
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <bewertung_und_kassation index="0">Es wurden keine Kassationen vorgenommen.</bewertung_und_kassation>
-    <ordnung_und_klassifikation index="0">Der Nachlass wurde gr&#246;sstenteils neu geordnet und in 8 Hauptserien gegliedert. Bei Dossiers, die stark von Anneliese Itten strukturiert und bearbeitet wurden, wie die Dossiers zu Johannes Ittens Wirken, die Korrespondenz und die Verwaltung des Nachlasses durch Anneliese Itten, wurde die urspr&#252;ngliche Ordnung weitestgehend beibehalten. &#196;hnliche Dokumente k&#246;nnen daher an verschiedenen Orten abgelegt worden sein.</ordnung_und_klassifikation>
-    <zugangsbestimmungen index="0">Sofern personenrechtlich relevante Dokumente vorhanden sind, gelten in Anlehnung an das kantonale Z&#252;rcher Archivrecht Schutzfristen von 30, 80 und 120 Jahren (abh&#228;ngig von der personenrechtlichen Relevanz). In einem Fall ist die Einsichtnahme in das Original aus konservatorischen Gr&#252;nden gesuchspflichtig. Eine Gebrauchskopie kann in jedem Fall genutzt werden. / Die Nutzung von urheberrechtlich gesch&#252;tzten Dokumenten aus dem Itten-Archiv f&#252;r Ausstellungen, Publikationen u.a. ist genehmigungspflichtig. F&#252;r Dokumente von Johannes Itten liegen die Urheberrechte bei den Erben Ittens und k&#246;nnen &#252;ber die Handschriftenabteilung der Zentralbibliothek Z&#252;rich eingeholt werden.</zugangsbestimmungen>
-    <basisdatum_schutzfrist index="0">30.06.2021</basisdatum_schutzfrist>
-    <publikation index="0">Sofort</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (Informationen zur Bestellbarkeit bei der jeweiligen Bestelleinheit)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <bewertung_und_kassation>Es wurden keine Kassationen vorgenommen.</bewertung_und_kassation>
+    <ordnung_und_klassifikation>Der Nachlass wurde gr&#246;sstenteils neu geordnet und in 8 Hauptserien gegliedert. Bei Dossiers, die stark von Anneliese Itten strukturiert und bearbeitet wurden, wie die Dossiers zu Johannes Ittens Wirken, die Korrespondenz und die Verwaltung des Nachlasses durch Anneliese Itten, wurde die urspr&#252;ngliche Ordnung weitestgehend beibehalten. &#196;hnliche Dokumente k&#246;nnen daher an verschiedenen Orten abgelegt worden sein.</ordnung_und_klassifikation>
+    <zugangsbestimmungen>Sofern personenrechtlich relevante Dokumente vorhanden sind, gelten in Anlehnung an das kantonale Z&#252;rcher Archivrecht Schutzfristen von 30, 80 und 120 Jahren (abh&#228;ngig von der personenrechtlichen Relevanz). In einem Fall ist die Einsichtnahme in das Original aus konservatorischen Gr&#252;nden gesuchspflichtig. Eine Gebrauchskopie kann in jedem Fall genutzt werden. / Die Nutzung von urheberrechtlich gesch&#252;tzten Dokumenten aus dem Itten-Archiv f&#252;r Ausstellungen, Publikationen u.a. ist genehmigungspflichtig. F&#252;r Dokumente von Johannes Itten liegen die Urheberrechte bei den Erben Ittens und k&#246;nnen &#252;ber die Handschriftenabteilung der Zentralbibliothek Z&#252;rich eingeholt werden.</zugangsbestimmungen>
+    <basisdatum_schutzfrist>30.06.2021</basisdatum_schutzfrist>
+    <publikation>Sofort</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (Informationen zur Bestellbarkeit bei der jeweiligen Bestelleinheit)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Keine</bezeichnung>
       <frist>0</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">01.07.2021</ablauf_schutzfrist>
-    <benutzbarkeit index="0">Teile davon gesuchspflichtig</benutzbarkeit>
+    <ablauf_schutzfrist>01.07.2021</ablauf_schutzfrist>
+    <benutzbarkeit>Teile davon gesuchspflichtig</benutzbarkeit>
     <sprachen index="0">
       <bezeichnung>Niederl&#228;ndisch</bezeichnung>
       <gnd>4122614-8</gnd>
@@ -4574,18 +4574,18 @@
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <verwandtes_material index="0">Siehe auch: Sammlung zu Josef Matthias Hauer aus dem Nachlass Johannes Itten. Zentralbibliothek Z&#252;rich, Mus NL 114. Siehe auch: Privatbibliothek Johannes Ittens. Zentralbibliothek Z&#252;rich. Signatur: Itten ... Nachgewiesen im Rechercheportal.</verwandtes_material>
-    <allgemeine_interne_anmerkungen index="0">Zu urheberrechtlich gesch&#252;tzten Dokumenten: Die Nutzung von urheberrechtlich gesch&#252;tzten Dokumenten aus dem Itten-Archiv f&#252;r Ausstellungen, Publikationen u.a. ist genehmigungspflichtig. F&#252;r Dokumente von Johannes Itten liegen die Urheberrechte bei den Erben Ittens. Anfragen sind von den Nutzenden in schriftlicher Form an Prof. Dr. Marion Lichardus-Itten, Max-Braun-Strasse 47, D-66123 Saarbr&#252;cken, Email: lichardus@saarmail.de, zu richten. Die Bearbeitung von Anfragen kann eine gewisse Zeit in Anspruch nehmen. /  Zu den Digitalisaten des Archivs: Das Itten-Archiv war bei &#220;bergabe in 215 Einheiten geordnet (in der Regel Bundesordner, teilweise auch Ablageschachteln oder Kartons). Diese Z&#228;hlung ist von grosser Bedeutung. Die Digitalisate des Itten-Archivs, die an der Universit&#228;t Regensburg (Prof. Dr. Christoph Wagner) vor &#220;bergabe des Bestands an die ZB erstellt worden sind, sind anhand dieser so genannten Dossiernummern abgelegt. Um die Digitalisate ausfindig zu machen, wurde im Feld &#171;Allgemeine interne Anmerkungen&#187; jeweils die Dossiernummer angegeben, aus dem die Dokumente urspr&#252;nglich stammen. Physisch ist jeweils auf der R&#252;ckseite des Umschlags die urspr&#252;ngliche Dossiernummer aufgef&#252;hrt. Daher ist die Beibehaltung der Ordnung in den Archivschachteln &#228;usserst wichtig. Ein entsprechender Hinweis liegt jeder Archivschachtel bei. Die Digitalisate werden als Tiff-Dateien im Digitalisierungszentrum aufbewahrt. Zugang zu JPGs und PDFs gibt es &#252;ber das Laufwerk U (emanuscripta-in-Arbeit). Zur Bestellung von Digitalisaten wird der Datei-Name ben&#246;tigt. Nach Ankauf der Digitalisate Ende 2019 wurde erstmals offenbar, dass bei der Digitalisierung 234 Dossiers statt den physisch vorhandenen 215 Dossiers zugrunde gelegt wurden. Die entsprechenden Dokumente im Itten-Archiv wurden nachtr&#228;glich den Dossiernummern 216 bis 234 zugeordnet.</allgemeine_interne_anmerkungen>
-    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
-    <erschliessungszustand index="0">1-Basiserschliessung</erschliessungszustand>
-    <bearbeiter_und_zeitraum_der_verzeichnung index="0">baur (2019-2021); vogb (2019-2021); lutz (2022-03.2023)</bearbeiter_und_zeitraum_der_verzeichnung>
-    <verzeichnungsgrundsaetze index="0">Erschlossen auf Basis der RNAB und den Richtlinien zur Erschliessung von Nachl&#228;ssen und Archiven in der Zentralbibliothek Z&#252;rich / Basiserschliessung</verzeichnungsgrundsaetze>
-    <standorte index="0">
+    <verwandtes_material>Siehe auch: Sammlung zu Josef Matthias Hauer aus dem Nachlass Johannes Itten. Zentralbibliothek Z&#252;rich, Mus NL 114. Siehe auch: Privatbibliothek Johannes Ittens. Zentralbibliothek Z&#252;rich. Signatur: Itten ... Nachgewiesen im Rechercheportal.</verwandtes_material>
+    <allgemeine_interne_anmerkungen>Zu urheberrechtlich gesch&#252;tzten Dokumenten: Die Nutzung von urheberrechtlich gesch&#252;tzten Dokumenten aus dem Itten-Archiv f&#252;r Ausstellungen, Publikationen u.a. ist genehmigungspflichtig. F&#252;r Dokumente von Johannes Itten liegen die Urheberrechte bei den Erben Ittens. Anfragen sind von den Nutzenden in schriftlicher Form an Prof. Dr. Marion Lichardus-Itten, Max-Braun-Strasse 47, D-66123 Saarbr&#252;cken, Email: lichardus@saarmail.de, zu richten. Die Bearbeitung von Anfragen kann eine gewisse Zeit in Anspruch nehmen. /  Zu den Digitalisaten des Archivs: Das Itten-Archiv war bei &#220;bergabe in 215 Einheiten geordnet (in der Regel Bundesordner, teilweise auch Ablageschachteln oder Kartons). Diese Z&#228;hlung ist von grosser Bedeutung. Die Digitalisate des Itten-Archivs, die an der Universit&#228;t Regensburg (Prof. Dr. Christoph Wagner) vor &#220;bergabe des Bestands an die ZB erstellt worden sind, sind anhand dieser so genannten Dossiernummern abgelegt. Um die Digitalisate ausfindig zu machen, wurde im Feld &#171;Allgemeine interne Anmerkungen&#187; jeweils die Dossiernummer angegeben, aus dem die Dokumente urspr&#252;nglich stammen. Physisch ist jeweils auf der R&#252;ckseite des Umschlags die urspr&#252;ngliche Dossiernummer aufgef&#252;hrt. Daher ist die Beibehaltung der Ordnung in den Archivschachteln &#228;usserst wichtig. Ein entsprechender Hinweis liegt jeder Archivschachtel bei. Die Digitalisate werden als Tiff-Dateien im Digitalisierungszentrum aufbewahrt. Zugang zu JPGs und PDFs gibt es &#252;ber das Laufwerk U (emanuscripta-in-Arbeit). Zur Bestellung von Digitalisaten wird der Datei-Name ben&#246;tigt. Nach Ankauf der Digitalisate Ende 2019 wurde erstmals offenbar, dass bei der Digitalisierung 234 Dossiers statt den physisch vorhandenen 215 Dossiers zugrunde gelegt wurden. Die entsprechenden Dokumente im Itten-Archiv wurden nachtr&#228;glich den Dossiernummern 216 bis 234 zugeordnet.</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <erschliessungszustand>1-Basiserschliessung</erschliessungszustand>
+    <bearbeiter_und_zeitraum_der_verzeichnung>baur (2019-2021); vogb (2019-2021); lutz (2022-03.2023)</bearbeiter_und_zeitraum_der_verzeichnung>
+    <verzeichnungsgrundsaetze>Erschlossen auf Basis der RNAB und den Richtlinien zur Erschliessung von Nachl&#228;ssen und Archiven in der Zentralbibliothek Z&#252;rich / Basiserschliessung</verzeichnungsgrundsaetze>
+    <standorte>
       <kuerzel>06.5.</kuerzel>
       <bezeichnung>Magazin 06.5.</bezeichnung>
     </standorte>
-    <bemerkungen_zum_standort index="0">Aktueller Standort Galerie Handschriftenabteilung (A 40.3), geplanter Zwischenstandort 06.5, definitiver Standort zu sp&#228;terem Zeitpunkt 06.6</bemerkungen_zum_standort>
-    <umfaenge index="0">
+    <bemerkungen_zum_standort>Aktueller Standort Galerie Handschriftenabteilung (A 40.3), geplanter Zwischenstandort 06.5, definitiver Standort zu sp&#228;terem Zeitpunkt 06.6</bemerkungen_zum_standort>
+    <umfaenge>
       <wert>14.77</wert>
       <masseinheit>Laufmeter</masseinheit>
     </umfaenge>
@@ -4699,12 +4699,12 @@
 
 
   <record>
-    <signatur index="0">Hs NL 11: Cb 5.15</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11: Cb 5.15</signatur>
+    <verzeichnungsstufe>
       <value>Teildossier</value>
     </verzeichnungsstufe>
-    <id index="0">48672</id>
-    <guid index="0">1d8aa2259598424982799bce87ec3c86</guid>
+    <id>48672</id>
+    <guid>1d8aa2259598424982799bce87ec3c86</guid>
     <archivalienarten index="0">
       <bezeichnung>Fotografie</bezeichnung>
       <gnd>4045895-7</gnd>
@@ -4717,36 +4717,36 @@
       <bezeichnung>Druckschrift</bezeichnung>
       <gnd>4013120-8</gnd>
     </archivalienarten>
-    <titel index="0">Dokumente zu Sch&#252;lerinnen und Sch&#252;lern Adolf H&#246;lzels</titel>
-    <entstehungszeitraum index="0">ca. 1960 er - ca. 1980 er</entstehungszeitraum>
-    <bemerkungen_zum_umfang index="0">10 Dokumente</bemerkungen_zum_umfang>
-    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Cb 5 - Dokumente zu Adolf H&#246;lzel (1853-1934) und H&#246;lzel-Kreis - ca. 1900 - 1991</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">9d1b686513244640b43d5bd6ec96b7b7</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Stuttgart/Dokumente zu Adolf H&#246;lzel (1853-1934) und H&#246;lzel-Kreis</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/7079371ddf1d45088efde741d5392eb0/9d1b686513244640b43d5bd6ec96b7b7</pfad_bestand_nur_guid_von_jeder_ebene>
-    <form_und_inhalt index="0">Enth&#228;lt: Druckschriften zum H&#246;lzelkreis, zu Gottfried Graf und zu Albert Mueller; 1 Karte zur Er&#246;ffnung einer Ausstellung zu Bruno St&#228;rk, 1988; 1 Karte zur Er&#246;ffnung einer Ausstellung zu Willi Baumeister, 1989; 1 Zeitungsartikel &#252;ber Alfred Heinrich Pellegrini und die H&#246;lzel-Schule; Ausz&#252;ge aus der Druckschrift einer H&#246;lzel-Sch&#252;lerin: Carry van Biema, Farben und Formen als lebendige Kr&#228;fte. Eine Farbenlehre; 2 Dokumente zu Ida Kerkovius (1879-1970): 1 Fotokopie aus einem Fotoalbum mit Fotografien, auf denen u.a. Johannes Itten und Ida Kerkovius abgebildet sind sowie Zeitungsartikel "Erinnerung an H&#246;lzel und seine Sch&#252;ler" vom 09.09.1961, u.a. mit einer Fotografie von Johannes Itten und Ida Kerkovius (Original und Fotokopie)</form_und_inhalt>
-    <ueberlieferungsformen index="0">
+    <titel>Dokumente zu Sch&#252;lerinnen und Sch&#252;lern Adolf H&#246;lzels</titel>
+    <entstehungszeitraum>ca. 1960 er - ca. 1980 er</entstehungszeitraum>
+    <bemerkungen_zum_umfang>10 Dokumente</bemerkungen_zum_umfang>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Cb 5 - Dokumente zu Adolf H&#246;lzel (1853-1934) und H&#246;lzel-Kreis - ca. 1900 - 1991</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>9d1b686513244640b43d5bd6ec96b7b7</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Stuttgart/Dokumente zu Adolf H&#246;lzel (1853-1934) und H&#246;lzel-Kreis</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/7079371ddf1d45088efde741d5392eb0/9d1b686513244640b43d5bd6ec96b7b7</pfad_bestand_nur_guid_von_jeder_ebene>
+    <form_und_inhalt>Enth&#228;lt: Druckschriften zum H&#246;lzelkreis, zu Gottfried Graf und zu Albert Mueller; 1 Karte zur Er&#246;ffnung einer Ausstellung zu Bruno St&#228;rk, 1988; 1 Karte zur Er&#246;ffnung einer Ausstellung zu Willi Baumeister, 1989; 1 Zeitungsartikel &#252;ber Alfred Heinrich Pellegrini und die H&#246;lzel-Schule; Ausz&#252;ge aus der Druckschrift einer H&#246;lzel-Sch&#252;lerin: Carry van Biema, Farben und Formen als lebendige Kr&#228;fte. Eine Farbenlehre; 2 Dokumente zu Ida Kerkovius (1879-1970): 1 Fotokopie aus einem Fotoalbum mit Fotografien, auf denen u.a. Johannes Itten und Ida Kerkovius abgebildet sind sowie Zeitungsartikel "Erinnerung an H&#246;lzel und seine Sch&#252;ler" vom 09.09.1961, u.a. mit einer Fotografie von Johannes Itten und Ida Kerkovius (Original und Fotokopie)</form_und_inhalt>
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen index="0">Schutzfrist bis 01.01.2000</zugangsbestimmungen>
-    <basisdatum_schutzfrist index="0">1969</basisdatum_schutzfrist>
-    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <zugangsbestimmungen>Schutzfrist bis 01.01.2000</zugangsbestimmungen>
+    <basisdatum_schutzfrist>1969</basisdatum_schutzfrist>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">01.01.2000</ablauf_schutzfrist>
-    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
-    <sprachen index="0">
+    <ablauf_schutzfrist>01.01.2000</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <sprachen>
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokumente / Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 54; Dossier 55</allgemeine_interne_anmerkungen>
-    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokumente / Fotoabzug</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 54; Dossier 55</allgemeine_interne_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
     <registereintraege index="0">
       <register_bezeichnung>Kerkovius, Ida</register_bezeichnung>
       <register_gnd-id>118561480</register_gnd-id>
@@ -4854,55 +4854,55 @@
 
 
   <record>
-    <signatur index="0">Hs NL 11: Cj 1.9</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11: Cj 1.9</signatur>
+    <verzeichnungsstufe>
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id index="0">48323</id>
-    <guid index="0">13ff406d0e7946fc90449c4061917c31</guid>
-    <archivalienarten index="0">
+    <id>48323</id>
+    <guid>13ff406d0e7946fc90449c4061917c31</guid>
+    <archivalienarten>
       <bezeichnung>Typoskript</bezeichnung>
       <gnd>4186519-4</gnd>
     </archivalienarten>
-    <titel index="0">Johannes Itten: Bericht &#252;ber die erste Biennale der ICOM 1948</titel>
-    <entstehungszeitraum index="0">13.07.1948</entstehungszeitraum>
-    <entstehungsort index="0">Z&#252;rich</entstehungsort>
-    <bemerkungen_zum_umfang index="0">3 Bl&#228;tter</bemerkungen_zum_umfang>
-    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-124354" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-124354&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Cj 1 - Kunstgewerbeschule und Kunstgewerbemuseum Z&#252;rich - 1919 - 1950 er</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">61251adf7d364790938d6e3ea435a23a</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Z&#252;rich/Kunstgewerbeschule und Kunstgewerbemuseum Z&#252;rich</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/807406554bf6456186ed99f1257b2756/61251adf7d364790938d6e3ea435a23a</pfad_bestand_nur_guid_von_jeder_ebene>
-    <form_und_inhalt index="0">Bericht von Johannes Itten an den Schulvorstand, zu Handen des Stadtrates, &#252;ber die Biennale der ICOM (International Council of Museums) Paris 1948</form_und_inhalt>
-    <ueberlieferungsformen index="0">
+    <titel>Johannes Itten: Bericht &#252;ber die erste Biennale der ICOM 1948</titel>
+    <entstehungszeitraum>13.07.1948</entstehungszeitraum>
+    <entstehungsort>Z&#252;rich</entstehungsort>
+    <bemerkungen_zum_umfang>3 Bl&#228;tter</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-124354" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-124354&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Cj 1 - Kunstgewerbeschule und Kunstgewerbemuseum Z&#252;rich - 1919 - 1950 er</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>61251adf7d364790938d6e3ea435a23a</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Dossiers zu Johannes Ittens Wirken/Z&#252;rich/Kunstgewerbeschule und Kunstgewerbemuseum Z&#252;rich</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/7b41b04321d24e3aa02b3d6aa53211b2/807406554bf6456186ed99f1257b2756/61251adf7d364790938d6e3ea435a23a</pfad_bestand_nur_guid_von_jeder_ebene>
+    <form_und_inhalt>Bericht von Johannes Itten an den Schulvorstand, zu Handen des Stadtrates, &#252;ber die Biennale der ICOM (International Council of Museums) Paris 1948</form_und_inhalt>
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen index="0">Schutzfrist bis 01.08.1978</zugangsbestimmungen>
-    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <zugangsbestimmungen>Schutzfrist bis 01.08.1978</zugangsbestimmungen>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">14.07.1978</ablauf_schutzfrist>
-    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
-    <lizenz index="0">
+    <ablauf_schutzfrist>14.07.1978</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <lizenz>
       <bezeichnung>CC BY-NC-SA 4.0</bezeichnung>
       <link>https://creativecommons.org/licenses/by-nc-sa/4.0/</link>
     </lizenz>
-    <urheber index="0">Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
-    <sprachen index="0">
+    <urheber>Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
+    <sprachen>
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 109 / Entit&#228;t: Mitglieder des Internationalen Museumsrats 1948 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Stammen aus 51 Nationen im Jahr 1948. (Quelle: Vorlage Hs NL 11: Cj 1.9). Beziehungen: Internationaler Museumsrat #GND4513241-0 (member-organization) Anzahl: &gt;1; Entit&#228;t: Teilnehmer der Biennale des ICOM 1948 in Paris Typ: Person Rolle: Erw&#228;hnt (Empty) Anzahl: 299 (Quelle: Vorlage Hs NL 11: Cj 1.9); Entit&#228;t: Mitglieder des Stadtrates von Z&#252;rich 1948 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Z&#252;rich. Stadtrat #GND1079478566 (member #AAT300263077) Anzahl: &gt;1 (Quelle: Vorlage Hs NL 11: Cj 1.9); Entit&#228;t: Z&#252;rich #GND4068038-1 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
-    <allgemeine_anmerkungen index="0">Vollst&#228;ndiger Titel: Bericht &#252;ber die Teilnahme des Unterzeichneten an der ersten Biennale der ICOM (International Council of Museums) in Paris vom 28. Juni bis 3. Juli 1948</allgemeine_anmerkungen>
-    <verzeichnungsstatus index="0">In Bearbeitung</verzeichnungsstatus>
-    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 109 / Entit&#228;t: Mitglieder des Internationalen Museumsrats 1948 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Stammen aus 51 Nationen im Jahr 1948. (Quelle: Vorlage Hs NL 11: Cj 1.9). Beziehungen: Internationaler Museumsrat #GND4513241-0 (member-organization) Anzahl: &gt;1; Entit&#228;t: Teilnehmer der Biennale des ICOM 1948 in Paris Typ: Person Rolle: Erw&#228;hnt (Empty) Anzahl: 299 (Quelle: Vorlage Hs NL 11: Cj 1.9); Entit&#228;t: Mitglieder des Stadtrates von Z&#252;rich 1948 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Z&#252;rich. Stadtrat #GND1079478566 (member #AAT300263077) Anzahl: &gt;1 (Quelle: Vorlage Hs NL 11: Cj 1.9); Entit&#228;t: Z&#252;rich #GND4068038-1 Typ: Geografikum Rolle: Entstehungsort</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen>Vollst&#228;ndiger Titel: Bericht &#252;ber die Teilnahme des Unterzeichneten an der ersten Biennale der ICOM (International Council of Museums) in Paris vom 28. Juni bis 3. Juli 1948</allgemeine_anmerkungen>
+    <verzeichnungsstatus>In Bearbeitung</verzeichnungsstatus>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (baur, 2022)</interne_anmerkungen>
     <registereintraege index="0">
       <register_bezeichnung>Heydt, Eduard von der</register_bezeichnung>
       <register_gnd-id>118704486</register_gnd-id>
@@ -5036,7 +5036,7 @@
       <wikidata_id>Q123138</wikidata_id>
       <viaf_id>71392512</viaf_id>
     </registereintraege>
-    <doi index="0">https://doi.org/10.7891/e-manuscripta-124354</doi>
+    <doi>https://doi.org/10.7891/e-manuscripta-124354</doi>
     <parsed_internal_remarks index="0">
       <entitaet>
         <value>Z&#252;rich</value>
@@ -5285,54 +5285,54 @@
 
 
   <record>
-    <signatur index="0">Hs NL 11: Bd 2</signatur>
-    <verzeichnungsstufe index="0">
+    <signatur>Hs NL 11: Bd 2</signatur>
+    <verzeichnungsstufe>
       <value>Einzelst&#252;ck</value>
       <gnd>7556778-7</gnd>
       <aat>300404024</aat>
     </verzeichnungsstufe>
-    <id index="0">54643</id>
-    <guid index="0">43908e6998744707b9f97af7af418d61</guid>
-    <archivalienarten index="0">
+    <id>54643</id>
+    <guid>43908e6998744707b9f97af7af418d61</guid>
+    <archivalienarten>
       <bezeichnung>Manuskript</bezeichnung>
       <gnd>4126273-6</gnd>
     </archivalienarten>
-    <titel index="0">Johannes Itten: Tagebuch Italien-Reise</titel>
-    <entstehungszeitraum index="0">1950</entstehungszeitraum>
-    <bemerkungen_zum_umfang index="0">10 Bl&#228;tter; Beilage</bemerkungen_zum_umfang>
-    <link_zu_digitalisat index="0">&lt;a href="https://doi.org/10.7891/e-manuscripta-132170" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-132170&lt;/a&gt;</link_zu_digitalisat>
-    <uebergeordnetes_objekt_in_der_tektonik index="0">Hs NL 11: Bd - Reisetageb&#252;cher - 1949 - 1950</uebergeordnetes_objekt_in_der_tektonik>
-    <guid_des_uebergeordneten_objekts_in_der_tektonik index="0">ec917abcd0724f218adf37aae83c437b</guid_des_uebergeordneten_objekts_in_der_tektonik>
-    <pfad_bestand index="0">Hs NL 11 Itten, Johannes (1888-1967)/Lebensdokumente/Reisetageb&#252;cher</pfad_bestand>
-    <pfad_bestand_nur_guid_von_jeder_ebene index="0">43a2ab3eb18841db9ec1af3669b74f39/de742220f54c435a885dcd4636e3a644/ec917abcd0724f218adf37aae83c437b</pfad_bestand_nur_guid_von_jeder_ebene>
-    <form_und_inhalt index="0">Beilage: Umschlagbeschriftung von Anneliese Itten</form_und_inhalt>
-    <ueberlieferungsformen index="0">
+    <titel>Johannes Itten: Tagebuch Italien-Reise</titel>
+    <entstehungszeitraum>1950</entstehungszeitraum>
+    <bemerkungen_zum_umfang>10 Bl&#228;tter; Beilage</bemerkungen_zum_umfang>
+    <link_zu_digitalisat>&lt;a href="https://doi.org/10.7891/e-manuscripta-132170" target="_blank"&gt;https://doi.org/10.7891/e-manuscripta-132170&lt;/a&gt;</link_zu_digitalisat>
+    <uebergeordnetes_objekt_in_der_tektonik>Hs NL 11: Bd - Reisetageb&#252;cher - 1949 - 1950</uebergeordnetes_objekt_in_der_tektonik>
+    <guid_des_uebergeordneten_objekts_in_der_tektonik>ec917abcd0724f218adf37aae83c437b</guid_des_uebergeordneten_objekts_in_der_tektonik>
+    <pfad_bestand>Hs NL 11 Itten, Johannes (1888-1967)/Lebensdokumente/Reisetageb&#252;cher</pfad_bestand>
+    <pfad_bestand_nur_guid_von_jeder_ebene>43a2ab3eb18841db9ec1af3669b74f39/de742220f54c435a885dcd4636e3a644/ec917abcd0724f218adf37aae83c437b</pfad_bestand_nur_guid_von_jeder_ebene>
+    <form_und_inhalt>Beilage: Umschlagbeschriftung von Anneliese Itten</form_und_inhalt>
+    <ueberlieferungsformen>
       <bezeichnung>analog ()</bezeichnung>
     </ueberlieferungsformen>
-    <zugangsbestimmungen index="0">Schutzfrist bis 01.01.1981</zugangsbestimmungen>
-    <publikation index="0">Nach Ablauf Schutzfrist</publikation>
-    <verfuegbarkeit index="0">Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
-    <schutzfrist index="0">
+    <zugangsbestimmungen>Schutzfrist bis 01.01.1981</zugangsbestimmungen>
+    <publikation>Nach Ablauf Schutzfrist</publikation>
+    <verfuegbarkeit>Benutzung im Lesesaal Handschriftenabteilung (1 Arbeitstag Bestellfrist)</verfuegbarkeit>
+    <schutzfrist>
       <bezeichnung>Jahre</bezeichnung>
       <frist>30</frist>
     </schutzfrist>
-    <ablauf_schutzfrist index="0">01.01.1981</ablauf_schutzfrist>
-    <benutzbarkeit index="0">frei einsehbar</benutzbarkeit>
-    <lizenz index="0">
+    <ablauf_schutzfrist>01.01.1981</ablauf_schutzfrist>
+    <benutzbarkeit>frei einsehbar</benutzbarkeit>
+    <lizenz>
       <bezeichnung>CC BY-NC-SA 4.0</bezeichnung>
       <link>https://creativecommons.org/licenses/by-nc-sa/4.0/</link>
     </lizenz>
-    <urheber index="0">Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
-    <sprachen index="0">
+    <urheber>Itten, Johannes (1888-1967) &lt;a href=http://d-nb.info/gnd/118710990 target="_blank"&gt;GND&lt;/a&gt;</urheber>
+    <sprachen>
       <kuerzel>ger</kuerzel>
       <bezeichnung>Deutsch</bezeichnung>
       <gnd>4113292-0</gnd>
     </sprachen>
-    <physische_beschaffenheit_und_technische_anforderungen index="0">Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
-    <allgemeine_interne_anmerkungen index="0">Dossier 169 / Entit&#228;t: Sch&#246;ne B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Rolle: Abgebildet (dpc) (Empty) Bemerkungen: Johannes Itten #GND118710990 beobachtet die Sch&#246;ne B&#252;rgerin mit schwarzen Haaren, blauen Augen und einem symmetrischen Gesicht am 29. Oktober 1950 im Zug auf der Strecke zwischen Taormina #GND4059040-9 und Tarent #GND4078155-0 und skizziert sie (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Kinder der sch&#246;nen B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Sch&#246;ne B&#252;rgerin (mother #AAT300025932) Bemerkungen: Befinden sich mit ihrer Mutter am 29. Oktober 1950 im Zug auf der Strecke von Taormina #GND4059040-9 nach Tarent #GND4078155-0. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Mann der sch&#246;nen B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Sch&#246;ne B&#252;rgerin (wife #AAT300154343) Bemerkungen: Befindet sich mit seiner Frau am 29. Oktober 1950 im Zug auf der Strecke von Taormina #GND4059040-9 nach Tarent #GND4078155-0 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Menschen vor dem Eingang der Musei Vaticani am 4. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Wartende Menschen vor dem Eingang der Musei Vaticani #GND235092-0 (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1000; Entit&#228;t: Angestellter der Musei Vaticani Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Musei Vaticani #GND235092-0 (employer) Bemerkungen: Name in Vorlageform: Dirigierender. Weist Itten #GND118710990 am 4. November 1950 vor den Musei Vaticani an den Wartenden vorbei zur Generaldirektion Abteilung Etrusker (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: W&#228;rter der Musei Vaticani Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Musei Vaticani #GND235092-0 (employer) Bemerkungen: Schliesst Itten #GND118710990 am 4. November 1950 die T&#252;r zur etruskischen Abteilung in den Musei Vaticani auf und wartet w&#228;hrend 1.25 Stunden bis Itten mit der Besichtigung fertig ist (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Besucherstrom in den Musei Vaticani am 4. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Name in Vorlageform: Breiter Strom. Besucher und Besucherinnen, welche die Sixtinische Kapelle #GND4104970-6 in den Musei Vaticani #GND235092-0 besuchen. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Sekret&#228;r oder Sekret&#228;rin von Renato Bartoccini Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Name in Vorlageform: Sekr. Johannes Itten #GND118710990 besucht am 5. November 1950 in Begleitung von Renato Bartoccini #GND125999607 und dieser Person das Museo Nazionale Etrusco di Villa Giulia #GND4135619-6 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Sekret&#228;r von Guglielmo De Angelis d'Ossat Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Telefoniert am 6. November 1950 mit Itten #GND118710990 (Quelle: Vorlage Hs NL 11: Bd 2). Beziehungen zu Personen: De Angelis d'Ossat, Guglielmo #GND118887548; Entit&#228;t: Mitglieder des Consiglio superiore per le antichit&#224; e belle arti am 6. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen zu Organisationen: Consiglio superiore per le antichit&#224; e belle arti #GND1206953268 (member-organization) Anzahl: &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Slovakischer Augenoperateur Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Wird zusammen mit Prof. Patzek erw&#228;hnt (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Gesandtschaft Indien Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Indiens #GND4026722-2, die Itten #GND118710990 einladen will. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Gesandtschaft China Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Chinas #GND4009937-4, die Itten #GND118710990 einladen will. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Gesandtschaft Japan Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Japans #GND4028495-5, die Itten #GND118710990 einladen will. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Abegg Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Abegg, Werner #GND118646567 (possible match); Entit&#228;t: Costantini Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Trifft Dr. Gr&#252;nwald am Morgen des 6. November 1950 in Rom (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Frl. Dahl Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Sekret&#228;rin von Gr&#252;nwald (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Dr. Gr&#252;nwald Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Reisebegleiter von Johannes Itten #GND118710990 in Italien im Herbst 1950 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Prof. Patzek Typ: Person Rolle: Erw&#228;hnt (Empty); Entit&#228;t: F&#252;rst Schwarzenberg Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Johannes Schwarzenberg #GND1023890828 (possible match)</allgemeine_interne_anmerkungen>
-    <allgemeine_anmerkungen index="0">Ort nicht ermittelt</allgemeine_anmerkungen>
-    <verzeichnungsstatus index="0">In Pr&#252;fung</verzeichnungsstatus>
-    <interne_anmerkungen index="0">Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
+    <physische_beschaffenheit_und_technische_anforderungen>Papierdokument</physische_beschaffenheit_und_technische_anforderungen>
+    <allgemeine_interne_anmerkungen>Dossier 169 / Entit&#228;t: Sch&#246;ne B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Rolle: Abgebildet (dpc) (Empty) Bemerkungen: Johannes Itten #GND118710990 beobachtet die Sch&#246;ne B&#252;rgerin mit schwarzen Haaren, blauen Augen und einem symmetrischen Gesicht am 29. Oktober 1950 im Zug auf der Strecke zwischen Taormina #GND4059040-9 und Tarent #GND4078155-0 und skizziert sie (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Kinder der sch&#246;nen B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Sch&#246;ne B&#252;rgerin (mother #AAT300025932) Bemerkungen: Befinden sich mit ihrer Mutter am 29. Oktober 1950 im Zug auf der Strecke von Taormina #GND4059040-9 nach Tarent #GND4078155-0. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Mann der sch&#246;nen B&#252;rgerin Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Sch&#246;ne B&#252;rgerin (wife #AAT300154343) Bemerkungen: Befindet sich mit seiner Frau am 29. Oktober 1950 im Zug auf der Strecke von Taormina #GND4059040-9 nach Tarent #GND4078155-0 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Menschen vor dem Eingang der Musei Vaticani am 4. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Wartende Menschen vor dem Eingang der Musei Vaticani #GND235092-0 (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1000; Entit&#228;t: Angestellter der Musei Vaticani Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Musei Vaticani #GND235092-0 (employer) Bemerkungen: Name in Vorlageform: Dirigierender. Weist Itten #GND118710990 am 4. November 1950 vor den Musei Vaticani an den Wartenden vorbei zur Generaldirektion Abteilung Etrusker (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: W&#228;rter der Musei Vaticani Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Musei Vaticani #GND235092-0 (employer) Bemerkungen: Schliesst Itten #GND118710990 am 4. November 1950 die T&#252;r zur etruskischen Abteilung in den Musei Vaticani auf und wartet w&#228;hrend 1.25 Stunden bis Itten mit der Besichtigung fertig ist (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Besucherstrom in den Musei Vaticani am 4. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Name in Vorlageform: Breiter Strom. Besucher und Besucherinnen, welche die Sixtinische Kapelle #GND4104970-6 in den Musei Vaticani #GND235092-0 besuchen. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Sekret&#228;r oder Sekret&#228;rin von Renato Bartoccini Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Name in Vorlageform: Sekr. Johannes Itten #GND118710990 besucht am 5. November 1950 in Begleitung von Renato Bartoccini #GND125999607 und dieser Person das Museo Nazionale Etrusco di Villa Giulia #GND4135619-6 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Sekret&#228;r von Guglielmo De Angelis d'Ossat Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Telefoniert am 6. November 1950 mit Itten #GND118710990 (Quelle: Vorlage Hs NL 11: Bd 2). Beziehungen zu Personen: De Angelis d'Ossat, Guglielmo #GND118887548; Entit&#228;t: Mitglieder des Consiglio superiore per le antichit&#224; e belle arti am 6. November 1950 Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen zu Organisationen: Consiglio superiore per le antichit&#224; e belle arti #GND1206953268 (member-organization) Anzahl: &gt;1 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Slovakischer Augenoperateur Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Wird zusammen mit Prof. Patzek erw&#228;hnt (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Gesandtschaft Indien Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Indiens #GND4026722-2, die Itten #GND118710990 einladen will. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Gesandtschaft China Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Chinas #GND4009937-4, die Itten #GND118710990 einladen will. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Gesandtschaft Japan Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Personen einer diplomatischen Gesandtschaft Japans #GND4028495-5, die Itten #GND118710990 einladen will. (Quelle: Vorlage Hs NL 11: Bd 2) Anzahl: &gt;1; Entit&#228;t: Abegg Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Abegg, Werner #GND118646567 (possible match); Entit&#228;t: Costantini Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Trifft Dr. Gr&#252;nwald am Morgen des 6. November 1950 in Rom (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Frl. Dahl Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Sekret&#228;rin von Gr&#252;nwald (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Dr. Gr&#252;nwald Typ: Person Rolle: Erw&#228;hnt (Empty) Bemerkungen: Reisebegleiter von Johannes Itten #GND118710990 in Italien im Herbst 1950 (Quelle: Vorlage Hs NL 11: Bd 2); Entit&#228;t: Prof. Patzek Typ: Person Rolle: Erw&#228;hnt (Empty); Entit&#228;t: F&#252;rst Schwarzenberg Typ: Person Rolle: Erw&#228;hnt (Empty) Beziehungen: Johannes Schwarzenberg #GND1023890828 (possible match)</allgemeine_interne_anmerkungen>
+    <allgemeine_anmerkungen>Ort nicht ermittelt</allgemeine_anmerkungen>
+    <verzeichnungsstatus>In Pr&#252;fung</verzeichnungsstatus>
+    <interne_anmerkungen>Personenregisterverkn&#252;pfungen entsprechend vorhandener CMI-Metadaten erg&#228;nzt bzw. kontrolliert (huwi, 2022)</interne_anmerkungen>
     <registereintraege index="0">
       <register_bezeichnung>Grand Hotel Verona</register_bezeichnung>
       <register_rolle label="empty" term="erwaehnt">Erw&#228;hnt (Empty)</register_rolle>
@@ -6778,7 +6778,7 @@
       <wikidata_id>Q123138</wikidata_id>
       <viaf_id>71392512</viaf_id>
     </registereintraege>
-    <doi index="0">https://doi.org/10.7891/e-manuscripta-132170</doi>
+    <doi>https://doi.org/10.7891/e-manuscripta-132170</doi>
     <parsed_internal_remarks index="0">
       <entitaet>
         <value>F&#252;rst Schwarzenberg</value>
@@ -6896,12 +6896,12 @@
       </rolle>
       <bemerkungen>
         <value>Personen einer diplomatischen Gesandtschaft Japans, die Itten einladen will. (Quelle: Vorlage Hs NL 11: Bd 2)</value>
-        <identifiers>
+        <identifiers index="0">
           <position>62</position>
           <source>GND</source>
           <value>118710990</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="1">
           <position>51</position>
           <source>GND</source>
           <value>4028495-5</value>
@@ -6924,12 +6924,12 @@
       </rolle>
       <bemerkungen>
         <value>Personen einer diplomatischen Gesandtschaft Chinas, die Itten einladen will. (Quelle: Vorlage Hs NL 11: Bd 2)</value>
-        <identifiers>
+        <identifiers index="0">
           <position>62</position>
           <source>GND</source>
           <value>118710990</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="1">
           <position>51</position>
           <source>GND</source>
           <value>4009937-4</value>
@@ -6952,12 +6952,12 @@
       </rolle>
       <bemerkungen>
         <value>Personen einer diplomatischen Gesandtschaft Indiens, die Itten einladen will. (Quelle: Vorlage Hs NL 11: Bd 2)</value>
-        <identifiers>
+        <identifiers index="0">
           <position>63</position>
           <source>GND</source>
           <value>118710990</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="1">
           <position>52</position>
           <source>GND</source>
           <value>4026722-2</value>
@@ -7018,12 +7018,12 @@
       </rolle>
       <bemerkungen>
         <value>Telefoniert am 6. November 1950 mit Itten (Quelle: Vorlage Hs NL 11: Bd 2). Beziehungen zu Personen: De Angelis d'Ossat, Guglielmo</value>
-        <identifiers>
+        <identifiers index="0">
           <position>131</position>
           <source>GND</source>
           <value>118887548</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="1">
           <position>42</position>
           <source>GND</source>
           <value>118710990</value>
@@ -7043,17 +7043,17 @@
       </rolle>
       <bemerkungen>
         <value>Name in Vorlageform: Sekr. Johannes Itten besucht am 5. November 1950 in Begleitung von Renato Bartoccini und dieser Person das Museo Nazionale Etrusco di Villa Giulia (Quelle: Vorlage Hs NL 11: Bd 2)</value>
-        <identifiers>
+        <identifiers index="0">
           <position>168</position>
           <source>GND</source>
           <value>4135619-6</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="1">
           <position>106</position>
           <source>GND</source>
           <value>125999607</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="2">
           <position>42</position>
           <source>GND</source>
           <value>118710990</value>
@@ -7073,12 +7073,12 @@
       </rolle>
       <bemerkungen>
         <value>Name in Vorlageform: Breiter Strom. Besucher und Besucherinnen, welche die Sixtinische Kapelle in den Musei Vaticani besuchen. (Quelle: Vorlage Hs NL 11: Bd 2)</value>
-        <identifiers>
+        <identifiers index="0">
           <position>117</position>
           <source>GND</source>
           <value>235092-0</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="1">
           <position>95</position>
           <source>GND</source>
           <value>4104970-6</value>
@@ -7193,12 +7193,12 @@
       </beziehungen>
       <bemerkungen>
         <value>Befindet sich mit seiner Frau am 29. Oktober 1950 im Zug auf der Strecke von Taormina nach Tarent (Quelle: Vorlage Hs NL 11: Bd 2)</value>
-        <identifiers>
+        <identifiers index="0">
           <position>98</position>
           <source>GND</source>
           <value>4078155-0</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="1">
           <position>86</position>
           <source>GND</source>
           <value>4059040-9</value>
@@ -7229,12 +7229,12 @@
       </beziehungen>
       <bemerkungen>
         <value>Befinden sich mit ihrer Mutter am 29. Oktober 1950 im Zug auf der Strecke von Taormina nach Tarent. (Quelle: Vorlage Hs NL 11: Bd 2)</value>
-        <identifiers>
+        <identifiers index="0">
           <position>99</position>
           <source>GND</source>
           <value>4078155-0</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="1">
           <position>87</position>
           <source>GND</source>
           <value>4059040-9</value>
@@ -7251,27 +7251,27 @@
       <typ>
         <value>Person</value>
       </typ>
-      <rolle>
+      <rolle index="0">
         <value>Abgebildet</value>
         <qualifier>dpc) (Empty</qualifier>
       </rolle>
-      <rolle>
+      <rolle index="1">
         <value>Erw&#228;hnt</value>
         <qualifier>Empty</qualifier>
       </rolle>
       <bemerkungen>
         <value>Johannes Itten beobachtet die Sch&#246;ne B&#252;rgerin mit schwarzen Haaren, blauen Augen und einem symmetrischen Gesicht am 29. Oktober 1950 im Zug auf der Strecke zwischen Taormina und Tarent und skizziert sie (Quelle: Vorlage Hs NL 11: Bd 2)</value>
-        <identifiers>
+        <identifiers index="0">
           <position>185</position>
           <source>GND</source>
           <value>4078155-0</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="1">
           <position>174</position>
           <source>GND</source>
           <value>4059040-9</value>
         </identifiers>
-        <identifiers>
+        <identifiers index="2">
           <position>15</position>
           <source>GND</source>
           <value>118710990</value>
