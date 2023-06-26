@@ -114,6 +114,14 @@ INSERT {
 
 INSERT {
   GRAPH sari:relations {
+    ?subject a crm:E5_Event .
+  }
+} WHERE {
+  ?subject a gndo:ConferenceOrEvent .
+};
+
+INSERT {
+  GRAPH sari:relations {
     ?subject a crm:E53_Place .
   }
 } WHERE {
