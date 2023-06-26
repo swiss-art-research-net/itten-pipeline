@@ -4043,6 +4043,10 @@
                             <instance_generator name="URIwithWikidataId">
                                 <arg name="id" type="xpath">value/text()</arg>
                             </instance_generator>
+                            <label_generator name="Literal">
+                                <arg name="text" type="xpath">../value/text()</arg>
+                                <arg name="language" type="constant">de</arg>
+                            </label_generator>
                         </entity>
                     </target_node>
                 </range>
