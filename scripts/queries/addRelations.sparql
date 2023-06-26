@@ -112,7 +112,6 @@ INSERT {
   ?subject a gndo:Work .
 };
 
-
 INSERT {
   GRAPH sari:relations {
     ?subject a crm:E53_Place .
@@ -138,6 +137,19 @@ INSERT {
   VALUES (?personRelation) {
     (gndo:familialRelationship)
   }
+};
+
+INSERT {
+  GRAPH sari:relations {
+    ?subject a ?type .
+  }
+} WHERE {
+  VALUES (?relation ?label) {
+    (owl:sameAs 'same as')
+    (<https://resource.jila.zb.uzh.ch/type/085975D7-0220-384F-9CEB-83D17242E980> 'possible match')
+  }
+  ?entity ?relation ?subject ;
+    a ?type .
 };
 
 # Add CIDOC-CRM types for entities that lack a specific type,
