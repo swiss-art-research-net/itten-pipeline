@@ -270,6 +270,15 @@ DELETE {
   FILTER(?type != crm:E1_CRM_Entity)
 };
 
+# Where a more specific type is defined in addition to E39 Actor
+# we remove E39 Actor to avoid having conflicts in types
+DELETE {
+  ?subject a crm:E39_Actor .
+  ?subject a search:Actor .
+} WHERE {
+  ?subject a/rdfs:subClassOf crm:E39_Actor .
+};
+
 # Correct labels
 DELETE {
   GRAPH ?g {
