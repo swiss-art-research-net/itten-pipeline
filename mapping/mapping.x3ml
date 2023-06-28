@@ -2029,7 +2029,7 @@
                                     <constant/>
                                 </instance_info>
                                 <instance_generator name="URIwithCidocCrmId">
-                                    <arg name="id" type="constant">P29_custody_received_by </arg>
+                                    <arg name="id" type="constant">P29_custody_received_by</arg>
                                 </instance_generator>
                             </entity>
                         </additional>
