@@ -76,7 +76,7 @@ tasks:
           PROPS_FILE: /apps/jila/config/ui.prop
 
   drop-graph:
-    decs: Drops a named graph from the Blazegraph instance
+    desc: Drops a named graph from the Blazegraph instance
     cmds:
       - curl --silent -X POST {{.BLAZEGRAPH_ENDPOINT}} --data-urlencode "update=DROP GRAPH <{{.GRAPH}}>" > /dev/null
 
