@@ -55,17 +55,23 @@ docker compose exec jobs task --list
 This will output a list of tasks:
 ```
 task: Available tasks for this project:
-* cache-iiif-manifests:                 Cache the IIIF manifests linked in the OAI XML records
-* default:                              Runs the entire pipeline
-* generate-example-record:              Generates an example record for developing the mapping in the X3ML editor
-* ingest-data-additional:               Ingest the TTL and Trig files located in the data/ttl/additional folder to the Blazegraph instance.
-* ingest-data-from-folder:              Ingests data from a specified folder. If a named graph is specified (GRAPH), TTL files will be ingested into it. Otherwise, the filename will be used as named graph. Named Graphs specified in Trig files will be used as defined
-* ingest-data-main:                     Ingest the TTL files located  in /data/ttl to the Blazegraph instance
-* ingest-ontologies:                    Ingests the ontologies into individual named Graphs
-* perform-mapping:                      Map the input XML data to CIDOC/RDF
-* prepare-data-for-mapping:             Prepare the source and OAI data for mapping. To include only a subset of the data, use the `--limit` option. To include only records with DOIs, use the `--onlyWithDoi` option.
-* retrieve-additional-data:             Retrieve additional reference data for the mapped data
-* retrieve-data-from-e-manuscripta:     Retrieve the OAI records from from e-manuscripta
+* add-relations:                          Materialise triples defined through the queries/addRelations.sparql query in the Blazegraph instance
+* cache-iiif-manifests:                   Cache the IIIF manifests linked in the OAI XML records
+* cache-wikidata-thumbnails:              Cache thumbnails of Wikidata entities
+* default:                                Runs the entire pipeline
+* generate-example-record:                Generates an example record for developing the mapping in the X3ML editor
+* ingest-data-additional:                 Ingest the TTL and Trig files located in the data/ttl/additional folder to the Blazegraph instance.
+* ingest-data-external:                   Ingest data from external sources
+* ingest-data-from-folder:                Ingests data from a specified folder. If a named graph is specified (GRAPH), TTL files will be ingested into it. Otherwise, the filename will be used as named graph. Named Graphs specified in Trig files will be used as defined
+* ingest-data-main:                       Ingest the TTL files located  in /data/ttl to the Blazegraph instance
+* ingest-ontologies:                      Ingests the ontologies into individual named Graphs
+* materialise-network:                    Materialises the relations used for the network visualisations
+* perform-mapping:                        Map the input XML data to CIDOC/RDF
+* prepare-data-for-mapping:               Prepare the source and OAI data for mapping. To include only a subset of the data, use the `--limit` option. To include only records with DOIs, use the `--onlyWithDoi` option. To only output specific records, use the `--idsToOutput` option providing a comma-separated list of IDs.
+* retrieve-additional-data:               Retrieve additional reference data for the mapped data
+* retrieve-data-from-e-manuscripta:       Retrieve the OAI records from from e-manuscripta
+* retrieve-wikimedia-image-rights:        Retrieve the image rights metadata for the extracted images from Wikimedia Commons
+* test-remarks-parser:                    Parse remarks from a string and print the result
 ```
 
 To run a specific task type `task` followed by the task name, e.g.:
