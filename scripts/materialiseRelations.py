@@ -255,6 +255,12 @@ def generateReverseQuery(namedGraph=None):
             } WHERE {
                 ?subject ?predicate ?object .
                 ?inversePredicate owl:inverseOf ?predicate .
+            };
+            INSERT {
+                ?object ?predicate ?subject .
+            } WHERE {
+                ?subject ?predicate ?object .
+                ?predicate a owl:SymmetricProperty .
             }
         """
     else:
@@ -268,6 +274,16 @@ def generateReverseQuery(namedGraph=None):
                     ?subject ?predicate ?object .
                 }
                 ?inversePredicate owl:inverseOf ?predicate .
+            };
+            INSERT {
+                GRAPH <$graph> {
+                    ?object ?predicate ?subject .
+                }
+            } WHERE {
+                GRAPH <$graph> {
+                    ?subject ?predicate ?object .
+                }
+                ?predicate a owl:SymmetricProperty .
             }
         """)
         return queryTemplate.substitute(graph=namedGraph)
