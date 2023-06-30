@@ -58,8 +58,8 @@ relations:
           }
           BIND(COALESCE(?jilaObject, ?nonJilaObject) as ?object)
         } UNION {
-          $subject crmdig:L54_is_same-as ?sameAs .
-          ?nonJilaObject ?predicate ?sameAs .
+          ?sameAs ?predicate ?nonJilaObject .
+          ?sameAs ^crmdig:L54_is_same-as $subject .
           OPTIONAL {
             ?jilaObject crmdig:L54_is_same-as ?nonJilaObject .
           }
