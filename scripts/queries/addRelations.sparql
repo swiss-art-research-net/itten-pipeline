@@ -299,6 +299,9 @@ DELETE {
 INSERT DATA {
   GRAPH sari:relations {
     crm:E78_Curated_Holding rso:displayLabel 'Documents'@en, 'Dokumente'@de, 'Documents'@fr, 'Documenti'@it .
+    crm:E22_Human-Made_Object rso:displayLabel 'Object'@en, 'Objekt'@de, 'Objet'@fr, 'Oggetto'@it .
+    crm:E39_Actor rso:displayLabel 'Actor/Legal Entity'@en, 'Körperschaft'@de, 'Entité juridique'@fr, 'Entità giuridica'@it .
+    crm:E74_Group rso:displayLabel 'Group'@en, 'Personengruppe'@de, 'Groupe'@fr, 'Gruppo'@it .
   }
 };
 
