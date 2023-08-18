@@ -128,7 +128,7 @@ for imageUri, data in imageData.items():
 
     
     if 'LicenseUrl' in data:
-        license = data['LicenseUrl']['value']
+        license = data['LicenseUrl']['value'].replace(" ", "%20")
         licenseKey = 'LicenseUrl'
     elif 'LicenseShortName' in data:
         license = 'https://resource.jila.zb.uzh.ch/license/' + data['LicenseShortName']['value'].replace(" ", "%20")
