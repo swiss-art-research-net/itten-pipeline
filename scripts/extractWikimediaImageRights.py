@@ -92,8 +92,7 @@ imageTtlTemplate = Template('''
         crm:P105_right_held_by <$rightsHolder> ;
         crm:P2_has_type <$license> .
         
-    <$license> rdfs:label """$licenseName""" ;
-        crm:P3_has_note """$usageTerms""" .
+    <$license> rdfs:label """$usageTerms""" .
         
     <$rightsHolder> a crm:E39_Actor ;
         rdfs:label """$rightsHolderLabel""" .
