@@ -89,7 +89,6 @@ INSERT {
 
 INSERT {
   GRAPH sari:relations {
-    ?subject a crm:E74_Group .
     ?subject a crm:E39_Actor .
   }
 } WHERE {
