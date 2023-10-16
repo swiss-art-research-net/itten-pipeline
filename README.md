@@ -32,6 +32,20 @@ Download the source files by runnning
 bash downloadSources.sh
 ```
 
+Run the pipeline by executing:
+
+```sh
+docker compose exec jobs task
+```
+
+In the default development mode, the platform is reachable at `http://localhost:8088`.
+
+The default credentials for the admin account are:
+
+user: `admin`
+password: `admin`
+
+If the platform is accessible externally, be sure to change the login details on the [Admin page](http://localhost:8088/resource/?uri=rsp%3Aadmin).
 ### Tasks
 
 The pipeline can be controlled by the Task runner. To run the entire pipeline, run
