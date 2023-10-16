@@ -45,7 +45,9 @@ The default credentials for the admin account are:
 user: `admin`
 password: `admin`
 
-If the platform is accessible externally, be sure to change the login details on the [Admin page](http://localhost:8088/resource/?uri=rsp%3Aadmin).
+If the platform is accessible externally, be sure to change the login details on the [Admin page](http://localhost:8088/resource/?uri=rsp%3Aadmin). For more details on the configuration of the platform be sure to check out the [ResearchSpace KnowledgeBase](https://documentation.researchspace.org/resource/rsp:Start).
+
+
 ### Tasks
 
 The pipeline can be controlled by the Task runner. To run the entire pipeline, run
