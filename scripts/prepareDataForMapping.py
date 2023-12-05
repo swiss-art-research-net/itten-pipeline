@@ -249,8 +249,9 @@ def addImageDataFromManifests(records, manifestsFolder):
                         'image': c['images'][0]['resource']['service']['@id'],
                         'width': c['width'],
                         'height': c['height'],
-                        'label': c['label']
-                    } for c in canvases]
+                        'label': c['label'],
+                        'position': index
+                    } for index, c in enumerate(canvases)]
                     return {
                         "status": "success",
                         "images": images
@@ -274,6 +275,7 @@ def addImageDataFromManifests(records, manifestsFolder):
             etree.SubElement(imageNode, "height").text = str(image['height'])
             etree.SubElement(imageNode, "width").text = str(image['width'])
             etree.SubElement(imageNode, "label").text = str(image['label'])
+            etree.SubElement(imageNode, "position").text = str(image['position'])
             etree.SubElement(imageNode, "url", type="iiif").text = image['image']
         return imagesNode
 
