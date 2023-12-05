@@ -4090,7 +4090,7 @@
                     <source_node>identifier/value</source_node>
                     <target_node>
                         <entity>
-                            <type>crm:E21_Person</type>
+                            <type>crm:E1_CRM_Entity</type>
                             <instance_generator name="URIwithGndId">
                                 <arg name="id" type="xpath">text()</arg>
                             </instance_generator>
