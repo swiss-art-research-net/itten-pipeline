@@ -2641,7 +2641,7 @@
                     <source_node>position</source_node>
                     <target_node>
                         <entity>
-                            <type>rdfs:Literal</type>
+                            <type>xsd:integer</type>
                             <instance_generator name="Literal">
                                 <arg name="text" type="xpath">text()</arg>
                                 <arg name="language" type="constant"/>
