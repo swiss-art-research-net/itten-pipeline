@@ -32,6 +32,7 @@ tasks:
       - task: materialise-network
       - task: ingest-data-external
       - task: add-relations
+      - task: clean-up
       - echo "Pipeline finished!"
 
   add-relations:
@@ -74,6 +75,13 @@ tasks:
           OUTPUT_DIR: /apps/static/assets/no_auth
           NAMED_GRAPH: https://resource.jila.zb.uzh.ch/graph/thumbnails
           PROPS_FILE: /apps/jila/config/ui.prop
+
+  clean-up:
+    desc: Perform clean-up operations on data in triple store
+    cmds:
+      - echo "Clean up"
+      - task: _run-query-from-file
+        vars: {FILE: "queries/cleanup.sparql"}
 
   drop-graph:
     desc: Drops a named graph from the Blazegraph instance

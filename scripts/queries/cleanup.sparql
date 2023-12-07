@@ -1,0 +1,15 @@
+PREFIX agrelon: <https://d-nb.info/standards/elementset/agrelon#>
+
+# Delete generic relations that are also present in more detail.
+DELETE {
+  GRAPH <https://resource.jila.zb.uzh.ch/graph/network> {
+    ?subject ?predicateGeneric ?object .
+  }
+} WHERE {
+  GRAPH <https://resource.jila.zb.uzh.ch/graph/network> {
+    ?subject ?predicateGeneric ?object .
+    ?subject ?predicateDetailed ?object .
+  }
+  ?predicateGeneric owl:equivalentProperty|^owl:equivalentProperty agrelon:hasRelative .
+  ?predicateDetailed rdfs:subPropertyOf* agrelon:hasRelative .
+}
