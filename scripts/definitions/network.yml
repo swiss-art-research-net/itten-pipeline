@@ -49,7 +49,7 @@ relations:
       range: crm:E39_Actor
       queryPattern: '
       {
-        ?predicate rdfs:subPropertyOf*|owl:equivalentProperty|^owl:equivalentProperty agrelon:hasRelative.
+        ?predicate rdfs:subPropertyOf* agrelon:hasRelative.
         {
           $subject crmdig:L54_is_same-as ?sameAs .
           ?sameAs ?predicate ?nonJilaObject .
