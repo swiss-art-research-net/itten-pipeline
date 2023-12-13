@@ -20,4 +20,4 @@ download "swiss-art-research-net/itten-data" "data/rdf/networkLabels.trig" "data
 download "swiss-art-research-net/itten-data" "external/gnd/agrelon_20191015.ttl" "data/ttl/additional/agrelon.ttl"
 
 download "swiss-art-research-net/itten-data" "external/sikart/sikart.ttl" "data/ttl/additional/sikart.ttl"
-download "swiss-art-research-net/itten-data" "external/heidelberg/2023-05-03_wvitten03.nq" "data/external/heidelberg.nq"
+download "swiss-art-research-net/itten-data" "external/heidelberg/wvitten03.nq" "data/external/heidelberg.nq"
