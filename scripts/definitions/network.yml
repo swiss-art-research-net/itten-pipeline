@@ -117,6 +117,14 @@ relations:
         BIND(crm:P62_depicts as ?predicate)
       }'
 
+    - id: collection_produced_at_place
+      domain: crm:E78_Curated_Holding
+      range: crm:E53_Place
+      queryPattern: '{
+        $subject crm:P108i_was_produced_by/crm:P7_took_place_at ?object .
+        BIND(jila:originated_in as ?predicate)
+      }'
+
     - id: collection_received_by_actor
       domain: crm:E78_Curated_Holding
       range: crm:E39_Actor
