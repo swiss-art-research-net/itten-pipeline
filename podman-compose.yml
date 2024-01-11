@@ -99,6 +99,7 @@ services:
         max-file: "10"
     networks:
     - internal
+    - proxy
     volumes:
       - platform-data:/runtime-data
       - ./services/platform/apps:/apps
