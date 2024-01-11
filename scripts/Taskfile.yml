@@ -219,6 +219,7 @@ tasks:
   
   prepare-data-for-mapping:
     desc: Prepare the source and OAI data for mapping. To include only a subset of the data, use the `--limit` option. To include only records with DOIs, use the `--onlyWithDoi` option. To only output specific records, use the `--idsToOutput` option providing a comma-separated list of IDs.
+    interactive: True
     sources:
       - /scripts/prepareDataForMapping.py
       - /scripts/lib/utils.py
