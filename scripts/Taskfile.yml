@@ -242,6 +242,7 @@ tasks:
 
   retrieve-data-from-e-manuscripta:
     desc: Retrieve the OAI records from from e-manuscripta
+    interactive: True
     sources:
       - /script/retrieveDataFromEManuscripta.py
       - /data/source/*.json
