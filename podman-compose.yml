@@ -107,7 +107,7 @@ networks:
   internal:
   proxy:
     external:
-      name: nginx_proxy_network
+      name: ${PROXY_NETWORK}
         
 volumes:
   blazegraph-data:
