@@ -1,0 +1,117 @@
+version: "3"
+services:
+
+  blazegraph:
+    image: docker.io/robcast/researchspace-blazegraph:2.2.0-20160908
+    container_name: ${PROJECT_NAME}_blazegraph
+    restart: unless-stopped
+    environment:
+      - JAVA_OPTS=-Xmx4g
+    healthcheck:
+      test: wget -q http://0.0.0.0:8080/blazegraph/sparql?query=SELECT%20%3Fs%20WHERE%20%7B%0A%20%20%3Fs%20%3Fp%20%3Fo%20%0A%7D%20LIMIT%2010 || exit 1
+      interval: 1m30s
+      timeout: 10s
+      retries: 2
+      start_period: 40s
+    labels:
+      - "autoheal=true"
+    logging:
+      driver: json-file
+      options:
+        max-size: "200k"
+        max-file: "10"
+    networks:
+    - internal
+    volumes:
+      - blazegraph-data:/blazegraph-data
+      - ./data:/data
+
+  blazegraph-secondary:
+    image: docker.io/robcast/researchspace-blazegraph:2.2.0-20160908
+    container_name: ${PROJECT_NAME}_blazegraph_secondary
+    restart: unless-stopped
+    environment:
+      - JAVA_OPTS=-Xmx1g
+    healthcheck:
+      test: wget -q http://0.0.0.0:8080/blazegraph/sparql?query=SELECT%20%3Fs%20WHERE%20%7B%0A%20%20%3Fs%20%3Fp%20%3Fo%20%0A%7D%20LIMIT%2010 || exit 1
+      interval: 1m30s
+      timeout: 10s
+      retries: 2
+      start_period: 40s
+    labels:
+      - "autoheal=true"
+    logging:
+      driver: json-file
+      options:
+        max-size: "200k"
+        max-file: "10"
+    networks:
+    - internal
+    volumes:
+      - blazegraph-data-secondary:/blazegraph-data
+      - ./data:/data
+
+  jobs:
+    build: ./services/jobs
+    container_name: ${PROJECT_NAME}_jobs
+    environment:
+      - HOST_LOCATION=${HOST_NAME}
+    healthcheck:
+      test: task --list || exit 1
+      interval: 10m
+      timeout: 30s
+      retries: 2
+      start_period: 40s
+    image: docker.io/swissartresearx/itten-jobs:1.0.2
+    networks:
+    - internal
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
+      - ./mapping:/mapping
+      - ./scripts:/scripts
+      - ./services/platform/apps:/apps
+
+  platform:
+    image: docker.io/swissartresearx/researchspace:1e68404929fdf66e159258e03b481be9209647f4
+    container_name: ${PROJECT_NAME}_platform
+    restart: unless-stopped
+    depends_on:
+      - blazegraph
+    environment:
+      JAVA_OPTS: -Xmx1g
+      LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL}
+      LETSENCRYPT_HOST: ${HOST_NAME}
+      VIRTUAL_HOST: ${HOST_NAME}
+      VIRTUAL_PORT: 8080
+    healthcheck:
+      test: wget -q http://0.0.0.0:8080 || exit 1
+      interval: 1m30s
+      timeout: 30s
+      retries: 2
+      start_period: 40s
+    labels:
+      - "autoheal=true"
+    logging:
+      driver: json-file
+      options:
+        max-size: "200k"
+        max-file: "10"
+    networks:
+    - internal
+    - proxy
+    volumes:
+      - platform-data:/runtime-data
+      - ./services/platform/apps:/apps
+
+networks:
+  internal:
+  proxy:
+    external:
+      name: ${PROXY_NETWORK}
+        
+volumes:
+  blazegraph-data:
+  blazegraph-data-secondary:
+  platform-data:
+  

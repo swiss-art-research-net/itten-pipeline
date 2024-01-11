@@ -28,6 +28,7 @@ def performRetrieval(options):
 
     # Retrieve VLIDs for records that have DOIs    
     vlidRetriever = RetrieveVLIDfromDOI(vlidMapFile=vlidMapFile)
+    print("Retrieving VLIDs for %d records" % len(recordsToProcess))
     for record in tqdm(recordsToProcess):
         record['vlid'] = vlidRetriever.getVlidForDoi(record['doi'])
 
@@ -38,6 +39,7 @@ def performRetrieval(options):
     sickle = Sickle(oaiEndpoint)
     oaiRecords = {}
     ids = [d['vlid'] for d in recordsToProcess if d['vlid'] is not None]
+    print("Retrieving OAI records for %d records" % len(ids))
     for identifier in tqdm(ids):
         if not isfile(join(outputFolder, identifier + ".xml")):
             oaiRecords[identifier] = (sickle.GetRecord(identifier=identifier, metadataPrefix='mets'))
