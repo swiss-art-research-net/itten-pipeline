@@ -62,6 +62,7 @@ tasks:
 
   cache-wikidata-thumbnails:
     desc: Cache thumbnails of Wikidata entities
+    interactive: True
     sources:
       - /data/ttl/additional/wd.ttl
     generates:
@@ -235,6 +236,7 @@ tasks:
   
   retrieve-additional-data:
     desc: Retrieve additional reference data for the mapped data
+    interactive: True
     sources:
       - /data/ttl/main/*.ttl
       - /scripts/retrieveAdditionalData.py
@@ -254,6 +256,7 @@ tasks:
 
   retrieve-wikimedia-image-rights:
     desc: Retrieve the image rights metadata for the extracted images from Wikimedia Commons
+    interactive: True
     sources:
       - /scripts/extractWikimediaImageRights.py
       - /data/ttl/additional/wd.ttl
