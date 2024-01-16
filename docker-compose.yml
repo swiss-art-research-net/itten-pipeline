@@ -50,6 +50,7 @@ services:
     restart: unless-stopped
     depends_on:
       - blazegraph
+      - blazegraph-secondary
     environment:
       - JAVA_OPTS=-Xmx1g
     logging:
