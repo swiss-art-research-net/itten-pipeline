@@ -1,4 +1,5 @@
 PREFIX agrelon: <https://d-nb.info/standards/elementset/agrelon#>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
 
 # Delete generic relations that are also present in more detail.
@@ -24,4 +25,24 @@ DELETE {
   GRAPH <https://resource.jila.zb.uzh.ch/graph/external> {
     <https://d-nb.info/gnd/1018674667> gndo:dateOfDeath '1981' .
   }
-} WHERE {}
+} WHERE {};
+
+# Remove Person type if group is present
+DELETE {
+  ?subject a crm:E21_Person .
+} WHERE {
+  ?subject a crm:E21_Person, crm:E74_Group .
+};
+
+# Remove data on parent record of entire Itten archive
+DELETE {
+  ?subject ?predicate ?object .
+} WHERE {
+  {
+    BIND(<https://resource.jila.zb.uzh.ch/collection/jila-859afc5815a047a58569cee9db123f30> AS ?subject)
+    ?subject ?predicate ?object .
+  } UNION {
+    BIND(<https://resource.jila.zb.uzh.ch/collection/jila-859afc5815a047a58569cee9db123f30> AS ?object)
+    ?subject ?predicate ?object .
+  }
+}
