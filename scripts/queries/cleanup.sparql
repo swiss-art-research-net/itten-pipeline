@@ -1,4 +1,5 @@
 PREFIX agrelon: <https://d-nb.info/standards/elementset/agrelon#>
+PREFIX gndo: <https://d-nb.info/standards/elementset/gnd#>
 
 # Delete generic relations that are also present in more detail.
 DELETE {
@@ -12,4 +13,15 @@ DELETE {
   }
   ?predicateGeneric owl:equivalentProperty|^owl:equivalentProperty agrelon:hasRelative .
   ?predicateDetailed rdfs:subPropertyOf* agrelon:hasRelative .
-}
+};
+
+# Fix birth and death dates of Pietro Barocelli
+DELETE {
+  GRAPH <https://resource.jila.zb.uzh.ch/graph/external> {
+    <https://d-nb.info/gnd/1018674667> gndo:dateOfDeath '1887-12-22' .
+  }
+} INSERT {
+  GRAPH <https://resource.jila.zb.uzh.ch/graph/external> {
+    <https://d-nb.info/gnd/1018674667> gndo:dateOfDeath '1981' .
+  }
+} WHERE {}
