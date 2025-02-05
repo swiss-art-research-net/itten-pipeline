@@ -327,7 +327,7 @@ INSERT {
     (search:Group)
   }
   FILTER NOT EXISTS {
-    ?subject crmdig:L54_is_same-as/gndo:gender ?gender .
+    ?subject crmdig:L54_is_same-as?/gndo:gender ?gender .
   }
   FILTER(STRSTARTS(STR(?subject), 'https://resource.jila.zb.uzh.ch'))
 }
