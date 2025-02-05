@@ -17,6 +17,7 @@ download "swiss-art-research-net/itten-data" "data/csv/sprachen.csv" "data/sourc
 download "swiss-art-research-net/itten-data" "data/csv/verzeichnungsstufe.csv" "data/source/alignment-verzeichnungsstufe.csv"
 download "swiss-art-research-net/itten-data" "data/rdf/conceptLabels.trig" "data/ttl/additional/conceptLabels.trig"
 download "swiss-art-research-net/itten-data" "data/rdf/networkLabels.trig" "data/ttl/additional/networkLabels.trig"
+download "swiss-art-research-net/itten-data" "data/rdf/deducedGenders.trig" "data/ttl/additional/deducedGenders.trig"
 download "swiss-art-research-net/itten-data" "external/gnd/agrelon_20191015.ttl" "data/ttl/additional/agrelon.ttl"
 
 download "swiss-art-research-net/itten-data" "external/sikart/sikart.ttl" "data/ttl/additional/sikart.ttl"
